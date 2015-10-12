@@ -1,0 +1,110 @@
+div.itnews, div#ad_under_post_holder {
+    display: none;
+}
+
+svg, #green_channel, iframe, img, div.commentform input.author, div.commentform textarea, .commentbox_title  {
+    max-width: 90%;
+    height: auto;
+}
+
+body {
+   word-wrap: break-word;
+}
+
+-ms-word-break: break-all;
+
+     /* Be VERY careful with this, breaks normal words wh_erever */
+     word-break: break-all;
+
+     /* Non standard for webkit */
+     word-break: break-word;
+
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
+
+#navigator {  height:auto; overflow:hidden; *zoom:1;}
+#navList { float:left; }
+#navList li { display: inline; float: none; }
+
+#sideBar { width: 20%; border: none; padding: 0; }
+#sideBar h3 { padding-left: 8px; }
+#sideBarMain { padding-left: 8px; }
+.day { margin: 20px 0px; }
+.postTitle { padding-left: 20px; }
+.postBody, .postCon { padding: 0px 20px 10px; 
+                      border-bottom: 1px solid #D9DBE1; }
+.postDesc { padding-right: 20px; }
+#navigator, #MySignature, .day, .post { border: 1px solid #D9DBE1; border-radius: 8px;  }
+#navigator { border-radius: 8px 8px 0px 0px; }
+.post { padding-top: 1px; }
+
+body 
+{ 
+   text-align:center; 
+}
+
+#home 
+{ 
+   margin: 0px auto; 
+   text-align:left; 
+   max-width:1200px;
+}
+ 
+
+#sideBar { width: 20%; }
+#mainContent { margin-left: auto; width:78%; }
+.forFlow { margin:auto; }
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@media (max-width:990px) {
+    #home{ margin:0 15px; }
+}
+
+@media (max-width:640px) {
+    body {font-size: 16px; }
+    .cnblogs_code span { font-size: 16px!important; }
+    #sideBar, #mainContent{ width:100%;}
+    .post{ border:none; }
+}
+
+a {
+  max-width: 90%;
+  max-height: 90%;
+  color: #399ab2;
+}
+
+div#cnblogs_post_body h3 {
+    margin: 1em 0 0.5em 0;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    position: relative;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.4);
+    font-size: 20px;
+    line-height: 40px;
+    color: #355681;
+    border-bottom: 1px solid rgba(53,86,129, 0.3);
+}
+
+h3.catListTitle {
+  background-color: #F0F8FF;
+  color: #000000;
+  text-indent: 2px;
+}
+
+#MySignature
+{ 
+  border-top: #e0e0e0 1px dashed;
+  border-right: #e0e0e0 1px dashed;
+  border-bottom: #e0e0e0 1px dashed;
+  border-left: #e0e0e0 1px dashed;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-family: 微软雅黑;
+  font-size:11px;
+}

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_葡萄城控件技术团队博客</title>
+  <subtitle type="text"></subtitle>
+  <id>uuid:283f8d56-61ca-49a6-8cba-78657ba4eeb7;id=5009</id>
+  <updated>2015-09-16T03:30:42Z</updated>
+  <author>
+    <name>葡萄城控件技术团队</name>
+    <uri>http://www.cnblogs.com/powertoolsteam/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/powertoolsteam/p/4812712.html</id>
+    <title type="text">移动APP的自动化测试 - 葡萄城控件技术团队</title>
+    <summary type="text">  开发移动应用，最耗时耗力的就是手动测试APP的每个功能点或修复bug。有人就会提议App的业务逻辑可以使用nUnit或xUnit测试单元来辅助完成。那用户界面要如何测试？众所周知，移动设备多种多样，数量及其庞大，设备的类型也是各式各样，要如何才能保证App用户界面在成千上百iOS和Android设备中都能正常显示，没有错误？这是很多APP开发人员最头疼的事情了。</summary>
+    <published>2015-09-16T03:31:00Z</published>
+    <updated>2015-09-16T03:31:00Z</updated>
+    <author>
+      <name>葡萄城控件技术团队</name>
+      <uri>http://www.cnblogs.com/powertoolsteam/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/powertoolsteam/p/4812712.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/powertoolsteam/p/4812712.html" />
+    <content type="html">&lt;div style="width:300px;height:200px;overflow:hidden;float:right"&gt;&lt;img src="http://images2015.cnblogs.com/blog/139239/201509/139239-20150916111550304-2064702024.png" class="desc_img" style="float:none; width:300px"&gt;&lt;/div&gt;开发移动应用，最耗时耗力的就是手动测试APP的每个功能点或修复bug。有人就会提议App的业务逻辑可以使用nUnit或xUnit测试单元来辅助完成。那用户界面要如何测试？众所周知，移动设备多种多样，数量及其庞大，设备的类型也是各式各样，要如何才能保证App用户界面在成千上百iOS和Android设备中都能正常显示，没有错误？这是很多APP开发人员最头疼的事情了。&lt;img src="http://counter.cnblogs.com/blog/rss/4812712" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/powertoolsteam/p/4812712.html" target="_blank"&gt;移动APP的自动化测试&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/powertoolsteam/p/4775059.html</id>
+    <title type="text">实战使用Axure设计App,使用WebStorm开发(6) – 迈向后端 - 葡萄城控件技术团队</title>
+    <summary type="text">在本文中，将连接后端服务，实现用户登录功能，并去掉前端的MockDB，使用服务器端的数据。在迈向后端的同时，同时介绍如何使用Chrome跨域插件，在浏览器中请求跨域数据，模拟App的数据请求。服务器端选择了NodeJS的Express框架，很方便的就把原来的MockDB变成了服务器端的RESTful Service。</summary>
+    <published>2015-09-15T01:45:00Z</published>
+    <updated>2015-09-15T01:45:00Z</updated>
+    <author>
+      <name>葡萄城控件技术团队</name>
+      <uri>http://www.cnblogs.com/powertoolsteam/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/powertoolsteam/p/4775059.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/powertoolsteam/p/4775059.html" />
+    <content type="html">在本文中，将连接后端服务，实现用户登录功能，并去掉前端的MockDB，使用服务器端的数据。在迈向后端的同时，同时介绍如何使用Chrome跨域插件，在浏览器中请求跨域数据，模拟App的数据请求。服务器端选择了NodeJS的Express框架，很方便的就把原来的MockDB变成了服务器端的RESTful Service。&lt;img src="http://counter.cnblogs.com/blog/rss/4775059" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/powertoolsteam/p/4775059.html" target="_blank"&gt;实战使用Axure设计App,使用WebStorm开发(6) – 迈向后端&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/powertoolsteam/p/4775052.html</id>
+    <title type="text">实战使用Axure设计App,使用WebStorm开发(5) – 实现页面功能 - 葡萄城控件技术团队</title>
+    <summary type="text">在本文中，将进一步的去实现页面功能。去实现输入页面功能，二维码扫描功能。完成App的前端工作。</summary>
+    <published>2015-09-06T01:28:00Z</published>
+    <updated>2015-09-06T01:28:00Z</updated>
+    <author>
+      <name>葡萄城控件技术团队</name>
+      <uri>http://www.cnblogs.com/powertoolsteam/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/powertoolsteam/p/4775052.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/powertoolsteam/p/4775052.html" />
+    <content type="html">在本文中，将进一步的去实现页面功能。去实现输入页面功能，二维码扫描功能。完成App的前端工作。&lt;img src="http://counter.cnblogs.com/blog/rss/4775052" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/powertoolsteam/p/4775052.html" target="_blank"&gt;实战使用Axure设计App,使用WebStorm开发(5) – 实现页面功能&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/powertoolsteam/p/4775028.html</id>
+    <title type="text">实战使用Axure设计App,使用WebStorm开发(4) – 实现页面UI - 葡萄城控件技术团队</title>
+    <summary type="text">在本文中，将在WebStorm中继续开发，实现页面的功能。这需要一个页面一个页面的开发，来完成功能。本文将侧重把所有页面的UI都实现出来，先把前端的工作都完成了，然后再去链接后端的 RESTful Service。</summary>
+    <published>2015-09-01T02:19:00Z</published>
+    <updated>2015-09-01T02:19:00Z</updated>
+    <author>
+      <name>葡萄城控件技术团队</name>
+      <uri>http://www.cnblogs.com/powertoolsteam/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/powertoolsteam/p/4775028.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/powertoolsteam/p/4775028.html" />
+    <content type="html">在本文中，将在WebStorm中继续开发，实现页面的功能。这需要一个页面一个页面的开发，来完成功能。本文将侧重把所有页面的UI都实现出来，先把前端的工作都完成了，然后再去链接后端的 RESTful Service。&lt;img src="http://counter.cnblogs.com/blog/rss/4775028" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/powertoolsteam/p/4775028.html" target="_blank"&gt;实战使用Axure设计App,使用WebStorm开发(4) – 实现页面UI&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/powertoolsteam/p/4765482.html</id>
+    <title type="text">实战使用Axure设计App,使用WebStorm开发(2) – 创建 Ionic 项目 - 葡萄城控件技术团队</title>
+    <summary type="text">Ionic是什么? Ionic是目前最有潜力的一款 HTML5 手机应用开发框架。通过 SASS 构建应用程序，它提供了很多 UI 组件来帮助开发者开发强大的应用。 它使用 JavaScript MVVM 框架和 AngularJS 来增强应用。提供数据的双向绑定，使用它成为 Web 和移动开发者的共同选择。</summary>
+    <published>2015-08-28T01:07:00Z</published>
+    <updated>2015-08-28T01:07:00Z</updated>
+    <author>
+      <name>葡萄城控件技术团队</name>
+      <uri>http://www.cnblogs.com/powertoolsteam/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/powertoolsteam/p/4765482.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/powertoolsteam/p/4765482.html" />
+    <content type="html">Ionic是什么? Ionic是目前最有潜力的一款 HTML5 手机应用开发框架。通过 SASS 构建应用程序，它提供了很多 UI 组件来帮助开发者开发强大的应用。 它使用 JavaScript MVVM 框架和 AngularJS 来增强应用。提供数据的双向绑定，使用它成为 Web 和移动开发者的共同选择。&lt;img src="http://counter.cnblogs.com/blog/rss/4765482" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/powertoolsteam/p/4765482.html" target="_blank"&gt;实战使用Axure设计App,使用WebStorm开发(2) – 创建 Ionic 项目&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/powertoolsteam/p/4763010.html</id>
+    <title type="text">实战使用Axure设计App,使用WebStorm开发(1) – 用Axure描述需求 - 葡萄城控件技术团队</title>
+    <summary type="text">本文将采用一个小的App为实例，开始讲述如何使用，Axure做原型设计，使用 Ionic 在 WebStorm 里做开发。从而帮您了解和入门Web前端开发和 Ionic 的使用。</summary>
+    <published>2015-08-27T05:13:00Z</published>
+    <updated>2015-08-27T05:13:00Z</updated>
+    <author>
+      <name>葡萄城控件技术团队</name>
+      <uri>http://www.cnblogs.com/powertoolsteam/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/powertoolsteam/p/4763010.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/powertoolsteam/p/4763010.html" />
+    <content type="html">本文将采用一个小的App为实例，开始讲述如何使用，Axure做原型设计，使用 Ionic 在 WebStorm 里做开发。从而帮您了解和入门Web前端开发和 Ionic 的使用。&lt;img src="http://counter.cnblogs.com/blog/rss/4763010" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/powertoolsteam/p/4763010.html" target="_blank"&gt;实战使用Axure设计App,使用WebStorm开发(1) – 用Axure描述需求&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/powertoolsteam/p/PageArche.html</id>
+    <title type="text">实战使用Axure设计App,使用WebStorm开发(3) – 构建页面架构 - 葡萄城控件技术团队</title>
+    <summary type="text">在本文中，将继续介绍在 WebStorm 中开发，去实现App的功能需求。 就像盖房子一样，第一步需要把整个工程的页面结构先勾勒出来，先让各个页面流转起来，然后再去细化每个页面。</summary>
+    <published>2015-08-25T01:48:00Z</published>
+    <updated>2015-08-25T01:48:00Z</updated>
+    <author>
+      <name>葡萄城控件技术团队</name>
+      <uri>http://www.cnblogs.com/powertoolsteam/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/powertoolsteam/p/PageArche.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/powertoolsteam/p/PageArche.html" />
+    <content type="html">在本文中，将继续介绍在 WebStorm 中开发，去实现App的功能需求。 就像盖房子一样，第一步需要把整个工程的页面结构先勾勒出来，先让各个页面流转起来，然后再去细化每个页面。&lt;img src="http://counter.cnblogs.com/blog/rss/4707661" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/powertoolsteam/p/PageArche.html" target="_blank"&gt;实战使用Axure设计App,使用WebStorm开发(3) – 构建页面架构&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/powertoolsteam/p/UX_Product.html</id>
+    <title type="text">一个老菜鸟所理解的UX及产品流 - 葡萄城控件技术团队</title>
+    <summary type="text">从事前端开发到目前为止已经有4年多的时间了，从一个小菜鸟一路依靠自学，到目前总算一个老菜鸟了。当然了，从事前端的工作，是免不了要对产品以及用户体验有些许了解的。最近谈论起这方面的内容，就按照自己的想法，对UX相关的内容做个总结。文中不免有诸多片面或者错误的观点，希望大家在后面能指出。</summary>
+    <published>2015-08-18T02:40:00Z</published>
+    <updated>2015-08-18T02:40:00Z</updated>
+    <author>
+      <name>葡萄城控件技术团队</name>
+      <uri>http://www.cnblogs.com/powertoolsteam/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/powertoolsteam/p/UX_Product.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/powertoolsteam/p/UX_Product.html" />
+    <content type="html">从事前端开发到目前为止已经有4年多的时间了，从一个小菜鸟一路依靠自学，到目前总算一个老菜鸟了。当然了，从事前端的工作，是免不了要对产品以及用户体验有些许了解的。最近谈论起这方面的内容，就按照自己的想法，对UX相关的内容做个总结。文中不免有诸多片面或者错误的观点，希望大家在后面能指出。&lt;img src="http://counter.cnblogs.com/blog/rss/4663989" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/powertoolsteam/p/UX_Product.html" target="_blank"&gt;一个老菜鸟所理解的UX及产品流&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/powertoolsteam/p/MVC_knowledge.html</id>
+    <title type="text">自学MVC看这里——全网最全ASP.NET MVC 教程汇总 - 葡萄城控件技术团队</title>
+    <summary type="text">MVC架构已深得人心，微软也不甘落后,推出了Asp.net MVC。小编特意整理博客园乃至整个网络最具价值的MVC技术原创文章，为想要学习ASP.NET MVC技术的学习者提供一个整合学习入口。本文从Why,What,How三个角度整理MVC 的学习资源，让学习者第一时间找到最有价值的文章，获取最彻底的ASp.NET MVC 框架知识，Let’s go!</summary>
+    <published>2015-08-13T02:58:00Z</published>
+    <updated>2015-08-13T02:58:00Z</updated>
+    <author>
+      <name>葡萄城控件技术团队</name>
+      <uri>http://www.cnblogs.com/powertoolsteam/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/powertoolsteam/p/MVC_knowledge.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/powertoolsteam/p/MVC_knowledge.html" />
+    <content type="html">MVC架构已深得人心，微软也不甘落后,推出了Asp.net MVC。小编特意整理博客园乃至整个网络最具价值的MVC技术原创文章，为想要学习ASP.NET MVC技术的学习者提供一个整合学习入口。本文从Why,What,How三个角度整理MVC 的学习资源，让学习者第一时间找到最有价值的文章，获取最彻底的ASp.NET MVC 框架知识，Let’s go!&lt;img src="http://counter.cnblogs.com/blog/rss/4667892" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/powertoolsteam/p/MVC_knowledge.html" target="_blank"&gt;自学MVC看这里——全网最全ASP.NET MVC 教程汇总&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/powertoolsteam/p/UWP.html</id>
+    <title type="text">Windows10的革命之路-全新UWP开发平台 - 葡萄城控件技术团队</title>
+    <summary type="text">  众所周知，最近几年，微软一直在操作系统上进行统一化的尝试。Windows 8/8.1操作系统完全谈不上成功,将近三年之后，微软的重头产品Windows 10终于横空出世。自7月29发布之后，Windows 10的市场占有率是节节攀升。</summary>
+    <published>2015-08-12T02:03:00Z</published>
+    <updated>2015-08-12T02:03:00Z</updated>
+    <author>
+      <name>葡萄城控件技术团队</name>
+      <uri>http://www.cnblogs.com/powertoolsteam/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/powertoolsteam/p/UWP.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/powertoolsteam/p/UWP.html" />
+    <content type="html">&lt;div style="width:300px;height:150px;overflow:hidden;float:right"&gt;&lt;img src="http://images0.cnblogs.com/blog/139239/201508/061224171733742.jpg" class="desc_img" style="float:none; width:200px"&gt;&lt;/div&gt;众所周知，最近几年，微软一直在操作系统上进行统一化的尝试。Windows 8/8.1操作系统完全谈不上成功,将近三年之后，微软的重头产品Windows 10终于横空出世。自7月29发布之后，Windows 10的市场占有率是节节攀升。&lt;img src="http://counter.cnblogs.com/blog/rss/4707654" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/powertoolsteam/p/UWP.html" target="_blank"&gt;Windows10的革命之路-全新UWP开发平台&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+</feed>

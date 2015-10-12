@@ -1,0 +1,434 @@
+h3 {
+   
+border-bottom: 2px solid #F90;
+background: #2B6695;
+border-radius: 6px 6px 6px 6px;
+box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+color: #FFFFFF;
+font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+font-size: 17px;
+font-weight: bold;
+height: 25px;
+line-height: 25px;
+margin: 15px 0 !important;
+padding: 5px 0 5px 5px;
+text-shadow: 2px 2px 3px #222222;
+ 
+}
+
+div.post h1.postTitle a, div.post h1.postTitle a:visited {
+    color:#FF9900;
+    font-size:120%;
+}
+div.catListTag ul li a, #EntryTag a, #relative_search a {
+background-color: #333;
+border-bottom: 1px solid #3E6D8E;
+border-right: 1px solid #7F9FB6;
+color: white !important;
+font-size: 90%;
+line-height: 2.4;
+margin: 2px 2px 2px 0;
+padding: 3px 4px;
+text-decoration: none;
+white-space: nowrap;
+-webkit-border-radius: 7px;
+border-radius: 7px;
+border: 1px solid #333;
+}
+div.catListTag ul li a:hover, #EntryTag a:hover, #relative_search a:hover {
+background-color: #3E6D8E;
+border-bottom: 1px solid #37607D;
+border-right: 1px solid #37607D;
+color: #E0EAF1;
+text-decoration: none;
+border: 1px solid #555;
+background-color: #555;
+text-decoration: none;
+}
+/******postBody---Eyes Create*****/
+#BlogPostCategory a
+{
+background-color:  #E0EAF1;
+border-bottom: 1px solid #3E6D8E;
+border-right: 1px solid #7F9FB6;
+color: #3E6D8E;
+font-size: 90%;
+line-height: 2.4;
+margin: 2px 2px 2px 0;
+padding: 3px 4px;
+text-decoration: none;
+white-space: nowrap;
+
+}
+
+
+#BlogPostCategory a:hover
+{
+background-color:#9A4444;
+border-bottom: 1px solid #3E6D8E;
+border-right: 1px solid #7F9FB6;
+color: #B5E853;
+font-size: 90%;
+line-height: 2.4;
+margin: 2px 2px 2px 0;
+padding: 3px 4px;
+text-decoration: none;
+white-space: nowrap;
+
+}
+/******catListPostCategory--Eye Create*****/
+
+div.catListPostCategory ul li a, #EntryTag a, #relative_search a {
+    background-color:#E0EAF1;
+    border-bottom:1px solid #3E6D8E;
+    border-right:1px solid #7F9FB6;
+    color:#3E6D8E;
+    font-size:90%;
+    line-height:2.4;
+    margin:2px 2px 2px 0;
+    padding:3px 4px;
+    text-decoration:none;
+    white-space:nowrap;
+}
+
+div.catListPostCategory ul li a:hover, #EntryTag a:hover, #relative_search a:hover  {
+    background-color:#3E6D8E;
+    border-bottom:1px solid #37607D;
+    border-right:1px solid #37607D;
+    color:#E0EAF1;
+    text-decoration:none;
+}
+
+#sideBar h3, #MyIng .ing_title {
+margin: 16px 0 0 0;
+font-size: 14px;
+text-align: left;
+}
+
+#div_digg
+{
+    
+position: fixed;
+  bottom: 10px;
+  z-index:999999;
+  right: 10px;
+  border: 2px solid #2B6695;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px 5px 5px 5px !important;
+  box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+}
+
+
+
+#digg_tips{
+    color: red;
+    font-size:10px;
+    text-align:center;
+}
+
+.diggnum {
+font-size: 19px;
+color: #075DB3;
+font-family: Verdana;
+}
+
+.burynum {
+font-size: 19px;
+color: #075DB3;
+font-family: Verdana;
+}
+
+::-moz-selection{
+    background:#660099;
+    color:#fff;
+}
+
+/*blockquote {
+ color: #000;
+	font-family:"Microsoft Yahei", Tahoma, Arial, Helvetica, STHeiti;
+background-color:#FCFEC5;
+	border:1px solid #BBB;
+	_border-radius:8px;
+	margin:5px 0px 5px 0px;
+	padding-left: 20px;
+	line-height: 1.3;
+	word-wrap: break-word;
+}*/
+
+
+div.postBody a:hover {
+background-color: #F90;
+border: 1px dashed #333;
+font-weight: bold;
+text-shadow: black 1px 1px 2px;
+}
+
+div.postBody a {
+color: #808185;
+font-weight: bold;
+}
+
+div.catListEssay a
+{
+color: #808185;
+font-weight: bold;
+}
+
+div.catListEssay a:hover {
+background-color: #F90;
+border: 1px dashed #333;
+font-weight: bold;
+text-shadow: black 1px 1px 2px;
+}
+
+div.catListPostArchive a
+{
+color: #808185;
+font-weight: bold;
+}
+
+div.catListPostArchive a:hover {
+background-color: #F90;
+border: 1px dashed #333;
+font-weight: bold;
+text-shadow: black 1px 1px 2px;
+}
+
+div.catListComment a
+{
+color: #808185;
+font-weight: bold;
+}
+
+div.catListComment a:hover {
+background-color: #F90;
+border: 1px dashed #333;
+font-weight: bold;
+text-shadow: black 1px 1px 2px;
+}
+
+div.catListFeedback a
+{
+color: #808185;
+font-weight: bold;
+}
+
+div.catListFeedback a:hover {
+background-color: #F90;
+border: 1px dashed #333;
+font-weight: bold;
+text-shadow: black 1px 1px 2px;
+}
+
+div.catListView a
+{
+color: #808185;
+font-weight: bold;
+}
+
+div.catListView a:hover {
+background-color: #F90;
+border: 1px dashed #333;
+font-weight: bold;
+text-shadow: black 1px 1px 2px;
+}
+
+div.newsItem a
+{
+color: #808185;
+font-weight: bold;
+}
+
+div.newsItem a:hover {
+background-color: #F90;
+border: 1px dashed #333;
+font-weight: bold;
+text-shadow: black 1px 1px 2px;
+}
+/*body
+{
+ background:url("http://images.cnblogs.com/cnblogs_com/OceanEyes/354373/o_11.jpg")
+
+}*/
+
+
+/*********comment**************/
+div.feedback_area_title {
+    width: 100%;
+margin: 0px;
+background-color: #9A4444;
+color: #B5E853;
+font-size:20px;
+text-align: center;
+}
+
+div.feedbackItem {
+    padding: 15px 5px;
+}
+
+div.feedbackListSubtitle {
+    line-height:1.5em;
+    padding:5px;
+}
+
+div.feedbackListSubtitle>a {
+    color:#FF9900;
+    float:left;
+    font-size:110%;
+    font-weight:bold;
+    padding:1px 5px;
+}
+
+div.feedbackCon {
+    background-color:#EEEEEE;
+    border-left: 3px solid #333333;
+    line-height:1.5em;
+    margin-left:10px;
+    padding:5px;
+}
+
+div.feedbackManage {
+    float:right;
+}
+
+#comment_form {
+    background-color:#EEEEEE;
+    margin-top:20px;
+    padding:15px;
+}
+
+div.commentform p {
+    overflow:hidden;
+}
+
+#comment_form * {
+    font-weight:bold;
+}
+
+#comment_nav {
+    display:none;
+}
+
+input.author, input.url, div.commentbox_title, #tbCommentBody {
+    width:100% !important;
+}
+
+input.author {
+    color:#FF9900;
+}
+
+#btn_comment_submit {
+    background-color:#FF9900;
+    color:#FFFFFF;
+    float:right;
+    font-size:30px;
+}
+
+#btn_comment_submit + p, #comment_form a[href^="http://passport.cnblogs.com/logout.aspx"], #relative_search {
+    display:none;
+}
+
+body
+{
+backgrond:url(http://images.cnblogs.com/cnblogs_com/OceanEyes/354373/o_11.jpg)
+
+}
+#header
+{}
+
+#navigator {
+background: #F9F9F9;
+border-top: 1px solid #CCC;
+border-bottom: 1px solid #CCC;
+border-width: 1px;
+height: 61px;
+line-height: 50px;
+color: #999;
+padding-left: 52px;
+padding-right: 5px;
+padding-top: 2px	9;
+}
+
+#navigator li
+{
+background: #1086A4;
+display: block;
+float: left;
+margin-right: 7px;
+}
+
+#navigator a {
+color: white;
+display: block;
+font-weight: bold;
+padding: 6px 12px 6px 12px;
+text-decoration: none;
+}
+
+#navigator li:hover
+{
+	background-color: #00BFF3;
+}
+
+.blogStats {
+
+display: none;
+}
+.bq_post_comment
+{
+margin: 0 0 5px 0;
+font-style: normal;
+line-height: 180%;
+border: 1px solid #ddd;
+padding:12px 20px 15px 60px
+}
+blockquote {
+margin: 20px 0;
+padding: 12px 20px 15px 60px;
+background: rgb(255, 255, 163) url('http://images.cnblogs.com/cnblogs_com/OceanEyes/354373/o_pencil.png') no-repeat 9px 0px;
+font-size: 15px;
+font-family: 'Microsoft Yahei';
+box-shadow: 0 0 8px #aaa;
+clear: both;
+}
+
+/***2015-4-11*****/
+#cnblogs_post_body ol
+ {
+     border: 1px solid #000066;
+     line-height:18px;
+     
+     border-radius: 5px;
+     font-family:'Courier New', courier, monospace!important;
+     background-color: #E3E3FF;
+     list-style-position: outside;
+     margin-left: 0px;
+     max-height:400px;
+     overflow:auto;
+
+ }
+
+ #cnblogs_post_body p
+ {
+     line-height: 180%;
+     padding: 0;
+     color: #333333;
+ }
+ #cnblogs_post_body ol li div
+ {
+     background-color: #ffffff!important;
+     padding-left: 5px;
+     border-left: 1px solid #8A8AFF;
+     margin-left: 5px !important;
+ }
+ #cnblogs_post_body ol li:nth-child(even) div
+ {
+     background-color: #f4f4f4!important;
+ }
+/*2015-8-5 Table */
+#cnblogs_post_body table td, .cnblogs-post-body table td
+{
+border-width:0 1px 1px 0!important;
+border-color:silver!important;
+}

@@ -1,0 +1,109 @@
+#nav_sitehome {
+        display: none;
+    }
+
+    @media all and (max-width: 800px) {
+        #sideBar {
+            display: none !important;
+        }
+
+        #navigator, #blogTitle, #main, #footer, #mainContent {
+            width: 100% !important;
+        }
+
+        #cnblogs_post_body img {
+        }
+
+        #cnblogs_post_body .cnblogs_code img {
+            width: auto !important;
+        }
+
+        #green_channel {
+            width: 100% !important;
+        }
+
+        #google_ad_c2, #google_ad_c1 {
+            width: 100%;
+            overflow: hidden;
+        }
+    }
+
+    #cnblogs_post_body {
+        color: black;
+        font: 0.875em/1.5em "microsoft yahei", "PTSans", "Arial", sans-serif;
+        font-size: 14px;
+        font-family: "微软雅黑", "microsoft yahei", verdana, Arial, Helvetica, sans-serif;
+        overflow: auto;
+    }
+
+    /* Scrollbars
+    滚动条离奇消失;
+    ::-webkit-scrollbar {
+        background: #FEFEFE;
+        width: 17px;
+        height: 17px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        margin-left: 10px;
+    }
+
+    /* Background
+    ::-webkit-scrollbar-track-piece {
+        margin: 4px;
+        border: solid 4px transparent;
+        border-right-width: 8px;
+    }
+
+    /* Bottom bar background
+    ::-webkit-scrollbar-track-piece:horizontal {
+        border-right-width: 4px;
+        border-bottom-width: 8px;
+    }
+
+    /* Bar element (thumb)
+    ::-webkit-scrollbar-thumb {
+        border: solid 0 transparent;
+        border-right-width: 5px;
+        border-left-width: 5px;
+        -webkit-border-radius: 9px 6px;
+        -webkit-box-shadow: inset 0 0 0 1px rgb(200, 200, 200), inset 0 0 0 6px rgb(200, 200, 200);
+    }
+
+    /* Darken rollover
+    ::-webkit-scrollbar-thumb:hover {
+        -webkit-box-shadow: inset 0 0 0 1px rgb(161, 161, 161), inset 0 0 0 6px rgb(161, 161, 161);
+    }
+
+    /* Horizontal thumb
+    ::-webkit-scrollbar-thumb:horizontal {
+        border-right-width: 0;
+        border-left-width: 0;
+        border-top-width: 5px;
+        border-bottom-width: 5px;
+        -webkit-border-radius: 6px 9px;
+    } */
+
+    #cnblogs_post_body h1 {
+        background-color: gray;
+        padding: 5px;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #sideRight {
+        display: none
+    }
+
+    #sideLeft {
+        float: none !important;
+        width: 100% !important
+    }
+
+    .runCode {
+        font-family: Courier New !important;
+        font-size: 12px !important;
+        line-height: 1.5 !important;
+        cursor: pointer;
+        border: 1px solid #CCC;
+        padding: 3px;
+    }

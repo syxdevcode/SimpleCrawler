@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="description" content="关注互联网科技，记录编程点滴" />
+<meta name="keywords" content="互联网,科技,编程,.Net,生活感悟" />
+<meta name="robots" content="index,follow" />
+<title>html meta标签作用及使用说明 | 闲云博客</title>
+<link rel="shortcut icon" href="http://jianyun.org/favicon.ico" type="image/x-icon" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://jianyun.org/wordpress/wp-content/themes/yoko/style.css" />
+<link rel="pingback" href="http://jianyun.org/wordpress/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="http://jianyun.org/wordpress/wp-content/themes/yoko/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="闲云博客 &raquo; Feed" href="http://jianyun.org/feed" />
+<link rel="alternate" type="application/rss+xml" title="闲云博客 &raquo; 评论Feed" href="http://jianyun.org/comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="闲云博客 &raquo; html meta标签作用及使用说明评论Feed" href="http://jianyun.org/archives/714.html/feed" />
+<script type='text/javascript' src='http://jianyun.org/wordpress/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://jianyun.org/wordpress/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://jianyun.org/wordpress/wp-content/themes/yoko/js/smoothscroll.js?ver=1.0'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://jianyun.org/wordpress/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://jianyun.org/wordpress/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='解决jQuery $(document).ready 和 UpdatePanel的冲突问题' href='http://jianyun.org/archives/708.html' />
+<link rel='next' title='电信IDC或遭反垄断调查' href='http://jianyun.org/archives/716.html' />
+<meta name="generator" content="WordPress 4.1" />
+<link rel='canonical' href='http://jianyun.org/archives/714.html' />
+<link rel='shortlink' href='http://jianyun.org/?p=714' />
+	<link type="text/css" rel="stylesheet" href="http://jianyun.org/wordpress/wp-content/plugins/syntax-highlighter-with-add-button-in-editor/styles/shCoreDefault.css" />
+    <script type="text/javascript">
+	window._wp_rp_static_base_url = 'https://wprp.zemanta.com/static/';
+	window._wp_rp_wp_ajax_url = "http://jianyun.org/wordpress/wp-admin/admin-ajax.php";
+	window._wp_rp_plugin_version = '3.5.3';
+	window._wp_rp_post_id = '714';
+	window._wp_rp_num_rel_posts = '3';
+	window._wp_rp_thumbnails = false;
+	window._wp_rp_post_title = 'html+meta%E6%A0%87%E7%AD%BE%E4%BD%9C%E7%94%A8%E5%8F%8A%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E';
+	window._wp_rp_post_tags = ['html', 'meta', 'seo', '%E4%BA%92%E8%81%94%E7%BD%91%E7%BB%9C', '%E7%BC%96%E7%A8%8B%E7%82%B9%E6%BB%B4', 'html', '2001', 'meta', 'keyword'];
+	window._wp_rp_promoted_content = false;
+</script>
+<script type="text/javascript" src="https://wprp.zemanta.com/static/js/loader.js?version=3.5.3" async></script>
+
+<style type="text/css">
+a {color: #009BC2!important;}
+#content .single-entry-header h1.entry-title {color: #009BC2!important;}
+input#submit:hover {background-color: #009BC2!important;}
+#content .page-entry-header h1.entry-title {color: #009BC2!important;}
+.searchsubmit:hover {background-color: #009BC2!important;}
+</style>
+<!-- wp thread comment 1.4.9.4.002 -->
+<style type="text/css" media="screen">
+.editComment, .editableComment, .textComment{
+	display: inline;
+}
+.comment-childs{
+	border: 1px solid #999;
+	margin: 5px 2px 2px 4px;
+	padding: 4px 2px 2px 4px;
+	background-color: white;
+}
+.chalt{
+	background-color: #E2E2E2;
+}
+#newcomment{
+	border:1px dashed #777;width:90%;
+}
+#newcommentsubmit{
+	color:red;
+}
+.adminreplycomment{
+	border:1px dashed #777;
+	width:99%;
+	margin:4px;
+	padding:4px;
+}
+.mvccls{
+	color: #999;
+}
+
+.thdrpy{clear:both;}
+			
+</style>
+<!--fancybox-->
+<link rel="stylesheet" href="http://jianyun.org/wordpress/wp-content/themes/yoko/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+<script src="http://jianyun.org/wordpress/wp-content/themes/yoko/fancybox/jquery.easing-1.3.pack.js" type="text/javascript"></script>
+<script src="http://jianyun.org/wordpress/wp-content/themes/yoko/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+<script src="http://jianyun.org/wordpress/wp-content/themes/yoko/fancybox/jquery.mousewheel-3.0.4.pack.js" type="text/javascript"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+$("a:[rel]has(img)").fancybox({
+'transitionIn': 'none',
+'transitionOut': 'none',
+'titlePosition' : 'over',
+'titleFormat': function(title, currentArray, currentIndex, currentOpts) {
+return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+}
+});
+});
+</script>
+<!--end fancybox-->
+</head>
+<body class="single single-post postid-714 single-format-standard">
+<div id="page" class="clearfix">
+	<header id="branding">
+		<nav id="mainnav" class="clearfix">
+			<div class="menu"><ul><li ><a href="http://jianyun.org/">首页</a></li><li class="page_item page-item-2"><a href="http://jianyun.org/about">关于</a></li><li class="page_item page-item-42"><a href="http://jianyun.org/readerwal">读者墙</a></li></ul></div>
+		</nav><!-- end mainnav -->
+
+				
+		<hgroup id="site-title">
+					<h1><a href="http://jianyun.org/" title="闲云博客">闲云博客</a></h1>
+				<h2 id="site-description">关注互联网科技，记录编程点滴</h2>
+				</hgroup><!-- end site-title -->
+        
+        						<img src="http://jianyun.org/wordpress/wp-content/themes/yoko/images/headers/ginko.jpg" class="headerimage" width="1102" height="350" alt="" /><!-- end headerimage -->
+										<div class="clear"></div>
+					
+		<nav id="subnav">
+					</nav><!-- end subnav -->	
+</header><!-- end header -->
+<div id="wrap">
+<div id="main">
+
+	<div id="content">
+
+	
+			
+<article id="post-714" class="post-714 post type-post status-publish format-standard hentry category-13 category-14 tag-html tag-meta tag-seo">
+
+	
+	<header class="single-entry-header">
+		<h1 class="entry-title">html meta标签作用及使用说明</h1>
+			<p><span class="entry-date">2011/09/19</span> <span class="entry-author">by Jian Yun</span>  | <a href="http://jianyun.org/archives/714.html#respond" title="《html meta标签作用及使用说明》上的评论">0 comments</a></p>
+	</header><!-- end single-entry-header -->
+		
+	<div class="single-entry-content">
+				<div style="clear:both; margin-top:5px; margin-bottom:5px;"></div><div style="float:left"><!-- JiaThis Button BEGIN -->
+<div id="jiathis_style_32x32">
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_renren"></a>
+	<a class="jiathis_button_kaixin001"></a>
+	<a href="http://www.jiathis.com/share?uid=892774" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+</div>
+<script type="text/javascript">var jiathis_config = {data_track_clickback:true};</script>
+<script type="text/javascript" src="http://v2.jiathis.com/code/jia.js?uid=892774" charset="utf-8"></script>
+<!-- JiaThis Button END --></div><div style="clear:both; margin-top:5px; margin-bottom:5px;"></div><p>meta是用来在HTML文档中模拟HTTP协议的响应头报文。meta 标签用于网页的&lt;head&gt;与&lt;/head&gt;中，meta 标签的用处很多。meta 的属性有两种：name和http-equiv。</p>
+<p>name属性主要用于描述网页，对应于content（网页内容），以便于搜索引擎机器人查找、分类（目 前几乎所有的搜索引擎都使用网上机器人自动查找meta值来给网页分类）。这其中最重要的是description（站点在搜索引擎上的描述）和 keywords（分类关键词），所以应该给每页加一个meta值。比较常用的有以下几个：</p>
+<p>name 属性</p>
+<p>1、&lt;meta name=&#8221;generator&#8221; contect=&#8221;&#8221;&gt;用以说明生成工具（如Microsoft FrontPage 4.0）等；</p>
+<p>2、&lt;meta name=&#8221;keywords&#8221; contect=&#8221;&#8221;&gt;向搜索引擎说明你的网页的关键词；</p>
+<p>3、&lt;meta name=&#8221;description&#8221; contect=&#8221;&#8221;&gt;告诉搜索引擎你的站点的主要内容；</p>
+<p>4、&lt;meta name=&#8221;author&#8221; contect=&#8221;你的姓名&#8221;&gt;告诉搜索引擎你的站点的制作的作者；</p>
+<p>5、&lt;meta name=&#8221;robots&#8221; contect= &#8220;all|none|index|noindex|follow|nofollow&#8221;&gt;</p>
+<p>其中的属性说明如下：</p>
+<p>设定为all：文件将被检索，且页面上的链接可以被查询；</p>
+<p>设定为none：文件将不被检索，且页面上的链接不可以被查询；</p>
+<p>设定为index：文件将被检索；</p>
+<p>设定为follow：页面上的链接可以被查询；</p>
+<p>设定为noindex：文件将不被检索，但页面上的链接可以被查询；</p>
+<p>设定为nofollow：文件将不被检索，页面上的链接可以被查询。</p>
+<p>http-equiv属性</p>
+<p>1、&lt;meta http-equiv=&#8221;Content-Type&#8221; contect=&#8221;text/html&#8221;;charset=gb_2312-80&#8243;&gt;</p>
+<p>和 &lt;meta http-equiv=&#8221;Content-Language&#8221; contect=&#8221;zh-CN&#8221;&gt;用以说明主页制作所使用的文字以及语言；</p>
+<p>又如英文是ISO-8859-1字符集，还有BIG5、utf-8、shift-Jis、Euc、Koi8-2等字符集；</p>
+<p>2、&lt;meta http-equiv=&#8221;Refresh&#8221; contect=&#8221;n;url=<a href="http://yourlink/" target="_blank">http://yourlink</a> &#8220;&gt;定时让网页在指定的时间n内，跳转到页面<a href="http://yourlink/" target="_blank">http://yourlink</a> ；</p>
+<p>3、&lt;meta http-equiv=&#8221;Expires&#8221; contect=&#8221;Mon,12 May 2001 00:20:00 GMT&#8221;&gt;可以用于设定网页的到期时间，一旦过期则必须到服务器上重新调用。需要注意的是必须使用GMT时间格式；</p>
+<p>4、&lt;meta http-equiv=&#8221;Pragma&#8221; contect=&#8221;no-cache&#8221;&gt;是用于设定禁止浏览器从本地机的缓存中调阅页面内容，设定后一旦离开网页就无法从Cache中再调出；</p>
+<p>5、&lt;meta http-equiv=&#8221;set-cookie&#8221; contect=&#8221;Mon,12 May 2001 00:20:00 GMT&#8221;&gt;cookie设定，如果网页过期，存盘的cookie将被删除。需要注意的也是必须使用GMT时间格式；</p>
+<p>6、&lt;meta http-equiv=&#8221;Pics-label&#8221; contect=&#8221;&#8221;&gt;网页等级评定，在IE的internet选项中有一项内容设置，可以防止浏览一些受限制的网站，而网站的限制级别就是通过meta属性来设置的；</p>
+<p>7、&lt;meta http-equiv=&#8221;windows-Target&#8221; contect=&#8221;_top&#8221;&gt;强制页面在当前窗口中以独立页面显示，可以防止自己的网页被别人当作一个frame页调用；</p>
+<p>8、&lt;meta http-equiv=&#8221;Page-Enter&#8221; contect=&#8221;revealTrans(duration=10,transtion= 50)&#8221;&gt;<br />
+和<br />
+&lt;meta http-equiv=&#8221;Page-Exit&#8221; contect=&#8221;revealTrans(duration=20，transtion=6)&#8221;&gt;<br />
+设定进入和离开页面时的特殊效果，这个功能即FrontPage中的“格式/网页过渡”，不过所加的页面不能够是一个frame页面。</p>
+<p>以上是常用的几个meta属性，有个人主页的朋友不妨在你的主页中加上它，效果可是不一样的哦：）。</p>
+<p>&nbsp;</p>
+<p>“&lt;META&gt;”（即通常所说的META标签）。META标签用来描述一个HTML网页文档的属性，例如作者、日期和时间、网页描述、关键词、页面刷新等。</p>
+<p>在有关搜索引擎注册、搜索引擎优化排名等网络营销方法内容中，通常都要谈论META标签的作用，我们甚至可以说，META标签的内容设计对于搜索引擎 营销来说是至关重要的一个因素，尤其是其中的 “description”（网页描述）和“Keywords”（关键词）两个属性更为重要【参见网络营销教学网站的专文介绍：description Keywords 】。尽管现在的搜索引擎检索信息的决定搜索结果的排名很少依赖META标签中的内容，但META标签的内容设计仍然是很重要的。</p>
+<p>关于META标签中的&#8221;keywords&#8221;</p>
+<p>与META标签中的&#8221;description&#8221;类似，&#8221;keywords&#8221;也是用来描述一个网页的属性，只不过要列出的内容是“关键词”，而不是网页 的介绍。这就意味着，要根据网页的主题和内容选择合适的关键词。在选择关键词时，除了要考虑与网页核心内容相关之外，还应该是用户易于通过搜索引擎检索 的，过于生僻的词汇不太适合做META标签中的关键词。关于META标签中关键词的设计，要注意不要堆砌过多的关键词，罗列大量关键词对于搜索引擎检索没 有太大的意义，对于一些热门的领域（也就是说同类网站数量较多），甚至可能起到副作用。
+<div style="margin-top: 15px; font-style: italic">
+<p><strong>原创文章，转载请注明：</strong> 转载自<a href="http://jianyun.org/wordpress/">闲云博客</a></p>
+<p><strong>本文链接地址:</strong> <a href="http://jianyun.org/archives/714.html">html meta标签作用及使用说明</a></p>
+</div>
+
+<div class="wp_rp_wrap  wp_rp_plain" id="wp_rp_first"><div class="wp_rp_content"><h3 class="related_post_title">相关文章</h3><ul class="related_post wp_rp"><li data-position="0" data-poid="in-739" data-post-type="none" ><a href="http://jianyun.org/archives/739.html" class="wp_rp_title">Silk和UCWeb</a><small class="wp_rp_comments_count"> (0)</small><br /></li><li data-position="1" data-poid="in-991" data-post-type="none" ><a href="http://jianyun.org/archives/991.html" class="wp_rp_title">使用HTML5开发离线应用</a><small class="wp_rp_comments_count"> (0)</small><br /></li><li data-position="2" data-poid="in-1008" data-post-type="none" ><a href="http://jianyun.org/archives/1008.html" class="wp_rp_title">源代码管理十诫</a><small class="wp_rp_comments_count"> (0)</small><br /></li></ul></div></div>
+			<div class="clear"></div>
+			
+								
+		
+	<footer class="single-entry-meta">
+		<p>			Categories: <a href="http://jianyun.org/archives/category/%e4%ba%92%e8%81%94%e7%bd%91%e7%bb%9c" rel="category tag">互联网络</a>, <a href="http://jianyun.org/archives/category/%e7%bc%96%e7%a8%8b%e7%82%b9%e6%bb%b4" rel="category tag">编程点滴</a> | 
+									Tags: <a href="http://jianyun.org/archives/tag/html" rel="tag">html</a>, <a href="http://jianyun.org/archives/tag/meta" rel="tag">meta</a>, <a href="http://jianyun.org/archives/tag/seo" rel="tag">seo</a> | 
+						<a href="http://jianyun.org/archives/714.html">Permalink </a>
+			</p>
+	</footer><!-- end entry-meta -->
+
+		<div class="author-info">
+		<img alt='' src='http://1.gravatar.com/avatar/5b9e81cd10399a8f56fcb63d28ae77a2?s=70&amp;d=identicon&amp;r=G' class='avatar avatar-70 photo' height='70' width='70' />		<div class="author-description">
+		<h3>Author: <a href='http://jianyun.org/archives/author/admin' title='Jian Yun' rel='me'>Jian Yun</a></h3>
+		<p>Hi,我是闲云，感谢您阅读我的博客。我是一个微软ASP.NET方面的开发者，写写博客分享下互联网科技方面感兴趣的事和记录自己程序开发中的点点滴滴。
+------“立志难也，不在胜人，在自胜”</p>
+		</div><!-- end author-description -->
+	</div><!-- end author-info -->
+		</div><!-- end single-entry-content -->
+
+</article><!-- end post-714 -->
+<div class="clear"></div>				
+			
+<div id="comments"  class="clearfix">
+
+	
+				
+				
+									<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">发表评论 <small><a rel="nofollow" id="cancel-comment-reply-link" href="/archives/714.html#respond" style="display:none;">取消回复</a></small></h3>
+									<form action="http://jianyun.org/wordpress/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+																			<p class="comment-notes">Required fields are marked <span class="required">*</span>.</p>							<p class="comment-form-author"><label for="author">姓名 <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' /></p>
+<p class="comment-form-email"><label for="email">电子邮件 <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-describedby="email-notes" aria-required='true' /></p>
+<p class="comment-form-url"><label for="url">站点</label> <input id="url" name="url" type="text" value="" size="30" /></p>
+												<p class="comment-form-comment"><label for="comment">Message <span class="required">*</span></label><br/><textarea id="comment" name="comment" rows="8"></textarea></p>												<p class="form-submit">
+							<input name="submit" type="submit" id="submit" class="submit" value="发表评论" />
+							<input type='hidden' name='comment_post_ID' value='714' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+						</p>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="6422ac10d1" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="62"/></p><p><input type="hidden" id="comment_reply_ID" name="comment_reply_ID" value="0" /><input type="hidden" id="comment_reply_dp" name="comment_reply_dp" value="0" /></p><div id="cancel_reply" style="display:none;"><a href="javascript:void(0)" onclick="movecfm(null,0,1,null);" style="color:red;">点击取消回复</a></div><script type="text/javascript">
+/* <![CDATA[ */
+var commentformid = "";
+var USERINFO = false;
+var atreply = "none";
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://jianyun.org/wordpress/wp-content/plugins/wordpress-thread-comment/wp-thread-comment.js.php?jsver=common"></script>
+					</form>
+							</div><!-- #respond -->
+			</div><!-- end comments -->
+				
+			<nav id="nav-below">
+				<div class="nav-previous"><a href="http://jianyun.org/archives/708.html" rel="prev">&larr;  Previous Post</a></div>
+				<div class="nav-next"><a href="http://jianyun.org/archives/716.html" rel="next">Next Post &rarr;</a></div>
+			</nav><!-- end nav-below -->
+				
+	</div><!-- end content -->
+	
+
+<div id="secondary" class="widget-area" role="complementary">
+			<aside id="calendar-4" class="widget widget_calendar"><h3 class="widget-title">日历</h3><div id="calendar_wrap"><table id="wp-calendar">
+	<caption>2015年一月</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="星期一">一</th>
+		<th scope="col" title="星期二">二</th>
+		<th scope="col" title="星期三">三</th>
+		<th scope="col" title="星期四">四</th>
+		<th scope="col" title="星期五">五</th>
+		<th scope="col" title="星期六">六</th>
+		<th scope="col" title="星期日">日</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="http://jianyun.org/archives/date/2014/01">&laquo; 一</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next" class="pad">&nbsp;</td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr>
+		<td colspan="3" class="pad">&nbsp;</td><td>1</td><td>2</td><td>3</td><td>4</td>
+	</tr>
+	<tr>
+		<td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td>
+	</tr>
+	<tr>
+		<td>12</td><td id="today">13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td>
+	</tr>
+	<tr>
+		<td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td>
+	</tr>
+	<tr>
+		<td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td>
+		<td class="pad" colspan="1">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></aside><aside id="categories-3" class="widget widget_categories"><h3 class="widget-title">文章分类</h3>		<ul>
+	<li class="cat-item cat-item-13"><a href="http://jianyun.org/archives/category/%e4%ba%92%e8%81%94%e7%bd%91%e7%bb%9c" >互联网络</a> (44)
+</li>
+	<li class="cat-item cat-item-47"><a href="http://jianyun.org/archives/category/%e6%9d%82%e8%b0%88" >杂谈</a> (8)
+</li>
+	<li class="cat-item cat-item-12"><a href="http://jianyun.org/archives/category/%e7%94%9f%e6%b4%bb%e6%84%9f%e6%82%9f" >生活感悟</a> (13)
+</li>
+	<li class="cat-item cat-item-14"><a href="http://jianyun.org/archives/category/%e7%bc%96%e7%a8%8b%e7%82%b9%e6%bb%b4" >编程点滴</a> (70)
+</li>
+	<li class="cat-item cat-item-36"><a href="http://jianyun.org/archives/category/%e8%87%aa%e7%84%b6%e5%9c%b0%e7%90%86" >自然地理</a> (1)
+</li>
+	<li class="cat-item cat-item-77"><a href="http://jianyun.org/archives/category/%e8%bd%af%e4%bb%b6%e4%bb%8b%e7%bb%8d" >软件介绍</a> (25)
+</li>
+		</ul>
+</aside><aside id="archives-3" class="widget widget_archive"><h3 class="widget-title">文章归档</h3>		<ul>
+	<li><a href='http://jianyun.org/archives/date/2014/01'>2014年一月</a>&nbsp;(2)</li>
+	<li><a href='http://jianyun.org/archives/date/2013/03'>2013年三月</a>&nbsp;(1)</li>
+	<li><a href='http://jianyun.org/archives/date/2013/02'>2013年二月</a>&nbsp;(1)</li>
+	<li><a href='http://jianyun.org/archives/date/2013/01'>2013年一月</a>&nbsp;(4)</li>
+	<li><a href='http://jianyun.org/archives/date/2012/10'>2012年十月</a>&nbsp;(5)</li>
+	<li><a href='http://jianyun.org/archives/date/2012/09'>2012年九月</a>&nbsp;(2)</li>
+	<li><a href='http://jianyun.org/archives/date/2012/08'>2012年八月</a>&nbsp;(1)</li>
+	<li><a href='http://jianyun.org/archives/date/2012/07'>2012年七月</a>&nbsp;(4)</li>
+	<li><a href='http://jianyun.org/archives/date/2012/06'>2012年六月</a>&nbsp;(3)</li>
+	<li><a href='http://jianyun.org/archives/date/2012/04'>2012年四月</a>&nbsp;(1)</li>
+	<li><a href='http://jianyun.org/archives/date/2012/02'>2012年二月</a>&nbsp;(2)</li>
+	<li><a href='http://jianyun.org/archives/date/2012/01'>2012年一月</a>&nbsp;(1)</li>
+	<li><a href='http://jianyun.org/archives/date/2011/12'>2011年十二月</a>&nbsp;(4)</li>
+	<li><a href='http://jianyun.org/archives/date/2011/11'>2011年十一月</a>&nbsp;(2)</li>
+	<li><a href='http://jianyun.org/archives/date/2011/10'>2011年十月</a>&nbsp;(3)</li>
+	<li><a href='http://jianyun.org/archives/date/2011/09'>2011年九月</a>&nbsp;(11)</li>
+	<li><a href='http://jianyun.org/archives/date/2011/08'>2011年八月</a>&nbsp;(5)</li>
+	<li><a href='http://jianyun.org/archives/date/2011/07'>2011年七月</a>&nbsp;(5)</li>
+	<li><a href='http://jianyun.org/archives/date/2011/06'>2011年六月</a>&nbsp;(11)</li>
+	<li><a href='http://jianyun.org/archives/date/2011/05'>2011年五月</a>&nbsp;(5)</li>
+	<li><a href='http://jianyun.org/archives/date/2011/04'>2011年四月</a>&nbsp;(6)</li>
+	<li><a href='http://jianyun.org/archives/date/2011/03'>2011年三月</a>&nbsp;(6)</li>
+	<li><a href='http://jianyun.org/archives/date/2011/02'>2011年二月</a>&nbsp;(2)</li>
+	<li><a href='http://jianyun.org/archives/date/2011/01'>2011年一月</a>&nbsp;(5)</li>
+	<li><a href='http://jianyun.org/archives/date/2010/12'>2010年十二月</a>&nbsp;(6)</li>
+	<li><a href='http://jianyun.org/archives/date/2010/11'>2010年十一月</a>&nbsp;(10)</li>
+	<li><a href='http://jianyun.org/archives/date/2010/10'>2010年十月</a>&nbsp;(1)</li>
+	<li><a href='http://jianyun.org/archives/date/2010/09'>2010年九月</a>&nbsp;(6)</li>
+	<li><a href='http://jianyun.org/archives/date/2010/08'>2010年八月</a>&nbsp;(18)</li>
+	<li><a href='http://jianyun.org/archives/date/2010/07'>2010年七月</a>&nbsp;(6)</li>
+		</ul>
+</aside><aside id="linkcat-18" class="widget widget_links"><h3 class="widget-title">推荐博客</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.wangwenhao.net/" rel="friend" title="有理想 有道德 有文化 有纪律 就是没素质" target="_blank">四有新人</a></li>
+<li><a href="http://wuyijie.net/" rel="friend" title="涂&#8221;鸦&#8221;" target="_blank">涂&quot;鸦&quot;</a></li>
+<li><a href="http://www.sothicor.com/" rel="friend" title="风中叶落 | Leaf Fall in the Wind" target="_blank">风中叶落</a></li>
+
+	</ul>
+</aside>
+<aside id="text-3" class="widget widget_text"><h3 class="widget-title">访问者位置</h3>			<div class="textwidget"><a href="http://www2.clustrmaps.com/counter/maps.php?url=http://jianyun.org" id="clustrMapsLink" target="_blank"><img src="http://www2.clustrmaps.com/counter/index2.php?url=http://jianyun.org" style="border:0px;" alt="Locations of visitors to this page" title="Locations of visitors to this page" id="clustrMapsImg" width="145px" onerror="this.onerror=null; this.src='http://clustrmaps.com/images/clustrmaps-back-soon.jpg'; document.getElementById('clustrMapsLink').href='http://clustrmaps.com';" />
+</a></div>
+		</aside>		</div><!-- #secondary .widget-area -->
+</div><!-- end main -->
+
+		<div id="tertiary" class="widget-area" role="complementary">
+			<aside id="search-3" class="widget widget_search"><form role="search" method="get" class="searchform" action="http://jianyun.org" >
+    <div><label class="screen-reader-text" for="s"></label>
+    <input type="text" class="search-input" value="" name="s" id="s" />
+    <input type="submit" class="searchsubmit" value="Search" />
+    </div>
+    </form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">近期文章</h3>		<ul>
+					<li>
+				<a href="http://jianyun.org/archives/1033.html">转载：IIS在各版本windows上的并发请求限制</a>
+						</li>
+					<li>
+				<a href="http://jianyun.org/archives/1029.html">从10个方面来提升软件开发者的效率</a>
+						</li>
+					<li>
+				<a href="http://jianyun.org/archives/1008.html">源代码管理十诫</a>
+						</li>
+					<li>
+				<a href="http://jianyun.org/archives/1004.html">HTC One S刷回官方RUU的详细教程</a>
+						</li>
+					<li>
+				<a href="http://jianyun.org/archives/997.html">HTML5之File API</a>
+						</li>
+				</ul>
+		</aside><aside id="recent-comments-2" class="widget widget_recent_comments"><h3 class="widget-title">近期评论</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='http://www.joyteamwork.com' rel='external nofollow' class='url'>joyteam</a></span>发表在《<a href="http://jianyun.org/archives/667.html/comment-page-1#comment-1063">各Windows系统自带什么版本的.NET Framework</a>》</li><li class="recentcomments"><span class="comment-author-link">fish</span>发表在《<a href="http://jianyun.org/archives/414.html/comment-page-1#comment-1003">Cisco VPN Client 5.0.07.0410-k9官方原版</a>》</li><li class="recentcomments"><span class="comment-author-link">WanderMax</span>发表在《<a href="http://jianyun.org/archives/983.html/comment-page-1#comment-938">UMDEditor更新到V2.7.3,新增合并章节，优化程序性能</a>》</li><li class="recentcomments"><span class="comment-author-link">cnm</span>发表在《<a href="http://jianyun.org/archives/983.html/comment-page-1#comment-932">UMDEditor更新到V2.7.3,新增合并章节，优化程序性能</a>》</li><li class="recentcomments"><span class="comment-author-link">林东流</span>发表在《<a href="http://jianyun.org/archives/983.html/comment-page-1#comment-928">UMDEditor更新到V2.7.3,新增合并章节，优化程序性能</a>》</li></ul></aside><aside id="tag_cloud-3" class="widget widget_tag_cloud"><h3 class="widget-title">标签云</h3><div class="tagcloud"><a href='http://jianyun.org/archives/tag/net' class='tag-link-6' title='34个话题' style='font-size: 22pt;'>.Net</a>
+<a href='http://jianyun.org/archives/tag/android' class='tag-link-16' title='4个话题' style='font-size: 12.516129032258pt;'>Android</a>
+<a href='http://jianyun.org/archives/tag/arcgis' class='tag-link-64' title='2个话题' style='font-size: 10.032258064516pt;'>ArcGIS</a>
+<a href='http://jianyun.org/archives/tag/asp-net' class='tag-link-92' title='4个话题' style='font-size: 12.516129032258pt;'>ASP.NET</a>
+<a href='http://jianyun.org/archives/tag/c' class='tag-link-7' title='13个话题' style='font-size: 17.596774193548pt;'>C#</a>
+<a href='http://jianyun.org/archives/tag/chrome-2' class='tag-link-5' title='7个话题' style='font-size: 14.774193548387pt;'>Chrome</a>
+<a href='http://jianyun.org/archives/tag/chrome%e6%89%a9%e5%b1%95' class='tag-link-30' title='2个话题' style='font-size: 10.032258064516pt;'>Chrome扩展</a>
+<a href='http://jianyun.org/archives/tag/dropdownlist' class='tag-link-19' title='1个话题' style='font-size: 8pt;'>DropDownList</a>
+<a href='http://jianyun.org/archives/tag/google' class='tag-link-4' title='5个话题' style='font-size: 13.41935483871pt;'>Google</a>
+<a href='http://jianyun.org/archives/tag/htc' class='tag-link-34' title='2个话题' style='font-size: 10.032258064516pt;'>HTC</a>
+<a href='http://jianyun.org/archives/tag/html5' class='tag-link-11' title='3个话题' style='font-size: 11.387096774194pt;'>HTML5</a>
+<a href='http://jianyun.org/archives/tag/ie' class='tag-link-53' title='2个话题' style='font-size: 10.032258064516pt;'>IE</a>
+<a href='http://jianyun.org/archives/tag/ie-bug' class='tag-link-21' title='1个话题' style='font-size: 8pt;'>IE Bug</a>
+<a href='http://jianyun.org/archives/tag/javascript' class='tag-link-60' title='10个话题' style='font-size: 16.354838709677pt;'>JavaScript</a>
+<a href='http://jianyun.org/archives/tag/jquery' class='tag-link-10' title='8个话题' style='font-size: 15.338709677419pt;'>jQuery</a>
+<a href='http://jianyun.org/archives/tag/monodroid' class='tag-link-24' title='2个话题' style='font-size: 10.032258064516pt;'>MonoDroid</a>
+<a href='http://jianyun.org/archives/tag/oracle' class='tag-link-85' title='4个话题' style='font-size: 12.516129032258pt;'>Oracle</a>
+<a href='http://jianyun.org/archives/tag/qq' class='tag-link-46' title='3个话题' style='font-size: 11.387096774194pt;'>QQ</a>
+<a href='http://jianyun.org/archives/tag/txt%e8%bd%acumd' class='tag-link-41' title='11个话题' style='font-size: 16.806451612903pt;'>TXT转UMD</a>
+<a href='http://jianyun.org/archives/tag/umd%e7%bc%96%e8%be%91%e5%99%a8' class='tag-link-42' title='11个话题' style='font-size: 16.806451612903pt;'>UMD编辑器</a>
+<a href='http://jianyun.org/archives/tag/umd%e8%bd%actxt' class='tag-link-40' title='11个话题' style='font-size: 16.806451612903pt;'>UMD转TXT</a>
+<a href='http://jianyun.org/archives/tag/visual-studio' class='tag-link-88' title='2个话题' style='font-size: 10.032258064516pt;'>Visual Studio</a>
+<a href='http://jianyun.org/archives/tag/web%e9%a1%b5%e9%9d%a2' class='tag-link-44' title='2个话题' style='font-size: 10.032258064516pt;'>Web页面</a>
+<a href='http://jianyun.org/archives/tag/windows-8' class='tag-link-83' title='2个话题' style='font-size: 10.032258064516pt;'>Windows 8</a>
+<a href='http://jianyun.org/archives/tag/windows-phone-7' class='tag-link-33' title='4个话题' style='font-size: 12.516129032258pt;'>Windows Phone 7</a>
+<a href='http://jianyun.org/archives/tag/wordpress' class='tag-link-22' title='2个话题' style='font-size: 10.032258064516pt;'>wordpress</a>
+<a href='http://jianyun.org/archives/tag/yelp' class='tag-link-17' title='1个话题' style='font-size: 8pt;'>Yelp</a>
+<a href='http://jianyun.org/archives/tag/%e4%ba%91%e7%ab%af' class='tag-link-63' title='2个话题' style='font-size: 10.032258064516pt;'>云端</a>
+<a href='http://jianyun.org/archives/tag/%e5%9b%9e%e8%bd%a6%e6%8f%90%e4%ba%a4' class='tag-link-29' title='1个话题' style='font-size: 8pt;'>回车提交</a>
+<a href='http://jianyun.org/archives/tag/%e5%9b%ba%e5%ae%9a%e5%ae%bd%e5%ba%a6' class='tag-link-20' title='1个话题' style='font-size: 8pt;'>固定宽度</a>
+<a href='http://jianyun.org/archives/tag/%e5%bc%a0%e7%88%b1%e7%8e%b2' class='tag-link-25' title='1个话题' style='font-size: 8pt;'>张爱玲</a>
+<a href='http://jianyun.org/archives/tag/%e5%be%ae%e8%bd%af' class='tag-link-35' title='19个话题' style='font-size: 19.290322580645pt;'>微软</a>
+<a href='http://jianyun.org/archives/tag/%e6%83%85%e6%84%9f' class='tag-link-26' title='4个话题' style='font-size: 12.516129032258pt;'>情感</a>
+<a href='http://jianyun.org/archives/tag/%e7%88%b1%e6%83%85' class='tag-link-28' title='2个话题' style='font-size: 10.032258064516pt;'>爱情</a>
+<a href='http://jianyun.org/archives/tag/%e7%94%9f%e6%b4%bb' class='tag-link-67' title='4个话题' style='font-size: 12.516129032258pt;'>生活</a>
+<a href='http://jianyun.org/archives/tag/%e7%a8%8b%e5%ba%8f%e5%91%98' class='tag-link-31' title='7个话题' style='font-size: 14.774193548387pt;'>程序员</a>
+<a href='http://jianyun.org/archives/tag/%e7%ae%97%e6%b3%95' class='tag-link-9' title='1个话题' style='font-size: 8pt;'>算法</a>
+<a href='http://jianyun.org/archives/tag/%e7%ae%b4%e8%a8%80' class='tag-link-27' title='1个话题' style='font-size: 8pt;'>箴言</a>
+<a href='http://jianyun.org/archives/tag/%e8%85%be%e8%ae%af' class='tag-link-45' title='5个话题' style='font-size: 13.41935483871pt;'>腾讯</a>
+<a href='http://jianyun.org/archives/tag/%e8%87%aa%e7%84%b6' class='tag-link-37' title='2个话题' style='font-size: 10.032258064516pt;'>自然</a>
+<a href='http://jianyun.org/archives/tag/%e8%ae%be%e8%ae%a1%e6%a8%a1%e5%bc%8f' class='tag-link-66' title='2个话题' style='font-size: 10.032258064516pt;'>设计模式</a>
+<a href='http://jianyun.org/archives/tag/%e8%af%ad%e8%a8%80%e5%8c%85' class='tag-link-23' title='1个话题' style='font-size: 8pt;'>语言包</a>
+<a href='http://jianyun.org/archives/tag/%e8%b0%b7%e6%ad%8c%e5%9c%b0%e5%9b%be' class='tag-link-15' title='1个话题' style='font-size: 8pt;'>谷歌地图</a>
+<a href='http://jianyun.org/archives/tag/%e8%bd%af%e4%bb%b6' class='tag-link-59' title='10个话题' style='font-size: 16.354838709677pt;'>软件</a>
+<a href='http://jianyun.org/archives/tag/%e9%ad%85%e6%97%8f' class='tag-link-32' title='1个话题' style='font-size: 8pt;'>魅族</a></div>
+</aside><aside id="text-4" class="widget widget_text"><h3 class="widget-title">我的微博</h3>			<div class="textwidget"><iframe frameborder="0" scrolling="no" src="http://show.v.t.qq.com/index.php?c=show&a=index&n=jianyunshu&w=260&h=548&fl=1&l=3&o=17&co=3" width="260" height="548"></iframe></div>
+		</aside><aside id="meta-5" class="widget widget_meta"><h3 class="widget-title">功能</h3>			<ul>
+						<li><a href="http://jianyun.org/wordpress/wp-login.php">登录</a></li>
+			<li><a href="http://jianyun.org/feed">文章<abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://jianyun.org/comments/feed">评论<abbr title="Really Simple Syndication">RSS</abbr></a></li>
+<li><a href="https://cn.wordpress.org/" title="基于WordPress，一个优美、先进的个人信息发布平台。">WordPress.org</a></li>			</ul>
+</aside>		</div><!-- end tertiary .widget-area -->
+</div><!-- end wrap -->
+
+	<footer id="colophon" class="clearfix">
+		<p>版权所有 © 2010 -2012 闲云博客<span class="sep"> | </span><a href="mailto:jianyunshu@gmail.com" id="mailtojianyun">Jian Yun</a><span class="sep"> | </span> Proudly powered by <a href="http://wordpress.org/" target="_blank">WordPress</a><span class="sep"> | </span>Theme: Yoko by <a href="http://www.elmastudio.de/wordpress-themes/" target="_blank">Elmastudio</a><span class="sep"> | </span>
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=21604542" charset="UTF-8"></script>
+</p>
+		<a href="#page" class="top">Top</a>
+	</footer><!-- end colophon -->
+	
+</div><!-- end page -->
+    <script type="text/javascript" src="http://jianyun.org/wordpress/wp-content/plugins/syntax-highlighter-with-add-button-in-editor/scripts/shCore.js"></script>
+    <script type="text/javascript" src="http://jianyun.org/wordpress/wp-content/plugins/syntax-highlighter-with-add-button-in-editor/scripts/shAutoloader.js"></script>
+    <script type="text/javascript">
+    function path()
+    {
+      var args = arguments,
+          result = []
+          ;
+      for(var i = 0; i < args.length; i++)
+          result.push(args[i].replace('@', 'http://jianyun.org/wordpress/wp-content/plugins/syntax-highlighter-with-add-button-in-editor/scripts/'));
+      return result
+    };
+    SyntaxHighlighter.autoloader.apply(null, path(
+      'applescript            @shBrushAppleScript.js',
+      'actionscript3 as3      @shBrushAS3.js',
+      'bash shell             @shBrushBash.js',
+      'coldfusion cf          @shBrushColdFusion.js',
+      'cpp c                  @shBrushCpp.js',
+      'c# c-sharp csharp      @shBrushCSharp.js',
+      'css                    @shBrushCss.js',
+      'delphi pascal          @shBrushDelphi.js',
+      'diff patch pas         @shBrushDiff.js',
+      'erl erlang             @shBrushErlang.js',
+      'groovy                 @shBrushGroovy.js',
+      'java                   @shBrushJava.js',
+      'jfx javafx             @shBrushJavaFX.js',
+      'js jscript javascript  @shBrushJScript.js',
+      'perl pl                @shBrushPerl.js',
+      'php                    @shBrushPhp.js',
+      'text plain             @shBrushPlain.js',
+      'ps                     @shBrushPowerShell.js',
+      'py python              @shBrushPython.js',
+      'ruby rails ror rb      @shBrushRuby.js',
+      'sass scss              @shBrushSass.js',
+      'scala                  @shBrushScala.js',
+      'sql                    @shBrushSql.js',
+      'vb vbnet               @shBrushVb.js',
+      'xml xhtml xslt html    @shBrushXml.js',
+      'other                  @shBrushOther.js'
+    ));
+    SyntaxHighlighter.defaults['auto-links'] = true;
+    SyntaxHighlighter.defaults['collapse'] = false;
+    SyntaxHighlighter.defaults['first-line'] = 1;
+    SyntaxHighlighter.defaults['gutter'] = true;
+    SyntaxHighlighter.defaults['smart-tabs'] = true;
+    SyntaxHighlighter.defaults['tab-size'] = 4;
+    SyntaxHighlighter.defaults['toolbar'] = false;
+    SyntaxHighlighter.config.tagName = "pre";
+	SyntaxHighlighter.config.clipboardSwf = 'http://jianyun.org/wordpress/wp-content/plugins/syntax-highlighter-with-add-button-in-editor/scripts/clipboard.swf';
+    SyntaxHighlighter.all();
+    </script>
+    <script type='text/javascript' src='http://jianyun.org/wordpress/wp-content/plugins/akismet/_inc/form.js?ver=3.0.4'></script>
+<script type='text/javascript' src='http://jianyun.org/wordpress/wp-includes/js/comment-reply.min.js?ver=4.1'></script>
+
+</body>
+</html>
+<!-- Dynamic page generated in 0.086 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-01-13 16:52:57 -->
+
+<!-- Compression = gzip -->
+<!-- super cache -->

@@ -1,0 +1,116 @@
+#codeSnippetWrapper{border: 1px solid silver}
+#profile_block{display:none;}
+.postBody p{margin:5px auto 20px auto}
+.fastcomment{ color:White; background-color:Green; border: 1px solid Black; padding:1px 3px 1px 3px;}
+body{background:#FCFCF5;}
+a:link {color: #f60; text-decoration: none}
+a:visited {color: #f60; text-decoration: none}
+a:hover {color: #f60; text-decoration: underline}
+a:active {color: #f60; text-decoration: none}
+#home {margin:0pt auto;min-width:980px;width:98%;}
+#header {border-bottom:0px solid black;border-top:0px solid black;margin-top:10px;padding-bottom:5px;}
+#header h1{color:#9BBB38;font-family:"Courier New",Verdana,monospace;font-size:2.0em;}
+#header .headermaintitle{color:#9BBB38}
+#blogTitle h2 {color:#CCC;float:right;line-height:1.5em;margin-left:4em;padding-right:0pt;padding-top:20px;text-align:right;width:40%;}
+#navigator {border:1px solid #E8E7D0;background:#fff;clear:both;height:30px;}
+#navList {min-height: 30px; float: left}
+#navList li {float: left}
+#navList a {border-right: #FFF 0px solid; display: block; float: left; width: 5em; padding-top: 8px; HEIGHT: 22px; text-align: center}
+#navList A:link {color: #000}
+#navList A:visited {color: #000}
+#navList A:active {color: #000}
+#navList A:hover {color: #FFF; background-color: #f60; text-decoration: none}
+.catListInteraction,.catListLink,.catListNoteBook,.catListTag,
+.catListPostCategory,.catListPostArchive,.catListImageCategory,
+.mySearch,.catListBlogRank,.catListEssay,.catListComment,.catList,
+.catListView,.catListFeedback{border:1px solid #E8E7D0;margin-bottom:10px;background:#fff;}
+.catListComment div{padding-left:15px;margin-bottom:10px;margin-right:10px;}
+.box{border:1px solid #E8E7D0;margin-bottom:10px;background:#fff;}
+.day {border:1px solid #E8E7D0;padding-left:15px; margin-bottom:20px;background:#fff;min-height:50px;padding-bottom:5px;}
+#sideBar li{line-height:24px;}
+#sideBar ul{padding-left:15px;margin-bottom:10px;margin-right:10px;}
+#sideBar {padding:0px 0pt 0px 0px;}
+.newsItem {margin-bottom:0px;padding:0px;}
+.catListTitle,.boxtitle {padding-bottom:5px;border-bottom:1px solid #9BBB38;color:#9BBB38;font-family:微软雅黑;font-weight:bold;font-size:14px;letter-spacing:2px;line-height:1.5em;text-align:left;margin-top:10px;margin-bottom:10px;margin-left:15px;margin-right:15px;}
+.dayTitle {border-bottom:0px solid #666;clear:both;color:#666;font-size:110%;font-weight:bold;line-height:1.5em;margin-bottom:10px;margin-top:3px;text-align:left;width:100%;}
+.dayTitle a:link, .dayTitle a:visited, .dayTitle a:active {color:#000;}
+.dayTitle a:hover{color:#f60;text-decoration:underline;}
+.postTitle {border-bottom:0px solid #666666;clear:both;float:right;font-size:120%;font-weight:bold;line-height:1.5em;width:100%;}
+.postDesc {
+border-top:1px dashed #E8E7D0;clear:both;color:#666666;float:right;margin-right:20px;margin-top:5px;padding-top:8px;text-align:right;width:96%;}
+.postDesc a {color:#64A038;}
+.postTitle {border-bottom:0px dotted #D2E4B7;padding-bottom:5px;clear:both;color:#64A038;float:right;font-size:120%;font-weight:bold;width:100%;}
+.postCon {clear:both;float:right;line-height:26px;padding:10px 0pt;width:100%;}
+.postTitle {background:transparent url(http://www.cnblogs.com/images/cnblogs_com/Terrylee/147338/o_ico.gif) no-repeat scroll 0% 0%;}
+.postTitle2 {color:#f60;padding-left:30px;}
+.postTitle a:link, .postTitle a:visited, .postTitle a:active {color:#f60;}
+.postTitle a:hover{color:#f60;text-decoration:underline;}
+#main{margin-top:15px;}
+#footer {border:1px solid #E8E7D0; margin-bottom:10px;background:#fff;margin-right:0px;margin-left:0px;min-height:50px;height:50px;line-height:50px;padding-top:0px;}
+.postSeparator {border-top:0px dotted #666666;}
+.post{padding:10px;}
+#topics {border:1px solid #E8E7D0;margin-bottom:10px;background:#fff;width:99.5%;padding:0px 0px 3px 0px;}
+#topics .postTitle {border-bottom:0px solid #999999;float:left;font-size:120%;font-weight:bold;line-height:1.5em;padding-left:5px;width:100%;}
+.postBody {border-bottom:0px solid black;color:#000;line-height:2em;padding:5px 2px 5px 5px;}
+.postBody a:link, .postBody a:visited, .postBody a:active {text-decoration:none;}
+.postBody a:hover{text-decoration:underline;}
+.postBody h2 {font-size:140%;font-weight:bold;text-decoration:underline;margin:15px auto 2px;}
+.feedback_area_title{background:transparent url(http://www.cnblogs.com/images/cnblogs_com/Terrylee/147338/o_ico.gif) no-repeat scroll left bottom;border-bottom:0px solid #333333;font-weight:bold;margin-bottom:10px;margin-top:20px;padding-left:28px;font-size:120%;color:#f60;}
+.feedbackItem{border:1px solid #E8E7D0;margin-bottom:10px;background:#fff;width:99.5%;}
+.feedbackCon {border-bottom:0px solid #CCCCCC;width:94%;}
+.feedbackListSubtitle {border-bottom:1px dashed #E8E7D0;color:#666666;height:30px;line-height:30px;padding-left:10px;padding-right:15px;}
+#topics .postDesc {color:#666666;float:right;margin-top:5px;padding-right:5px;text-align:right;width:98%;}
+.entrylistTitle, .PostListTitle, .thumbTitle {border-bottom:0px solid black;font-size:120%;font-weight:bold;padding-bottom:3px;padding-right:10px;text-align:left;}
+.entrylistItem {border:1px solid #E8E7D0;margin-bottom:10px;background:#fff;width:97%;margin-bottom:30px;min-height:20px;padding-bottom:10px;padding:10px;}
+.entrylistPosttitle{background:transparent url(http://www.cnblogs.com/images/cnblogs_com/Terrylee/147338/o_ico.gif) no-repeat scroll 0% 0%; border-bottom:0px solid #666666;font-size:120%;font-weight:bold;line-height:1.5em;padding-left:30px;width:100%;}
+.entrylistPostSummary {line-height:26px;margin-bottom:5px;margin-top:5px;padding-left:5px;}
+.entrylistItemPostDesc {border-top:1px dashed #E8E7D0;padding-top:5px;	color:#666666;text-align:right;}
+#myposts{border:1px solid #E8E7D0;margin-bottom:10px;background:#fff;padding:10px;}
+.PostList {border-bottom:1px dotted #E8E7D0;clear:both;margin-bottom:5px;min-height:1.5em;padding-left:5px;padding-right:5px;padding-top:10px;}
+#MySignature{border:solid 1px #E5E5E5;padding:10px;background:#FFFEFE url(http://www.cnblogs.com/images/cnblogs_com/Terrylee/147338/o_info.png) no-repeat scroll 1% 50%;padding-left:60px;}
+#MySignature a:link, #MySignature a:visited, #MySignature a:active {color:#f60;}
+#MySignature a:hover{color:#f60;text-decoration:underline;}
+.code{border:solid 1px #E5E5E5;padding:10px;background:#FFFEFE; line-height:1.4em;margin-bottom:10px; font-size:13px;}
+.codetitle{background:#fff url(http://www.cnblogs.com/images/cnblogs_com/Terrylee/147338/o_code.png) no-repeat scroll 1% 50%;padding-left:30px;}
+#EntryTag {color:#666666;float:right;margin-top:10px;}
+#EntryTag a:link, #EntryTag a:visited, #EntryTag a:active {color:#f60;text-decoration:none;}
+#EntryTag a:hover{color:#f60;text-decoration:underline;}
+.feedbackManage a:link, .feedbackManage a:visited, .feedbackManage a:active {color:#f60;text-decoration:none;}
+.feedbackManage a:hover{color:#f60;text-decoration:underline;}
+.louzhu {background:transparent url(http://www.cnblogs.com/images/cnblogs_com/Terrylee/147338/o_blogger.png) no-repeat scroll right top;padding-right:16px;}
+.commentform{border:1px solid #E8E7D0;margin-bottom:10px;background:#fff;padding:10px;padding-top:0px;}
+.contact{border:1px solid #E8E7D0;margin-bottom:10px;background:#fff;padding:10px;line-height:26px;}
+.div_my_zzk {border:0px solid #E8E7D0;margin-bottom:10px;background:#fff;margin-top:0px;text-align:center;padding-top:10px;padding-bottom:10px;}
+.input_my_zzk {border:1px solid #EBEBEB;color:#6B6B6B;width:110px;padding:2px 5px;}
+.mySearch{display:none}
+p {margin-bottom:30px;}
+#green_channel_contact{display:none}
+#div_digg {
+float:right;
+font-size:12px;
+margin-bottom:10px;
+margin-right:30px;
+margin-top:10px;
+text-align:center;
+width:120px;
+position: fixed; right: 0px; 
+bottom: 0px; z-index: 10; 
+background-color: white; 
+margin: 10px; padding: 10px; 
+border: 1px solid rgb(204, 204, 204);
+}
+.vote
+{
+float:right;
+font-size:12px;
+margin-bottom:10px;
+margin-right:30px;
+margin-top:10px;
+text-align:center;
+width:120px;
+position: fixed; right: 0px; 
+bottom: 0px; z-index: 10;
+ background-color: white; 
+margin: 10px; padding: 10px; 
+border: 1px solid green;
+}

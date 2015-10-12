@@ -1,0 +1,103 @@
+#main .post
+{
+    line-height:28px;
+    font-family:微软雅黑;
+    font-size:14px;
+}
+.postText
+{
+    line-height:28px;
+    font-family:微软雅黑;
+    font-size:14px;
+
+}
+#cnblogs_post_body
+{
+    line-height:28px;
+    font-family:微软雅黑;
+    font-size:14px;
+
+}
+blockquote
+{
+    line-height:28px;
+    font-family:微软雅黑;
+    font-size:14px;
+
+}
+
+pre
+{
+    background-color:#f8f8ee;
+    border:#cccccc 1px dashed;
+}
+
+#cnblogs_post_body h1 {
+background: #267cb7;
+border-radius: 6px 6px 6px 6px;
+box-shadow: 0 0 0 1px #3b749c, 1px 1px 6px 1px rgba(59, 116, 156, 0.5);
+color: #FFFFFF;
+font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+font-size: 18px;
+font-weight: bold;
+height: 25px;
+line-height: 25px;
+margin: 18px 0 !important;
+padding: 8px 0 5px 5px;
+text-shadow: 2px 2px 3px #222222;
+}
+
+#cnblogs_post_body h2 {
+background: #3cb38d;
+border-radius: 6px 6px 6px 6px;
+box-shadow: 0 0 0 1px #448e77, 1px 1px 6px 1px rgba(68, 142, 119, 0.5);
+color: #FFFFFF;
+font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+font-size: 15px;
+font-weight: bold;
+height: 24px;
+line-height: 23px;
+margin: 12px 0 12px 30px !important;
+padding: 5px 0px 5px 10px;
+text-shadow: 2px 2px 3px #222222;
+}
+
+.dayTitle
+{
+background: #267cb7;
+border-radius: 6px 6px 6px 6px;
+box-shadow: 0 0 0 1px #3b749c, 1px 1px 6px 1px rgba(59, 116, 156, 0.5);
+color: #FFFFFF;
+font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+font-size: 14px;
+font-weight: bold;
+height: 25px;
+line-height: 25px;
+margin: 10px 0 !important;
+padding: 4px;
+text-shadow: 2px 2px 3px #222222;
+}
+
+.postTitle
+{
+background-image:none;
+border-left:12px #267cb7 solid;
+}
+
+#lnkBlogLogo
+{
+background-color:#267cb7 ;
+}
+
+.feedbackManage+a[href^="#"]{
+    background-color: #267cb7;
+    text-align: center;
+    line-height: 50px;
+}
+#comment_nav {
+    background-color: #267cb7;
+
+}
+.feedback_area_title{
+    background-color:#267cb7;
+}

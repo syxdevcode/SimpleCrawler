@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_敷衍不起</title>
+  <subtitle type="text">勇者从容 智者淡定</subtitle>
+  <id>uuid:283f8d56-61ca-49a6-8cba-78657ba4eeb7;id=5657</id>
+  <updated>2015-09-16T05:07:52Z</updated>
+  <author>
+    <name>敷衍不起</name>
+    <uri>http://www.cnblogs.com/zhaopei/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/zhaopei/p/4783986.html</id>
+    <title type="text">一步步开发自己的博客  .NET版（5、Lucenne.Net 和 必应站内搜索） - 敷衍不起</title>
+    <summary type="text">今天来分析下 嗨-博客 中的搜索功能。搜索功能在个人网站里面要有这么个东西，但又不是特别重要。所以我们需要有，可以不用太深入了解，毕竟我们不是专门做搜索这块的。 所以，我打算把搜索分两块。一块是，用Lucene.Net实现站内搜索。一块是利用第三方搜索引擎来 实现站内搜索。</summary>
+    <published>2015-09-14T05:08:00Z</published>
+    <updated>2015-09-14T05:08:00Z</updated>
+    <author>
+      <name>敷衍不起</name>
+      <uri>http://www.cnblogs.com/zhaopei/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zhaopei/p/4783986.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zhaopei/p/4783986.html" />
+    <content type="html">&lt;img src="http://images2015.cnblogs.com/blog/208266/201509/208266-20150914101204461-1200498268.png" class="desc_img"/&gt;今天来分析下 嗨-博客 中的搜索功能。搜索功能在个人网站里面要有这么个东西，但又不是特别重要。所以我们需要有，可以不用太深入了解，毕竟我们不是专门做搜索这块的。所以，我打算把搜索分两块。一块是，用Lucene.Net实现站内搜索。一块是利用第三方搜索引擎来 实现站内搜索。&lt;img src="http://counter.cnblogs.com/blog/rss/4783986" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/zhaopei/p/4783986.html" target="_blank"&gt;一步步开发自己的博客  .NET版（5、Lucenne.Net 和 必应站内搜索）&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zhaopei/p/4783814.html</id>
+    <title type="text">一步步开发自己的博客  .NET版（4、文章发布功能）百度编辑器 - 敷衍不起</title>
+    <summary type="text">博客做到这里 基本功能已经粗糙的完成了。注册、登录、发布、评论、博客迁移该有的都有了。这段时间内，差不多都是一个功能一个星期。说是一个星期，其实就周末两天而已。鬼还没天亮 就起来折腾，一做就是两天 不动。说实话，真心累。不过欣慰的是，基本功能都出来了</summary>
+    <published>2015-09-05T12:48:00Z</published>
+    <updated>2015-09-05T12:48:00Z</updated>
+    <author>
+      <name>敷衍不起</name>
+      <uri>http://www.cnblogs.com/zhaopei/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zhaopei/p/4783814.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zhaopei/p/4783814.html" />
+    <content type="html">&lt;img src="http://images2015.cnblogs.com/blog/208266/201509/208266-20150914101204461-1200498268.png" class="desc_img"/&gt;博客做到这里 基本功能已经粗糙的完成了。注册、登录、发布、评论、博客迁移该有的都有了。这段时间内，差不多都是一个功能一个星期。说是一个星期，其实就周末两天而已。鬼还没天亮 就起来折腾，一做就是两天 不动。说实话，真心累。不过欣慰的是，基本功能都出来了&lt;img src="http://counter.cnblogs.com/blog/rss/4783814" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/zhaopei/p/4783814.html" target="_blank"&gt;一步步开发自己的博客  .NET版（4、文章发布功能）百度编辑器&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zhaopei/p/4770340.html</id>
+    <title type="text">一步步开发自己的博客 .NET版（3、注册登录功能） - 敷衍不起</title>
+    <summary type="text">今天主要来分析下注册和登录。关于这两个功能的实现我相信大家都有自己的经验，说容易可以做的很容易 说复杂可以做的很复杂。   其实说白了，注册就是往数据库里面插入一条数据，登录就是查询数据库里面是否存在这条数据。当然，还可以有自己的规则验证。如：用户名不能重复，密码不能为空...   当然还有就是，为了防止别人恶意注册 可以加个邮箱验证。那我们用什么邮箱发邮件通知呢, 163 Mail ? QQ Mail ?, 那我们做站长的 也忒掉面子了吧。企业也得来也和你域名相关的企业邮箱啊，是不 (*^__^*)</summary>
+    <published>2015-08-31T07:25:00Z</published>
+    <updated>2015-08-31T07:25:00Z</updated>
+    <author>
+      <name>敷衍不起</name>
+      <uri>http://www.cnblogs.com/zhaopei/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zhaopei/p/4770340.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zhaopei/p/4770340.html" />
+    <content type="html">&lt;img src="http://images2015.cnblogs.com/blog/208266/201509/208266-20150914101204461-1200498268.png" class="desc_img"/&gt;今天主要来分析下注册和登录。关于这两个功能的实现我相信大家都有自己的经验，说容易可以做的很容易 说复杂可以做的很复杂。    其实说白了，注册就是往数据库里面插入一条数据，登录就是查询数据库里面是否存在这条数据。当然，还可以有自己的规则验证。如：用户名不能重复，密码不能为空...    当然还有就是，为了防止别人恶意注册 可以加个邮箱验证。那我们用什么邮箱发邮件通知呢, 163 Mail ? QQ Mail ?, 那我们做站长的 也忒掉面子了吧。企业也得来也和你域名相关的企业邮箱啊，是不 (*^__^*)&lt;img src="http://counter.cnblogs.com/blog/rss/4770340" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/zhaopei/p/4770340.html" target="_blank"&gt;一步步开发自己的博客 .NET版（3、注册登录功能）&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zhaopei/p/4744846.html</id>
+    <title type="text">一步步搭建自己的博客 .NET版（2、评论功能） - 敷衍不起</title>
+    <summary type="text">这篇主要是讲开发评论功能的思路。在这里，不得不吐槽下 博客园的评论功能。   第一、对于阅读者。大家有没有在看评论的时候，看着看着有往上翻？特别是有些对骂的评论，都不知道是谁在骂谁。不得不往上翻那个@的人发的是什么。不知道 这句话 是 对谁的哪句话做的回复。虽然有“引用”功能，但也有很多人没有使用。   第二、对于博主。在回复各位园友时，点击回复 ，然后 跳到 最下方，然后评论框 自动出现@*** 回复之后。想回复下一位，又要把滚动条拖上去。然后 又忘记 这个人是不是已经回复过了。又往下拖 看自己有没有回复过，或者有没有漏掉谁。如果评论够多的话 我相信 各位应该都这样的感觉，我的那个头 我的那个晕。</summary>
+    <published>2015-08-24T00:33:00Z</published>
+    <updated>2015-08-24T00:33:00Z</updated>
+    <author>
+      <name>敷衍不起</name>
+      <uri>http://www.cnblogs.com/zhaopei/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zhaopei/p/4744846.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zhaopei/p/4744846.html" />
+    <content type="html">&lt;img src="http://images2015.cnblogs.com/blog/208266/201509/208266-20150914101204461-1200498268.png" class="desc_img"/&gt;这篇主要是讲开发评论功能的思路。在这里，不得不吐槽下 博客园的评论功能。    第一、对于阅读者。大家有没有在看评论的时候，看着看着有往上翻？特别是有些对骂的评论，都不知道是谁在骂谁。不得不往上翻那个@的人发的是什么。不知道 这句话 是 对谁的哪句话做的回复。虽然有“引用”功能，但也有很多人没有使用。    第二、对于博主。在回复各位园友时，点击回复 ，然后 跳到 最下方，然后评论框 自动出现@***  回复之后。想回复下一位，又要把滚动条拖上去。然后 又忘记 这个人是不是已经回复过了。又往下拖 看自己有没有回复过，或者有没有漏掉谁。如果评论够多的话 我相信 各位应该都这样的感觉，我的那个头 我的那个晕。&lt;img src="http://counter.cnblogs.com/blog/rss/4744846" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/zhaopei/p/4744846.html" target="_blank"&gt;一步步搭建自己的博客 .NET版（2、评论功能）&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zhaopei/p/4737958.html</id>
+    <title type="text">一步步开发自己的博客 .NET版（1、基本显示） - 敷衍不起</title>
+    <summary type="text">我们每个猿都有一个搭建自己独立博客的梦，我也不例外。以前想 现在想 以后也想。之所以一直迟迟没有着手，是因为难以跨出第一步。每次心里想着，等我以后技术好了再说，然后就没有然后了。以前用过wordpress，虽然插件很多，不过有时候想改改自己想要的效果很难，因为 我压根就不会php。也看过.net的一些开源博客，代码量多，看得头晕，没那个耐心。</summary>
+    <published>2015-08-19T00:51:00Z</published>
+    <updated>2015-08-19T00:51:00Z</updated>
+    <author>
+      <name>敷衍不起</name>
+      <uri>http://www.cnblogs.com/zhaopei/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zhaopei/p/4737958.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zhaopei/p/4737958.html" />
+    <content type="html">&lt;img src="http://images2015.cnblogs.com/blog/208266/201509/208266-20150914101204461-1200498268.png" class="desc_img"/&gt;我们每个猿都有一个搭建自己独立博客的梦，我也不例外。以前想 现在想 以后也想。之所以一直迟迟没有着手，是因为难以跨出第一步。每次心里想着，等我以后技术好了再说，然后就没有然后了。以前用过wordpress，虽然插件很多，不过有时候想改改自己想要的效果很难，因为 我压根就不会php。也看过.net的一些开源博客，代码量多，看得头晕，没那个耐心。&lt;img src="http://counter.cnblogs.com/blog/rss/4737958" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/zhaopei/p/4737958.html" target="_blank"&gt;一步步开发自己的博客 .NET版（1、基本显示）&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zhaopei/p/4388279.html</id>
+    <title type="text">开发自己的博客转发插件（跨域） - 敷衍不起</title>
+    <summary type="text">接着上一篇的《博客备份小工具3》我有提到“其实想了想，转发博客干嘛非要在本地客户端转发，直接在博客园的页面用js不就可以达到目的么。想是这么想，还没尝试。等我写完了这个博客就去试试。。”。想法很天真，现实很残忍。本以为，直接ajax异步post请求就可以把当前页面的内容发布。可是，问题来了。我们...</summary>
+    <published>2015-05-12T06:28:00Z</published>
+    <updated>2015-05-12T06:28:00Z</updated>
+    <author>
+      <name>敷衍不起</name>
+      <uri>http://www.cnblogs.com/zhaopei/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zhaopei/p/4388279.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zhaopei/p/4388279.html" />
+    <content type="html">接着上一篇的《博客备份小工具3》我有提到“其实想了想，转发博客干嘛非要在本地客户端转发，直接在博客园的页面用js不就可以达到目的么。想是这么想，还没尝试。等我写完了这个博客就去试试。。”。想法很天真，现实很残忍。本以为，直接ajax异步post请求就可以把当前页面的内容发布。可是，问题来了。我们...&lt;img src="http://counter.cnblogs.com/blog/rss/4388279" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/zhaopei/p/4388279.html" target="_blank"&gt;开发自己的博客转发插件（跨域）&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zhaopei/p/4487048.html</id>
+    <title type="text">EF遇到的一些问题 - 敷衍不起</title>
+    <summary type="text">环境：EntityFramework 版本号：4.1.0.0问题一：“数据读取器与指定的“。。。.。。。”不兼容。某个类型为“。。。”的成员在同名的数据读取器中没有对应的列。”。使用方式：rep.context.Database.SqlQuery(sql, pList.ToArray()); //s...</summary>
+    <published>2015-05-08T02:52:00Z</published>
+    <updated>2015-05-08T02:52:00Z</updated>
+    <author>
+      <name>敷衍不起</name>
+      <uri>http://www.cnblogs.com/zhaopei/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zhaopei/p/4487048.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zhaopei/p/4487048.html" />
+    <content type="html">环境：EntityFramework 版本号：4.1.0.0问题一：“数据读取器与指定的“。。。.。。。”不兼容。某个类型为“。。。”的成员在同名的数据读取器中没有对应的列。”。使用方式：rep.context.Database.SqlQuery(sql, pList.ToArray()); //s...&lt;img src="http://counter.cnblogs.com/blog/rss/4487048" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/zhaopei/p/4487048.html" target="_blank"&gt;EF遇到的一些问题&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zhaopei/p/4192823.html</id>
+    <title type="text">关于健康和运动 - 敷衍不起</title>
+    <summary type="text">像我们程序猿/媛们，天天坐在电脑旁边。运动量为零，还要时刻接受电脑的辐射。那么日子长了，健康自然就出问题了。什么近视眼和肩周炎应是最常见的，就是所谓的职业病。IT界有名的乔帮主都挂了，国内的有张孝祥也挂了年仅38，不是还有李开复也得了淋巴癌。这是大名鼎鼎的。其中还有多少多少的IT草根，加班猝死，...</summary>
+    <published>2015-03-29T03:17:00Z</published>
+    <updated>2015-03-29T03:17:00Z</updated>
+    <author>
+      <name>敷衍不起</name>
+      <uri>http://www.cnblogs.com/zhaopei/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zhaopei/p/4192823.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zhaopei/p/4192823.html" />
+    <content type="html">像我们程序猿/媛们，天天坐在电脑旁边。运动量为零，还要时刻接受电脑的辐射。那么日子长了，健康自然就出问题了。什么近视眼和肩周炎应是最常见的，就是所谓的职业病。IT界有名的乔帮主都挂了，国内的有张孝祥也挂了年仅38，不是还有李开复也得了淋巴癌。这是大名鼎鼎的。其中还有多少多少的IT草根，加班猝死，...&lt;img src="http://counter.cnblogs.com/blog/rss/4192823" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/zhaopei/p/4192823.html" target="_blank"&gt;关于健康和运动&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zhaopei/p/4189583.html</id>
+    <title type="text">博客备份小工具3 - 敷衍不起</title>
+    <summary type="text">接着博客转发小工具2，又弄了一个第三版。主要功能有：博客备份到本地、浏览备份到本地的博客、关键字搜索本地的博客和转发博客可以选择个人分类 填写Tag标签。其实想了想，转发博客干嘛非要在本地客户端转发，直接在博客园的页面用js不就可以达到目的么。想是这么想，还没尝试。等我写完了这个博客就去试试。。...</summary>
+    <published>2015-03-28T12:56:00Z</published>
+    <updated>2015-03-28T12:56:00Z</updated>
+    <author>
+      <name>敷衍不起</name>
+      <uri>http://www.cnblogs.com/zhaopei/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zhaopei/p/4189583.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zhaopei/p/4189583.html" />
+    <content type="html">接着博客转发小工具2，又弄了一个第三版。主要功能有：博客备份到本地、浏览备份到本地的博客、关键字搜索本地的博客和转发博客可以选择个人分类 填写Tag标签。其实想了想，转发博客干嘛非要在本地客户端转发，直接在博客园的页面用js不就可以达到目的么。想是这么想，还没尝试。等我写完了这个博客就去试试。。...&lt;img src="http://counter.cnblogs.com/blog/rss/4189583" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/zhaopei/p/4189583.html" target="_blank"&gt;博客备份小工具3&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zhaopei/p/4368417.html</id>
+    <title type="text">各大招聘网站信息实时查询浏览 - 敷衍不起</title>
+    <summary type="text">最近听得较多的跳槽、面试之类的，相信很多园友也开始蠢蠢欲动了，有的甚至早已经开始了。最近我也在琢磨着换工作的事。说得俗套点，人在外面不就为了那么点工资么。现在找工作大部分都是通过在网上投简历，然后等电话 通知面试的。然，现在的招聘网站也是比较多。一个一个的在各大网站切换的流量招聘信息 实属麻烦...</summary>
+    <published>2015-03-26T10:25:00Z</published>
+    <updated>2015-03-26T10:25:00Z</updated>
+    <author>
+      <name>敷衍不起</name>
+      <uri>http://www.cnblogs.com/zhaopei/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zhaopei/p/4368417.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zhaopei/p/4368417.html" />
+    <content type="html">最近听得较多的跳槽、面试之类的，相信很多园友也开始蠢蠢欲动了，有的甚至早已经开始了。最近我也在琢磨着换工作的事。说得俗套点，人在外面不就为了那么点工资么。现在找工作大部分都是通过在网上投简历，然后等电话 通知面试的。然，现在的招聘网站也是比较多。一个一个的在各大网站切换的流量招聘信息 实属麻烦...&lt;img src="http://counter.cnblogs.com/blog/rss/4368417" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/zhaopei/p/4368417.html" target="_blank"&gt;各大招聘网站信息实时查询浏览&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+</feed>

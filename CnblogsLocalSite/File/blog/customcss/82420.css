@@ -1,0 +1,35 @@
+body{font-family:"微软雅黑","宋体";}
+.headermaintitle{font-size:1.2em;}
+#blogTitle h1 { font-weight: normal; }
+#blogTitle h2 { font-size: 17px; }
+#topics .postTitle { font-size:180%;}
+#cnblogs_post_body h1 {background: #2B6695;box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);color: white;font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;font-size: 18px;font-weight: bold;height: 25px;line-height: 25px;margin: 15px 0 !important;padding: 5px 0 5px 10px;text-shadow: 2px 2px 3px #222;}
+#cnblogs_post_body h2 { background-color:#288F49; color:#EEE; font-size:16px; margin:20px 10px 10px; padding: 5px 0 5px 20px; }
+#cnblogs_post_body h3 { font-size:16px; color: #EEE; background:#6D869E; margin:10px 20px; padding-left:30px; }
+#cnblogs_post_body p{margin:10px;}
+.postBody blockquote {background-color:#FFF;margin:5px 25px;}
+.blog_comment_body {font-size:14px;}
+div.cnblogs_code{margin:5px 25px;}
+#div_digg{background-color: white;padding: 8px;}
+#MySignature_title {color: orchid;font-weight: bold;padding: 10px;font-size: 16px;}
+#MySignature_con {margin-top:10px; border: solid 1px #E8E7D0;box-shadow: 0 0 15px #AAA;padding: 10px;margin-bottom: 10px;color: gray;}
+#MySignature_con p {line-height:20px;}
+#back-top{position: fixed; right: 3px; bottom:20px;}
+#div_digg{position: fixed; right:20px; bottom:10px; }
+
+/* 响应式布局 */
+@media screen and (min-width: 1px) and (max-width: 980px){
+#sideCatalog{visibility: hidden;}
+}
+@media screen and (min-width: 1px) and (max-width: 800px){
+#home{width:100%;padding:0}
+#home, #main{min-width:1px;}
+#mainContent{margin-left:0px; padding-left: 0;padding-right: 0;width: 100%;}
+#mainContent .forFlow{margin:10px;}
+#sideBar{ display:none;}
+#footer{margin: 0;width: 100%;}
+#header{display: none;}
+#cnblogs_post_body p img { width: 98% !important; }
+#cnblogs_post_body p{margin:2px;}
+#div_digg{position: relative;}
+}

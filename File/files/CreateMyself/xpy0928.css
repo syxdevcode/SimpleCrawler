@@ -1,0 +1,331 @@
+/*名称*/
+
+#Header1_HeaderTitle {
+	color: #2da12d;
+	font-weight: bolder;
+}
+/*正文标题超链接*/
+
+.postTitle a {
+	color: #2da12d;
+	font-weight: bolder;
+}
+/*导航*/
+
+#navigator {
+	height: 60px;
+	background-color: #2da12d;
+}
+#navigator a {
+	height: 60px;
+	line-height: 60px;
+	color: #fff;
+}
+#navigator a:hover {
+	color: #edeff1;
+}
+.blogStats {
+	color: #fff;
+	line-height: 60px;
+}
+/*导航*/
+/*导航箭头*/
+
+.icon-triangle-up {
+	height: 0;
+	width: 0;
+	display: inline-block;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid #fff;
+	position: absolute;
+	margin-top: 55px;
+	margin-left: -20px;
+	display: none;
+}
+/*导航箭头*/
+/*快速评论*/
+
+#div_digg {
+	float: right;
+	margin-bottom: 10px;
+	margin-right: 30px;
+	font-size: 12px;
+	width: 125px;
+	text-align: center;
+	margin-top: 10px;
+}
+/*返回顶部*/
+
+#toTop {
+	background: url(http://files.cnblogs.com/files/CreateMyself/gotop.gif) no-repeat top;
+	width: 57px;
+	height: 57px;
+	overflow: hidden;
+	position: fixed;
+	right: 10px;
+	bottom: 17px;
+	cursor: pointer;
+}
+/*重写h2*/
+
+#cnblogs_post_body h2 {
+	color: #fff;
+	padding-left: 15px;
+	background: #6FA833 !important;
+	text-shadow: 2px 2px 3px #222222;
+	font-family: "微软雅黑", "宋体", "黑体", Arial;
+	margin-bottom: 5px;
+}
+#cnblogs_post_body h2 {
+	font-size: 21px;
+	font-weight: bold;
+}
+.postBody h2 {
+	line-height: 1.8;
+}
+/*重写h3*/
+
+#cnblogs_post_body h3 {
+	color: #6FA833;
+	border-left: 13px solid #6FA833;
+	padding: 5px;
+	background-color: #f5f5f5;
+}
+#cnblogs_post_body h3 {
+	font-size: 16px;
+	font-weight: bold;
+}
+/*右侧*/
+
+#sideBar {
+	background: #f9f9f9;
+	border: 1px dashed #4f4f4f;
+	margin-top: 18px;
+}
+/*重写公告*/
+
+#sideBar h3 {
+	font-size: 200%;
+	margin-bottom: 5px;
+	padding: 5px;
+	border-bottom: 1px dashed #000;
+	color: #2da12d;
+	font-weight: bolder;
+}
+/*右侧我的标签*/
+
+#MyTag1_dtTagList a,
+#EntryTag a,
+.catListTag a {
+	background-color: #6FA833 !important;
+	color: #FFFFFF !important;
+	padding: 1px 3px 1px 3px;
+	border-radius: 3px;
+}
+/*右侧找找看/搜索*/
+
+.input_my_zzk {
+	width: 150px;
+	margin-right: 10px;
+	height: 30px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+#btnZzk {
+	width: 110px;
+	color: #fff;
+	background-color: #2da12d;
+	border-color: #4cae4c;
+	height: 33px;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+input.btn_my_zzk {
+	width: 110px;
+	color: #fff;
+	background-color: #2da12d;
+	border-color: #4cae4c;
+	height: 30px;
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px
+}
+#sideBar h3,
+#MyIng .ing_title {
+	margin: 16px 0 0 -8px;
+	text-align: left;
+}
+/*左侧边框*/
+
+div.forFlow {
+	background: none;
+	border: 1px dashed #4f4f4f;
+}
+#mainContent {
+	margin-right: 300px;
+	margin-left: 5px;
+	margin-top: 22px;
+}
+/*左侧forfollow*/
+
+div.forFlow {
+	padding: 45px 37px 40px;
+	margin-left: 0;
+	left: 0;
+}
+/*左侧标题*/
+
+h1.postTitle {
+	font-size: 200%;
+	padding: 10px 0px;
+	margin-bottom: 20px;
+	border-bottom: 1px dotted #cd4900;
+}
+.postTitle {
+	margin-top: 10px;
+	font-weight: bold;
+	margin: 20px 0 10px;
+}
+h1.postTitle a {
+	color: #cd4900;
+}
+/*签名*/
+
+#MySignature {
+	font: 14px Georgia, "Times New Roman", Times, sans-serif;
+	font-size: x-large;
+	font-weight: bolder;
+	color: #2da12d;
+}
+/*阅读全文*/
+
+.postCon a,
+.postBody a,
+.feedbackCon a {
+	color: #2da12d;
+	text-decoration: none;
+}
+/*进行评论相关设置*/
+
+#tbCommentAuthor {
+	width: 96%;
+}
+#tbCommentBody {
+	width: 100%;
+}
+.commentbox_title {
+	width: 100%;
+}
+.comment_btn {
+	float: right;
+	color: #fff;
+	background-color: #2da12d;
+	border-color: #4cae4c;
+	height: 33px;
+	display: inline-block;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	cursor: pointer;
+}
+#tbCommentAuthor {
+	color: #2da12d;
+	font-weight: bolder;
+}
+div.commentform p {
+	font-weight: bolder;
+	color: #2da12d;
+}
+.commentbox_title_left {
+	font-weight: bolder;
+	color: #2da12d;
+}
+#commentbox_opt a {
+	font-weight: bolder;
+	color: #fff;
+	background-color: #2da12d;
+	border-color: #4cae4c;
+	height: 33px;
+	display: inline-block;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	cursor: pointer;
+	width: 40px;
+}
+/*评论背景*/
+
+div.commentform textarea.comment_textarea {
+	background: url(http://files.cnblogs.com/files/CreateMyself/comment_bg.gif) no-repeat;
+}

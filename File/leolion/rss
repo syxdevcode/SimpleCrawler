@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_生命不息，折腾不止</title>
+  <subtitle type="text">要有最朴素的生活，与最遥远的梦想。即使明日天寒地冻、路远马亡。</subtitle>
+  <id>uuid:02161eb5-c2a9-457b-a32b-23d2f9de79b4;id=3138</id>
+  <updated>2015-09-11T08:03:26Z</updated>
+  <author>
+    <name>楚人Leo</name>
+    <uri>http://www.cnblogs.com/leolion/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/leolion/p/4801165.html</id>
+    <title type="text">WPF捕获未处理的异常 - 楚人Leo</title>
+    <summary type="text">WPF程序中，对于异常的捕获一般使用try/catch块。就像程序中的bug一样，很难保证程序中所有的异常都能够通过try/catch捕获。如果异常没有被捕获，轻则影响用户体验，严重时会导致数据丢失。WPF中提供了Application.DispatcherUnhandledException事...</summary>
+    <published>2015-09-11T07:54:00Z</published>
+    <updated>2015-09-11T07:54:00Z</updated>
+    <author>
+      <name>楚人Leo</name>
+      <uri>http://www.cnblogs.com/leolion/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/leolion/p/4801165.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/leolion/p/4801165.html" />
+    <content type="html">WPF程序中，对于异常的捕获一般使用try/catch块。就像程序中的bug一样，很难保证程序中所有的异常都能够通过try/catch捕获。如果异常没有被捕获，轻则影响用户体验，严重时会导致数据丢失。WPF中提供了Application.DispatcherUnhandledException事...&lt;img src="http://counter.cnblogs.com/blog/rss/4801165" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/leolion/p/4801165.html" target="_blank"&gt;WPF捕获未处理的异常&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/leolion/p/4778875.html</id>
+    <title type="text">C# 中 SQLite 使用介绍 - 楚人Leo</title>
+    <summary type="text">关于SQLite SQLite是一款轻型的嵌入式的遵守ACID的关系型数据库管理系统，诞生已有15个年头了。随着移动互联的发展，现在得到了更广泛的使用。在使用SQLite之前，我们势必要先了解它一些“个性”的地方。下面是它的一些特点：1、 自包含。SQLite很大层度上是独立的，他只需要非常小的外部...</summary>
+    <published>2015-09-02T08:27:00Z</published>
+    <updated>2015-09-02T08:27:00Z</updated>
+    <author>
+      <name>楚人Leo</name>
+      <uri>http://www.cnblogs.com/leolion/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/leolion/p/4778875.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/leolion/p/4778875.html" />
+    <content type="html">关于SQLite SQLite是一款轻型的嵌入式的遵守ACID的关系型数据库管理系统，诞生已有15个年头了。随着移动互联的发展，现在得到了更广泛的使用。在使用SQLite之前，我们势必要先了解它一些“个性”的地方。下面是它的一些特点：1、 自包含。SQLite很大层度上是独立的，他只需要非常小的外部...&lt;img src="http://counter.cnblogs.com/blog/rss/4778875" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/leolion/p/4778875.html" target="_blank"&gt;C# 中 SQLite 使用介绍&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/leolion/p/4757320.html</id>
+    <title type="text">C# WebService动态调用 - 楚人Leo</title>
+    <summary type="text">前言 站在开发者的角度，WebService 技术确实是不再“时髦”。甚至很多人会说，我们不再用它。当然，为了使软件可以更简洁，更有层次，更易于实现缓存等机制，我是非常建议将 SOAP 转为 RESTful 架构风格的。但到目前为止，WebService 在一些Public Institution...</summary>
+    <published>2015-08-25T06:22:00Z</published>
+    <updated>2015-08-25T06:22:00Z</updated>
+    <author>
+      <name>楚人Leo</name>
+      <uri>http://www.cnblogs.com/leolion/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/leolion/p/4757320.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/leolion/p/4757320.html" />
+    <content type="html">前言 站在开发者的角度，WebService 技术确实是不再“时髦”。甚至很多人会说，我们不再用它。当然，为了使软件可以更简洁，更有层次，更易于实现缓存等机制，我是非常建议将 SOAP 转为 RESTful 架构风格的。但到目前为止，WebService 在一些Public Institution...&lt;img src="http://counter.cnblogs.com/blog/rss/4757320" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/leolion/p/4757320.html" target="_blank"&gt;C# WebService动态调用&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/leolion/p/4732953.html</id>
+    <title type="text">C# WebService URL重写 - 楚人Leo</title>
+    <summary type="text">背景 有时候我们会有这样的需求，将 WebService URL 中的 asmx 后缀去掉；或者我们要模拟普通 Web 的 URL，接口名称直接拼接在 URL 中。这些情况我们都要用到URL重写。关于Global 首先，在 WebService 项目中添加一个 Global.asax 类。Glo...</summary>
+    <published>2015-08-15T11:06:00Z</published>
+    <updated>2015-08-15T11:06:00Z</updated>
+    <author>
+      <name>楚人Leo</name>
+      <uri>http://www.cnblogs.com/leolion/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/leolion/p/4732953.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/leolion/p/4732953.html" />
+    <content type="html">背景 有时候我们会有这样的需求，将 WebService URL 中的 asmx 后缀去掉；或者我们要模拟普通 Web 的 URL，接口名称直接拼接在 URL 中。这些情况我们都要用到URL重写。关于Global 首先，在 WebService 项目中添加一个 Global.asax 类。Glo...&lt;img src="http://counter.cnblogs.com/blog/rss/4732953" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/leolion/p/4732953.html" target="_blank"&gt;C# WebService URL重写&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/leolion/p/4732935.html</id>
+    <title type="text">C# RGB和HSB相互转换 - 楚人Leo</title>
+    <summary type="text">背景 最近做的项目中有这样一个场景，设置任意一种颜色，得到这种颜色偏深和偏浅的两种颜色。也就是说取该颜色同色系的深浅两种颜色。首先想到的是调节透明度，但效果不理想。后来尝试调节颜色亮度，发现这才是正解。但是.NET中不能直接改变Color的亮度，需要将Color转换成HSB模式，然后改变B的值调节...</summary>
+    <published>2015-08-15T10:55:00Z</published>
+    <updated>2015-08-15T10:55:00Z</updated>
+    <author>
+      <name>楚人Leo</name>
+      <uri>http://www.cnblogs.com/leolion/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/leolion/p/4732935.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/leolion/p/4732935.html" />
+    <content type="html">背景 最近做的项目中有这样一个场景，设置任意一种颜色，得到这种颜色偏深和偏浅的两种颜色。也就是说取该颜色同色系的深浅两种颜色。首先想到的是调节透明度，但效果不理想。后来尝试调节颜色亮度，发现这才是正解。但是.NET中不能直接改变Color的亮度，需要将Color转换成HSB模式，然后改变B的值调节...&lt;img src="http://counter.cnblogs.com/blog/rss/4732935" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/leolion/p/4732935.html" target="_blank"&gt;C# RGB和HSB相互转换&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/leolion/p/4693514.html</id>
+    <title type="text">WPF之全局快捷键 - 楚人Leo</title>
+    <summary type="text">目录1、WPF快捷键实现方式2、全局快捷键设置界面3、Windows API调用4、注册全局快捷键5、快捷键触发WPF快捷键实现方式 WPF快捷键实现主要有自定义快捷键命令和全局快捷键两种方式。 自定义快捷键命令方式是通过KeyBinding为命令绑定快捷键，按键组合可使用“+”进行连接。可以通过...</summary>
+    <published>2015-07-31T17:06:00Z</published>
+    <updated>2015-07-31T17:06:00Z</updated>
+    <author>
+      <name>楚人Leo</name>
+      <uri>http://www.cnblogs.com/leolion/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/leolion/p/4693514.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/leolion/p/4693514.html" />
+    <content type="html">目录1、WPF快捷键实现方式2、全局快捷键设置界面3、Windows API调用4、注册全局快捷键5、快捷键触发WPF快捷键实现方式 WPF快捷键实现主要有自定义快捷键命令和全局快捷键两种方式。 自定义快捷键命令方式是通过KeyBinding为命令绑定快捷键，按键组合可使用“+”进行连接。可以通过...&lt;img src="http://counter.cnblogs.com/blog/rss/4693514" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/leolion/p/4693514.html" target="_blank"&gt;WPF之全局快捷键&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/leolion/p/3793803.html</id>
+    <title type="text">解决AutoCAD2010在VS2010上无法命中断点 - 楚人Leo</title>
+    <summary type="text">AutoCAD 2010的二次开发告一段落，现在整理一些开发中遇到的问题。 最早遇到的问题是关于AutoCAD 2010在VS 2010上无法调试。奇怪的是这问题只出现在我同事电脑上，我的电脑一切OK，我暗喜^_^，莫非是人品问题。 开发环境：Windows XP SP3+VS2010+AutoC...</summary>
+    <published>2014-06-17T16:14:00Z</published>
+    <updated>2014-06-17T16:14:00Z</updated>
+    <author>
+      <name>楚人Leo</name>
+      <uri>http://www.cnblogs.com/leolion/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/leolion/p/3793803.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/leolion/p/3793803.html" />
+    <content type="html">AutoCAD 2010的二次开发告一段落，现在整理一些开发中遇到的问题。 最早遇到的问题是关于AutoCAD 2010在VS 2010上无法调试。奇怪的是这问题只出现在我同事电脑上，我的电脑一切OK，我暗喜^_^，莫非是人品问题。 开发环境：Windows XP SP3+VS2010+AutoC...&lt;img src="http://counter.cnblogs.com/blog/rss/3793803" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/leolion/p/3793803.html" target="_blank"&gt;解决AutoCAD2010在VS2010上无法命中断点&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/leolion/p/3790109.html</id>
+    <title type="text">让CKEditor支持FLV视频播放 - 楚人Leo</title>
+    <summary type="text">平时都是做C/S开发，最近需要维护一个协会门户网站。 文章编辑使用CKEditor 3.3.2 + ckfinder 2.0的方案。可是这种方案居然不支持FLV视频播放，度娘说以前的老版本是支持的，这到了新版本咋反而不支持了呢。 网上给出的方案都是为CKEditor开发FLV视频播放插件，最初采...</summary>
+    <published>2014-06-15T15:04:00Z</published>
+    <updated>2014-06-15T15:04:00Z</updated>
+    <author>
+      <name>楚人Leo</name>
+      <uri>http://www.cnblogs.com/leolion/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/leolion/p/3790109.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/leolion/p/3790109.html" />
+    <content type="html">平时都是做C/S开发，最近需要维护一个协会门户网站。 文章编辑使用CKEditor 3.3.2 + ckfinder 2.0的方案。可是这种方案居然不支持FLV视频播放，度娘说以前的老版本是支持的，这到了新版本咋反而不支持了呢。 网上给出的方案都是为CKEditor开发FLV视频播放插件，最初采...&lt;img src="http://counter.cnblogs.com/blog/rss/3790109" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/leolion/p/3790109.html" target="_blank"&gt;让CKEditor支持FLV视频播放&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/leolion/p/3789732.html</id>
+    <title type="text">VS2013无法启动 IIS Express Web解决办法 - 楚人Leo</title>
+    <summary type="text">开发环境：windows8.1+VS2013使用VS2013有一段时间了，因前期都是编写C/S程序，没有使用到B/S调试器。前几日，创建了一个MVC项目，突然发现VS2013无法调试，报了这样的错。一下子有点蒙，why？修改项目属性的Web项，如下。F5运行，仍然出错。这时候我知道了是Web调试器没...</summary>
+    <published>2014-06-15T11:13:00Z</published>
+    <updated>2014-06-15T11:13:00Z</updated>
+    <author>
+      <name>楚人Leo</name>
+      <uri>http://www.cnblogs.com/leolion/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/leolion/p/3789732.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/leolion/p/3789732.html" />
+    <content type="html">开发环境：windows8.1+VS2013使用VS2013有一段时间了，因前期都是编写C/S程序，没有使用到B/S调试器。前几日，创建了一个MVC项目，突然发现VS2013无法调试，报了这样的错。一下子有点蒙，why？修改项目属性的Web项，如下。F5运行，仍然出错。这时候我知道了是Web调试器没...&lt;img src="http://counter.cnblogs.com/blog/rss/3789732" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/leolion/p/3789732.html" target="_blank"&gt;VS2013无法启动&amp;#160;IIS Express Web解决办法&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/leolion/archive/2012/10/18/2730131.html</id>
+    <title type="text">C#的数据类型转换 - 楚人Leo</title>
+    <summary type="text">1、我们知道任何一门编程语言均有相关数据类型。C#也不例外，其基本数据类型有int,short,long,float,double,string等。数据类型之间可以相互转换。不过转换过程要注意小类型能转换成大类型，但大类型一般不能转换成小类型。如int型可以转换成float型，但float型不一定...</summary>
+    <published>2012-10-18T13:16:00Z</published>
+    <updated>2012-10-18T13:16:00Z</updated>
+    <author>
+      <name>楚人Leo</name>
+      <uri>http://www.cnblogs.com/leolion/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/leolion/archive/2012/10/18/2730131.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/leolion/archive/2012/10/18/2730131.html" />
+    <content type="html">1、我们知道任何一门编程语言均有相关数据类型。C#也不例外，其基本数据类型有int,short,long,float,double,string等。数据类型之间可以相互转换。不过转换过程要注意小类型能转换成大类型，但大类型一般不能转换成小类型。如int型可以转换成float型，但float型不一定...&lt;img src="http://counter.cnblogs.com/blog/rss/2730131" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/leolion/archive/2012/10/18/2730131.html" target="_blank"&gt;C#的数据类型转换&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+</feed>

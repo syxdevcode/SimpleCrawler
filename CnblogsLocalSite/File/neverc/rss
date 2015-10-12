@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_Never、C</title>
+  <subtitle type="text">致力于微软平台开发</subtitle>
+  <id>uuid:8dc7efba-43f2-4416-95a0-534dced3b48f;id=4551</id>
+  <updated>2015-09-17T06:26:04Z</updated>
+  <author>
+    <name>Never、C</name>
+    <uri>http://www.cnblogs.com/neverc/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/neverc/p/4782637.html</id>
+    <title type="text">[Bootstrap]7天深入Bootstrap(5)JavaScript插件 - Never、C</title>
+    <summary type="text">在bs3.X中，提供了12种JavaScript插件，分别是：动画过渡（Transition）、模态弹窗（Modal）、下拉菜单（Dropdown）、滚动侦测（Scrollspy）、选项卡（Tab）、提示 框（Tooltip）、弹出框（Popover）、警告框（Alert）、按钮（Button）、折...</summary>
+    <published>2015-09-14T01:00:00Z</published>
+    <updated>2015-09-14T01:00:00Z</updated>
+    <author>
+      <name>Never、C</name>
+      <uri>http://www.cnblogs.com/neverc/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/neverc/p/4782637.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/neverc/p/4782637.html" />
+    <content type="html">在bs3.X中，提供了12种JavaScript插件，分别是：动画过渡（Transition）、模态弹窗（Modal）、下拉菜单（Dropdown）、滚动侦测（Scrollspy）、选项卡（Tab）、提示 框（Tooltip）、弹出框（Popover）、警告框（Alert）、按钮（Button）、折...&lt;img src="http://counter.cnblogs.com/blog/rss/4782637" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/neverc/p/4782637.html" target="_blank"&gt;[Bootstrap]7天深入Bootstrap(5)JavaScript插件&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/neverc/p/4782635.html</id>
+    <title type="text">[Bootstrap]7天深入Bootstrap(4)CSS组件 - Never、C</title>
+    <summary type="text">Bootstrap框架的三大核心之二：组件。 组件也是最核心的地方，因为绝大部分的网页都必须利用组件才能构建出绚丽的页面。组件包括：Icon图标（Glyphicon）、 下拉菜单（Dropdown）、按钮组（Button group）、按钮下拉菜单（Button dropdown）、输入框组（Inp...</summary>
+    <published>2015-09-10T11:52:00Z</published>
+    <updated>2015-09-10T11:52:00Z</updated>
+    <author>
+      <name>Never、C</name>
+      <uri>http://www.cnblogs.com/neverc/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/neverc/p/4782635.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/neverc/p/4782635.html" />
+    <content type="html">Bootstrap框架的三大核心之二：组件。 组件也是最核心的地方，因为绝大部分的网页都必须利用组件才能构建出绚丽的页面。组件包括：Icon图标（Glyphicon）、 下拉菜单（Dropdown）、按钮组（Button group）、按钮下拉菜单（Button dropdown）、输入框组（Inp...&lt;img src="http://counter.cnblogs.com/blog/rss/4782635" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/neverc/p/4782635.html" target="_blank"&gt;[Bootstrap]7天深入Bootstrap(4)CSS组件&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/neverc/p/4782182.html</id>
+    <title type="text">[Bootstrap]7天深入Bootstrap(3)CSS布局 - Never、C</title>
+    <summary type="text">Bootstrap三大核心内容的基础，即基础的CSS 布局语法。其包括基础排版（Typography）、代码（Code）、表 格（Tables）、表单（Forms）、按钮（Buttons）、图片 （Images）、辅助类（Helper Classes）和响应式设计 （Responsive utili...</summary>
+    <published>2015-09-09T09:20:00Z</published>
+    <updated>2015-09-09T09:20:00Z</updated>
+    <author>
+      <name>Never、C</name>
+      <uri>http://www.cnblogs.com/neverc/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/neverc/p/4782182.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/neverc/p/4782182.html" />
+    <content type="html">Bootstrap三大核心内容的基础，即基础的CSS 布局语法。其包括基础排版（Typography）、代码（Code）、表 格（Tables）、表单（Forms）、按钮（Buttons）、图片 （Images）、辅助类（Helper Classes）和响应式设计 （Responsive utili...&lt;img src="http://counter.cnblogs.com/blog/rss/4782182" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/neverc/p/4782182.html" target="_blank"&gt;[Bootstrap]7天深入Bootstrap(3)CSS布局&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/neverc/p/4779890.html</id>
+    <title type="text">[Bootstrap]7天深入Bootstrap(2)整体架构 - Never、C</title>
+    <summary type="text">大多数Bootstrap的使用者都认为Bootstrap只提供了CSS组件 和JavaScript插件，其实CSS组件和JavaScript插件只是Bootstrap框架的表现形式而已，它们都是构建在基础平台之上的。本节目录：整体架构栅格系统CSS组件架构JS插件架构禁用响应式布局整体架构12栅格系...</summary>
+    <published>2015-09-08T08:55:00Z</published>
+    <updated>2015-09-08T08:55:00Z</updated>
+    <author>
+      <name>Never、C</name>
+      <uri>http://www.cnblogs.com/neverc/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/neverc/p/4779890.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/neverc/p/4779890.html" />
+    <content type="html">大多数Bootstrap的使用者都认为Bootstrap只提供了CSS组件 和JavaScript插件，其实CSS组件和JavaScript插件只是Bootstrap框架的表现形式而已，它们都是构建在基础平台之上的。本节目录：整体架构栅格系统CSS组件架构JS插件架构禁用响应式布局整体架构12栅格系...&lt;img src="http://counter.cnblogs.com/blog/rss/4779890" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/neverc/p/4779890.html" target="_blank"&gt;[Bootstrap]7天深入Bootstrap(2)整体架构&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/neverc/p/4301810.html</id>
+    <title type="text">[Bootstrap]7天深入Bootstrap(1)入门准备 - Never、C</title>
+    <summary type="text">由于申请了一个域名，一个云主机，开始弄个人网站。发现Bootstrap非常方便，和重要，故开始学习与分享关于Bootstrap的技术。推个广告个人网站：http://www.neverc.cnsignalR做的一个讨论圈非常方便公司交流，哈哈！http://group本节目录：简介入门基本模板CSS...</summary>
+    <published>2015-09-07T09:18:00Z</published>
+    <updated>2015-09-07T09:18:00Z</updated>
+    <author>
+      <name>Never、C</name>
+      <uri>http://www.cnblogs.com/neverc/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/neverc/p/4301810.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/neverc/p/4301810.html" />
+    <content type="html">由于申请了一个域名，一个云主机，开始弄个人网站。发现Bootstrap非常方便，和重要，故开始学习与分享关于Bootstrap的技术。推个广告个人网站：http://www.neverc.cnsignalR做的一个讨论圈非常方便公司交流，哈哈！http://group本节目录：简介入门基本模板CSS...&lt;img src="http://counter.cnblogs.com/blog/rss/4301810" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/neverc/p/4301810.html" target="_blank"&gt;[Bootstrap]7天深入Bootstrap(1)入门准备&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/neverc/p/4770688.html</id>
+    <title type="text">如何快速给自己博客增加10000推荐量 - Never、C</title>
+    <summary type="text">博客园又乱码了！！！！时间：2015年8月30日12:37:21如何快速给自己博客增加10000推荐量刚有个想法 用css改推荐量，结果改完，博客好多地方都乱码了 也是醉了！然后换ipad看 还是乱码看别的博客也乱码了 哈哈。注意，每次点推荐会涨10000个推荐量！css代码也很简单#digg_co...</summary>
+    <published>2015-08-30T04:38:00Z</published>
+    <updated>2015-08-30T04:38:00Z</updated>
+    <author>
+      <name>Never、C</name>
+      <uri>http://www.cnblogs.com/neverc/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/neverc/p/4770688.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/neverc/p/4770688.html" />
+    <content type="html">博客园又乱码了！！！！时间：2015年8月30日12:37:21如何快速给自己博客增加10000推荐量刚有个想法 用css改推荐量，结果改完，博客好多地方都乱码了 也是醉了！然后换ipad看 还是乱码看别的博客也乱码了 哈哈。注意，每次点推荐会涨10000个推荐量！css代码也很简单#digg_co...&lt;img src="http://counter.cnblogs.com/blog/rss/4770688" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/neverc/p/4770688.html" target="_blank"&gt;如何快速给自己博客增加10000推荐量&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/neverc/p/4749197.html</id>
+    <title type="text">[Test] 单元测试艺术(2) 打破依赖，使用模拟对象，桩对象，隔离框架 - Never、C</title>
+    <summary type="text">在上节中，完成了第一个单元测试，研究了各种特性，在本节，将介绍一些更实际的例子。SUT依赖于一个不可操控的对象，最常见的例子是文件系统，线程，内存和时间等。本系列将分成3节：单元测试基础知识打破依赖，使用模拟对象，桩对象，隔离框架创建优秀的单元测试本节索引：伪对象、桩对象、 模拟对象为什么需要伪对象...</summary>
+    <published>2015-08-26T07:06:00Z</published>
+    <updated>2015-08-26T07:06:00Z</updated>
+    <author>
+      <name>Never、C</name>
+      <uri>http://www.cnblogs.com/neverc/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/neverc/p/4749197.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/neverc/p/4749197.html" />
+    <content type="html">在上节中，完成了第一个单元测试，研究了各种特性，在本节，将介绍一些更实际的例子。SUT依赖于一个不可操控的对象，最常见的例子是文件系统，线程，内存和时间等。本系列将分成3节：单元测试基础知识打破依赖，使用模拟对象，桩对象，隔离框架创建优秀的单元测试本节索引：伪对象、桩对象、 模拟对象为什么需要伪对象...&lt;img src="http://counter.cnblogs.com/blog/rss/4749197" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/neverc/p/4749197.html" target="_blank"&gt;[Test] 单元测试艺术(2) 打破依赖，使用模拟对象，桩对象，隔离框架&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/neverc/p/4742654.html</id>
+    <title type="text">[Test] 单元测试艺术(1) 基础知识 - Never、C</title>
+    <summary type="text">单元测试不是软件开发的新概念，在1970年就一直存在，屡屡被证明是最理想的方法之一。本系列将分成3节：单元测试基础知识打破依赖，使用模拟对象，桩对象，测试框架创建优秀的单元测试本节索引：单元测试与集成测试测试驱动开发UnitTest和NUnit第一个单元测试命名规范单元测试与集成测试单元测试几乎总是...</summary>
+    <published>2015-08-21T03:00:00Z</published>
+    <updated>2015-08-21T03:00:00Z</updated>
+    <author>
+      <name>Never、C</name>
+      <uri>http://www.cnblogs.com/neverc/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/neverc/p/4742654.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/neverc/p/4742654.html" />
+    <content type="html">单元测试不是软件开发的新概念，在1970年就一直存在，屡屡被证明是最理想的方法之一。本系列将分成3节：单元测试基础知识打破依赖，使用模拟对象，桩对象，测试框架创建优秀的单元测试本节索引：单元测试与集成测试测试驱动开发UnitTest和NUnit第一个单元测试命名规范单元测试与集成测试单元测试几乎总是...&lt;img src="http://counter.cnblogs.com/blog/rss/4742654" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/neverc/p/4742654.html" target="_blank"&gt;[Test] 单元测试艺术(1) 基础知识&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/neverc/p/4730439.html</id>
+    <title type="text">[Solution] ASP.NET Identity(2) 空的项目使用 - Never、C</title>
+    <summary type="text">在本节中，我将说明将ASP.NET Identity添加到现有的项目或者一个空项目。我将介绍你需要添加的Nuget和Class。此示例中，会使用LocalDB。本节目录：注册用户登入登出注册用户注册用户涉及到的EF和Identity.Core 2个程序集。新建项目新建1个MVC项目或者一个空的Web...</summary>
+    <published>2015-08-17T06:29:00Z</published>
+    <updated>2015-08-17T06:29:00Z</updated>
+    <author>
+      <name>Never、C</name>
+      <uri>http://www.cnblogs.com/neverc/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/neverc/p/4730439.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/neverc/p/4730439.html" />
+    <content type="html">在本节中，我将说明将ASP.NET Identity添加到现有的项目或者一个空项目。我将介绍你需要添加的Nuget和Class。此示例中，会使用LocalDB。本节目录：注册用户登入登出注册用户注册用户涉及到的EF和Identity.Core 2个程序集。新建项目新建1个MVC项目或者一个空的Web...&lt;img src="http://counter.cnblogs.com/blog/rss/4730439" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/neverc/p/4730439.html" target="_blank"&gt;[Solution] ASP.NET Identity(2) 空的项目使用&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/neverc/p/4727024.html</id>
+    <title type="text">[Solution] ASP.NET Identity(1) 快速入门 - Never、C</title>
+    <summary type="text">本节将介绍：ASP.NET Identity简介快速入门扩展ASP.NET Identity简介身份管理在ASP.NET中存在很长世间了，ASP.NET 开发团队已经学会了很多从客户的反馈。用户越来越不喜欢在每个网站都单独注册一个账号，用户希望通过社交平台的账号，开发人员也希望如此。随着web的开发...</summary>
+    <published>2015-08-14T08:13:00Z</published>
+    <updated>2015-08-14T08:13:00Z</updated>
+    <author>
+      <name>Never、C</name>
+      <uri>http://www.cnblogs.com/neverc/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/neverc/p/4727024.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/neverc/p/4727024.html" />
+    <content type="html">本节将介绍：ASP.NET Identity简介快速入门扩展ASP.NET Identity简介身份管理在ASP.NET中存在很长世间了，ASP.NET 开发团队已经学会了很多从客户的反馈。用户越来越不喜欢在每个网站都单独注册一个账号，用户希望通过社交平台的账号，开发人员也希望如此。随着web的开发...&lt;img src="http://counter.cnblogs.com/blog/rss/4727024" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/neverc/p/4727024.html" target="_blank"&gt;[Solution] ASP.NET Identity(1) 快速入门&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+</feed>

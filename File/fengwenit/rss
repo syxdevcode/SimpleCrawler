@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_疯吻IT</title>
+  <subtitle type="text"></subtitle>
+  <id>uuid:8dc7efba-43f2-4416-95a0-534dced3b48f;id=4512</id>
+  <updated>2015-09-17T06:28:47Z</updated>
+  <author>
+    <name>疯吻IT</name>
+    <uri>http://www.cnblogs.com/fengwenit/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/fengwenit/p/4816297.html</id>
+    <title type="text">客服系统那些事 - 疯吻IT</title>
+    <summary type="text">基于webrtc的客服系统，功能包括：文本聊天，语音视频聊天，发送图片，发送文件，桌面共享，电子白板。 1 文本视频聊天 3分钟实现网页版多人文本、视频聊天室 （含完整源码) 2 搭建自己的服务器 如何搭建SimpleWebRTC信令服务器 3 发送图片 js 实现“截图粘贴”及“生成网页缩略图” 4 客户列表 5 发送文件 6 桌面共享 7 电子白板</summary>
+    <published>2015-09-17T06:25:00Z</published>
+    <updated>2015-09-17T06:25:00Z</updated>
+    <author>
+      <name>疯吻IT</name>
+      <uri>http://www.cnblogs.com/fengwenit/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/fengwenit/p/4816297.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/fengwenit/p/4816297.html" />
+    <content type="html">基于webrtc的客服系统，功能包括：文本聊天，语音视频聊天，发送图片，发送文件，桌面共享，电子白板。 1 文本视频聊天 3分钟实现网页版多人文本、视频聊天室 （含完整源码) 2 搭建自己的服务器 如何搭建SimpleWebRTC信令服务器 3 发送图片 js 实现“截图粘贴”及“生成网页缩略图” 4 客户列表 5 发送文件 6 桌面共享 7 电子白板&lt;img src="http://counter.cnblogs.com/blog/rss/4816297" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/fengwenit/p/4816297.html" target="_blank"&gt;客服系统那些事&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/fengwenit/p/4806316.html</id>
+    <title type="text">js 实现“截图粘贴”及“生成网页缩略图” - 疯吻IT</title>
+    <summary type="text">最近在做一个客服系统的demo，在聊天过程中，我们经常要发一些图片，而且需要用其它工具截图后，直接在聊天窗口里粘贴，就可以发送；另外用户输入一个网址后，把这个网址先转到可以直接点击的link，并马上显示这个网址的缩略图。1 截屏粘贴1.1 用clipboardData来实现截屏粘贴// 利用 cli...</summary>
+    <published>2015-09-14T01:45:00Z</published>
+    <updated>2015-09-14T01:45:00Z</updated>
+    <author>
+      <name>疯吻IT</name>
+      <uri>http://www.cnblogs.com/fengwenit/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/fengwenit/p/4806316.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/fengwenit/p/4806316.html" />
+    <content type="html">最近在做一个客服系统的demo，在聊天过程中，我们经常要发一些图片，而且需要用其它工具截图后，直接在聊天窗口里粘贴，就可以发送；另外用户输入一个网址后，把这个网址先转到可以直接点击的link，并马上显示这个网址的缩略图。1 截屏粘贴1.1 用clipboardData来实现截屏粘贴// 利用 cli...&lt;img src="http://counter.cnblogs.com/blog/rss/4806316" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/fengwenit/p/4806316.html" target="_blank"&gt;js 实现“截图粘贴”及“生成网页缩略图”&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/fengwenit/p/4799925.html</id>
+    <title type="text">在线教学、视频会议 Webus Fox（3） 客户端开发手册 - 疯吻IT</title>
+    <summary type="text">本文主要介绍webus fox 客户端的配置及接口说明。</summary>
+    <published>2015-09-11T00:59:00Z</published>
+    <updated>2015-09-11T00:59:00Z</updated>
+    <author>
+      <name>疯吻IT</name>
+      <uri>http://www.cnblogs.com/fengwenit/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/fengwenit/p/4799925.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/fengwenit/p/4799925.html" />
+    <content type="html">本文主要介绍webus fox 客户端的配置及接口说明。&lt;img src="http://counter.cnblogs.com/blog/rss/4799925" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/fengwenit/p/4799925.html" target="_blank"&gt;在线教学、视频会议 Webus Fox（3） 客户端开发手册&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/fengwenit/p/4793532.html</id>
+    <title type="text">在线教学、视频会议 Webus Fox（2） 服务端开发手册 - 疯吻IT</title>
+    <summary type="text">上次在《Webus Fox（1）免安装的在线教学、视频会议软件（含 文本、语音、视频聊天、电子白板）》里介绍了软件的基本用法。本文主要介绍服务器端如何配置、开发。</summary>
+    <published>2015-09-09T00:12:00Z</published>
+    <updated>2015-09-09T00:12:00Z</updated>
+    <author>
+      <name>疯吻IT</name>
+      <uri>http://www.cnblogs.com/fengwenit/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/fengwenit/p/4793532.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/fengwenit/p/4793532.html" />
+    <content type="html">上次在《Webus Fox（1）免安装的在线教学、视频会议软件（含 文本、语音、视频聊天、电子白板）》里介绍了软件的基本用法。本文主要介绍服务器端如何配置、开发。&lt;img src="http://counter.cnblogs.com/blog/rss/4793532" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/fengwenit/p/4793532.html" target="_blank"&gt;在线教学、视频会议 Webus Fox（2） 服务端开发手册&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/fengwenit/p/4772949.html</id>
+    <title type="text">如何搭建SimpleWebRTC信令服务器 - 疯吻IT</title>
+    <summary type="text">上次介绍了《3分钟实现网页版多人文本、视频聊天室 （含完整源码)》使用的是default 信令服务器，只是为了方便快速开始而已。SimapleWebRTC官方文档里第一条就讲到，不要在生产环境里使用。这篇将详细介绍如何搭建一个自己的信令服务器。</summary>
+    <published>2015-08-31T06:12:00Z</published>
+    <updated>2015-08-31T06:12:00Z</updated>
+    <author>
+      <name>疯吻IT</name>
+      <uri>http://www.cnblogs.com/fengwenit/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/fengwenit/p/4772949.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/fengwenit/p/4772949.html" />
+    <content type="html">上次介绍了《3分钟实现网页版多人文本、视频聊天室 （含完整源码)》使用的是default 信令服务器，只是为了方便快速开始而已。SimapleWebRTC官方文档里第一条就讲到，不要在生产环境里使用。这篇将详细介绍如何搭建一个自己的信令服务器。&lt;img src="http://counter.cnblogs.com/blog/rss/4772949" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/fengwenit/p/4772949.html" target="_blank"&gt;如何搭建SimpleWebRTC信令服务器&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/fengwenit/p/4738280.html</id>
+    <title type="text">在线那些事 - 疯吻IT</title>
+    <summary type="text">即时通讯、在线图片处理、在线办公</summary>
+    <published>2015-08-18T00:21:00Z</published>
+    <updated>2015-08-18T00:21:00Z</updated>
+    <author>
+      <name>疯吻IT</name>
+      <uri>http://www.cnblogs.com/fengwenit/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/fengwenit/p/4738280.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/fengwenit/p/4738280.html" />
+    <content type="html">即时通讯、在线图片处理、在线办公&lt;img src="http://counter.cnblogs.com/blog/rss/4738280" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/fengwenit/p/4738280.html" target="_blank"&gt;在线那些事&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/fengwenit/p/4738260.html</id>
+    <title type="text">在线编辑图片 （含完整源码) - 疯吻IT</title>
+    <summary type="text">一个免费的图片编辑SDK，可用于web，ios，android平台。本文主要介绍web端使用方法。</summary>
+    <published>2015-08-17T23:46:00Z</published>
+    <updated>2015-08-17T23:46:00Z</updated>
+    <author>
+      <name>疯吻IT</name>
+      <uri>http://www.cnblogs.com/fengwenit/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/fengwenit/p/4738260.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/fengwenit/p/4738260.html" />
+    <content type="html">一个免费的图片编辑SDK，可用于web，ios，android平台。本文主要介绍web端使用方法。&lt;img src="http://counter.cnblogs.com/blog/rss/4738260" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/fengwenit/p/4738260.html" target="_blank"&gt;在线编辑图片 （含完整源码)&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/fengwenit/p/4738253.html</id>
+    <title type="text">用户队列服务API - 疯吻IT</title>
+    <summary type="text">/// /// 用户队列服务API /// public interface ICustomerQueueManager : IService { /// /// 创建用户队列 /// /// 队列名称 [OperationCo...</summary>
+    <published>2015-08-17T23:21:00Z</published>
+    <updated>2015-08-17T23:21:00Z</updated>
+    <author>
+      <name>疯吻IT</name>
+      <uri>http://www.cnblogs.com/fengwenit/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/fengwenit/p/4738253.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/fengwenit/p/4738253.html" />
+    <content type="html">/// /// 用户队列服务API /// public interface ICustomerQueueManager : IService { /// /// 创建用户队列 /// /// 队列名称 [OperationCo...&lt;img src="http://counter.cnblogs.com/blog/rss/4738253" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/fengwenit/p/4738253.html" target="_blank"&gt;用户队列服务API&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/fengwenit/p/4728918.html</id>
+    <title type="text">3分钟实现网页版多人文本、视频聊天室 （含完整源码) - 疯吻IT</title>
+    <summary type="text">基于SimpleWebRTC快速实现网页版的多人文本、视频聊天室。</summary>
+    <published>2015-08-14T00:26:00Z</published>
+    <updated>2015-08-14T00:26:00Z</updated>
+    <author>
+      <name>疯吻IT</name>
+      <uri>http://www.cnblogs.com/fengwenit/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/fengwenit/p/4728918.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/fengwenit/p/4728918.html" />
+    <content type="html">基于SimpleWebRTC快速实现网页版的多人文本、视频聊天室。&lt;img src="http://counter.cnblogs.com/blog/rss/4728918" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/fengwenit/p/4728918.html" target="_blank"&gt;3分钟实现网页版多人文本、视频聊天室 （含完整源码)&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/fengwenit/p/4718891.html</id>
+    <title type="text">让自己的网站实现在线编辑office文档 - 疯吻IT</title>
+    <summary type="text">我们可以通过Office Web Apps（OWA）来实现在线编辑word，excel，power point， one note，并集成到自己的网站里去。</summary>
+    <published>2015-08-10T11:01:00Z</published>
+    <updated>2015-08-10T11:01:00Z</updated>
+    <author>
+      <name>疯吻IT</name>
+      <uri>http://www.cnblogs.com/fengwenit/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/fengwenit/p/4718891.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/fengwenit/p/4718891.html" />
+    <content type="html">我们可以通过Office Web Apps（OWA）来实现在线编辑word，excel，power point， one note，并集成到自己的网站里去。&lt;img src="http://counter.cnblogs.com/blog/rss/4718891" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/fengwenit/p/4718891.html" target="_blank"&gt;让自己的网站实现在线编辑office文档&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+</feed>

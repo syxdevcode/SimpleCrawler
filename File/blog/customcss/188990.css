@@ -1,0 +1,110 @@
+#right {
+    background: #fff none repeat scroll 0 0;
+    border: 1px dashed #676767;
+    color: #666;
+    float: right;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 280px;
+}
+
+#left {
+    background: transparent none repeat scroll 0 0;
+    border: 0 solid red;
+    height: 100%;
+    margin-right: 280px;
+    position: absolute;
+    right: 25px;
+    top: 160px;
+    left:0px;
+}
+
+#mylinks {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    margin-left: 15px;
+    margin-top: -90px;
+    padding: 18px;
+}
+
+#mystats {
+    float: left;
+    margin-left: 350px;
+    margin-top: -98px;
+}
+a.menu:link {
+    color: #666;
+    font-size: 16px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.headerDis {
+    border: 0 solid red;
+    color: gray;
+    font-family: "courier new",verdana,monospace,sans-serif;
+    font-size: 14px;
+    margin-left: 140px;
+    margin-top: -45px;
+    overflow: hidden;
+    padding-left: 50px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+a.headermaintitle:link { text-decoration: none;font-size: 24px;font-weight: 800; font-family:'Arizonia', cursive;text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1),0 1px 3px rgba(0,0,0,0.3),0 3px 5px rgba(0,0,0,0.2),0 5px 10px rgba(0,0,0,0.25); }
+
+.postTitle2,a.entrylistItemTitle{display:block;-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s;-ms-transition: all 0.5s; 
+font-weight:bold;font-size:x-large;  border-bottom: 0 dotted #efefef;padding-bottom: 10px; color: #78afd3}
+
+a.postTitle2:hover,a.entrylistItemTitle:hover{cursor:pointer; text-shadow:#fff 1px 1px 1px;padding-left:10px;font-size:x-large;color: #78afd3;text-decoration: none;}
+#leftcontentcontainer li {line-height: 2.2;}
+#cnblogs_post_body h4 {background-color: rgb(221, 235, 244);font-weight: bold;padding: 5px;}
+img { border: 1px solid #abc;}
+.jiathis_style img {
+    border: 0 none;
+    display: inline;
+    vertical-align: middle;
+}
+#flag_img{border:0 none;}
+
+.dayTitle img{border:0 none;}
+
+.feedbackItem {background-color: rgb(255, 255, 255);margin: 0 0 10px;padding: 10px;}
+#footer {
+    border: 0 solid red;
+    color: rgb(120, 135, 245);
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*博客的推荐*/
+#div_digg {
+  position: fixed;
+  bottom: 10px;
+  right:288px;
+  border: 2px solid #ECD7B1;
+  padding: 10px;
+  width: 140px;
+  background-color: #fff;
+  border-radius: 5px 5px 5px 5px !important;
+  box-shadow: 0 0 0 1px #5F5A4B, 1px 1px 6px 1px rgba(10, 10, 0, 0.5);
+}
+
+/*隐藏广告*/
+#site_nav_under{display:none;}
+#opt_under_post{display:none;}
+#ad_under_post_holder{display:none;}
+#under_post_news{display:none;}
+#google_ad_c2{display:none;}
+#under_post_kb{display:none;}
+
+/*缩略图边框效果*/
+.desc_img{ display:block; padding:1px; border:1px solid #dedede; box-shadow: 0 1px 3px rgba(0,0,0,.3); border-radius: 4px; margin-left:10px; }
+
+/*返回顶部*/
+#backtop{display:block;width:21px; height:80px;position:fixed;bottom:50px;right:1px;border-radius:10px 10px 10px 10px;text-decoration:none; 
+ display:none;background-color:#999999;}
+#backtop span{ display:block; width:60px; color:#dddddd; } 
+#backtop span:hover{ color:#cccccc; } 
+#gotop span{ font-size:40px; text-align:center; margin-top:4px; }

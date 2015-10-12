@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>有道翻译</ShortName>
+    <Description>Youdao Fanyi</Description>
+    <Contact>feedback@corp.youdao.com</Contact>
+    <Url type="text/html" method="get" template="http://fanyi.youdao.com/translate?i={searchTerms}&amp;keyfrom=plugin&amp;smartresult=dict&amp;smartresult=rule"/>	
+   <Image height="16" width="16" type="image/icon">http://shared.youdao.com/plugins/FanyiIcon.ico</Image> 
+    <LongName>Youdao Fanyi</LongName> 
+    <Developer>kevin</Developer>
+    <Attribution>
+        Youdao 2008.
+    </Attribution>
+    <SyndicationRight>open</SyndicationRight>
+    <AdultContent>false</AdultContent>
+    <Language>en-us</Language>
+    <OutputEncoding>UTF8</OutputEncoding>
+    <InputEncoding>UTF8</InputEncoding>
+</OpenSearchDescription>

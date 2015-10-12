@@ -1,0 +1,164 @@
+#bnr_pic img {
+}
+
+#bnr_pic {
+    background: url("http://www.cnblogs.com/images/cnblogs_com/iamlilinfeng/454126/t_top_lilinfeng.png") no-repeat scroll right center transparent;
+}
+
+.postTitle {
+    padding-bottom: 0px;
+}
+
+    .postTitle h1 {
+        font-size: 26px;
+    }
+
+#Header1_HeaderTitle {
+    font-family: Verdana, Consolas, "Courier New", Arial;
+    font-size: 32px;
+    color: #FF9999;
+    font-weight: bold;
+}
+
+.header br {
+    display: inline;
+    line-height: 0px;
+}
+
+#cnblogs_post_body h1, h2 {
+    background-color: #A5A5A5;
+    height: 32px;
+    line-height: 32px;
+    font-size: 22px;
+    color: #ffffff;
+    padding: 2px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.post {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#cnblogs_post_body p {
+    padding-left: 8px;
+    line-height: 24px;
+}
+
+#cnblogs_post_body h2 {
+    font-size: 18px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+#cnblogs_post_body h3 {
+    width: 350px;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    border: 1px dashed #ccc;
+    text-align: center;
+    font-size: 14px;
+}
+
+#cnblogs_post_body h4 {
+    width: 640px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px dashed #ccc;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+}
+
+#MySignature {
+    display: none;
+}
+
+#div_digg {
+    background-color: #FFFFFF;
+    border: 1px solid #D9DBE1;
+    bottom: 0;
+    padding: 8px 8px 8px 10px;
+    position: fixed;
+    right: -20px;
+}
+
+#llf-title-wrapper {
+    position: fixed;
+    font-size: 16px;
+    
+    height: auto;
+    line-height: 22px;
+    color: #fff;
+    bottom: 0px;
+    left: 232px;
+    font-family: 'Microsoft YaHei';
+}
+
+    #llf-title-wrapper h1 {
+        font-size: 18px;
+        background: #f8bb00;
+text-align: center;
+        width: 28px;
+        padding: 5px;
+line-height:auto;
+height:auto;
+    }
+
+    #llf-title-wrapper h2 {
+        font-size: 14px;
+        background: none;
+        background: #f8bb00;
+        border-radius: 10px;
+text-align: center;
+        width: 28px;
+        padding: 5px;
+        margin: 0px;
+        height: auto;
+        width: 28px;
+        line-height: 18px;
+        font-weight: normal;
+        color: #fff;
+        margin-top: 4px;
+    }
+
+#llf-title-wrapper h1 a:link {
+    color: #fff;
+    TEXT-DECORATION: none;
+}
+
+#llf-title-wrapper h1 a:visited {
+    COLOR: #fff;
+    TEXT-DECORATION: none;
+}
+
+#llf-title-wrapper h1 a:hover {
+    COLOR: #fff;
+    text-decoration: none;
+}
+#llf-title-wrapper h1 a:active {
+    COLOR: #fff;
+    text-decoration: none;
+}
+
+#llf-title-wrapper h2 a:link {
+    color: #fff;
+    TEXT-DECORATION: none;
+}
+
+#llf-title-wrapper h2 a:visited {
+    COLOR: #fff;
+    TEXT-DECORATION: none;
+}
+
+#llf-title-wrapper h2 a:hover {
+    COLOR: #fff;
+    text-decoration: none;
+}
+#llf-title-wrapper h2 a:active {
+    COLOR: #fff;
+    text-decoration: none;
+}

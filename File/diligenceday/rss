@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_方方和圆圆</title>
+  <subtitle type="text">你好世界， 哈罗， 开普勒452b</subtitle>
+  <id>uuid:b4817541-f82b-488c-b5c3-8dd6c9f747d0;id=1133</id>
+  <updated>2015-09-09T02:37:06Z</updated>
+  <author>
+    <name>方方和圆圆</name>
+    <uri>http://www.cnblogs.com/diligenceday/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/diligenceday/p/4778333.html</id>
+    <title type="text">IE6和IE7中&lt;a&gt;标签宽高设置无效的问题 - 方方和圆圆</title>
+    <summary type="text">昨天写了一个引导界面， 发现界面中的IE67存在一个问题， 在某些情况下， A锚链接如果设置了宽高，而且position:absolute的情况下， A标签的宽高无效， 至于总体的效果， 因为这个A标签受到父级的影响， 单独写DEMO的话，这个bug一直无法复现出来， 不知道是什么原因： ...</summary>
+    <published>2015-09-02T05:30:00Z</published>
+    <updated>2015-09-02T05:30:00Z</updated>
+    <author>
+      <name>方方和圆圆</name>
+      <uri>http://www.cnblogs.com/diligenceday/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/diligenceday/p/4778333.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/diligenceday/p/4778333.html" />
+    <content type="html">昨天写了一个引导界面， 发现界面中的IE67存在一个问题， 在某些情况下， A锚链接如果设置了宽高，而且position:absolute的情况下， A标签的宽高无效， 至于总体的效果， 因为这个A标签受到父级的影响， 单独写DEMO的话，这个bug一直无法复现出来， 不知道是什么原因： ...&lt;img src="http://counter.cnblogs.com/blog/rss/4778333" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/diligenceday/p/4778333.html" target="_blank"&gt;IE6和IE7中&amp;lt;a&amp;gt;标签宽高设置无效的问题&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/diligenceday/p/4750562.html</id>
+    <title type="text">基于springMVC+angular+bootstrap+mysql的简易购物网站搭建 - 方方和圆圆</title>
+    <summary type="text">介绍 前端的css框架用了bootstrap， 以及bootstrap的JS组件， 以及很好用的angular（angular大法好）， 项目一共包含了7个静态界面， 静态界面的数据展示都使用了angularJS , 后端是基于java的spring， 容器为tomcat， 项目代码分享到百度...</summary>
+    <published>2015-08-24T16:26:00Z</published>
+    <updated>2015-08-24T16:26:00Z</updated>
+    <author>
+      <name>方方和圆圆</name>
+      <uri>http://www.cnblogs.com/diligenceday/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/diligenceday/p/4750562.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/diligenceday/p/4750562.html" />
+    <content type="html">介绍 前端的css框架用了bootstrap， 以及bootstrap的JS组件， 以及很好用的angular（angular大法好）， 项目一共包含了7个静态界面， 静态界面的数据展示都使用了angularJS , 后端是基于java的spring， 容器为tomcat， 项目代码分享到百度...&lt;img src="http://counter.cnblogs.com/blog/rss/4750562" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/diligenceday/p/4750562.html" target="_blank"&gt;基于springMVC+angular+bootstrap+mysql的简易购物网站搭建&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/diligenceday/p/4719048.html</id>
+    <title type="text">基于tomcat-jQ-springMVC-bootstrap的公司产品管理WEB应用 - 方方和圆圆</title>
+    <summary type="text">管理员登录后台以后才能操作 ，权限管理只有一个管理员, 系统的主要作用是查看所有的 “公司列表”， 并查看该公司的”产品“， 用户可以对该公司的产品进行添加或者删除， 添加或者删除公司等 , 添加产品和删除产品等功能； 主界面如下： 添加公司产品的界面截图： 添加公司的功能界面：...</summary>
+    <published>2015-08-23T16:10:00Z</published>
+    <updated>2015-08-23T16:10:00Z</updated>
+    <author>
+      <name>方方和圆圆</name>
+      <uri>http://www.cnblogs.com/diligenceday/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/diligenceday/p/4719048.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/diligenceday/p/4719048.html" />
+    <content type="html">管理员登录后台以后才能操作 ，权限管理只有一个管理员, 系统的主要作用是查看所有的 “公司列表”， 并查看该公司的”产品“， 用户可以对该公司的产品进行添加或者删除， 添加或者删除公司等 , 添加产品和删除产品等功能； 主界面如下： 添加公司产品的界面截图： 添加公司的功能界面：　...&lt;img src="http://counter.cnblogs.com/blog/rss/4719048" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/diligenceday/p/4719048.html" target="_blank"&gt;基于tomcat-jQ-springMVC-bootstrap的公司产品管理WEB应用&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/diligenceday/p/4702136.html</id>
+    <title type="text">基于tomcat+spring+mysql搭建的个人博客 - 方方和圆圆</title>
+    <summary type="text">基于tomcat和spring开发的个人博客， 服务器是基于tomcat， 用了spring框架， web.xml的配置简单明了，我们只要配置MYSQL和用户过滤器等， 服务器的jsp就是负责VIEW， 用户通过ajax请求， 与服务器进行交互，编辑器使用了百度的UEeditor；； ...</summary>
+    <published>2015-08-18T15:24:00Z</published>
+    <updated>2015-08-18T15:24:00Z</updated>
+    <author>
+      <name>方方和圆圆</name>
+      <uri>http://www.cnblogs.com/diligenceday/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/diligenceday/p/4702136.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/diligenceday/p/4702136.html" />
+    <content type="html">基于tomcat和spring开发的个人博客， 服务器是基于tomcat， 用了spring框架， web.xml的配置简单明了，我们只要配置MYSQL和用户过滤器等， 服务器的jsp就是负责VIEW， 用户通过ajax请求， 与服务器进行交互，编辑器使用了百度的UEeditor；； ...&lt;img src="http://counter.cnblogs.com/blog/rss/4702136" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/diligenceday/p/4702136.html" target="_blank"&gt;基于tomcat+spring+mysql搭建的个人博客&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/diligenceday/p/4678424.html</id>
+    <title type="text">HTML5射击类游戏----【地球保卫战】 - 方方和圆圆</title>
+    <summary type="text">在线DEMO地址：打开； 游戏截图： 就不贴代码了， 因为代码太多了， 大概写一下这个游戏实现思路和一些实现； 游戏一共有三关， 每一关都有一个大Boss， Boss比较好杀，主要各种外星飞船杀伤力太强， 要注意; 游戏中打死敌机有10%的几率会掉神符， 包括生命神符， ...</summary>
+    <published>2015-08-12T14:18:00Z</published>
+    <updated>2015-08-12T14:18:00Z</updated>
+    <author>
+      <name>方方和圆圆</name>
+      <uri>http://www.cnblogs.com/diligenceday/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/diligenceday/p/4678424.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/diligenceday/p/4678424.html" />
+    <content type="html">在线DEMO地址：打开； 游戏截图： 就不贴代码了， 因为代码太多了， 大概写一下这个游戏实现思路和一些实现； 游戏一共有三关， 每一关都有一个大Boss， Boss比较好杀，主要各种外星飞船杀伤力太强， 要注意; 游戏中打死敌机有10%的几率会掉神符， 包括生命神符， ...&lt;img src="http://counter.cnblogs.com/blog/rss/4678424" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/diligenceday/p/4678424.html" target="_blank"&gt;HTML5射击类游戏----【地球保卫战】&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/diligenceday/p/4715045.html</id>
+    <title type="text">The resource identified by this request is only capable of generating responses with characteristics - 方方和圆圆</title>
+    <summary type="text">【转】今天在调试springMVC的时候，在将一个对象返回为json串的时候，浏览器中出现异常：The resource identified by this request is only capable of generating responses with characteristics...</summary>
+    <published>2015-08-09T15:24:00Z</published>
+    <updated>2015-08-09T15:24:00Z</updated>
+    <author>
+      <name>方方和圆圆</name>
+      <uri>http://www.cnblogs.com/diligenceday/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/diligenceday/p/4715045.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/diligenceday/p/4715045.html" />
+    <content type="html">【转】今天在调试springMVC的时候，在将一个对象返回为json串的时候，浏览器中出现异常：The resource identified by this request is only capable of generating responses with characteristics...&lt;img src="http://counter.cnblogs.com/blog/rss/4715045" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/diligenceday/p/4715045.html" target="_blank"&gt;The resource identified by this request is only capable of generating responses with characteristics&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/diligenceday/p/4681005.html</id>
+    <title type="text">javaweb写的在线聊天应用 - 方方和圆圆</title>
+    <summary type="text">写这个玩意儿就是想练练手， 用户需要登陆才能在线聊天，不要依赖数据库， 不需要数据库的操作， 所有的数据都是保存在内存中， 如果服务器一旦重启，数据就没有了； 登录界面： 聊天界面： 左侧是在线的用户列表， 右侧是聊天的内容， 内容的格式为 “作者 ： 内容”； 点击button...</summary>
+    <published>2015-07-30T16:15:00Z</published>
+    <updated>2015-07-30T16:15:00Z</updated>
+    <author>
+      <name>方方和圆圆</name>
+      <uri>http://www.cnblogs.com/diligenceday/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/diligenceday/p/4681005.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/diligenceday/p/4681005.html" />
+    <content type="html">写这个玩意儿就是想练练手， 用户需要登陆才能在线聊天，不要依赖数据库， 不需要数据库的操作， 所有的数据都是保存在内存中， 如果服务器一旦重启，数据就没有了； 登录界面： 聊天界面： 左侧是在线的用户列表， 右侧是聊天的内容， 内容的格式为 “作者 ： 内容”； 点击button...&lt;img src="http://counter.cnblogs.com/blog/rss/4681005" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/diligenceday/p/4681005.html" target="_blank"&gt;javaweb写的在线聊天应用&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/diligenceday/p/4659832.html</id>
+    <title type="text">JavaScript写一个拼图游戏 - 方方和圆圆</title>
+    <summary type="text">拼图游戏的代码400行， 有点多了， 在线DEMO的地址是：打开； 因为使用canvas，所以某些浏览器是不支持的： you know； 为什么要用canvas(⊙o⊙)？ 因为图片是一整张jpg或者png， 我们要用把图片导入到canvas画布， 然后再调用上下文context的getI...</summary>
+    <published>2015-07-21T16:01:00Z</published>
+    <updated>2015-07-21T16:01:00Z</updated>
+    <author>
+      <name>方方和圆圆</name>
+      <uri>http://www.cnblogs.com/diligenceday/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/diligenceday/p/4659832.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/diligenceday/p/4659832.html" />
+    <content type="html">拼图游戏的代码400行， 有点多了， 在线DEMO的地址是：打开； 因为使用canvas，所以某些浏览器是不支持的： you know； 为什么要用canvas(⊙o⊙)？ 因为图片是一整张jpg或者png， 我们要用把图片导入到canvas画布， 然后再调用上下文context的getI...&lt;img src="http://counter.cnblogs.com/blog/rss/4659832" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/diligenceday/p/4659832.html" target="_blank"&gt;JavaScript写一个拼图游戏&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/diligenceday/p/4642776.html</id>
+    <title type="text">jQ插件--时间线插件和拖拽API - 方方和圆圆</title>
+    <summary type="text">这个时间轴是工作上用到的，自己写了一个， qq空间有时间轴的控件， 百度文库也有时间轴的控件； 百度的时间轴大概是这样的： 用户点击对应的锚链接， 那个三角会滚动， 然后左侧的界面也会滚动； 实际的效果如下图，用户点击左侧的按钮或者右侧的input，滚动条都会主动滚动， 这里有个小技巧...</summary>
+    <published>2015-07-14T16:07:00Z</published>
+    <updated>2015-07-14T16:07:00Z</updated>
+    <author>
+      <name>方方和圆圆</name>
+      <uri>http://www.cnblogs.com/diligenceday/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/diligenceday/p/4642776.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/diligenceday/p/4642776.html" />
+    <content type="html">这个时间轴是工作上用到的，自己写了一个， qq空间有时间轴的控件， 百度文库也有时间轴的控件； 百度的时间轴大概是这样的： 用户点击对应的锚链接， 那个三角会滚动， 然后左侧的界面也会滚动； 实际的效果如下图，用户点击左侧的按钮或者右侧的input，滚动条都会主动滚动， 这里有个小技巧...&lt;img src="http://counter.cnblogs.com/blog/rss/4642776" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/diligenceday/p/4642776.html" target="_blank"&gt;jQ插件--时间线插件和拖拽API&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/diligenceday/p/4622710.html</id>
+    <title type="text">Javascript写俄罗斯方块游戏 - 方方和圆圆</title>
+    <summary type="text">俄罗斯方块这个游戏也做了移动端的兼容， 这个游戏难点是怎么翻转方块， 自己实现的方式是把方块放到一个二维数组， 然后逆时针旋转二维数组。 也有别的方法，比如直接用一个全局变量代表一个方向， 翻转的时候根据这个变量转动方块， 但是代码要写更多。 在文库搜索到了一篇关于算法的文章， ....看着...</summary>
+    <published>2015-07-05T15:22:00Z</published>
+    <updated>2015-07-05T15:22:00Z</updated>
+    <author>
+      <name>方方和圆圆</name>
+      <uri>http://www.cnblogs.com/diligenceday/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/diligenceday/p/4622710.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/diligenceday/p/4622710.html" />
+    <content type="html">俄罗斯方块这个游戏也做了移动端的兼容， 这个游戏难点是怎么翻转方块， 自己实现的方式是把方块放到一个二维数组， 然后逆时针旋转二维数组。 也有别的方法，比如直接用一个全局变量代表一个方向， 翻转的时候根据这个变量转动方块， 但是代码要写更多。 在文库搜索到了一篇关于算法的文章， ....看着...&lt;img src="http://counter.cnblogs.com/blog/rss/4622710" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/diligenceday/p/4622710.html" target="_blank"&gt;Javascript写俄罗斯方块游戏&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+</feed>

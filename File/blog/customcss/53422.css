@@ -1,0 +1,13 @@
+#Signature{ border-top: #e0e0e0 1px dashed;border-right: #e0e0e0 1px dashed;border-bottom: #e0e0e0 1px dashed;border-left: #e0e0e0 1px dashed;padding-top: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 80px;font-family: 微软雅黑;font-size:11px;background: url(http://pic.cnitblog.com/face/50949/20130325160102.png) #e5f1f4 no-repeat 1% 50%;}
+#Signature div{line-height: 25px;}
+
+#back-to-top {
+    background-color: #FFF5F5;
+    bottom: 0;
+    box-shadow: 0 0 6px #00CD00;
+    color: #ffffff;
+    padding: 10px 10px;
+    position: fixed;
+    right: 480px;
+    cursor: pointer;
+}

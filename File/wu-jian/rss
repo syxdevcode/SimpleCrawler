@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_吴剑</title>
+  <subtitle type="text">满纸荒唐言，一把心酸泪，都云作者痴，谁解其中味。</subtitle>
+  <id>uuid:c3067fb6-0418-4d26-861e-864d71fe5f0e;id=3089</id>
+  <updated>2015-09-07T07:19:53Z</updated>
+  <author>
+    <name>吴 剑</name>
+    <uri>http://www.cnblogs.com/wu-jian/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/wu-jian/p/3664292.html</id>
+    <title type="text">海外支付：抵御信用卡欺诈的CyberSource - 吴 剑</title>
+    <summary type="text">在欧美地区，Paypal与信用卡为两大主要在线支付方式。Paypal大家都很熟悉，而信用卡，相信做海外电商的企业在这上面都吃过苦头，因为信用卡会面临一个严峻问题：欺诈风险。</summary>
+    <published>2014-06-04T09:31:00Z</published>
+    <updated>2014-06-04T09:31:00Z</updated>
+    <author>
+      <name>吴 剑</name>
+      <uri>http://www.cnblogs.com/wu-jian/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/wu-jian/p/3664292.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/wu-jian/p/3664292.html" />
+    <content type="html">在欧美地区，Paypal与信用卡为两大主要在线支付方式。Paypal大家都很熟悉，而信用卡，相信做海外电商的企业在这上面都吃过苦头，因为信用卡会面临一个严峻问题：欺诈风险。&lt;img src="http://counter.cnblogs.com/blog/rss/3664292" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/wu-jian/p/3664292.html" target="_blank"&gt;海外支付：抵御信用卡欺诈的CyberSource&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/wu-jian/p/3134959.html</id>
+    <title type="text">那些年，我们开发的接口之：QQ登录（OAuth2.0） - 吴 剑</title>
+    <summary type="text">本文详细介绍了基于OAUTH2.0的QQ登录原理和过程。同时将整个过程拆分为每个独立的单元并用代码进行了演示。可前往：www.paotiao.com 体验，希望给像我一样的小站站长带来便捷和帮助。</summary>
+    <published>2013-08-16T01:15:00Z</published>
+    <updated>2013-08-16T01:15:00Z</updated>
+    <author>
+      <name>吴 剑</name>
+      <uri>http://www.cnblogs.com/wu-jian/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/wu-jian/p/3134959.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/wu-jian/p/3134959.html" />
+    <content type="html">本文详细介绍了基于OAUTH2.0的QQ登录原理和过程。同时将整个过程拆分为每个独立的单元并用代码进行了演示。可前往：www.paotiao.com 体验，希望给像我一样的小站站长带来便捷和帮助。&lt;img src="http://counter.cnblogs.com/blog/rss/3134959" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/wu-jian/p/3134959.html" target="_blank"&gt;那些年，我们开发的接口之：QQ登录（OAuth2.0）&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/wu-jian/archive/2013/06/05/2792031.html</id>
+    <title type="text">设计模式：单例（Singleton） - 吴 剑</title>
+    <summary type="text">单例模式是最早了解并经常使用到的设计模式之一，很早就想将其整理成文，但因为对一些细节准备尚未充分，一再延误。本文通过实例与代码，分析了单例模式的需求、原理、实现，以及探讨在B/S开发中单例模式与性能优化。对自己学习的总结，也希望给学习设计模式的朋友带来帮助。同时个人能力有限，文中如有不足之处请及时指正。</summary>
+    <published>2013-06-05T10:51:00Z</published>
+    <updated>2013-06-05T10:51:00Z</updated>
+    <author>
+      <name>吴 剑</name>
+      <uri>http://www.cnblogs.com/wu-jian/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/wu-jian/archive/2013/06/05/2792031.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/wu-jian/archive/2013/06/05/2792031.html" />
+    <content type="html">单例模式是最早了解并经常使用到的设计模式之一，很早就想将其整理成文，但因为对一些细节准备尚未充分，一再延误。本文通过实例与代码，分析了单例模式的需求、原理、实现，以及探讨在B/S开发中单例模式与性能优化。对自己学习的总结，也希望给学习设计模式的朋友带来帮助。同时个人能力有限，文中如有不足之处请及时指正。&lt;img src="http://counter.cnblogs.com/blog/rss/2792031" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/wu-jian/archive/2013/06/05/2792031.html" target="_blank"&gt;设计模式：单例（Singleton）&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/wu-jian/archive/2013/05/21/1847640.html</id>
+    <title type="text">设计模式：简单工厂 - 吴 剑</title>
+    <summary type="text">通过简单实例阐述工厂模式、开闭原则，依赖倒置原则。</summary>
+    <published>2013-05-21T10:12:00Z</published>
+    <updated>2013-05-21T10:12:00Z</updated>
+    <author>
+      <name>吴 剑</name>
+      <uri>http://www.cnblogs.com/wu-jian/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/wu-jian/archive/2013/05/21/1847640.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/wu-jian/archive/2013/05/21/1847640.html" />
+    <content type="html">通过简单实例阐述工厂模式、开闭原则，依赖倒置原则。&lt;img src="http://counter.cnblogs.com/blog/rss/1847640" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/wu-jian/archive/2013/05/21/1847640.html" target="_blank"&gt;设计模式：简单工厂&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/wu-jian/archive/2012/11/14/2756694.html</id>
+    <title type="text">Asp.net单点登录解决方案 - 吴 剑</title>
+    <summary type="text">详细介绍了单点登录（SSO）的设计、流程、实现关键点，以及Asp.net代码演示。本文作为学习备忘，如能给人予帮助，不甚荣幸。同时个人能力有限，文中不足之处还请及时指正。</summary>
+    <published>2012-11-14T10:11:00Z</published>
+    <updated>2012-11-14T10:11:00Z</updated>
+    <author>
+      <name>吴 剑</name>
+      <uri>http://www.cnblogs.com/wu-jian/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/wu-jian/archive/2012/11/14/2756694.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/wu-jian/archive/2012/11/14/2756694.html" />
+    <content type="html">详细介绍了单点登录（SSO）的设计、流程、实现关键点，以及Asp.net代码演示。本文作为学习备忘，如能给人予帮助，不甚荣幸。同时个人能力有限，文中不足之处还请及时指正。&lt;img src="http://counter.cnblogs.com/blog/rss/2756694" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/wu-jian/archive/2012/11/14/2756694.html" target="_blank"&gt;Asp.net单点登录解决方案&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/wu-jian/archive/2012/10/22/2579668.html</id>
+    <title type="text">深入Asp.net MVC路由(一)：从URL到处理程序 - 吴 剑</title>
+    <summary type="text">结合自己的项目实例，反编译了部分微软的类库作为参考，从底层整理和分析了Asp.net路由的详细过程，作为学习备忘。如能给人予帮助，不甚荣幸，同时个人能力有限，不足之处还请及时指正。</summary>
+    <published>2012-10-22T06:56:00Z</published>
+    <updated>2012-10-22T06:56:00Z</updated>
+    <author>
+      <name>吴 剑</name>
+      <uri>http://www.cnblogs.com/wu-jian/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/wu-jian/archive/2012/10/22/2579668.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/wu-jian/archive/2012/10/22/2579668.html" />
+    <content type="html">结合自己的项目实例，反编译了部分微软的类库作为参考，从底层整理和分析了Asp.net路由的详细过程，作为学习备忘。如能给人予帮助，不甚荣幸，同时个人能力有限，不足之处还请及时指正。&lt;img src="http://counter.cnblogs.com/blog/rss/2579668" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/wu-jian/archive/2012/10/22/2579668.html" target="_blank"&gt;深入Asp.net MVC路由(一)：从URL到处理程序&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/wu-jian/archive/2012/06/12/2546579.html</id>
+    <title type="text">从简单的例子理解委托 - 吴 剑</title>
+    <summary type="text">.Net开发基础系列文章，从简单的例子理解委托。对自己之前写过的代码备忘，如能给人予帮助，不甚荣幸。个人能力有限，如有差错或不足，请及时指正。</summary>
+    <published>2012-06-12T08:59:00Z</published>
+    <updated>2012-06-12T08:59:00Z</updated>
+    <author>
+      <name>吴 剑</name>
+      <uri>http://www.cnblogs.com/wu-jian/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/wu-jian/archive/2012/06/12/2546579.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/wu-jian/archive/2012/06/12/2546579.html" />
+    <content type="html">.Net开发基础系列文章，从简单的例子理解委托。对自己之前写过的代码备忘，如能给人予帮助，不甚荣幸。个人能力有限，如有差错或不足，请及时指正。&lt;img src="http://counter.cnblogs.com/blog/rss/2546579" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/wu-jian/archive/2012/06/12/2546579.html" target="_blank"&gt;从简单的例子理解委托&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/wu-jian/archive/2012/06/05/2537088.html</id>
+    <title type="text">多线程、方便扩展的Windows服务程序 - 吴 剑</title>
+    <summary type="text">本文主要针对Windows服务程序的实现以及多线程多任务的设计，代码中涉及到面向对象、反射、XML、Hashtable等基础技术，读者可自行查阅相关资料，不作深入探讨。个人能力有限，不足之处还请指正。程序于生产环境稳定运行，监控内存、IO等未发现异常。</summary>
+    <published>2012-06-05T10:03:00Z</published>
+    <updated>2012-06-05T10:03:00Z</updated>
+    <author>
+      <name>吴 剑</name>
+      <uri>http://www.cnblogs.com/wu-jian/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/wu-jian/archive/2012/06/05/2537088.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/wu-jian/archive/2012/06/05/2537088.html" />
+    <content type="html">本文主要针对Windows服务程序的实现以及多线程多任务的设计，代码中涉及到面向对象、反射、XML、Hashtable等基础技术，读者可自行查阅相关资料，不作深入探讨。个人能力有限，不足之处还请指正。程序于生产环境稳定运行，监控内存、IO等未发现异常。&lt;img src="http://counter.cnblogs.com/blog/rss/2537088" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/wu-jian/archive/2012/06/05/2537088.html" target="_blank"&gt;多线程、方便扩展的Windows服务程序&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/wu-jian/archive/2012/05/24/2516284.html</id>
+    <title type="text">从简单的例子理解泛型 - 吴 剑</title>
+    <summary type="text">关于.Net泛型开发的介绍及代码示例，对自己之前写过的代码备忘，如能给人予帮助，不甚荣幸。同时个人能力有限，如有差错或不足，请及时指正。</summary>
+    <published>2012-05-24T03:38:00Z</published>
+    <updated>2012-05-24T03:38:00Z</updated>
+    <author>
+      <name>吴 剑</name>
+      <uri>http://www.cnblogs.com/wu-jian/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/wu-jian/archive/2012/05/24/2516284.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/wu-jian/archive/2012/05/24/2516284.html" />
+    <content type="html">关于.Net泛型开发的介绍及代码示例，对自己之前写过的代码备忘，如能给人予帮助，不甚荣幸。同时个人能力有限，如有差错或不足，请及时指正。&lt;img src="http://counter.cnblogs.com/blog/rss/2516284" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/wu-jian/archive/2012/05/24/2516284.html" target="_blank"&gt;从简单的例子理解泛型&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/wu-jian/archive/2011/11/29/2267795.html</id>
+    <title type="text">MySQL Memory 存储引擎浅析 - 吴 剑</title>
+    <summary type="text">需求源自项目中的MemCache需求，开始想用MemCached（官方站点：http://memcached.org/ ），但这个在Linux下面应用广泛的开源软件无官方支持的Windows版本。后来看到博客园在用NorthScale Memcached Server（官方站点：http://www.couchbase.com/products-and-services/memcached），貌似共享收费，又犹豫了。其实项目里的需求很简单，也想自己用.Net Cache来实现，但稳定性难以评估，开发维护成本又似乎太大，没办法，My SQL Memory Storage成了唯一选择，因为几乎不怎么需要编写代码。先看官方手册，然后写了个简单的性能测试。因为官方最新的文档都是英文版的，所以译了5.5版本 MySQL Memory Storage章节。</summary>
+    <published>2011-11-29T08:24:00Z</published>
+    <updated>2011-11-29T08:24:00Z</updated>
+    <author>
+      <name>吴 剑</name>
+      <uri>http://www.cnblogs.com/wu-jian/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/wu-jian/archive/2011/11/29/2267795.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/wu-jian/archive/2011/11/29/2267795.html" />
+    <content type="html">需求源自项目中的MemCache需求，开始想用MemCached（官方站点：http://memcached.org/ ），但这个在Linux下面应用广泛的开源软件无官方支持的Windows版本。后来看到博客园在用NorthScale Memcached Server（官方站点：http://www.couchbase.com/products-and-services/memcached），貌似共享收费，又犹豫了。其实项目里的需求很简单，也想自己用.Net Cache来实现，但稳定性难以评估，开发维护成本又似乎太大，没办法，My SQL Memory Storage成了唯一选择，因为几乎不怎么需要编写代码。先看官方手册，然后写了个简单的性能测试。因为官方最新的文档都是英文版的，所以译了5.5版本 MySQL Memory Storage章节。&lt;img src="http://counter.cnblogs.com/blog/rss/2267795" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/wu-jian/archive/2011/11/29/2267795.html" target="_blank"&gt;MySQL Memory 存储引擎浅析&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+</feed>

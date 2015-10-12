@@ -1,0 +1,113 @@
+#home { width: 100%; font-family:Verdana,Arial,Helvetica,sans-serif; }
+.note {
+    margin: 10px 0px;
+    padding: 15px 20px 15px 60px;
+    background:     url("http://images.cnblogs.com/cnblogs_com/libaoheng/305804/o_yellow-pin.png") no-repeat scroll 20px 0px rgb(252, 250, 169);
+    box-shadow: 0px 0px 8px rgb(170, 170, 170);
+    clear: both;
+}
+#mainContent { width: 80% }
+#cnblogs_post_body { }
+#cnblogs_post_body li { margin-left:-25px; }
+.postbody { padding-top: 0px; line-height: 1.8; }
+.MainCell { font-size: 13px; }
+#blog_contents li { margin-bottom: 0em; }
+.postTitle #cb_post_title_url
+{
+     display: block;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     border-bottom: 3px solid #567286;
+     padding: 0 0 10px 0;
+     font-family :"微软雅黑";
+     font-size: 20px;
+     color: black;
+     line-height: 25px;
+     text-align: center;
+     text-shadow: 2px 2px 4px #CCC;
+     letter-spacing: 1px;
+     -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+     -ms-transition: all 1s ease;
+     -o-transition: all 1s ease;
+     transition: all 1s ease;
+}
+
+.postTitle #cb_post_title_url:hover
+{
+     color: #567286;
+     text-decoration: none;
+}
+
+#cnblogs_post_body h1,
+#cnblogs_post_body h2,
+#cnblogs_post_body h3
+{
+     margin: 10px 0px;
+     padding: 2px 2px 5px 2px;
+     border-bottom: solid 1px #006600;
+     text-align: left;
+     text-indent: 10px;
+}
+
+#cnblogs_post_body h1
+{
+     font-family: Georgia, serif;
+     font-size: 17px;
+     font-weight: bold;
+     color: #006600;
+     letter-spacing: 1.4px;
+}
+
+#cnblogs_post_body h2
+{
+     font-family: Georgia, serif;
+     font-size: 16px;
+     font-weight: normal;
+     letter-spacing: 1.2px;
+     color: #009900;
+}
+
+#cnblogs_post_body h3
+{
+     font-family: Georgia, serif;
+     font-size: 15px;
+     font-weight: normal;
+     letter-spacing: 1.2px;
+     color: #009900;
+}
+
+#blog_contents
+{
+     background-color: #f8f8ee
+     padding: 2px 2px 5px 2px;
+     text-align: left;
+     text-indent: 0px;
+     font-family: Georgia, serif;
+     font-weight: normal;
+     letter-spacing: 1.2px;
+     color: #009900;
+}
+
+#blog_contents li
+{
+     list-style: square;
+     line-height:1.5;
+}
+#blog_contents .header_h1
+{
+     margin-left: -20px;
+}
+#blog_contents .header_h2
+{
+     margin-left: 0px;
+}
+#blog_contents .header_h3
+{
+     margin-left: 20px;
+}
+
+#blog_contents a
+{
+     margin-left: 0px;
+}

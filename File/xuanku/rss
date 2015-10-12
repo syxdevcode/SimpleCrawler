@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_玄苦</title>
+  <subtitle type="text">苦海无边，回头是岸</subtitle>
+  <id>uuid:8dc7efba-43f2-4416-95a0-534dced3b48f;id=4003</id>
+  <updated>2015-09-17T02:32:24Z</updated>
+  <author>
+    <name>玄苦</name>
+    <uri>http://www.cnblogs.com/xuanku/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/xuanku/p/mapreduce.html</id>
+    <title type="text">MapReduce原理讲解 - 玄苦</title>
+    <summary type="text">简介本文主要介绍MapReduce V2的基本原理, 也是笔者在学习MR的学习笔记整理。本文首先大概介绍下MRV2的客户端跟服务器交互的两个协议, 然后着重介绍MRV2的核心模块MRAppMaster(简称MRAM), 最后再介绍一些杂项知识点。【广告】 如果你喜欢本博客，请点此查看本博客所有文章...</summary>
+    <published>2015-09-17T01:14:00Z</published>
+    <updated>2015-09-17T01:14:00Z</updated>
+    <author>
+      <name>玄苦</name>
+      <uri>http://www.cnblogs.com/xuanku/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/xuanku/p/mapreduce.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/xuanku/p/mapreduce.html" />
+    <content type="html">简介本文主要介绍MapReduce V2的基本原理, 也是笔者在学习MR的学习笔记整理。本文首先大概介绍下MRV2的客户端跟服务器交互的两个协议, 然后着重介绍MRV2的核心模块MRAppMaster(简称MRAM), 最后再介绍一些杂项知识点。【广告】 如果你喜欢本博客，请点此查看本博客所有文章...&lt;img src="http://counter.cnblogs.com/blog/rss/4752789" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/xuanku/p/mapreduce.html" target="_blank"&gt;MapReduce原理讲解&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/xuanku/p/hdfs.html</id>
+    <title type="text">HDFS原理讲解 - 玄苦</title>
+    <summary type="text">简介 本文是笔者在学习HDFS的时候的学习笔记整理, 将HDFS的核心功能的原理都整理在这里了。 【广告】 如果你喜欢本博客，请点此查看本博客所有文章： "http://www.cnblogs.com/xuanku/p/index.html" HDFS的基础架构见下图, 核心角色: C...</summary>
+    <published>2015-09-17T01:12:00Z</published>
+    <updated>2015-09-17T01:12:00Z</updated>
+    <author>
+      <name>玄苦</name>
+      <uri>http://www.cnblogs.com/xuanku/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/xuanku/p/hdfs.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/xuanku/p/hdfs.html" />
+    <content type="html">简介 本文是笔者在学习HDFS的时候的学习笔记整理, 将HDFS的核心功能的原理都整理在这里了。 【广告】 如果你喜欢本博客，请点此查看本博客所有文章： &amp;quot;http://www.cnblogs.com/xuanku/p/index.html&amp;quot; HDFS的基础架构见下图, 核心角色: C...&lt;img src="http://counter.cnblogs.com/blog/rss/4752645" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/xuanku/p/hdfs.html" target="_blank"&gt;HDFS原理讲解&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/xuanku/p/bigdata_opensource_list.html</id>
+    <title type="text">大数据相关开源系统简介汇总 - 玄苦</title>
+    <summary type="text">简介本片博客介绍大数据相关的开源系统以及他们对应的一句话简介, 对于各位想大概了解大数据都有哪些开源系统的同学有帮助。 【广告】 如果你喜欢本博客，请点此查看本博客所有文章： "http://www.cnblogs.com/xuanku/p/index.html" 各种相关开源系统简介...</summary>
+    <published>2015-09-17T01:05:00Z</published>
+    <updated>2015-09-17T01:05:00Z</updated>
+    <author>
+      <name>玄苦</name>
+      <uri>http://www.cnblogs.com/xuanku/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/xuanku/p/bigdata_opensource_list.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/xuanku/p/bigdata_opensource_list.html" />
+    <content type="html">简介本片博客介绍大数据相关的开源系统以及他们对应的一句话简介, 对于各位想大概了解大数据都有哪些开源系统的同学有帮助。 【广告】 如果你喜欢本博客，请点此查看本博客所有文章： &amp;quot;http://www.cnblogs.com/xuanku/p/index.html&amp;quot; 各种相关开源系统简介...&lt;img src="http://counter.cnblogs.com/blog/rss/4752514" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/xuanku/p/bigdata_opensource_list.html" target="_blank"&gt;大数据相关开源系统简介汇总&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/xuanku/p/io_engine.html</id>
+    <title type="text">存储系统科普——单机引擎介绍 - 玄苦</title>
+    <summary type="text">简介该篇blog只是存储系列科普文章中的第三篇，所有文章请参考： "博客所有文章" 在工程架构领域里，存储是一个非常重要的方向，这个方向从底至上，我分成了如下几个层次来介绍： 1. 硬件层：讲解磁盘，SSD，SAS, NAS, RAID等硬件层的基本原理，以及其为操作系统提供的存储界面...</summary>
+    <published>2015-09-16T09:38:00Z</published>
+    <updated>2015-09-16T09:38:00Z</updated>
+    <author>
+      <name>玄苦</name>
+      <uri>http://www.cnblogs.com/xuanku/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/xuanku/p/io_engine.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/xuanku/p/io_engine.html" />
+    <content type="html">简介该篇blog只是存储系列科普文章中的第三篇，所有文章请参考： &amp;quot;博客所有文章&amp;quot; 在工程架构领域里，存储是一个非常重要的方向，这个方向从底至上，我分成了如下几个层次来介绍： 1. 硬件层：讲解磁盘，SSD，SAS, NAS, RAID等硬件层的基本原理，以及其为操作系统提供的存储界面...&lt;img src="http://counter.cnblogs.com/blog/rss/4813904" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/xuanku/p/io_engine.html" target="_blank"&gt;存储系统科普——单机引擎介绍&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/xuanku/p/conference.html</id>
+    <title type="text">工程架构方向需要关注的几个顶级会议 - 玄苦</title>
+    <summary type="text">简介本文主要是给想关注国际会议，但是国际会议太多又不知道应该主要关注哪个会议的同学准备的。 工程架构方向主要分为操作系统，存储，计算，网络几个方向，本文会在这几个方向挑选1~2个大家比较公认的顶级会议推荐给大家。 操作系统(综合型会议)1. OSDI &amp; SOSP OSDI全称为: ...</summary>
+    <published>2015-09-16T08:45:00Z</published>
+    <updated>2015-09-16T08:45:00Z</updated>
+    <author>
+      <name>玄苦</name>
+      <uri>http://www.cnblogs.com/xuanku/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/xuanku/p/conference.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/xuanku/p/conference.html" />
+    <content type="html">简介本文主要是给想关注国际会议，但是国际会议太多又不知道应该主要关注哪个会议的同学准备的。 工程架构方向主要分为操作系统，存储，计算，网络几个方向，本文会在这几个方向挑选1~2个大家比较公认的顶级会议推荐给大家。 操作系统(综合型会议)1. OSDI &amp;amp; SOSP OSDI全称为: ...&lt;img src="http://counter.cnblogs.com/blog/rss/4813744" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/xuanku/p/conference.html" target="_blank"&gt;工程架构方向需要关注的几个顶级会议&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/xuanku/p/server_benchmark.html</id>
+    <title type="text">在线服务之性能测试工具科普 - 玄苦</title>
+    <summary type="text">## 简介本文主要介绍几个常见的性能测试工具。本博客所有文章：[http://www.cnblogs.com/xuanku/p/index.html](http://www.cnblogs.com/xuanku/p/index.html)## 性能测试工具在这篇文章中，我们介绍常见性能测试工具的使用...</summary>
+    <published>2015-09-01T23:53:00Z</published>
+    <updated>2015-09-01T23:53:00Z</updated>
+    <author>
+      <name>玄苦</name>
+      <uri>http://www.cnblogs.com/xuanku/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/xuanku/p/server_benchmark.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/xuanku/p/server_benchmark.html" />
+    <content type="html">## 简介本文主要介绍几个常见的性能测试工具。本博客所有文章：[http://www.cnblogs.com/xuanku/p/index.html](http://www.cnblogs.com/xuanku/p/index.html)## 性能测试工具在这篇文章中，我们介绍常见性能测试工具的使用...&lt;img src="http://counter.cnblogs.com/blog/rss/4751896" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/xuanku/p/server_benchmark.html" target="_blank"&gt;在线服务之性能测试工具科普&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/xuanku/p/server_socket.html</id>
+    <title type="text">在线服务之socket编程科普 - 玄苦</title>
+    <summary type="text">## 简介本篇文章是介绍一个典型的在线C++服务的最底层socket管理是如何实现的。文章会从一个最简单的利用socket编程基础API的一个小程序开始，逐步引入现在典型的select,epoll机制，并附上相关demo代码。## socket编程### 基于TCP协议的网络程序TCP协议通讯流程如...</summary>
+    <published>2015-08-31T22:57:00Z</published>
+    <updated>2015-08-31T22:57:00Z</updated>
+    <author>
+      <name>玄苦</name>
+      <uri>http://www.cnblogs.com/xuanku/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/xuanku/p/server_socket.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/xuanku/p/server_socket.html" />
+    <content type="html">## 简介本篇文章是介绍一个典型的在线C++服务的最底层socket管理是如何实现的。文章会从一个最简单的利用socket编程基础API的一个小程序开始，逐步引入现在典型的select,epoll机制，并附上相关demo代码。## socket编程### 基于TCP协议的网络程序TCP协议通讯流程如...&lt;img src="http://counter.cnblogs.com/blog/rss/4735469" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/xuanku/p/server_socket.html" target="_blank"&gt;在线服务之socket编程科普&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/xuanku/p/hadoop_history.html</id>
+    <title type="text">Hadoop发展历史简介 - 玄苦</title>
+    <summary type="text">## 简介本篇文章主要介绍了Hadoop系统的发展历史以及商业化现状, 科普文。如果你喜欢本博客，请点此查看本博客所有文章：[http://www.cnblogs.com/xuanku/p/index.html](http://www.cnblogs.com/xuanku/p/index.html)...</summary>
+    <published>2015-08-27T11:48:00Z</published>
+    <updated>2015-08-27T11:48:00Z</updated>
+    <author>
+      <name>玄苦</name>
+      <uri>http://www.cnblogs.com/xuanku/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/xuanku/p/hadoop_history.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/xuanku/p/hadoop_history.html" />
+    <content type="html">## 简介本篇文章主要介绍了Hadoop系统的发展历史以及商业化现状, 科普文。如果你喜欢本博客，请点此查看本博客所有文章：[http://www.cnblogs.com/xuanku/p/index.html](http://www.cnblogs.com/xuanku/p/index.html)...&lt;img src="http://counter.cnblogs.com/blog/rss/4752501" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/xuanku/p/hadoop_history.html" target="_blank"&gt;Hadoop发展历史简介&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/xuanku/p/tcpip.html</id>
+    <title type="text">TCP/IP协议知识科普 - 玄苦</title>
+    <summary type="text">简介本文主要介绍了工作中常用的TCP/IP对应协议栈相关基础知识，科普文。 本博客所有文章： "http://www.cnblogs.com/xuanku/p/index.html" TCP/IP网络协议栈TCP/IP网络协议栈分为四层, 从下至上依次是: 1. 链路层 其实...</summary>
+    <published>2015-08-24T23:53:00Z</published>
+    <updated>2015-08-24T23:53:00Z</updated>
+    <author>
+      <name>玄苦</name>
+      <uri>http://www.cnblogs.com/xuanku/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/xuanku/p/tcpip.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/xuanku/p/tcpip.html" />
+    <content type="html">简介本文主要介绍了工作中常用的TCP/IP对应协议栈相关基础知识，科普文。 本博客所有文章： &amp;quot;http://www.cnblogs.com/xuanku/p/index.html&amp;quot; TCP/IP网络协议栈TCP/IP网络协议栈分为四层, 从下至上依次是: 1. 链路层 其实...&lt;img src="http://counter.cnblogs.com/blog/rss/4751884" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/xuanku/p/tcpip.html" target="_blank"&gt;TCP/IP协议知识科普&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/xuanku/p/os_memory.html</id>
+    <title type="text">操作系统之内存管理科普 - 玄苦</title>
+    <summary type="text">## 简介本篇文章主要介绍操作系统是如何进行内存管理的。文章会介绍几本的分段，分页，以及虚拟内存的相关知识。## 内存管理### 需求1. 重定位 现在操作系统中, 一个进程运行过程中可能会因为进程切换而在内存和磁盘中来回切换。如果没有重定位, 进程在重新回到内存来运行的时候, 就必须要加载到...</summary>
+    <published>2015-08-24T14:21:00Z</published>
+    <updated>2015-08-24T14:21:00Z</updated>
+    <author>
+      <name>玄苦</name>
+      <uri>http://www.cnblogs.com/xuanku/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/xuanku/p/os_memory.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/xuanku/p/os_memory.html" />
+    <content type="html">## 简介本篇文章主要介绍操作系统是如何进行内存管理的。文章会介绍几本的分段，分页，以及虚拟内存的相关知识。## 内存管理### 需求1. 重定位 现在操作系统中, 一个进程运行过程中可能会因为进程切换而在内存和磁盘中来回切换。如果没有重定位, 进程在重新回到内存来运行的时候, 就必须要加载到...&lt;img src="http://counter.cnblogs.com/blog/rss/4735470" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/xuanku/p/os_memory.html" target="_blank"&gt;操作系统之内存管理科普&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+</feed>

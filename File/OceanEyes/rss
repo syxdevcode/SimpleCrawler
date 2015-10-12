@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_大鹏一日同风起，扶摇直上九万里</title>
+  <subtitle type="text">  </subtitle>
+  <id>uuid:18ea288a-ebec-4d38-9454-6bf8b4bdc3f6;id=1038</id>
+  <updated>2015-09-14T02:57:44Z</updated>
+  <author>
+    <name>木宛城主</name>
+    <uri>http://www.cnblogs.com/OceanEyes/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/OceanEyes/p/thinking-in-asp-net-mvc-apply-asp-net-identity-authentication.html</id>
+    <title type="text">ASP.NET MVC 随想录——探索ASP.NET Identity 身份验证和基于角色的授权，中级篇 - 木宛城主</title>
+    <summary type="text">在前一篇文章中，我介绍了ASP.NET Identity 基本API的运用并创建了若干用户账号。那么在本篇文章中，我将继续ASP.NET Identity 之旅，向您展示如何运用ASP.NET Identity 进行身份验证（Authentication）以及联合ASP.NET MVC 基于角色的授...</summary>
+    <published>2015-09-06T14:54:00Z</published>
+    <updated>2015-09-06T14:54:00Z</updated>
+    <author>
+      <name>木宛城主</name>
+      <uri>http://www.cnblogs.com/OceanEyes/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/OceanEyes/p/thinking-in-asp-net-mvc-apply-asp-net-identity-authentication.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/OceanEyes/p/thinking-in-asp-net-mvc-apply-asp-net-identity-authentication.html" />
+    <content type="html">在前一篇文章中，我介绍了ASP.NET Identity 基本API的运用并创建了若干用户账号。那么在本篇文章中，我将继续ASP.NET Identity 之旅，向您展示如何运用ASP.NET Identity 进行身份验证（Authentication）以及联合ASP.NET MVC 基于角色的授...&lt;img src="http://counter.cnblogs.com/blog/rss/4787576" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/OceanEyes/p/thinking-in-asp-net-mvc-apply-asp-net-identity-authentication.html" target="_blank"&gt;ASP.NET MVC 随想录——探索ASP.NET Identity 身份验证和基于角色的授权，中级篇&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/OceanEyes/p/thinking-in-asp-net-mvc-get-started-with-identity.html</id>
+    <title type="text">ASP.NET MVC 随想录——开始使用ASP.NET Identity，初级篇 - 木宛城主</title>
+    <summary type="text">在之前的文章中，我为大家介绍了OWIN和Katana，有了对它们的基本了解后，才能更好的去学习ASP.NET Identity，因为它已经对OWIN 有了良好的集成。在这篇文章中，我主要关注ASP.NET Identity的建立和使用，包括基础类的搭建和用户管理功能的实现——点此进行预览点此下载示例...</summary>
+    <published>2015-08-04T16:35:00Z</published>
+    <updated>2015-08-04T16:35:00Z</updated>
+    <author>
+      <name>木宛城主</name>
+      <uri>http://www.cnblogs.com/OceanEyes/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/OceanEyes/p/thinking-in-asp-net-mvc-get-started-with-identity.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/OceanEyes/p/thinking-in-asp-net-mvc-get-started-with-identity.html" />
+    <content type="html">在之前的文章中，我为大家介绍了OWIN和Katana，有了对它们的基本了解后，才能更好的去学习ASP.NET Identity，因为它已经对OWIN 有了良好的集成。在这篇文章中，我主要关注ASP.NET Identity的建立和使用，包括基础类的搭建和用户管理功能的实现——点此进行预览点此下载示例...&lt;img src="http://counter.cnblogs.com/blog/rss/4703547" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/OceanEyes/p/thinking-in-asp-net-mvc-get-started-with-identity.html" target="_blank"&gt;ASP.NET MVC 随想录——开始使用ASP.NET Identity，初级篇&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/OceanEyes/p/thinking-in-asp-net-mvc-create-custom-middleware.html</id>
+    <title type="text">ASP.NET MVC随想录——创建自定义的Middleware中间件 - 木宛城主</title>
+    <summary type="text">经过前2篇文章的介绍，相信大家已经对OWIN和Katana有了基本的了解，那么这篇文章我将继续OWIN和Katana之旅——创建自定义的Middleware中间件。何为Middleware中间件Middleware中间件从功能上可以理解为用来处理Http请求，当Server将Http请求封装成符合O...</summary>
+    <published>2015-07-06T15:36:00Z</published>
+    <updated>2015-07-06T15:36:00Z</updated>
+    <author>
+      <name>木宛城主</name>
+      <uri>http://www.cnblogs.com/OceanEyes/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/OceanEyes/p/thinking-in-asp-net-mvc-create-custom-middleware.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/OceanEyes/p/thinking-in-asp-net-mvc-create-custom-middleware.html" />
+    <content type="html">经过前2篇文章的介绍，相信大家已经对OWIN和Katana有了基本的了解，那么这篇文章我将继续OWIN和Katana之旅——创建自定义的Middleware中间件。何为Middleware中间件Middleware中间件从功能上可以理解为用来处理Http请求，当Server将Http请求封装成符合O...&lt;img src="http://counter.cnblogs.com/blog/rss/4625731" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/OceanEyes/p/thinking-in-asp-net-mvc-create-custom-middleware.html" target="_blank"&gt;ASP.NET MVC随想录——创建自定义的Middleware中间件&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/OceanEyes/p/thinking-in-asp-net-mvc-what-is-katana.html</id>
+    <title type="text">ASP.NET MVC随想录——锋利的KATANA - 木宛城主</title>
+    <summary type="text">正如上篇文章所述那样，OWIN在Web Server与Web Application之间定义了一套规范（Specs），意在解耦Web Server与Web Application，从而推进跨平台的实现。若要真正使用OWIN规范，那么必须要对他们进行实现。目前有两个产品实现了OWIN规范——由微软主导...</summary>
+    <published>2015-06-09T00:45:00Z</published>
+    <updated>2015-06-09T00:45:00Z</updated>
+    <author>
+      <name>木宛城主</name>
+      <uri>http://www.cnblogs.com/OceanEyes/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/OceanEyes/p/thinking-in-asp-net-mvc-what-is-katana.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/OceanEyes/p/thinking-in-asp-net-mvc-what-is-katana.html" />
+    <content type="html">正如上篇文章所述那样，OWIN在Web Server与Web Application之间定义了一套规范（Specs），意在解耦Web Server与Web Application，从而推进跨平台的实现。若要真正使用OWIN规范，那么必须要对他们进行实现。目前有两个产品实现了OWIN规范——由微软主导...&lt;img src="http://counter.cnblogs.com/blog/rss/4562485" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/OceanEyes/p/thinking-in-asp-net-mvc-what-is-katana.html" target="_blank"&gt;ASP.NET MVC随想录——锋利的KATANA&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/OceanEyes/p/thinking-in-asp-net-mvc-what-is-owin.html</id>
+    <title type="text">ASP.NET MVC随想录——漫谈OWIN - 木宛城主</title>
+    <summary type="text">什么是OWIN OWIN是Open Web Server Interface for .NET的首字母缩写，他的定义如下：OWIN在.NET Web Servers与Web Application之间定义了一套标准接口，OWIN的目标是用于解耦Web Server和Web Application。基...</summary>
+    <published>2015-05-31T13:50:00Z</published>
+    <updated>2015-05-31T13:50:00Z</updated>
+    <author>
+      <name>木宛城主</name>
+      <uri>http://www.cnblogs.com/OceanEyes/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/OceanEyes/p/thinking-in-asp-net-mvc-what-is-owin.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/OceanEyes/p/thinking-in-asp-net-mvc-what-is-owin.html" />
+    <content type="html">什么是OWIN OWIN是Open Web Server Interface for .NET的首字母缩写，他的定义如下：OWIN在.NET Web Servers与Web Application之间定义了一套标准接口，OWIN的目标是用于解耦Web Server和Web Application。基...&lt;img src="http://counter.cnblogs.com/blog/rss/4542752" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/OceanEyes/p/thinking-in-asp-net-mvc-what-is-owin.html" target="_blank"&gt;ASP.NET MVC随想录——漫谈OWIN&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/OceanEyes/p/creating-bootstrap-helpers.html</id>
+    <title type="text">ASP.NET MVC使用Bootstrap系列（5）——创建ASP.NET MVC Bootstrap Helpers - 木宛城主</title>
+    <summary type="text">序言ASP.NET MVC允许开发者创建自定义的HTML Helpers，不管是使用静态方法还是扩展方法。一个HTML Helper本质上其实是输出一段HTML字符串。HTML Helpers能让我们在多个页面上公用同一段HTML标记，这样不仅提高了稳定性也便于开发者去维护。当然对于这些可重用的代码...</summary>
+    <published>2015-04-13T13:13:00Z</published>
+    <updated>2015-04-13T13:13:00Z</updated>
+    <author>
+      <name>木宛城主</name>
+      <uri>http://www.cnblogs.com/OceanEyes/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/OceanEyes/p/creating-bootstrap-helpers.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/OceanEyes/p/creating-bootstrap-helpers.html" />
+    <content type="html">序言ASP.NET MVC允许开发者创建自定义的HTML Helpers，不管是使用静态方法还是扩展方法。一个HTML Helper本质上其实是输出一段HTML字符串。HTML Helpers能让我们在多个页面上公用同一段HTML标记，这样不仅提高了稳定性也便于开发者去维护。当然对于这些可重用的代码...&lt;img src="http://counter.cnblogs.com/blog/rss/4423291" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/OceanEyes/p/creating-bootstrap-helpers.html" target="_blank"&gt;ASP.NET MVC使用Bootstrap系列（5）——创建ASP.NET MVC Bootstrap Helpers&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/OceanEyes/p/using-bootstrap-javascript-plugins.html</id>
+    <title type="text">ASP.NET MVC使用Bootstrap系列（4）——使用JavaScript插件 - 木宛城主</title>
+    <summary type="text">序言Bootstrap的JavaScript插件是以JQuery为基础，提供了全新的功能并且还可以扩展现有的Bootstrap组件。通过添加data attribute（data 属性）可以轻松的使用这些插件，当然你也可以使用编程方式的API来使用。为了使用Bootstrap插件，我们需要添加Boo...</summary>
+    <published>2015-04-12T05:54:00Z</published>
+    <updated>2015-04-12T05:54:00Z</updated>
+    <author>
+      <name>木宛城主</name>
+      <uri>http://www.cnblogs.com/OceanEyes/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/OceanEyes/p/using-bootstrap-javascript-plugins.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/OceanEyes/p/using-bootstrap-javascript-plugins.html" />
+    <content type="html">序言Bootstrap的JavaScript插件是以JQuery为基础，提供了全新的功能并且还可以扩展现有的Bootstrap组件。通过添加data attribute（data 属性）可以轻松的使用这些插件，当然你也可以使用编程方式的API来使用。为了使用Bootstrap插件，我们需要添加Boo...&lt;img src="http://counter.cnblogs.com/blog/rss/4419421" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/OceanEyes/p/using-bootstrap-javascript-plugins.html" target="_blank"&gt;ASP.NET MVC使用Bootstrap系列（4）——使用JavaScript插件&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/OceanEyes/p/using-bootstrap-components.html</id>
+    <title type="text">ASP.NET MVC使用Bootstrap系列（3）——使用Bootstrap 组件 - 木宛城主</title>
+    <summary type="text">Bootstrap为我们提供了十几种的可复用组件，包括字体图标、下拉菜单、导航、警告框、弹出框、输入框组等。在你的Web Application中使用这些组件，将为用户提供一致和简单易用的用户体验。Bootstrap组件本质上是结合了各种现有Bootstrap元素以及添加了一些独特Class来实现。...</summary>
+    <published>2015-04-05T13:42:00Z</published>
+    <updated>2015-04-05T13:42:00Z</updated>
+    <author>
+      <name>木宛城主</name>
+      <uri>http://www.cnblogs.com/OceanEyes/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/OceanEyes/p/using-bootstrap-components.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/OceanEyes/p/using-bootstrap-components.html" />
+    <content type="html">Bootstrap为我们提供了十几种的可复用组件，包括字体图标、下拉菜单、导航、警告框、弹出框、输入框组等。在你的Web Application中使用这些组件，将为用户提供一致和简单易用的用户体验。Bootstrap组件本质上是结合了各种现有Bootstrap元素以及添加了一些独特Class来实现。...&lt;img src="http://counter.cnblogs.com/blog/rss/4394788" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/OceanEyes/p/using-bootstrap-components.html" target="_blank"&gt;ASP.NET MVC使用Bootstrap系列（3）——使用Bootstrap 组件&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/OceanEyes/p/bootstrap-html-elements.html</id>
+    <title type="text">ASP.NET MVC使用Bootstrap系统（2）——使用Bootstrap CSS和HTML元素 - 木宛城主</title>
+    <summary type="text">Bootstrap提供了一套丰富CSS设置、HTML元素以及高级的栅格系统来帮助开发人员快速布局网页。所有的CSS样式和HTML元素与移动设备优先的流式栅格系统结合，能让开发人员快速轻松的构建直观的界面并且不用担心在较小的设备上响应的具体细节。 Bootstrap 栅格（Grid）系统在移动互联网的...</summary>
+    <published>2015-03-28T18:39:00Z</published>
+    <updated>2015-03-28T18:39:00Z</updated>
+    <author>
+      <name>木宛城主</name>
+      <uri>http://www.cnblogs.com/OceanEyes/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/OceanEyes/p/bootstrap-html-elements.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/OceanEyes/p/bootstrap-html-elements.html" />
+    <content type="html">Bootstrap提供了一套丰富CSS设置、HTML元素以及高级的栅格系统来帮助开发人员快速布局网页。所有的CSS样式和HTML元素与移动设备优先的流式栅格系统结合，能让开发人员快速轻松的构建直观的界面并且不用担心在较小的设备上响应的具体细节。 Bootstrap 栅格（Grid）系统在移动互联网的...&lt;img src="http://counter.cnblogs.com/blog/rss/4375158" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/OceanEyes/p/bootstrap-html-elements.html" target="_blank"&gt;ASP.NET MVC使用Bootstrap系统（2）——使用Bootstrap CSS和HTML元素&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/OceanEyes/p/get-started-with-bootstrap.html</id>
+    <title type="text">ASP.NET MVC使用Bootstrap系列（1）——开始使用Bootstrap - 木宛城主</title>
+    <summary type="text">作为一名Web开发者而言，如果不借助任何前端框架，从零开始使用HTML和CSS来构建友好的页面是非常困难的。特别是对于Windows Form的开发者而言，更是难上加难。正是由于这样的原因，Bootstrap诞生了。Twitter Bootstrap为开发者提供了丰富的CSS样式、组件、插件、响应式...</summary>
+    <published>2015-03-24T18:25:00Z</published>
+    <updated>2015-03-24T18:25:00Z</updated>
+    <author>
+      <name>木宛城主</name>
+      <uri>http://www.cnblogs.com/OceanEyes/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/OceanEyes/p/get-started-with-bootstrap.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/OceanEyes/p/get-started-with-bootstrap.html" />
+    <content type="html">作为一名Web开发者而言，如果不借助任何前端框架，从零开始使用HTML和CSS来构建友好的页面是非常困难的。特别是对于Windows Form的开发者而言，更是难上加难。正是由于这样的原因，Bootstrap诞生了。Twitter Bootstrap为开发者提供了丰富的CSS样式、组件、插件、响应式...&lt;img src="http://counter.cnblogs.com/blog/rss/4364585" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/OceanEyes/p/get-started-with-bootstrap.html" target="_blank"&gt;ASP.NET MVC使用Bootstrap系列（1）——开始使用Bootstrap&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+</feed>

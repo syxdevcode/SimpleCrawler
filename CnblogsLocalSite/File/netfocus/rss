@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_欢迎光临汤雪华的博客</title>
+  <subtitle type="text">一个人一辈子能做好一件事情就够了！没有学不会，只有没耐心。</subtitle>
+  <id>uuid:20a6a85c-e5db-4d5d-962e-2ea913e627ed;id=3929</id>
+  <updated>2015-09-12T03:40:38Z</updated>
+  <author>
+    <name>netfocus</name>
+    <uri>http://www.cnblogs.com/netfocus/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/netfocus/p/4802748.html</id>
+    <title type="text">EQueue文件持久化消息关键点设计思路 - netfocus</title>
+    <summary type="text">要持久化的关键数据有三种消息；队列，队列中存放的是消息索引信息，即消息在文件中的物理位置(messageOffset)和在队列中的逻辑位置(queueOffset)的映射信息；队列消费进度，表示当前队列中的消息消费到第几个了；发送消息的设计producer将消息的二进制数据发送到broker；bro...</summary>
+    <published>2015-09-12T03:30:00Z</published>
+    <updated>2015-09-12T03:30:00Z</updated>
+    <author>
+      <name>netfocus</name>
+      <uri>http://www.cnblogs.com/netfocus/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/netfocus/p/4802748.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/netfocus/p/4802748.html" />
+    <content type="html">要持久化的关键数据有三种消息；队列，队列中存放的是消息索引信息，即消息在文件中的物理位置(messageOffset)和在队列中的逻辑位置(queueOffset)的映射信息；队列消费进度，表示当前队列中的消息消费到第几个了；发送消息的设计producer将消息的二进制数据发送到broker；bro...&lt;img src="http://counter.cnblogs.com/blog/rss/4802748" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/netfocus/p/4802748.html" target="_blank"&gt;EQueue文件持久化消息关键点设计思路&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/netfocus/p/4709954.html</id>
+    <title type="text">EQueue性能测试计划 - netfocus</title>
+    <summary type="text">1.发送消息吞吐量的测试：1）单台producer单个进程的发送消息tps2）单台producer多个进程的发送消息tps3）单台broker的接收消息tps，由于单台producer可能压不满，所以需要可能两台producer来发消息2.消费消息吞吐量的测试：1）单台consumer消费消息的tp...</summary>
+    <published>2015-08-07T02:09:00Z</published>
+    <updated>2015-08-07T02:09:00Z</updated>
+    <author>
+      <name>netfocus</name>
+      <uri>http://www.cnblogs.com/netfocus/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/netfocus/p/4709954.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/netfocus/p/4709954.html" />
+    <content type="html">1.发送消息吞吐量的测试：1）单台producer单个进程的发送消息tps2）单台producer多个进程的发送消息tps3）单台broker的接收消息tps，由于单台producer可能压不满，所以需要可能两台producer来发消息2.消费消息吞吐量的测试：1）单台consumer消费消息的tp...&lt;img src="http://counter.cnblogs.com/blog/rss/4709954" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/netfocus/p/4709954.html" target="_blank"&gt;EQueue性能测试计划&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/netfocus/p/4707789.html</id>
+    <title type="text">ENode简介与各种资源汇总（持续更新中。。。） - netfocus</title>
+    <summary type="text">ENode是什么ENode是一个.NET平台开源的应用开发框架，为开发人员提供了一套完整的基于DDD+CQRS+ES+(in-memory)+EDA架构风格的解决方案。ENode的特色是什么解决CQRS架构的C端的高并发写的问题，以及CQ两端数据同步的顺序性保证和幂等性问题；将并发写降低到最低，从而...</summary>
+    <published>2015-08-06T05:41:00Z</published>
+    <updated>2015-08-06T05:41:00Z</updated>
+    <author>
+      <name>netfocus</name>
+      <uri>http://www.cnblogs.com/netfocus/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/netfocus/p/4707789.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/netfocus/p/4707789.html" />
+    <content type="html">ENode是什么ENode是一个.NET平台开源的应用开发框架，为开发人员提供了一套完整的基于DDD+CQRS+ES+(in-memory)+EDA架构风格的解决方案。ENode的特色是什么解决CQRS架构的C端的高并发写的问题，以及CQ两端数据同步的顺序性保证和幂等性问题；将并发写降低到最低，从而...&lt;img src="http://counter.cnblogs.com/blog/rss/4707789" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/netfocus/p/4707789.html" target="_blank"&gt;ENode简介与各种资源汇总（持续更新中。。。）&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/netfocus/p/4623411.html</id>
+    <title type="text">ENode框架Conference案例分析系列之 - 事件溯源如何处理重构问题 - netfocus</title>
+    <summary type="text">前言本文可能对大多数不太了解ENode的朋友来说，理解起来比较费劲，这篇文章主要讲思路，而不是一上来就讲结果。我写文章，总是希望能把自己的思考过程尽量能表达出来，能让大家知道每一个设计背后的思考的东西。我觉得，任何设计的结果可能看起来很高大上，一张图即可，但背后的思考，才是更有价值的东西。本篇文章想...</summary>
+    <published>2015-07-06T14:15:00Z</published>
+    <updated>2015-07-06T14:15:00Z</updated>
+    <author>
+      <name>netfocus</name>
+      <uri>http://www.cnblogs.com/netfocus/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/netfocus/p/4623411.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/netfocus/p/4623411.html" />
+    <content type="html">前言本文可能对大多数不太了解ENode的朋友来说，理解起来比较费劲，这篇文章主要讲思路，而不是一上来就讲结果。我写文章，总是希望能把自己的思考过程尽量能表达出来，能让大家知道每一个设计背后的思考的东西。我觉得，任何设计的结果可能看起来很高大上，一张图即可，但背后的思考，才是更有价值的东西。本篇文章想...&lt;img src="http://counter.cnblogs.com/blog/rss/4623411" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/netfocus/p/4623411.html" target="_blank"&gt;ENode框架Conference案例分析系列之 - 事件溯源如何处理重构问题&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/netfocus/p/4611965.html</id>
+    <title type="text">ENode框架Conference案例分析系列之 - ENode框架初始化 - netfocus</title>
+    <summary type="text">前言Conference案例是使用ENode框架来开发的。之前我没有介绍过ENode框架是如何启动的，以及启动时要注意的一些点，估计很多人对ENode框架的初始化这一块感觉很复杂，一头雾水。所以，本文想简单介绍一下在做一个实际项目时，我们该如何初始化ENode。使用ENode开发的项目的顶层宿主工程...</summary>
+    <published>2015-06-30T15:24:00Z</published>
+    <updated>2015-06-30T15:24:00Z</updated>
+    <author>
+      <name>netfocus</name>
+      <uri>http://www.cnblogs.com/netfocus/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/netfocus/p/4611965.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/netfocus/p/4611965.html" />
+    <content type="html">前言Conference案例是使用ENode框架来开发的。之前我没有介绍过ENode框架是如何启动的，以及启动时要注意的一些点，估计很多人对ENode框架的初始化这一块感觉很复杂，一头雾水。所以，本文想简单介绍一下在做一个实际项目时，我们该如何初始化ENode。使用ENode开发的项目的顶层宿主工程...&lt;img src="http://counter.cnblogs.com/blog/rss/4611965" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/netfocus/p/4611965.html" target="_blank"&gt;ENode框架Conference案例分析系列之 - ENode框架初始化&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/netfocus/p/4608909.html</id>
+    <title type="text">ENode框架Conference案例分析系列之 - 订单处理减库存的设计 - netfocus</title>
+    <summary type="text">前言前面的文章，我介绍了Conference案例的业务、上下文划分、领域模型、架构，以及代码整体流程。接下来想针对案例中一些重要的场景，分别做进一步的分析。本文想先介绍一下Conference案例的核心业务场景 - 订单处理减库存的设计。下单以及订单处理流程描述下单过程预订者浏览某个已发布的会议；进...</summary>
+    <published>2015-06-29T16:38:00Z</published>
+    <updated>2015-06-29T16:38:00Z</updated>
+    <author>
+      <name>netfocus</name>
+      <uri>http://www.cnblogs.com/netfocus/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/netfocus/p/4608909.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/netfocus/p/4608909.html" />
+    <content type="html">前言前面的文章，我介绍了Conference案例的业务、上下文划分、领域模型、架构，以及代码整体流程。接下来想针对案例中一些重要的场景，分别做进一步的分析。本文想先介绍一下Conference案例的核心业务场景 - 订单处理减库存的设计。下单以及订单处理流程描述下单过程预订者浏览某个已发布的会议；进...&lt;img src="http://counter.cnblogs.com/blog/rss/4608909" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/netfocus/p/4608909.html" target="_blank"&gt;ENode框架Conference案例分析系列之 - 订单处理减库存的设计&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/netfocus/p/4605324.html</id>
+    <title type="text">ENode框架Conference案例分析系列之 - 文章索引 - netfocus</title>
+    <summary type="text">ENode框架Conference案例分析系列之 - 业务简介ENode框架Conference案例分析系列之 - 上下文划分和领域建模ENode框架Conference案例分析系列之 - 架构设计ENode框架Conference案例分析系列之 - Quick StartENode框架Confer...</summary>
+    <published>2015-06-28T03:54:00Z</published>
+    <updated>2015-06-28T03:54:00Z</updated>
+    <author>
+      <name>netfocus</name>
+      <uri>http://www.cnblogs.com/netfocus/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/netfocus/p/4605324.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/netfocus/p/4605324.html" />
+    <content type="html">ENode框架Conference案例分析系列之 - 业务简介ENode框架Conference案例分析系列之 - 上下文划分和领域建模ENode框架Conference案例分析系列之 - 架构设计ENode框架Conference案例分析系列之 - Quick StartENode框架Confer...&lt;img src="http://counter.cnblogs.com/blog/rss/4605324" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/netfocus/p/4605324.html" target="_blank"&gt;ENode框架Conference案例分析系列之 - 文章索引&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/netfocus/p/4604144.html</id>
+    <title type="text">ENode框架Conference案例分析系列之 - Quick Start - netfocus</title>
+    <summary type="text">前言前一篇文章介绍了Conference案例的架构设计，本篇文章开始介绍Conference案例的代码实现。由于代码比较多，一开始就全部介绍所有细节，估计很多人接受不了，也理解不了。所以，我先进行一次QuickStart的介绍，即选取某个简单典型的场景从前到后过一下每个环节。这样大家就能够快速对代码...</summary>
+    <published>2015-06-27T08:48:00Z</published>
+    <updated>2015-06-27T08:48:00Z</updated>
+    <author>
+      <name>netfocus</name>
+      <uri>http://www.cnblogs.com/netfocus/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/netfocus/p/4604144.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/netfocus/p/4604144.html" />
+    <content type="html">前言前一篇文章介绍了Conference案例的架构设计，本篇文章开始介绍Conference案例的代码实现。由于代码比较多，一开始就全部介绍所有细节，估计很多人接受不了，也理解不了。所以，我先进行一次QuickStart的介绍，即选取某个简单典型的场景从前到后过一下每个环节。这样大家就能够快速对代码...&lt;img src="http://counter.cnblogs.com/blog/rss/4604144" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/netfocus/p/4604144.html" target="_blank"&gt;ENode框架Conference案例分析系列之 - Quick Start&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/netfocus/p/4601899.html</id>
+    <title type="text">ENode框架使用场景简述 - netfocus</title>
+    <summary type="text">ENode是一个.NET平台下，纯C#开发的，基于DDD,CQRS,ES,EDA,In-Memory架构风格的，可以帮助开发者开发高并发、高吞吐、可伸缩、可扩展的应用程序。开源项目地址：https://github.com/tangxuehua/enodeENode可能的应用场景如下：当你正在找一个...</summary>
+    <published>2015-06-26T03:31:00Z</published>
+    <updated>2015-06-26T03:31:00Z</updated>
+    <author>
+      <name>netfocus</name>
+      <uri>http://www.cnblogs.com/netfocus/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/netfocus/p/4601899.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/netfocus/p/4601899.html" />
+    <content type="html">ENode是一个.NET平台下，纯C#开发的，基于DDD,CQRS,ES,EDA,In-Memory架构风格的，可以帮助开发者开发高并发、高吞吐、可伸缩、可扩展的应用程序。开源项目地址：https://github.com/tangxuehua/enodeENode可能的应用场景如下：当你正在找一个...&lt;img src="http://counter.cnblogs.com/blog/rss/4601899" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/netfocus/p/4601899.html" target="_blank"&gt;ENode框架使用场景简述&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/netfocus/p/4597155.html</id>
+    <title type="text">ENode框架Conference案例分析系列之 - 架构设计 - netfocus</title>
+    <summary type="text">Conference架构概述先贴一下Conference案例的在线地址，UI因为完全拿了微软的实现，所以都是英文的，以后我有空再改为中文的。Conference后台会议管理：http://www.enode.me/conferenceConference前台预定座位：http://www.enode...</summary>
+    <published>2015-06-24T04:52:00Z</published>
+    <updated>2015-06-24T04:52:00Z</updated>
+    <author>
+      <name>netfocus</name>
+      <uri>http://www.cnblogs.com/netfocus/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/netfocus/p/4597155.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/netfocus/p/4597155.html" />
+    <content type="html">Conference架构概述先贴一下Conference案例的在线地址，UI因为完全拿了微软的实现，所以都是英文的，以后我有空再改为中文的。Conference后台会议管理：http://www.enode.me/conferenceConference前台预定座位：http://www.enode...&lt;img src="http://counter.cnblogs.com/blog/rss/4597155" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/netfocus/p/4597155.html" target="_blank"&gt;ENode框架Conference案例分析系列之 - 架构设计&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+</feed>

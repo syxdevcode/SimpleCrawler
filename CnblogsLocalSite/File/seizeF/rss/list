@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" title="XSL Formatting" href="/rss.xsl" media="all" ?>
+<rss version="2.0">
+<channel>
+    <title>seizeF的专栏</title>
+    <image>
+    <link>http://blog.csdn.net</link>
+    <url>http://static.blog.csdn.net/images/logo.gif</url>
+    </image>
+    <description></description>
+	<link>http://blog.csdn.net/seizef</link>
+	<language>zh-cn</language>
+	<generator>http://blog.csdn.net</generator>
+	<ttl>5</ttl>
+	<copyright><![CDATA[Copyright &copy; seizeF]]></copyright> 
+	<pubDate>2015/9/17 14:35:51</pubDate>
+    <item>
+        <title><![CDATA[[原]敏感词过滤]]></title>
+        <link>http://blog.csdn.net/seizef/article/details/48379803</link>
+        <guid>http://blog.csdn.net/seizef/article/details/48379803</guid>
+        <author>seizeF</author>
+        <pubDate>2015/9/11 21:42:25</pubDate>
+        <description><![CDATA[
+            <p>最近需要实现对聊天里的敏感词过滤，要求比较简单，只需要对字库中存在的关键字进行匹配，所以不需要非常复杂的实现，但是需要能够快速地对一个关键字集合进行匹配。</p>
+
+<p>搜了一下相关的资料，比较简单的一个算法是使用<a href="https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm">Aho-Corasick</a>算法，以下简称AC算法。该算法的基本思想中包含了<a href="https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm">KMP</a>算法，即利用模式串中已匹配的子串的最长后缀（同时是前缀）来跳过一些不可能的匹配位置，进而达到快速匹配的目的。</p>
+
+<p>不过AC算法在匹配一个关键字集合时，比KMP要快。因为如果使用KMP在一个输入查找关键字集合中的元素，若关键字集合大小为<strong>m</strong>，那么我们需要进行<strong>m</strong>次匹配，而AC算法仅需对输入串遍历一次即可搜索出所有匹配的关键字，也就是说，算法的复杂度与关键字集合大小关系不大。</p>
+
+<p>在实现了简单的AC算法后，简单的测试后发现较naive算法效率提高不少，从原来的50ms到1ms。</p>
+
+<p>当然这里的过滤，只是最基本的过滤，只是根据字库进行过滤，而敏感词变化较多，要达到较高的过滤，需要比较复杂的实现。可以想到的问题是：</p>
+
+<ol>
+<li><p>对于一个关键字，如果其中包含了空格等其他字符，对于我们来说，可能还是应该被过滤，但是由于不在字库中，所以不会进行过滤。可以考虑使用正则表达式，但是如果简单使用正则表达式，那么跟naive算法就一样了，有方法是将正则表达式转换为自动机，不过为了简单，可能只是实现正则表达式的一个子集。</p></li>
+<li><p>关键字为输入字符串的一个子串，这个时候如果不做处理，可能就会误判。在上面那个简单实现中，我只是判断一下字符边界（只对英文字符起作用）来防止匹配子串的情况。</p></li>
+</ol>
+
+<p><a href="http://programmers.stackexchange.com/questions/91177/profanity-filter-performance-in-java">stackexchange</a>上的一个回答提到了使用<a href="https://en.wikipedia.org/wiki/Phonetic_algorithm">Phonic Algorithm</a>来做过滤，不过似乎不能应用于中文。</p>
+
+<p>由于AC的数据结构是<a href="https://en.wikipedia.org/wiki/Trie">Trie</a>，所以可以考虑使用<a href="http://sc.snu.ac.kr/~xuan/spe777ja.pdf">Double-Array Trie</a>来提高查找的效率。</p>
+
+<p>我是根据AC的<a href="http://cr.yp.to/bib/1975/aho.pdf">paper</a>实现的，里面有详细的伪代码以及算法的说明。</p>
+            <div>
+                作者：seizeF 发表于2015/9/11 21:42:25 <a href="http://blog.csdn.net/seizef/article/details/48379803">原文链接</a>
+            </div>
+            <div>
+            阅读：4 评论：0 <a href="http://blog.csdn.net/seizef/article/details/48379803#comments" target="_blank">查看评论</a>
+            </div>
+        ]]>
+        </description>
+        <category></category>
+    </item>
+    <item>
+        <title><![CDATA[[原]vim-ctrlspace]]></title>
+        <link>http://blog.csdn.net/seizef/article/details/46432455</link>
+        <guid>http://blog.csdn.net/seizef/article/details/46432455</guid>
+        <author>seizeF</author>
+        <pubDate>2015/6/9 22:11:54</pubDate>
+        <description><![CDATA[
+            <p>最近发现一个很好用的插件<a href="https://github.com/szw/vim-ctrlspace">vim-ctrlspace</a>，可以用来代替minibufexplorer来做buffer管理，并且提供更强大的功能。不过似乎windows上ctrlspace搜索文件的效率不高（即使开启了ruby binding，带ruby的版本是在<a href="http://wyw.dcweb.cn/">这里</a>下载），所以我还是用<a href="https://github.com/kien/ctrlp.vim">ctrlp</a>来做文件的搜索，还有就是ctrlp还有tag的搜索功能。</p>
+            <div>
+                作者：seizeF 发表于2015/6/9 22:11:54 <a href="http://blog.csdn.net/seizef/article/details/46432455">原文链接</a>
+            </div>
+            <div>
+            阅读：90 评论：0 <a href="http://blog.csdn.net/seizef/article/details/46432455#comments" target="_blank">查看评论</a>
+            </div>
+        ]]>
+        </description>
+        <category></category>
+    </item>
+    <item>
+        <title><![CDATA[[原]Marmalde中使用Packed font的渲染的问题]]></title>
+        <link>http://blog.csdn.net/seizef/article/details/42673037</link>
+        <guid>http://blog.csdn.net/seizef/article/details/42673037</guid>
+        <author>seizeF</author>
+        <pubDate>2015/1/13 10:31:25</pubDate>
+        <description><![CDATA[
+            
+<p>近期由于需要让游戏支持中文，而游戏默认的实现是用bitmap font来实现字体，而中文常用字又很多，所以打算将NGUI中packed font的实现移植到游戏中，但是渲染时出现了问题，效果如下：</p>
+<p><img src="http://img.blog.csdn.net/20150113102516061?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2VpemVG/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt=""><br>
+</p>
+<p>明显可以看到字中间的某些像素被抠掉了。</p>
+<p>问题在于CIwTexture中有一个叫chromakey的东西，如果贴图中某些像素与这个chromakey相等，那么会被当做透明像素而抠掉。这让我想起了当年开发ds时，贴图调色板第一个颜色会被默认作为透明像素。</p>
+<p>这里我们可以用CIwTexture的一个未公开的api来把这个特性关掉，幸好api是public的，不过即使是private的，我们可以也可以hack的方法去设置，无非就是把private #define为public，或者直接用char*来操作数据成员。</p>
+<p><pre name="code" class="cpp">CIwTexture* tex = new CIwTexture();
+tex-&gt;_SetFlags(CIwTexture::NO_CHROMA_KEY_F);
+</pre><br>
+之后，packed font就可以被正常渲染了，效果如下</p>
+<p><img src="http://img.blog.csdn.net/20150113103045300?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc2VpemVG/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt=""><br>
+</p>
+
+            <div>
+                作者：seizeF 发表于2015/1/13 10:31:25 <a href="http://blog.csdn.net/seizef/article/details/42673037">原文链接</a>
+            </div>
+            <div>
+            阅读：189 评论：0 <a href="http://blog.csdn.net/seizef/article/details/42673037#comments" target="_blank">查看评论</a>
+            </div>
+        ]]>
+        </description>
+        <category></category>
+    </item>
+    <item>
+        <title><![CDATA[[原]Game Developer Magazine 1994-2013]]></title>
+        <link>http://blog.csdn.net/seizef/article/details/42342715</link>
+        <guid>http://blog.csdn.net/seizef/article/details/42342715</guid>
+        <author>seizeF</author>
+        <pubDate>2015/1/2 18:03:24</pubDate>
+        <description><![CDATA[
+            
+<p>有需要的朋友可以到百度网盘下载，地址是<a target="_blank" target="_blank" href="http://pan.baidu.com/share/link?shareid=1907565284&amp;uk=3775171760">http://pan.baidu.com/share/link?shareid=1907565284&amp;uk=3775171760</a>。</p>
+<p>原文链接为<a target="_blank" target="_blank" href="http://www.gdcvault.com/gdmag">http://www.gdcvault.com/gdmag</a>。</p>
+
+            <div>
+                作者：seizeF 发表于2015/1/2 18:03:24 <a href="http://blog.csdn.net/seizef/article/details/42342715">原文链接</a>
+            </div>
+            <div>
+            阅读：133 评论：0 <a href="http://blog.csdn.net/seizef/article/details/42342715#comments" target="_blank">查看评论</a>
+            </div>
+        ]]>
+        </description>
+        <category></category>
+    </item>
+    <item>
+        <title><![CDATA[[原]foxit reader]]></title>
+        <link>http://blog.csdn.net/seizef/article/details/37757487</link>
+        <guid>http://blog.csdn.net/seizef/article/details/37757487</guid>
+        <author>seizeF</author>
+        <pubDate>2014/7/14 11:04:13</pubDate>
+        <description><![CDATA[
+            
+网上下载的《Geometric Tools for Computer Graphics》没有书签，而且目录中链接是无效的，自己下了个foxit reader手动添加了目录，准备边看边加（现在加了前4章）。foxit reader 6的界面有很大变化，和office 2013类&#20284;，扁平化设计，而且性能上感觉比adobe reader x要好不少。
+
+            <div>
+                作者：seizeF 发表于2014/7/14 11:04:13 <a href="http://blog.csdn.net/seizef/article/details/37757487">原文链接</a>
+            </div>
+            <div>
+            阅读：250 评论：0 <a href="http://blog.csdn.net/seizef/article/details/37757487#comments" target="_blank">查看评论</a>
+            </div>
+        ]]>
+        </description>
+        <category></category>
+    </item>
+    <item>
+        <title><![CDATA[[原]找回GoodReader中丢失的书签]]></title>
+        <link>http://blog.csdn.net/seizef/article/details/18953101</link>
+        <guid>http://blog.csdn.net/seizef/article/details/18953101</guid>
+        <author>seizeF</author>
+        <pubDate>2014/2/6 21:01:09</pubDate>
+        <description><![CDATA[
+            
+<p>GoodReader是一款iOS上功能比较强大的PDF工具，不过我在使用当中发现一个书签会丢失的问题。因为有时候在PC上看PDF比较方便，所以会将PDF从iOS复制到PC，之后做完注释后再复制回iPad。但是之后在GoodReader中再次打开，发现以前做的书签全部丢失了，这可令人头疼。今天尝试着在它的Document目录下寻找相关的记录文件，果然找到了一个可以防止丢失书签的方法。</p>
+<p>用iTools打开GoodReader的Document目录，之后在Library目录下会找到一个SaveState.sqlitedb（看来使用sqlite来做存储）。当我们要将PC上编辑好的PDF复制回iPad前，记得先备份一下SaveState.sqlitedb。复制PDF完成后，再将备份的SaveState.sqlitedb覆盖即可。</p>
+<p>也许GoodReader是通过时间戳的判断是否需要更新sqlitedb？因为我们将文件从PC复制到iPad后，时间戳肯定不一致。简单地测试了一下，至少在文件大小相同的情况下，时间戳不一致也会造成书签丢失。</p>
+<p>SaveState.sqlitedb中有一张Bookmark表，其中有localpath一列，指向/Library/Application Support/com.goodiware.GoodReader.ASRoot/Previews的子目录。下面那些与pdf对应的文件也是sqlite&#26684;式的数据库，其中存储着每个文件的大小和最后修改时间。</p>
+
+            <div>
+                作者：seizeF 发表于2014/2/6 21:01:09 <a href="http://blog.csdn.net/seizef/article/details/18953101">原文链接</a>
+            </div>
+            <div>
+            阅读：895 评论：0 <a href="http://blog.csdn.net/seizef/article/details/18953101#comments" target="_blank">查看评论</a>
+            </div>
+        ]]>
+        </description>
+        <category></category>
+    </item>
+    <item>
+        <title><![CDATA[[原]DirectX RHW和viewport]]></title>
+        <link>http://blog.csdn.net/seizef/article/details/17732145</link>
+        <guid>http://blog.csdn.net/seizef/article/details/17732145</guid>
+        <author>seizeF</author>
+        <pubDate>2014/1/1 9:51:24</pubDate>
+        <description><![CDATA[
+            
+<p>我们知道，viewport是用来设定渲染后的场景在render target中的位置和大小的，也就是场景会被拉伸到指定的viewport中。但是一旦和pre transformed坐标一起使用，那就是另外一回事了。rhw，即reciprocal homogeneous w，我们在指定pre transformed顶点坐标时，w分量被称为rhw。通常，经过投影变换后的顶点在clip space，此时dx会对该坐标进行clip，clip的依据是顶点坐标的w分量，在变换的最后才会进行透视除。一旦使用pre transformed坐标，我们就省略了model,
+ view, projection这些变换，因为我们告诉dx，我们提供的坐标就是变换过的，已经变换到了屏幕坐标。但是dx还是会进行clipping，那么dx要做的就是，将我们的pre transformed坐标结合rhw&#20540;，和viewport变换回clip space进行clipping。</p>
+<p>我们知道投影后，随后会透视除，再进行viewport变换。那么逆变换就是乘以viewport的逆矩阵，之后再乘以rhw&#20540;即可。</p>
+<p>假设我们有pre transformed顶点(150, 50, 0, 1)，viewport 大小为(150, 250)，viewport坐标为(150, 50)，那么，根据上边的逆变换可以得到变换到clip space的坐标为(-1, 1, 0, 1)。可以看出这个坐标为clip space左上角。</p>
+<p>从实际效果可以看出，如果使用pre transformed顶点，若改变viewport位置，效果类&#20284;于clipping，而不像用未转换的顶点时的效果就是简单的拉伸和平移。</p>
+<p>测试时我用了dx9的vetices例子。</p>
+<p>参考：</p>
+<p><a target="_blank" target="_blank" href="http://msdn.microsoft.com/en-us/library/windows/desktop/bb206341%28v=vs.85%29.aspx">Viewports And Clipping (DirectX 9)</a></p>
+<p><a target="_blank" target="_blank" href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee418867(v=vs.85).aspx">DirectX Transformation Pipeline</a></p>
+<p><br>
+</p>
+
+            <div>
+                作者：seizeF 发表于2014/1/1 9:51:24 <a href="http://blog.csdn.net/seizef/article/details/17732145">原文链接</a>
+            </div>
+            <div>
+            阅读：742 评论：3 <a href="http://blog.csdn.net/seizef/article/details/17732145#comments" target="_blank">查看评论</a>
+            </div>
+        ]]>
+        </description>
+        <category></category>
+    </item>
+    <item>
+        <title><![CDATA[[原]服务器端逻辑的迁移]]></title>
+        <link>http://blog.csdn.net/seizef/article/details/11018981</link>
+        <guid>http://blog.csdn.net/seizef/article/details/11018981</guid>
+        <author>seizeF</author>
+        <pubDate>2013/9/3 20:51:20</pubDate>
+        <description><![CDATA[
+            
+<p>我们现在的游戏，基本是客户端是dummy的，也就是没有什么gameplay的逻辑（除了当前控制的人物移动的预测），AI都在服务端。无论是对于单人的PVE，以及强PVP，都是如此。发行商和老板们又想要让游戏跑在手机上，那么，显然，延迟问题就会比较突出。比如你在地铁里或者汽车上玩，由于所有AI在服务器，所以一旦网络不流畅，就没法玩。</p>
+<p>观察了一下最近市面上的一些手游，基本上，单人PVE都可以在网络延迟高的时候流畅进行，所以推测，单人PVE基本是客户端行为，只是结果等比较重要的数据需要服务端介入，这就解决了高延迟的问题。当然，这些游戏PPVE在高延迟还是会出现很明显的延迟，想来AI是在服务器。</p>
+<p>将单人部分的逻辑迁移到客户端，并且保留服务端在多人游戏部分的主导，也可以解决P2P中“主机优势“的问题。还有就是也可以减轻服务端的压力，因为单人PVE的AI等都在客户端，服务器仅需要对结果进行计算和验证即可。服务器压力的减轻也会降低运营成本。</p>
+<p>好几个月以前，项目中就有人提出要将服务端逻辑迁移到客户端，以保证单人PVE高延迟时可以流畅运行，当时鉴于工作量而否决了，这次看来势在必行了。</p>
+
+            <div>
+                作者：seizeF 发表于2013/9/3 20:51:20 <a href="http://blog.csdn.net/seizef/article/details/11018981">原文链接</a>
+            </div>
+            <div>
+            阅读：352 评论：0 <a href="http://blog.csdn.net/seizef/article/details/11018981#comments" target="_blank">查看评论</a>
+            </div>
+        ]]>
+        </description>
+        <category></category>
+    </item>
+    <item>
+        <title><![CDATA[[原]smartfox和NAT]]></title>
+        <link>http://blog.csdn.net/seizef/article/details/8974461</link>
+        <guid>http://blog.csdn.net/seizef/article/details/8974461</guid>
+        <author>seizeF</author>
+        <pubDate>2013/5/25 21:32:53</pubDate>
+        <description><![CDATA[
+            
+<p>最近的项目中使用smartfox来作为服务器，并且我们游戏的某些移动消息基于UDP（使用了cs中的entity interpolation技术）。有时，可以在服务器的log里观察到smartfox检测到session的udp端口变化而将udp包直接丢弃，这所带来的问题就很严重。客户端就无法收到服务端的位置更新了。</p>
+<p>发生这个问题的原因有两方面：</p>
+<p></p>
+<ol>
+<li>路由的NAT机制</li><li>smartfox本身的安全机制</li></ol>
+<div>对于NAT，即路由器会保存一个地址转换表，用于将内网的地址翻译成外网地址，与外部机器进行通信。对于UDP而言，这里需要映射的就是端口。我们发现，当在某段时间内，如果客户端没有发出任何UDP包，路由器会自动释放该端口（假定为A），随后若客户端继续发包，路由器会重新分配一个端口B，通常A ！= B。当然，到这里是没有任何问题，所有的NAT对于普通客户端而言是透明的。</div>
+<div><br>
+</div>
+<div>由于smartfox自身有一个简单的安全机制，该机制的原理为：当客户端与服务端建立连接后，会记录下使用的socket的端口和地址，若在之后的通信中，无论是端口或者地址变化，都会被检测到，而被认为是一种恶意攻击。这里的问题时，一旦udp端口变化，所有数据将无法从服务端到达客户端。</div>
+<div><br>
+</div>
+<div>Smartfox官方论坛上很多人提出过这个问题，但依然没有解决方法。我认为，既然是框架，就可以提供某种手段来定制这种策略，不过官方没有开放相关接口。</div>
+<div><br>
+</div>
+<div>由于我们的游戏有面向移动的客户端，所以一旦进入后台，网络通信就受限，非常有可能出现上述问题。不过我们可以改变实现，以TCP来取代UDP。最初我们的实现是TCP，不过由于通信量较大，以及smatfox本身对于出口数据发送实现效率的问题，进而选择了UDP。出现这个问题，又只能切换到TCP，真是。。。如果用TCP来做，那么就只能优化实现来减少数据量。</div>
+<div><br>
+</div>
+<div>还有一个问题是UDP在3G网络中的支持。我还没有具体查阅过相关资料，不过听说udp的支持不行，所以现在游戏在3G网络上基本无法运行，所以又只能将实现改为TCP？</div>
+<p></p>
+<p>EDIT: 我在地铁上用移动网络测试了一下我们的游戏，我的手机网络是Edge，对于udp的支持没有任何问题，只是在信号不稳定的情况下，很容易发生不流畅，所以，现在有些手游，没有那么依赖于服务器，基本上单人的话，就直接本地计算，而服务器做简单验证。当然我不知道他们对于服务器的依赖程度如何，只是一种猜测。</p>
+
+            <div>
+                作者：seizeF 发表于2013/5/25 21:32:53 <a href="http://blog.csdn.net/seizef/article/details/8974461">原文链接</a>
+            </div>
+            <div>
+            阅读：655 评论：0 <a href="http://blog.csdn.net/seizef/article/details/8974461#comments" target="_blank">查看评论</a>
+            </div>
+        ]]>
+        </description>
+        <category></category>
+    </item>
+    <item>
+        <title><![CDATA[[原]c++11 rvalue reference &amp; perfect forwarding]]></title>
+        <link>http://blog.csdn.net/seizef/article/details/8917564</link>
+        <guid>http://blog.csdn.net/seizef/article/details/8917564</guid>
+        <author>seizeF</author>
+        <pubDate>2013/5/12 19:31:02</pubDate>
+        <description><![CDATA[
+            
+<h2>简介</h2>
+<div>右&#20540;引用，是c&#43;&#43;11中为了解决大对象拷贝性能问题，以及参数传递而新加的特性。形如T&amp;&amp;，其中T是referenced type。</div>
+<h2>Lvalue &amp; Rvalue</h2>
+<div>左&#20540;和右&#20540;在c语言中差不多可以表述为分别出现在表达式左右两侧，但是在c&#43;&#43;中，因为引入了class，情况变得更加复杂。基本上可以总结为：</div>
+<div>
+<ol>
+<li>左&#20540;可以运用&amp;操作符取得地址，注意临时对象是无法取得地址的，因为很容易导致问题。</li><li>左&#20540;必然有一个名字</li><li>不是左&#20540;的是右&#20540;</li></ol>
+<div>左&#20540;和右&#20540;只是表达式的属性。还有一个概念需要理解就是类型type，类型和左右&#20540;不是一个概念，马上就会讲解。</div>
+</div>
+<div>我们来看几个例子，理解一下左右&#20540;的概念。</div>
+<div><br>
+</div>
+<div><pre name="code" class="cpp">int f();
+int i;
+int&amp; g();
+int&amp;&amp; h();
+
+&amp;f; // f is lvalue, &amp;f returns to pointer to the function
+f(); // f() is rvalue, as f returns a int by value
+i;  // i is lvalue
+g(); // g() is lvalue, as f returns a lvalue reference to int
+h(); // h() is rvalue, as f returns a rvalue reference to int
+
+void f(int&amp;&amp; i)
+{
+    // i is a rvalue reference, but i is a lvalue as named rvalue reference is lvalue
+}
+</pre><br>
+这里需要注意的是函数的返回&#20540;，一个函数调用通常在返回&#20540;是左&#20540;引用的时候才是左&#20540;（见n3242 5.2.2/10，下面截取标准中的文字以供参考）。</div>
+<div><br>
+</div>
+<div>
+<blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+<div>5.2.2/10</div>
+<div>A function call is an lvalue if the result type is an lvalue reference type or an rvalue reference to function<br>
+type, an xvalue if the result type is an rvalue reference to object type, and a prvalue otherwise.<br>
+</div>
+<div><br>
+</div>
+</blockquote>
+</div>
+<div>还有一个需要注意的是，一个命名的右&#20540;引用是左&#20540;，即最后一个给出的情况（见n3242 5/6，下面给出标准中的文字供参考）。</div>
+<div>
+<blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+<div>5/6</div>
+<div>In general, the effect of this rule is that named rvalue references are treated as lvalues and unnamed rvalue<br>
+references to objects are treated as xvalues; rvalue references to functions are treated as lvalues whether<br>
+named or not<br>
+</div>
+</blockquote>
+</div>
+<h2>Reference</h2>
+<p>左&#20540;引用形如T&amp;，而右&#20540;引用形如T&amp;&amp;，并且我们知道右&#20540;引用可以绑定到右&#20540;，那么我们时候可以绑定到一个右&#20540;常量？因为常量是不可修改的，但是由于T&amp;&amp;不是reference to const，所以是否成立？</p>
+<p>答案是可以的，请看如下例子：</p>
+<p></p>
+<pre name="code" class="cpp">#include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+    int&amp;&amp; rri = 5;
+    rri = 4;
+    cout &lt;&lt; rri &lt;&lt; endl;
+
+    // error
+    // char const*&amp;&amp; rrcc = &quot;hello&quot;;
+    // *rrcc = '1';
+}
+</pre><br>
+这里在g&#43;&#43;4.7.3中运行后可以发现rri的&#20540;是4。
+<p></p>
+<p>这里涉及到reference的初始化，标准中规定，对于使用右&#20540;来初始化一个右&#20540;引用，可以创建一个拷贝，即，这里5会被保存在一个对象中，所以这里我们对这个对象进行修改。标准中8.5.3/5中如下描述（部分）：</p>
+<p></p>
+<blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+<p>8.5.3/5</p>
+<p>— Otherwise, the reference shall be an lvalue reference to a non-volatile const type (i.e., cv1 shall be<br>
+const), or the reference shall be an rvalue reference.<br>
+</p>
+<p>&nbsp; &nbsp; If the initializer exrepssion is xvalue or ...</p>
+<p>&nbsp; &nbsp; — Otherwise, a temporary of type “cv1 T1” is created and initialized from the initializer expression<br>
+&nbsp; &nbsp; using the rules for a non-reference copy-initialization<br>
+</p>
+</blockquote>
+<p></p>
+<p>再看下面注释中的代码，由于rrcc的类型是reference to pointer to const char，所以我们在后面对char const*赋&#20540;时出错。</p>
+<h2>Move Constructor</h2>
+<div>我们来看一个move ctor的例子：</div>
+<div><pre name="code" class="cpp">class foo
+{
+public:
+&nbsp; &nbsp; foo(foo&amp;&amp; f)
+&nbsp; &nbsp; &nbsp; &nbsp; : m_s(f.m_s) // m_s(move(f.m_s))
+&nbsp; &nbsp; {
+&nbsp; &nbsp; }
+private:
+&nbsp; &nbsp; string m_s;
+};
+</pre>这里，foo(foo&amp;&amp;)是move ctor，由于f是右&#20540;引用，我们认为，我们可以通过直接调用string的move ctor而不做任何处理。这是错误的。结果这里只有string的copy ctor被调用。</div>
+<div>原因很简单，上面我们已经提到，对于一个named rvalue reference，它是一个lvalue，由于rvalue不能绑定lvalue，所以lvalue只能绑定到string的copy ctor。而我们的愿意是要move，而不是copy，所以这里就需要使用标准库的std::move函数，将左&#20540;转化成右&#20540;引用。而对于一个unamed rvalue reference，它是一个右&#20540;，这样就可以调用string的move ctor。</div>
+<h3>std::move</h3>
+<div>std::move所做的事情很简单，只是通过static_cast来将一个左&#20540;转换为右&#20540;引用，即</div>
+<div><pre name="code" class="cpp">static_cast&lt;T&amp;&amp;&gt;(v)</pre><br>
+当然具体实现会复杂一下，不过请继续接着看。</div>
+<h2>Perfect Forwarding</h2>
+<div>perfect forwarding需要解决的问题是爆炸式函数重载。因为我们有了move ctor之后，我们显然会在函数参数声明时将参数声明为T&amp;&amp;，否则如果还是使用T const&amp;来声明，那么我们将不能move ctor，这样就没有什么意义了。但是问题在于，用户可能传入一个右&#20540;，或者一个左&#20540;，那么我们可以重载：</div>
+<div><pre name="code" class="cpp">void f(foo const&amp; a);
+void f(foo&amp;&amp; a);
+</pre>但是当参数数量变多时怎么办，假设有N个参数，那么显然我们需要重载2^N个函数才能解决问题，所以引入了perfect forwarding。</div>
+<h3>function template</h3>
+<div>在使用perfect forwarding时，我们需要结合函数模板和右&#20540;引用，即</div>
+<div><pre name="code" class="cpp">void g(int const&amp;);
+void g(int&amp;&amp;);
+
+template&lt;typename T&gt;
+void f(T&amp;&amp; v)
+{
+    g(forward&lt;T&gt;(v));
+}
+</pre>这里标准库函数forward完成了类型转发。抱枕传递给的g的类型的左右&#20540;属性是用户传入的属性。<br>
+<br>
+</div>
+<div>注意，当且仅当参数为T&amp;&amp;，才会触发perfect forwarding，引述标准的文字</div>
+<div>
+<blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+<div>14.8.2.1/3</div>
+<div>If P is a cv-qualified type, the top level cv-qualifiers of P’s type are ignored for type deduction. If P is a reference type, the type referred to by P is used for type deduction. If P is an rvalue reference to a cv-unqualified template parameter and
+ the argument is an lvalue, the type “lvalue reference to A” is used in place of A for type deduction.<br>
+</div>
+<div><br>
+</div>
+</blockquote>
+</div>
+<div>具体这段话的意思请继续看。</div>
+<h3>Reference Collapsing Rule</h3>
+<div>我们知道在c&#43;&#43;中引用的引用是非法，所以标准中引入如下规则，</div>
+<div>
+<ol>
+<li>T&amp; &amp;&amp; = T&amp;</li><li>T&amp;&amp; &amp; = T&amp;</li><li>T&amp; &amp; = T&amp;</li><li>T&amp;&amp; &amp;&amp; = T&amp;&amp;</li></ol>
+这里的意思是，当一个类型，比如T&amp; &amp;&amp;时，最终得到的类型是T&amp;。可以看出，仅当T&amp;&amp; &amp;&amp;的情况，类型才是右&#20540;引用，其他情况都是左&#20540;引用。</div>
+<h3>Deduction</h3>
+<div>在讲解forwarding的原理前，先来了解下几个模板推导中用到的术语，表中中定义P，就是函数模板的参数类型，A是函数模板调用时的用户给出的类型。</div>
+<div>推导的目的就是为了匹配P和A，来解析出T。Deduced A就是P经过转换后的类型（见标准的14.8.2.1），transformed A是当P为特定条件时，变换后得到的类型。</div>
+<div><br>
+</div>
+<div>回到前面perfect forwarding的讲解，先来看函数模板f如何推导template parameter T。下面给出标准中的例子：</div>
+<div><pre name="code" class="cpp">Template &lt;class T&gt; int f(T&amp;&amp;);
+template &lt;class T&gt; int g(const T&amp;&amp;);
+int i;
+int n1 = f(i); // calls f&lt;int&amp;&gt;(int&amp;)
+int n2 = f(0); // calls f&lt;int&gt;(int&amp;&amp;)
+int n3 = g(i); // error: would call g&lt;int&gt;(const int&amp;&amp;), which
+               // would bind an rvalue reference to an lvalue</pre><br>
+先来看f(i)的调用，根据14.8.2.1/3，我们有</div>
+<div>
+<ol>
+<li>P = T&amp;&amp;，由于P是右&#20540;引用，所以Deduced A = T</li><li>由于P是右&#20540;引用，并且i是左&#20540;，并且i的类型是int，所以Transformed A = int&amp;</li><li>Deduced A = Transformed A =&gt; T = int&amp;</li></ol>
+所以我们将T = int&amp;代入f，得到f&lt;int&amp;&gt;(int&amp; &amp;&amp;)，根据reference collapsing rule，我们可以得出f的参数类型是int&amp;，并且是左&#20540;，是我们要的。</div>
+<div><br>
+</div>
+<div>再来看f(0)的调用，我们有</div>
+<div>
+<ol>
+<li>P = T&amp;&amp;，由于P是右&#20540;引用，所以Deduced A = T</li><li>0是右&#20540;，所以Transformed A = int</li><li>Deduced A = Transformed A =&gt; T = int</li></ol>
+所以最后得到f的签名为f&lt;int&gt;(int&amp;&amp;)，参数类型是右&#20540;引用。</div>
+<div>至此保留了用户参数的左右&#20540;属性。</div>
+<div><br>
+</div>
+<div>对于最后一个例子，大家可以自己尝试推导。</div>
+<h3>std::forward</h3>
+<div>这里给出实现，forward实际有2个重载，但是这里我们只关心其中一个对左&#20540;引用的重载，因为我们知道，命名参数是左&#20540;，所以传递给forward的必然是左&#20540;。</div>
+<div><pre name="code" class="cpp">template&lt;typename T&gt;
+T&amp;&amp; forward(std::remove_reference&lt;T&gt;::type&amp; v)
+{
+    return static_cast&lt;T&amp;&amp;&gt;(v);
+}
+</pre><br>
+又是一个函数模板。假设我们指定T = int&amp;，那么将会有：</div>
+<div>
+<ol>
+<li>remove_reference&lt;T&gt;::type&amp; = int&amp;</li><li>static_cast&lt;int&amp; &amp;&amp;&gt;(v) = static_cast&lt;int&amp;&gt;(v)</li><li>返回 int&amp; &amp;&amp; = int&amp;</li></ol>
+这里再一次用到了reference collapsing rule，我们将T指定为int&amp;，返回&#20540;也是int&amp;，perfect!!! forwarding。</div>
+<div><br>
+</div>
+<div>假设我们指定T = int（这里我们也可以指定T = int&amp;&amp;，但是通常不这么写），有</div>
+<div>
+<ol>
+<li>remove_reference&lt;T&gt;::type&amp; = int&amp;，这里还是左&#20540;引用，没错，还记得我们传递给forward的也是左&#20540;吗？虽然它是右&#20540;引用。</li><li>static_cast&lt;int&amp;&amp; &amp;&amp;&gt;(v) = static_cast&lt;int&amp;&amp;&gt;(v)</li><li>返回int&amp;&amp; &amp;&amp; = int&amp;&amp;</li></ol>
+perfect!!!。</div>
+<div><br>
+</div>
+<div>至此，我们完成了完美转发，在没有改变参数类型的情况下，将参数传递给了另外一个函数。</div>
+<h3>Explictly specifiec template parameter</h3>
+<div>有的读者可能注意到了，我们在调用forward时，显式指定了模板参数T，为什么？先来看另一种forward的定义：</div>
+<div><pre name="code" class="cpp">template&lt;typename T&gt;
+T&amp;&amp; forward(T&amp; v)
+{
+    return static_cast&lt;T&amp;&amp;&gt;(v);
+}
+</pre><br>
+我们还是可以推导出，这里也能够实现完美转发（有的读者可能认为无法对参数是const的对象进行转发，事实不是如此，我们尽在f(T&amp;&amp;)内部使用，所以不存在这个问题，可以试着自己推导）。</div>
+<div><br>
+</div>
+<div>但是如果一旦不指定T，而是让模板自动推导，那么根据前面我们学到的，假设f为：</div>
+<div><pre name="code" class="cpp">template&lt;typename T&gt;
+void f(T&amp;&amp; v)
+{
+    g(forward(v));
+}</pre></div>
+假设我们传入一个左&#20540;int，那么v的类型就是int&amp;，而传入forward的v的类型在进行推导前会被变成int（根据标准中5.5)，所以我们推导出forward的T = int，
+<div>最后forward将会返回int&amp;&amp;。出现问题了，左&#20540;变成了右&#20540;。</div>
+<div><br>
+</div>
+<div>标准之所以显式让我们指定T就是为了防止模板自动推导导致的问题。</div>
+<div><br>
+</div>
+<h2>引用文档</h2>
+<div>读者若有兴趣，可以参考以下文档，我从中受益匪浅，这里写的也差不多只是摘录：</div>
+<div>
+<ol>
+<li>N3242，c&#43;&#43;标准草案，有更新的版本，自行google。</li><li><a href="http://thbecker.net/articles/rvalue_references/section_01.html" target="_blank">C&#43;&#43; Rvalue Reference Explained</a></li><li>ACCU Overload 111 中的 Universal Reference</li></ol>
+</div>
+
+            <div>
+                作者：seizeF 发表于2013/5/12 19:31:02 <a href="http://blog.csdn.net/seizef/article/details/8917564">原文链接</a>
+            </div>
+            <div>
+            阅读：912 评论：0 <a href="http://blog.csdn.net/seizef/article/details/8917564#comments" target="_blank">查看评论</a>
+            </div>
+        ]]>
+        </description>
+        <category></category>
+    </item>
+    <item>
+        <title><![CDATA[[原]关于c++中strict weak ordering的一些笔记]]></title>
+        <link>http://blog.csdn.net/seizef/article/details/8713482</link>
+        <guid>http://blog.csdn.net/seizef/article/details/8713482</guid>
+        <author>seizeF</author>
+        <pubDate>2013/3/24 19:04:11</pubDate>
+        <description><![CDATA[
+            
+<p>STL中某些算法，比如sort，binary_search等，都要求对象有一个良好定义的<a href="http://en.wikipedia.org/wiki/Weak_ordering#Strict_weak_orderings" target="_blank">strict weak ordering</a>。严&#26684;弱序是一种<a href="http://zh.wikipedia.org/wiki/%E5%81%8F%E5%BA%8F%E5%85%B3%E7%B3%BB#.E4.B8.A5.E6.A0.BC.E5.81.8F.E5.BA.8F.EF.BC.8C.E5.8F.8D.E8.87.AA.E5.8F.8D.E5.81.8F.E5.BA.8F" target="_blank">严&#26684;偏序</a>，但是满足一个额外的条件，即对于集合中的两个元素x,
+ y，满足以下条件，</p>
+<p></p>
+<blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+<p><img src="http://chart.apis.google.com/chart?cht=tx&amp;chl=x%5Cnot%3Cy%2C%5C%20y%5Cnot%3Cx%20%5CRightarrow%20x%20%5Csim%20y" alt=""></p>
+</blockquote>
+即若x, y之间没有可比性，那么x和y<a href="http://en.wikipedia.org/wiki/Equivalence_class#Notation_and_formal_definition">等价</a>。若还存在元素z，使得 x ~ z 或者 y ~ z，那么x ~ y ~ z，这是传递性。
+<p></p>
+<p>显然，对于任意一个元素x，x与x自身是等价的（根据严&#26684;弱序的定义）。</p>
+<p>c&#43;&#43;中使用严&#26684;弱序来定义等价，而不是利用==来定义，这样我们只需要保证一个良好定义的&lt;，就能够保证sort的正确性。</p>
+<p><br>
+</p>
+<p>有时候我们的对象拥有多个可以比较的成员时（多个主键），我们该如何定义呢？我们知道如何比较string，string是根据逐个字符的比较来确定之间的顺序。比如对于abc, abd，我们先比较前两个字符，发现<strong>相等</strong>，于是我们比较最后一个字符发现c &lt; d，于是abc &lt; abd，这就是字典序（<a href="en.wikipedia.org/wiki/Lexicographical_order" target="_blank">lexicographical order</a>）。我们也可以采用类&#20284;的思路来对多个主键进行比较，但是需要注意<strong>相等</strong>这个概念，在严&#26684;弱序中，这个被称为等价，而用
+ &lt; 来表示这个等价关系，即有</p>
+<p></p>
+<blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+<p><img src="http://chart.apis.google.com/chart?cht=tx&amp;chl=!(a%3Cb)%5C%20%26%26%20%5C%20!(b%20%3C%20a)" alt=""><br>
+</p>
+</blockquote>
+<p>所以，假设有两个对象a, b，并且有主键</p>
+<p></p>
+<blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+<p><img src="http://chart.apis.google.com/chart?cht=tx&amp;chl=k_0%2C%5C%20%5Cldots%20%5C%20%2C%20k_n" alt=""></p>
+</blockquote>
+如果我们能够找到一个j，使得j满足
+<p></p>
+<p></p>
+<blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+<p><img src="http://chart.apis.google.com/chart?cht=tx&amp;chl=a_%7Bk_j%7D%5C%20%3C%5C%20b_%7Bk_j%7D%2C%5C%20%5C%20%5C%20%5C%200%20%20%5Cleq%20j%20%5Cleq%20n" alt=""></p>
+</blockquote>
+并且有q，满足
+<p></p>
+<p></p>
+<blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+<p><img src="http://chart.apis.google.com/chart?cht=tx&amp;chl=%20%5Cforall%20q%2C%5C%20a_%7Bk_q%7D%20%20%5Csim%20%20b_%7Bk_q%7D%2C%5C%200%20%5Cleq%20q%5C%20%3C%5C%20j" alt=""></p>
+</blockquote>
+那么
+<p></p>
+<p></p>
+<blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+<p><img src="http://chart.apis.google.com/chart?cht=tx&amp;chl=a%5C%20%3C%5C%20b" alt="">。</p>
+</blockquote>
+<br>
+<p></p>
+<p>参考：</p>
+<p>[1]&nbsp;http://en.wikipedia.org/wiki/Weak_ordering</p>
+<p>[2]&nbsp;http://en.wikipedia.org/wiki/Equivalence_class</p>
+<p>[3]&nbsp;http://www.sgi.com/tech/stl/StrictWeakOrdering.html （注意，这里对于严&#26684;弱序的定义中使用了antisymmetric，这个是不对的，应该是非对称，即asymmetric）。</p>
+<p>[4]&nbsp;http://www.drdobbs.com/author/Andrew-Koenig（这里有关于ordering的好几篇文章）</p>
+
+            <div>
+                作者：seizeF 发表于2013/3/24 19:04:11 <a href="http://blog.csdn.net/seizef/article/details/8713482">原文链接</a>
+            </div>
+            <div>
+            阅读：850 评论：0 <a href="http://blog.csdn.net/seizef/article/details/8713482#comments" target="_blank">查看评论</a>
+            </div>
+        ]]>
+        </description>
+        <category></category>
+    </item>
+    <item>
+        <title><![CDATA[[原]c++ &amp; Memory consistency model]]></title>
+        <link>http://blog.csdn.net/seizef/article/details/8579995</link>
+        <guid>http://blog.csdn.net/seizef/article/details/8579995</guid>
+        <author>seizeF</author>
+        <pubDate>2013/2/13 16:20:50</pubDate>
+        <description><![CDATA[
+            
+<p>c&#43;&#43;11中一个最重要的特性就是加入了多线程的支持，并定义了c&#43;&#43;的memory model。memory model定义了一个处理器上对内存的操作如何被其他处理观察到，</p>
+<p><br>
+</p>
+<blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+<p><em>The memory model, or memory consistency model, specifies the&nbsp;values that a shared variable read in a multithreaded program is allowed&nbsp;to return.</em></p>
+<p><em><br>
+</em></p>
+</blockquote>
+<p>上面的定义出自<a target="_blank" target="_blank" href="http://rsim.cs.illinois.edu/Pubs/08PLDI.pdf">Foundation of C&#43;&#43; Memory Model</a>。</p>
+<p><br>
+</p>
+<p>下面我收集了一些最近学习时搜到的相关资料，以供参考：</p>
+<p>1.&nbsp;<a target="_blank" target="_blank" href="http://herbsutter.com/2013/02/11/atomic-weapons-the-c-memory-model-and-modern-hardware/">http://herbsutter.com/2013/02/11/atomic-weapons-the-c-memory-model-and-modern-hardware/</a></p>
+<p>&nbsp; &nbsp; 里面有两段视频，描述了c&#43;&#43;的atomic和sequential consistency。</p>
+<p>2.&nbsp;<a target="_blank" target="_blank" href="http://rsim.cs.illinois.edu/Pubs/08PLDI.pdf">Foundation of C&#43;&#43; Memory Model</a></p>
+<p>&nbsp; &nbsp; 定义了c&#43;&#43;的内存模型</p>
+<p>3. <a target="_blank" target="_blank" href="http://regal.csep.umflint.edu/~swturner/Classes/csc577/Online/Chapter06/img06.html">
+http://regal.csep.umflint.edu/~swturner/Classes/csc577/Online/Chapter06/img06.html</a></p>
+<p>&nbsp; &nbsp;&nbsp;<a target="_blank" target="_blank" href="http://www.cs.cmu.edu/~srini/15-446/S09/lectures/10-consistency.pdf">www.cs.cmu.edu/~srini/15-446/S09/lectures/10-consistency.pdf</a></p>
+<p>&nbsp; &nbsp; 关于一些内存模型的定义</p>
+<p>4.&nbsp;<a target="_blank" target="_blank" href="http://en.wikipedia.org/wiki/Sequential_consistency">http://en.wikipedia.org/wiki/Sequential_consistency</a></p>
+<p>&nbsp; &nbsp; sequential consistency的定义</p>
+<p><br>
+</p>
+<p>这里我来总结一下sequential consistency(SC)。SC的最初的定义见上面4，如下</p>
+<p><br>
+</p>
+<blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+<p><span style="font-family:sans-serif; font-size:13px; line-height:19.1875px"><em>the result of any execution is the same as if the operations of all the processors were executed in some sequential order, and the operations of each individual processor appear
+ in this sequence in the order specified by its program</em></span></p>
+<p><span style="font-family:sans-serif; font-size:13px; line-height:19.1875px"><em><br>
+</em></span></p>
+</blockquote>
+<p>这里的意思可以理解为，所有的read/write操作有一个total order（全序），每一个处理器上的read write都是这个全序的子序列，并且是按照program order执行的（这个就可以理解为c&#43;&#43;11中定义的sequenced before关系）。简单地说，所有的处理器看到的修改必须是一致的，即下面的操作(a)是合法的，而(b)是非法的。</p>
+<p><span style="font-family:sans-serif; font-size:12px"><span style="line-height:19.1875px"><img src="http://regal.csep.umflint.edu/~swturner/Classes/csc577/Online/Chapter06/Images/06-06.jpg" alt=""><br>
+</span></span></p>
+<p>这里Px代表不同处理器，从左到右代表时间序，定义W(x)a为在x上写入a，R(x)a为在x上读取得到a，定义“&gt;”为操作的全局顺序。(a)合法是因为P3和P4读取到了相同的修改，即b&gt;a，而(b) 中确不是如此。</p>
+<p>有人会问，既然是时间序，那么为什么是b&gt;a，而不是a&gt;b，因为SC和时间无关，定义中只是说所有的RW有一个total order，即下面的total order是合法的，</p>
+<p><br>
+</p>
+<blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+<p><span style="font-family:sans-serif; font-size:12px"><span style="line-height:19.1875px">W(x)b [P1] &gt; R(x)b [P3] &gt; R(x)b [P4] &gt; W(x)a [P1] &gt; R(x)a [P3] &gt; R(x)a [P4]</span></span></p>
+<p><span style="font-family:sans-serif; font-size:12px"><span style="line-height:19.1875px"><br>
+</span></span></p>
+</blockquote>
+<p>与时间相关的consisitency model，有<a target="_blank" target="_blank" href="http://en.wikipedia.org/wiki/Strict_consistency">strict consistency</a>和<a target="_blank" target="_blank" href="http://regal.csep.umflint.edu/~swturner/Classes/csc577/Online/Chapter06/img06.html">linearizability</a>。</p>
+<p>c&#43;&#43;的sequential consistency model，仅在使用seq_cst的atomic和mutex时才会保证，但是c&#43;&#43;也提供了release consistency，即acquire/release操作进行同步，当正确使用后，会提供类&#20284;sequential consistency的保证，但是区别在于sequential consistency是全局的，对所有的操作有效，但是acquire/release仅对某个atomic对象有效。</p>
+<p><br>
+</p>
+
+            <div>
+                作者：seizeF 发表于2013/2/13 16:20:50 <a href="http://blog.csdn.net/seizef/article/details/8579995">原文链接</a>
+            </div>
+            <div>
+            阅读：706 评论：0 <a href="http://blog.csdn.net/seizef/article/details/8579995#comments" target="_blank">查看评论</a>
+            </div>
+        ]]>
+        </description>
+        <category></category>
+    </item>
+    <item>
+        <title><![CDATA[[原]什么是101]]></title>
+        <link>http://blog.csdn.net/seizef/article/details/8578543</link>
+        <guid>http://blog.csdn.net/seizef/article/details/8578543</guid>
+        <author>seizeF</author>
+        <pubDate>2013/2/11 15:29:31</pubDate>
+        <description><![CDATA[
+            
+<p>经常在一些国外的文章上看到某某101的字样，一直没有深究，这次查了一下。基本上<strong>某某101</strong>可以理解为对某种话题的基本的介绍和总览，也就是基础知识。当然还有一种用法是为了表示该文章中的内容比其他同类文章中要多。</p>
+<p><br>
+</p>
+<p>见<a href="http://www.internetslang.com/101-meaning-definition.asp">http://www.internetslang.com/101-meaning-definition.asp</a></p>
+
+            <div>
+                作者：seizeF 发表于2013/2/11 15:29:31 <a href="http://blog.csdn.net/seizef/article/details/8578543">原文链接</a>
+            </div>
+            <div>
+            阅读：366 评论：0 <a href="http://blog.csdn.net/seizef/article/details/8578543#comments" target="_blank">查看评论</a>
+            </div>
+        ]]>
+        </description>
+        <category></category>
+    </item>
+    <item>
+        <title><![CDATA[[转]线性时间排序的性能比较]]></title>
+        <link>http://blog.csdn.net/seizef/article/details/8457691</link>
+        <guid>http://blog.csdn.net/seizef/article/details/8457691</guid>
+        <author>seizeF</author>
+        <pubDate>2013/1/1 19:26:30</pubDate>
+        <description><![CDATA[
+            
+<a href="http://www.baptiste-wicht.com/2012/11/integer-linear-time-sorting-algorithms/">Integer Linear Time Sorting Algorithms</a><br>
+
+            <div>
+                作者：seizeF 发表于2013/1/1 19:26:30 <a href="http://blog.csdn.net/seizef/article/details/8457691">原文链接</a>
+            </div>
+            <div>
+            阅读：208 评论：0 <a href="http://blog.csdn.net/seizef/article/details/8457691#comments" target="_blank">查看评论</a>
+            </div>
+        ]]>
+        </description>
+        <category></category>
+    </item>
+    <item>
+        <title><![CDATA[[转]两篇关于stl容器性能比较的文章]]></title>
+        <link>http://blog.csdn.net/seizef/article/details/8457119</link>
+        <guid>http://blog.csdn.net/seizef/article/details/8457119</guid>
+        <author>seizeF</author>
+        <pubDate>2013/1/1 14:13:12</pubDate>
+        <description><![CDATA[
+            
+<h3>STL container Benchmark</h3>
+<p><a href="http://www.baptiste-wicht.com/2012/12/cpp-benchmark-vector-list-deque/" target="_blank">C&#43;&#43; benchmark – std::vector VS std::list VS std::deque</a></p>
+<p><a href="http://www.baptiste-wicht.com/2012/11/cpp-benchmark-vector-vs-list/">C&#43;&#43; benchmark – std::vector VS std::list</a><br>
+</p>
+<p><br>
+</p>
+<p>我们知道通常对于在序列中插入和删除频繁的操作，使用list会更快，而对于序列头尾插入频繁的操作，用deque会更快。vector对于查找来说会比较快，相对于前两种，vector对cache的利用率更高。</p>
+<p>文中详细比较了不同的操作，有一定的参考意义。</p>
+<p>有一点&#20540;得注意的是，random insert&#43;linear search，list最慢（小数据块），原因应该还是cache miss，因为如果node被分配不同的内存块中，那么cache miss的几率会增加。</p>
+<p><br>
+</p>
+<h3>Data Oriented Design</h3>
+<p>在选择数据结构时，有一个重要的因素在传统的复杂度分析时通常不会考虑的是cache locality。一旦cache miss发生，处理器需要等待很多CPU周期才能从内存中取得数据，对于NUMA架构的处理器更是如此。所以，在设计数据结构时有一种叫dod，即Data Oriented Design的设计常常会使用，并且越来越受到重视。可以参考：</p>
+<p><a href="http://research.scee.net/files/presentations/gcapaustralia09/Pitfalls_of_Object_Oriented_Programming_GCAP_09.pdf">Pitfalls of Object Oriented Programming</a><br>
+</p>
+<p>注意，标题是OOP的缺陷，其实不是探讨OOP和面向过程等编程范式的，而是关于OOP对于性能的影响。下面还有一些DOD相关的文章可供参考：</p>
+<p><a href="http://gamesfromwithin.com/data-oriented-design">Data-Oriented Design (Or Why You Might Be Shooting Yourself in The Foot With OOP)</a><br>
+</p>
+<p><a href="http://gamesfromwithin.com/data-oriented-design-now-and-in-the-future">Data-Oriented Design Now And In The Future</a><br>
+</p>
+<p><a href="http://dice.se/wp-content/uploads/Introduction_to_Data-Oriented_Design.pdf">Intorduction to Data Oriented Design</a></p>
+<p>DOD对于性能不敏感的模块意义不大（80/20原则），但是对于某些性能上要求较高的模块，那么就很重要了。</p>
+<p><br>
+</p>
+<p>总之，优化是一门高深的学问。</p>
+
+            <div>
+                作者：seizeF 发表于2013/1/1 14:13:12 <a href="http://blog.csdn.net/seizef/article/details/8457119">原文链接</a>
+            </div>
+            <div>
+            阅读：546 评论：0 <a href="http://blog.csdn.net/seizef/article/details/8457119#comments" target="_blank">查看评论</a>
+            </div>
+        ]]>
+        </description>
+        <category></category>
+    </item>
+    <item>
+        <title><![CDATA[[转]memory barrier]]></title>
+        <link>http://blog.csdn.net/seizef/article/details/8146019</link>
+        <guid>http://blog.csdn.net/seizef/article/details/8146019</guid>
+        <author>seizeF</author>
+        <pubDate>2012/11/4 16:12:58</pubDate>
+        <description><![CDATA[
+            
+<p>这里有一篇关于memory barrier的文档，文档中详细介绍了什么是memory barrier，以及memory barrier的作用。有助于我们理解为什么最初的双重检测锁定模式（Double Checked Locking Pattern）在某些CPU环境下是有问题的。</p>
+<p>文中还指出，如果要正确使用MB进行同步，那么write barrier和read barrier必须是成对出现，也就c&#43;&#43;11中提到的synchronize-with条件。</p>
+<p>接下来，大家可以慢慢研读了：</p>
+<p>[1] <a href="http://www.kernel.org/doc/Documentation/memory-barriers.txt" target="_blank">
+memory barriers</a></p>
+<p>下面的是关于如何在c&#43;&#43;中正确实现dclp模式</p>
+<p>[2]&nbsp;<a href="http://www.google.com/url?sa=t&amp;source=web&amp;cd=1&amp;ved=0CBIQFjAA&amp;url=http%3A%2F%2Fwww.aristeia.com%2FPapers%2FDDJ_Jul_Aug_2004_revised.pdf&amp;ei=HrNfTeLlBIrIuAP_2PXJBA&amp;usg=AFQjCNHmqLfgOdlZVKlZiSGCY1-KOooLzA" rel="nofollow" target="_blank" style="margin:0px; padding:0px; border:0px; font-size:14px; vertical-align:baseline; color:rgb(74,107,130); text-decoration:none; font-family:Arial,'Liberation Sans','DejaVu Sans',sans-serif; line-height:18px">C&#43;&#43;
+ and the Perils of Double-Checked Locking</a></p>
+
+            <div>
+                作者：seizeF 发表于2012/11/4 16:12:58 <a href="http://blog.csdn.net/seizef/article/details/8146019">原文链接</a>
+            </div>
+            <div>
+            阅读：590 评论：0 <a href="http://blog.csdn.net/seizef/article/details/8146019#comments" target="_blank">查看评论</a>
+            </div>
+        ]]>
+        </description>
+        <category></category>
+    </item>
+    <item>
+        <title><![CDATA[[转]TCP和UDP之间的相互影响]]></title>
+        <link>http://blog.csdn.net/seizef/article/details/8035027</link>
+        <guid>http://blog.csdn.net/seizef/article/details/8035027</guid>
+        <author>seizeF</author>
+        <pubDate>2012/10/1 11:18:07</pubDate>
+        <description><![CDATA[
+            
+<p>这里有一篇在同一个程序中同时使用TCP和UDP，UDP丢包率和TCP window大小的论文。论文中研究了，在一个程序中tcp的flow control算法可能对udp丢包率造成的影响，而udp的发包率和包大小也会影响tcp的流量控制，并且也会影响网络的吞吐量。</p>
+<p>论文中提到了一个词汇就是<a href="http://en.wikipedia.org/wiki/TCP_global_synchronization" target="_blank">TCP Synchronization</a>，大概意思就是不同的tcp连接在同一时间内（或相近）调整window size的行为，这种行为会导致udp丢包率的提高。因为若tcp检测到低丢包率，那么就会增加window size，这样若多个连接同时增加window size，那么同一时刻就会有大量包的发出，从而造成网络的堵塞。若这些连接进而同时检测到packet
+ loss的提高，那么又会同时减少window size，此时网络利用率又下降。而这种同时增大window size的行为，会增大udp的丢包率，详细数据可以参考下面的连接。</p>
+<p><br>
+</p>
+<p><a href="http://www.isoc.org/INET97/proceedings/F3/F3_1.HTM">http://www.isoc.org/INET97/proceedings/F3/F3_1.HTM</a><br>
+</p>
+
+            <div>
+                作者：seizeF 发表于2012/10/1 11:18:07 <a href="http://blog.csdn.net/seizef/article/details/8035027">原文链接</a>
+            </div>
+            <div>
+            阅读：945 评论：0 <a href="http://blog.csdn.net/seizef/article/details/8035027#comments" target="_blank">查看评论</a>
+            </div>
+        ]]>
+        </description>
+        <category></category>
+    </item>
+    <item>
+        <title><![CDATA[[转]为什么INT_MIN不是直接写成-2147483648]]></title>
+        <link>http://blog.csdn.net/seizef/article/details/7605010</link>
+        <guid>http://blog.csdn.net/seizef/article/details/7605010</guid>
+        <author>seizeF</author>
+        <pubDate>2012/5/26 17:08:42</pubDate>
+        <description><![CDATA[
+            
+<p>今天在看《深入理解计算机系统》的时候，在p105页作者给出了INT_MIN在标准头文件limits.h中的定义</p>
+<p><pre name="code" class="cpp">#define INT_MAX 2147483647
+#define INT_MIN (-INT_MAX - 1)</pre><br>
+这里没有简单地将INT_MIN赋&#20540;成-2147483647，是因为-2147483648对于编译器而言是个表达式，而2147483648对于32-bit整数是无法表示的，所以经过这个表达式的结果是未定义的。在GCC上直接写-2147483648后，编译器给出了警告，说结果是unsigned。</p>
+<p>这里有一篇文章提到了其中的缘由，可以参考：<a href="http://www.hardtoc.com/archives/119" target="_blank">INT_MIN</a></p>
+
+            <div>
+                作者：seizeF 发表于2012/5/26 17:08:42 <a href="http://blog.csdn.net/seizef/article/details/7605010">原文链接</a>
+            </div>
+            <div>
+            阅读：5225 评论：2 <a href="http://blog.csdn.net/seizef/article/details/7605010#comments" target="_blank">查看评论</a>
+            </div>
+        ]]>
+        </description>
+        <category></category>
+    </item>
+    <item>
+        <title><![CDATA[[原]浮点数有效数字位数]]></title>
+        <link>http://blog.csdn.net/seizef/article/details/7603424</link>
+        <guid>http://blog.csdn.net/seizef/article/details/7603424</guid>
+        <author>seizeF</author>
+        <pubDate>2012/5/25 22:27:17</pubDate>
+        <description><![CDATA[
+            
+<p>在上一篇《<a href="http://blog.csdn.net/seizef/article/details/5571783" target="_blank">浮点数能够精确表示的整数的范围</a>》中，我们知道了，对于float，实际有效的尾数是23位，对于double，实际有效的位数是53位。所以这里我们可以得到float的十进制表示有效数字个数为：</p>
+<p style="text-align:center"><img src="http://my.csdn.net/uploads/201205/25/1337956099_7454.gif" alt=""><br>
+</p>
+<p style="text-align:left">这里最小的n为7，对于double，最小的n为15。</p>
+<p style="text-align:left">有时我们在代码中可能会看到比较浮点数时，会使用一个epsilon，而这个epsilon = 1e-6，可能就是因为当浮点数绝对&#20540; &gt;= 1时，小数点后有效位数为6位。</p>
+<p style="text-align:left"><br>
+</p>
+<p style="text-align:left">EDIT: &nbsp;(2012/7/7)</p>
+<p style="text-align:left">上面的说法可能有些有些模糊，这里我再试图说明一下。</p>
+<p style="text-align:left">对于IEEE754&#26684;式，具体的尾数的有效数字个数分2种，一种是规&#26684;化数的情况，另一种是非规&#26684;化数的情况。非规&#26684;化数的尾数的有效位数是23，而规&#26684;化数多一位，是24。对于绝对&#20540;&gt;=1的数，是由规&#26684;化数来表示的，也就是这里由24位，那么实际的十进制有效位数就是8。当然绝对&#20540;&lt;1的数，也可能是由规&#26684;化数来表示，所以此时小数点后应该最多是8位。</p>
+<p style="text-align:left"><br>
+</p>
+<p style="text-align:left">Reference:</p>
+<p style="text-align:left"><a href="http://en.wikipedia.org/wiki/Floating_point">http://en.wikipedia.org/wiki/Floating_point</a><br>
+</p>
+
+            <div>
+                作者：seizeF 发表于2012/5/25 22:27:17 <a href="http://blog.csdn.net/seizef/article/details/7603424">原文链接</a>
+            </div>
+            <div>
+            阅读：2504 评论：0 <a href="http://blog.csdn.net/seizef/article/details/7603424#comments" target="_blank">查看评论</a>
+            </div>
+        ]]>
+        </description>
+        <category></category>
+    </item>
+    <item>
+        <title><![CDATA[[原]Scissoring By Projection Matrix]]></title>
+        <link>http://blog.csdn.net/seizef/article/details/7421510</link>
+        <guid>http://blog.csdn.net/seizef/article/details/7421510</guid>
+        <author>seizeF</author>
+        <pubDate>2012/4/2 13:22:12</pubDate>
+        <description><![CDATA[
+            
+<h2>Scissoring By API</h2>
+<div>在OpenGL或者D3D中，在fragment被写入frame buffer之前，会进行per fragment的操作，OpenGL中的操作顺序如下：<br>
+<ol>
+<li>Scissor Test</li><li>Alpha Test</li><li>Stecil Test</li><li>Depth Test</li><li>Blend</li><li>Dither</li><li>Logic operation</li></ol>
+<span style="white-space:pre"></span>要进行Scissor Test，我们可以<br>
+</div>
+<div><br>
+</div>
+<div><pre name="code" class="cpp">glEnable(GL_SCISSOR_TEST);
+glScissor(left, bottom, with, height);</pre><br>
+默认情况下Scissor Test是禁用的，并且Scissor的大小是整个window。<br>
+</div>
+<div>在D3D中，我们可以</div>
+<div><br>
+</div>
+<div><pre name="code" class="cpp">g_pD3Device-&gt;SetRenderState(D3DRS_SCISSORTESTENABLE, TRUE);
+g_pD3Device-&gt;SetScissorRect(&amp;rect);
+</pre>
+<h2>Scissoring By Projection Matrix</h2>
+</div>
+<div>我们也可以通过修改projection matrix，来达到相同的目的，当引擎不提供相关的api来直接设置scissor rect的时候，比如unity3d。<br>
+</div>
+<div><br>
+</div>
+<div>注意到，要想在屏幕的某个区域只渲染world中的一部分，那么我们首先应该修改viewport，使得和scissor rect一致。又因为我们没有办法只渲染NDC中一部分，我们唯一的选择就是将我们需要渲染的那一部分，缩放/平移，使得那部分占满整个NDC区域，这样，就达到了只渲染scissor rect的目的。<br>
+</div>
+<div><br>
+</div>
+<div><img src="http://my.csdn.net/uploads/201204/02/1333343940_6280.png" alt=""><br>
+</div>
+<div>其中蓝色的矩形（下面简称NDC'）是我们需要实际显示的部分，白色矩形就是原始的NDC坐标系。我们只需要将NDC坐标系中坐标转换到NDC'中即可，这样在NDC'之外的vertex就会被clipping，最后达到scissor的目的。<br>
+<br>
+注意到，在坐标进行投影之后，实际上是在齐次坐标空间，但是因为在透视除后的欧式空间中变换和在齐次坐标空间中变换不影响最终的结果，所以我们选择在NDC中进行，否则我们需要知道齐次坐标的w分量，因为<br>
+<span style="white-space:pre"></span></div>
+<div><br>
+</div>
+<blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+<div>-w &lt;= x &lt;= w</div>
+</blockquote>
+<blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+<div>-w &lt;= y &lt;= w</div>
+</blockquote>
+<div><span style="white-space:pre"></span><br>
+对于齐次坐标[x y z w]，对应的欧氏空间的坐标是[x/w y/w z/w]。<br>
+</div>
+<div><br>
+</div>
+<div>假设Scissor Test以Normalized Screen Coordinate指定，为(l, t, w, h)。NDC中的坐标为[x y z]，考虑到变换只影响x, y，所以以后的讨论不涉及z的变换。<br>
+</div>
+<div><br>
+</div>
+<div>在Normalized screen space中，对于已知的一个点P，有以下等式成立：<br>
+</div>
+<div><br>
+</div>
+<div><img src="http://my.csdn.net/uploads/201204/02/1333344119_7415.png" alt=""><br>
+</div>
+<div><br>
+</div>
+<div>其中坐标系[O, u0, u1] 是原始NDC在Normalized Screen Space中的表示，坐标系[O', v0, v1]是变换后的NDC在Normalized Screen Space中的表示。我们已知[x y]，进而可以得到，<br>
+</div>
+<div><br>
+</div>
+<div><img src="http://my.csdn.net/uploads/201204/02/1333344191_8140.png" alt=""><br>
+</div>
+<div><br>
+</div>
+<div>我们只需要求出[O, u0, u1]在[O', v0, v1]中的坐标即可得到变换矩阵。<br>
+有<br>
+<span style="white-space:pre"></span></div>
+<blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+<div>O = (1/2, 1/2)</div>
+</blockquote>
+<blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+<div>u0 = (1/2, 0)</div>
+<div>u1 = (0, -1/2)</div>
+</blockquote>
+<div><span style="white-space:pre"></span><br>
+<span style="white-space:pre"></span></div>
+<blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+<div>O' = (l&#43;w/2, t&#43;h/2)</div>
+<div>v0 = (w/2, 0)</div>
+<div>v1 = (0, -h/2)</div>
+</blockquote>
+<div><span style="white-space:pre"></span><br>
+所以我们可以得到<br>
+<span style="white-space:pre"></span></div>
+<blockquote style="margin:0 0 0 40px; border:none; padding:0px">
+<div>m00 = 1/w</div>
+<div>m01 = 0</div>
+<div>m10 = 0</div>
+<div>m11 = 1/h</div>
+<div>m20 = (1-2l-w)/w</div>
+<div>m21 = -(1-2t-h)/h</div>
+</blockquote>
+<div><span style="white-space:pre"></span><br>
+所以最终我们将原始的投影矩阵，再乘以如下的变换矩阵，即可达到Scissor的目的<br>
+<br>
+<img src="http://my.csdn.net/uploads/201204/02/1333344252_5494.png" alt=""><br>
+</div>
+<div><br>
+</div>
+<div>在Unity3D中，我们可以<br>
+</div>
+<div><br>
+</div>
+<div><pre name="code" class="cpp">// Set the viewport to the scissor rect
+Camera.main.rect = rcScissor;
+
+// Transform so that the scissor rect occupies the NDC
+Matrix4x4 mat = new Matrix4x4();
+mat.SetColumn(0, new Vector4(1 / rcScissor.width, 0, 0, 0));
+mat.SetColumn(1, new Vector4(0, 1 / rcScissor.height, 0, 0));
+mat.SetColumn(2, new Vector4(0, 0, 1, 0));
+float tx = (1.0f - (2 * rcScissor.x + rcScissor.width)) / rcScissor.width;
+float ty = (-1.0f + (2 * rcScissor.y + rcScissor.height)) / rcScissor.height;
+mat.SetColumn(3, new Vector4(tx, ty, 0, 1));
+</pre><br>
+<br>
+</div>
+
+            <div>
+                作者：seizeF 发表于2012/4/2 13:22:12 <a href="http://blog.csdn.net/seizef/article/details/7421510">原文链接</a>
+            </div>
+            <div>
+            阅读：952 评论：0 <a href="http://blog.csdn.net/seizef/article/details/7421510#comments" target="_blank">查看评论</a>
+            </div>
+        ]]>
+        </description>
+        <category></category>
+    </item>
+</channel>
+</rss>

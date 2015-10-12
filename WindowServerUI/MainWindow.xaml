@@ -1,0 +1,20 @@
+﻿<Window x:Class="WindowServerUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="411.429" Width="566.429">
+    <Grid Margin="0,0,-39,-206">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="275*" />
+            <ColumnDefinition Width="322*" />
+        </Grid.ColumnDefinitions>
+        <Button Content="安装" HorizontalAlignment="Left" Margin="59,37,0,516" Width="80" Name="btnInstall" Click="btnInstall_Click" />
+        <Button Content="卸载" HorizontalAlignment="Left" Margin="158,37,0,516" Width="80" x:Name="btnunInstall" Click="btnunInstall_Click" />
+        <TextBlock HorizontalAlignment="Left" Margin="37,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Name="InstallLog" Height="33" Width="223" Grid.Column="1" />
+        <Button Content="Start" Name="start" HorizontalAlignment="Left" Margin="59,103,0,0" VerticalAlignment="Top" Width="80" RenderTransformOrigin="-0.2,0.632" Height="33" Click="start_Click" />
+        <Button Content="Stop" Name="stop" HorizontalAlignment="Left" Margin="158,103,0,0" VerticalAlignment="Top" Width="80" Height="33" Click="stop_Click" />
+        <Button Content="检查服务状态" Name="btnCheckState" HorizontalAlignment="Left" Margin="59,164,0,0" VerticalAlignment="Top" Width="80" Height="33" Click="btnCheckState_Click" />
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="108,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="152" Name="stateLog" />
+        <Button Grid.ColumnSpan="2" Name="btnPauseContinue" Content="Pause/Continue" HorizontalAlignment="Left" Margin="263,103,0,0" VerticalAlignment="Top" Width="88" Height="33" Click="btnPauseContinue_Click" />
+        <TextBlock HorizontalAlignment="Left" Margin="183,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="33" Width="352" Name="state" />
+    </Grid>
+</Window>

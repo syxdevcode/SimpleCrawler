@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns="http://schemas.microsoft.com/wlw/manifest/weblog">
+<options><clientType>Metaweblog</clientType><supportsKeywords>Yes</supportsKeywords><supportsNewCategories>Yes</supportsNewCategories><supportsSlug>Yes</supportsSlug><supportsAuthor>Yes</supportsAuthor><supportsGetTags>Yes</supportsGetTags></options><weblog>
+<serviceName>OSCHINA.NET</serviceName>
+<homepageLinkText>七孑bit</homepageLinkText>
+<adminLinkText>博客管理</adminLinkText>
+<adminUrl>http://my.oschina.net/chen7/admin/blog-catalogs</adminUrl>
+<postEditingUrl>http://my.oschina.net/chen7/admin/edit-blog?blog={post-id}</postEditingUrl>
+</weblog>
+</manifest>

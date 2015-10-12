@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_智慧云端日记</title>
+  <subtitle type="text"></subtitle>
+  <id>uuid:b4817541-f82b-488c-b5c3-8dd6c9f747d0;id=4221</id>
+  <updated>2015-09-09T02:22:25Z</updated>
+  <author>
+    <name>智慧云端日记</name>
+    <uri>http://www.cnblogs.com/zyw-205520/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/zyw-205520/p/4793888.html</id>
+    <title type="text">linux重启oracle 各种方法 - 智慧云端日记</title>
+    <summary type="text">在linux下重启oracle数据库及监听器总结:方法1：用root以ssh登录到linux，打开终端输入以下命令：cd $ORACLE_HOME#进入到oracle的安装目录dbstart#重启服务器lsnrctl start#重启监听器cd $ORACLE_HOME#进入到oracle的安装目录...</summary>
+    <published>2015-09-09T02:22:00Z</published>
+    <updated>2015-09-09T02:22:00Z</updated>
+    <author>
+      <name>智慧云端日记</name>
+      <uri>http://www.cnblogs.com/zyw-205520/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zyw-205520/p/4793888.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zyw-205520/p/4793888.html" />
+    <content type="html">在linux下重启oracle数据库及监听器总结:方法1：用root以ssh登录到linux，打开终端输入以下命令：cd $ORACLE_HOME#进入到oracle的安装目录dbstart#重启服务器lsnrctl start#重启监听器cd $ORACLE_HOME#进入到oracle的安装目录...&lt;img src="http://counter.cnblogs.com/blog/rss/4793888" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/zyw-205520/p/4793888.html" target="_blank"&gt;linux重启oracle 各种方法&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zyw-205520/p/4776597.html</id>
+    <title type="text">Linux安装JDK - 智慧云端日记</title>
+    <summary type="text">Ubuntu版本：ubuntukylin-14.04.1-desktop-amd64JDK版本：jdk1.8.0_60安装目录：/usr/local/development/jdk1.8.0_60安装过程 参考地址：xxx下载地址 http://www.oracle.com/technetwork...</summary>
+    <published>2015-09-01T10:59:00Z</published>
+    <updated>2015-09-01T10:59:00Z</updated>
+    <author>
+      <name>智慧云端日记</name>
+      <uri>http://www.cnblogs.com/zyw-205520/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zyw-205520/p/4776597.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zyw-205520/p/4776597.html" />
+    <content type="html">Ubuntu版本：ubuntukylin-14.04.1-desktop-amd64JDK版本：jdk1.8.0_60安装目录：/usr/local/development/jdk1.8.0_60安装过程 参考地址：xxx下载地址 http://www.oracle.com/technetwork...&lt;img src="http://counter.cnblogs.com/blog/rss/4776597" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/zyw-205520/p/4776597.html" target="_blank"&gt;Linux安装JDK&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zyw-205520/p/4776129.html</id>
+    <title type="text">Ubuntu Kylin14.04终于可以使用root登陆了 - 智慧云端日记</title>
+    <summary type="text">Ubuntu Kylin14.04怎样使用root登陆？方法：找到/usr/share/lightm/ightm.conf.d 用gedit或者vi 打开50-unity-greeter.conf 在下面添加greeter-show-manual-login=true ...</summary>
+    <published>2015-09-01T08:50:00Z</published>
+    <updated>2015-09-01T08:50:00Z</updated>
+    <author>
+      <name>智慧云端日记</name>
+      <uri>http://www.cnblogs.com/zyw-205520/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zyw-205520/p/4776129.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zyw-205520/p/4776129.html" />
+    <content type="html">Ubuntu Kylin14.04怎样使用root登陆？方法：找到/usr/share/lightm/ightm.conf.d 用gedit或者vi 打开50-unity-greeter.conf 在下面添加greeter-show-manual-login=true ...&lt;img src="http://counter.cnblogs.com/blog/rss/4776129" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/zyw-205520/p/4776129.html" target="_blank"&gt;Ubuntu Kylin14.04终于可以使用root登陆了&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zyw-205520/p/4773810.html</id>
+    <title type="text">为什么监听不到开机广播action.BOOT_COMPLETED - 智慧云端日记</title>
+    <summary type="text">为什么监听不到开机广播action.BOOT_COMPLETED1. 说明 Android手机开机后，会发送android.intent.action.BOOT_COMPLETED广播，监听这个广播就能监听开机。2. 代码注册广播 添加权限 实现Re...</summary>
+    <published>2015-08-31T10:54:00Z</published>
+    <updated>2015-08-31T10:54:00Z</updated>
+    <author>
+      <name>智慧云端日记</name>
+      <uri>http://www.cnblogs.com/zyw-205520/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zyw-205520/p/4773810.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zyw-205520/p/4773810.html" />
+    <content type="html">为什么监听不到开机广播action.BOOT_COMPLETED1. 说明 Android手机开机后，会发送android.intent.action.BOOT_COMPLETED广播，监听这个广播就能监听开机。2. 代码注册广播 添加权限 实现Re...&lt;img src="http://counter.cnblogs.com/blog/rss/4773810" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/zyw-205520/p/4773810.html" target="_blank"&gt;为什么监听不到开机广播action.BOOT_COMPLETED&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/zyw-205520/p/4771253.html</id>
+    <title type="text">SSM框架——详细整合教程（Spring+SpringMVC+MyBatis） - 智慧云端日记</title>
+    <summary type="text">最近在学习Spring+SpringMVC+MyBatis的整合。以下是参考网上的资料自己实践操作的详细步骤。1、基本概念1.1、Spring Spring是一个开源框架，Spring是于2003年兴起的一个轻量级的Java开发框架，由RodJohnson在其著作ExpertOne-On-O...</summary>
+    <published>2015-08-30T09:49:00Z</published>
+    <updated>2015-08-30T09:49:00Z</updated>
+    <author>
+      <name>智慧云端日记</name>
+      <uri>http://www.cnblogs.com/zyw-205520/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/zyw-205520/p/4771253.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/zyw-205520/p/4771253.html" />
+    <content type="html">最近在学习Spring+SpringMVC+MyBatis的整合。以下是参考网上的资料自己实践操作的详细步骤。1、基本概念1.1、Spring Spring是一个开源框架，Spring是于2003年兴起的一个轻量级的Java开发框架，由RodJohnson在其著作ExpertOne-On-O...&lt;img src="http://counter.cnblogs.com/blog/rss/4771253" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/zyw-205520/p/4771253.html" target="_blank"&gt;SSM框架——详细整合教程（Spring+SpringMVC+MyBatis）&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+</feed>

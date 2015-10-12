@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_EtherDream の 原创空间</title>
+  <subtitle type="text"></subtitle>
+  <id>uuid:b62856c0-1ad2-4f0a-817a-09c3a59d43d7;id=1336</id>
+  <updated>2015-09-08T03:11:21Z</updated>
+  <author>
+    <name>EtherDream</name>
+    <uri>http://www.cnblogs.com/index-html/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/index-html/p/dialog-phishing.html</id>
+    <title type="text">危险的文件夹上传框 - EtherDream</title>
+    <summary type="text">上传对话框不仅仅用于选择文件，而是直接授权了脚本对本地的文件访问</summary>
+    <published>2015-08-26T12:18:00Z</published>
+    <updated>2015-08-26T12:18:00Z</updated>
+    <author>
+      <name>EtherDream</name>
+      <uri>http://www.cnblogs.com/index-html/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/index-html/p/dialog-phishing.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/index-html/p/dialog-phishing.html" />
+    <content type="html">上传对话框不仅仅用于选择文件，而是直接授权了脚本对本地的文件访问&lt;img src="http://counter.cnblogs.com/blog/rss/4761544" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/index-html/p/dialog-phishing.html" target="_blank"&gt;危险的文件夹上传框&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/index-html/p/cookie-dos.html</id>
+    <title type="text">超大 Cookie 拒绝服务攻击 - EtherDream</title>
+    <summary type="text">拒绝服务必须对服务器发起攻击吗？利用 HTTP 的一些特性，可以实现一个本地版的站点屏蔽攻击。</summary>
+    <published>2015-06-02T23:40:00Z</published>
+    <updated>2015-06-02T23:40:00Z</updated>
+    <author>
+      <name>EtherDream</name>
+      <uri>http://www.cnblogs.com/index-html/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/index-html/p/cookie-dos.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/index-html/p/cookie-dos.html" />
+    <content type="html">拒绝服务必须对服务器发起攻击吗？利用 HTTP 的一些特性，可以实现一个本地版的站点屏蔽攻击。&lt;img src="http://counter.cnblogs.com/blog/rss/4548207" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/index-html/p/cookie-dos.html" target="_blank"&gt;超大 Cookie 拒绝服务攻击&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/index-html/p/trusted-lottery-algorithm.html</id>
+    <title type="text">怎样的中奖算法能让人信服 - EtherDream</title>
+    <summary type="text">怎样的中奖算法能让人信服？</summary>
+    <published>2015-05-05T13:36:00Z</published>
+    <updated>2015-05-05T13:36:00Z</updated>
+    <author>
+      <name>EtherDream</name>
+      <uri>http://www.cnblogs.com/index-html/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/index-html/p/trusted-lottery-algorithm.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/index-html/p/trusted-lottery-algorithm.html" />
+    <content type="html">怎样的中奖算法能让人信服？&lt;img src="http://counter.cnblogs.com/blog/rss/4480374" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/index-html/p/trusted-lottery-algorithm.html" target="_blank"&gt;怎样的中奖算法能让人信服&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/index-html/p/swf-reflect-priv.html</id>
+    <title type="text">隐私泄露杀手锏 —— Flash 权限反射 - EtherDream</title>
+    <summary type="text">不少 Flash 开发人员，只考虑 SWF 被网页嵌套的情况，却忽视了还可以被其他 SWF 嵌套。于是埋下了严重的安全隐患。</summary>
+    <published>2015-04-17T13:28:00Z</published>
+    <updated>2015-04-17T13:28:00Z</updated>
+    <author>
+      <name>EtherDream</name>
+      <uri>http://www.cnblogs.com/index-html/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/index-html/p/swf-reflect-priv.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/index-html/p/swf-reflect-priv.html" />
+    <content type="html">不少 Flash 开发人员，只考虑 SWF 被网页嵌套的情况，却忽视了还可以被其他 SWF 嵌套。于是埋下了严重的安全隐患。&lt;img src="http://counter.cnblogs.com/blog/rss/4435988" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/index-html/p/swf-reflect-priv.html" target="_blank"&gt;隐私泄露杀手锏 —— Flash 权限反射&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/index-html/p/captcha-trap.html</id>
+    <title type="text">【探索】自动报警的验证码 - EtherDream</title>
+    <summary type="text">在验证码的渲染上做一点把戏，从而揪出使用外挂的用户</summary>
+    <published>2015-03-22T09:41:00Z</published>
+    <updated>2015-03-22T09:41:00Z</updated>
+    <author>
+      <name>EtherDream</name>
+      <uri>http://www.cnblogs.com/index-html/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/index-html/p/captcha-trap.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/index-html/p/captcha-trap.html" />
+    <content type="html">在验证码的渲染上做一点把戏，从而揪出使用外挂的用户&lt;img src="http://counter.cnblogs.com/blog/rss/4357677" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/index-html/p/captcha-trap.html" target="_blank"&gt;【探索】自动报警的验证码&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/index-html/p/cable_attack.html</id>
+    <title type="text">【趣事】一根网线发起的攻击 - EtherDream</title>
+    <summary type="text">当年大学里的一段趣事，只用一根网线断掉整个楼的网络</summary>
+    <published>2015-03-17T04:40:00Z</published>
+    <updated>2015-03-17T04:40:00Z</updated>
+    <author>
+      <name>EtherDream</name>
+      <uri>http://www.cnblogs.com/index-html/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/index-html/p/cable_attack.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/index-html/p/cable_attack.html" />
+    <content type="html">当年大学里的一段趣事，只用一根网线断掉整个楼的网络&lt;img src="http://counter.cnblogs.com/blog/rss/4344082" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/index-html/p/cable_attack.html" target="_blank"&gt;【趣事】一根网线发起的攻击&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/index-html/p/https_hijack_hsts.html</id>
+    <title type="text">【流量劫持】躲避 HSTS 的 HTTPS 劫持 - EtherDream</title>
+    <summary type="text">HSTS 一定程度上解决了 HTTPS 劫持的问题，但仍有躲避的方法</summary>
+    <published>2015-03-13T09:19:00Z</published>
+    <updated>2015-03-13T09:19:00Z</updated>
+    <author>
+      <name>EtherDream</name>
+      <uri>http://www.cnblogs.com/index-html/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/index-html/p/https_hijack_hsts.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/index-html/p/https_hijack_hsts.html" />
+    <content type="html">HSTS 一定程度上解决了 HTTPS 劫持的问题，但仍有躲避的方法&lt;img src="http://counter.cnblogs.com/blog/rss/4335615" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/index-html/p/https_hijack_hsts.html" target="_blank"&gt;【流量劫持】躲避 HSTS 的 HTTPS 劫持&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/index-html/p/xss_long_live.html</id>
+    <title type="text">【XSS】延长 XSS 生命期 - EtherDream</title>
+    <summary type="text">让 XSS 蔓延到各个相关联的页面里，即使当前页面关闭仍能运行，实现更持久的攻击</summary>
+    <published>2015-02-26T12:38:00Z</published>
+    <updated>2015-02-26T12:38:00Z</updated>
+    <author>
+      <name>EtherDream</name>
+      <uri>http://www.cnblogs.com/index-html/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/index-html/p/xss_long_live.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/index-html/p/xss_long_live.html" />
+    <content type="html">让 XSS 蔓延到各个相关联的页面里，即使当前页面关闭仍能运行，实现更持久的攻击&lt;img src="http://counter.cnblogs.com/blog/rss/4302063" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/index-html/p/xss_long_live.html" target="_blank"&gt;【XSS】延长 XSS 生命期&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/index-html/p/onload-event-cross-monitor.html</id>
+    <title type="text">【XSS】利用 onload 事件监控跨站资源 - EtherDream</title>
+    <summary type="text">通过 JavaScript 实现跨站资源的监控，提供比 CSP 更详细的信息，以及更灵活的处理方式。</summary>
+    <published>2015-01-23T06:32:00Z</published>
+    <updated>2015-01-23T06:32:00Z</updated>
+    <author>
+      <name>EtherDream</name>
+      <uri>http://www.cnblogs.com/index-html/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/index-html/p/onload-event-cross-monitor.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/index-html/p/onload-event-cross-monitor.html" />
+    <content type="html">通过 JavaScript 实现跨站资源的监控，提供比 CSP 更详细的信息，以及更灵活的处理方式。&lt;img src="http://counter.cnblogs.com/blog/rss/4244154" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/index-html/p/onload-event-cross-monitor.html" target="_blank"&gt;【XSS】利用 onload 事件监控跨站资源&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/index-html/p/frontend-based-war.html</id>
+    <title type="text">对抗假人 —— 前后端结合的 WAF - EtherDream</title>
+    <summary type="text">传统 Web 防火墙大多只是纯后端的规则分析，完全没有发挥出前端技术的优势。如果能将前后端相结合，又能有如何改进？</summary>
+    <published>2015-01-21T09:53:00Z</published>
+    <updated>2015-01-21T09:53:00Z</updated>
+    <author>
+      <name>EtherDream</name>
+      <uri>http://www.cnblogs.com/index-html/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/index-html/p/frontend-based-war.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/index-html/p/frontend-based-war.html" />
+    <content type="html">传统 Web 防火墙大多只是纯后端的规则分析，完全没有发挥出前端技术的优势。如果能将前后端相结合，又能有如何改进？&lt;img src="http://counter.cnblogs.com/blog/rss/4239638" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/index-html/p/frontend-based-war.html" target="_blank"&gt;对抗假人 —— 前后端结合的 WAF&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+</feed>

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_hystar的.Net世界</title>
+  <subtitle type="text"></subtitle>
+  <id>uuid:8dc7efba-43f2-4416-95a0-534dced3b48f;id=4372</id>
+  <updated>2015-09-17T05:04:23Z</updated>
+  <author>
+    <name>hystar</name>
+    <uri>http://www.cnblogs.com/lsxqw2004/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/lsxqw2004/p/4775375.html</id>
+    <title type="text">WinRT自定义控件第一 - 转盘按钮控件 - hystar</title>
+    <summary type="text">之前的文章中，介绍了用WPF做一个转盘按钮控件，后来需要把这个控件移植到WinRT时，遇到了很大的问题，主要原因在于WPF和WinRT还是有很大不同的。这篇文章介绍了这个移植过程，由于2次实现的控件功能完全一样，文章主要关注点放在WPF与WinRT的不同上。定义控件模板的XAML文件在WinRT上的...</summary>
+    <published>2015-09-06T04:59:00Z</published>
+    <updated>2015-09-06T04:59:00Z</updated>
+    <author>
+      <name>hystar</name>
+      <uri>http://www.cnblogs.com/lsxqw2004/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/lsxqw2004/p/4775375.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/lsxqw2004/p/4775375.html" />
+    <content type="html">之前的文章中，介绍了用WPF做一个转盘按钮控件，后来需要把这个控件移植到WinRT时，遇到了很大的问题，主要原因在于WPF和WinRT还是有很大不同的。这篇文章介绍了这个移植过程，由于2次实现的控件功能完全一样，文章主要关注点放在WPF与WinRT的不同上。定义控件模板的XAML文件在WinRT上的...&lt;img src="http://counter.cnblogs.com/blog/rss/4775375" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/lsxqw2004/p/4775375.html" target="_blank"&gt;WinRT自定义控件第一 - 转盘按钮控件&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/lsxqw2004/p/4775658.html</id>
+    <title type="text">WPF自定义控件第二 - 转盘按钮控件 - hystar</title>
+    <summary type="text">继之前那个控件，又做了一个原理差不多的控件。这个控件主要模仿百度贴吧WP版帖子浏览界面左下角那个弹出的按钮盘。希望对大家有帮助。这个控件和之前的也差不多，为了不让大家白看，文章最后发干货。由于这个控件和之前一篇文章介绍控件基本差不多，所以一些基本的实现点不再赘述，文本将主要介绍与这个控件功能密切相关...</summary>
+    <published>2015-09-02T03:52:00Z</published>
+    <updated>2015-09-02T03:52:00Z</updated>
+    <author>
+      <name>hystar</name>
+      <uri>http://www.cnblogs.com/lsxqw2004/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/lsxqw2004/p/4775658.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/lsxqw2004/p/4775658.html" />
+    <content type="html">继之前那个控件，又做了一个原理差不多的控件。这个控件主要模仿百度贴吧WP版帖子浏览界面左下角那个弹出的按钮盘。希望对大家有帮助。这个控件和之前的也差不多，为了不让大家白看，文章最后发干货。由于这个控件和之前一篇文章介绍控件基本差不多，所以一些基本的实现点不再赘述，文本将主要介绍与这个控件功能密切相关...&lt;img src="http://counter.cnblogs.com/blog/rss/4775658" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/lsxqw2004/p/4775658.html" target="_blank"&gt;WPF自定义控件第二 - 转盘按钮控件&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/lsxqw2004/p/4772325.html</id>
+    <title type="text">WPF自定义控件第一 - 进度条控件 - hystar</title>
+    <summary type="text">本文主要针对WPF新手，高手可以直接忽略，更希望高手们能给出一些更好的实现思路。前期一个小任务需要实现一个类似含步骤进度条的控件。虽然对于XAML的了解还不是足够深入，还是摸索着做了一个。这篇文章介绍下实现这个控件的步骤，最后会放出代码。还请高手们给出更好的思路。同时也希望这里的思路能给同道中人一些...</summary>
+    <published>2015-09-01T01:16:00Z</published>
+    <updated>2015-09-01T01:16:00Z</updated>
+    <author>
+      <name>hystar</name>
+      <uri>http://www.cnblogs.com/lsxqw2004/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/lsxqw2004/p/4772325.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/lsxqw2004/p/4772325.html" />
+    <content type="html">本文主要针对WPF新手，高手可以直接忽略，更希望高手们能给出一些更好的实现思路。前期一个小任务需要实现一个类似含步骤进度条的控件。虽然对于XAML的了解还不是足够深入，还是摸索着做了一个。这篇文章介绍下实现这个控件的步骤，最后会放出代码。还请高手们给出更好的思路。同时也希望这里的思路能给同道中人一些...&lt;img src="http://counter.cnblogs.com/blog/rss/4772325" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/lsxqw2004/p/4772325.html" target="_blank"&gt;WPF自定义控件第一 - 进度条控件&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/lsxqw2004/p/4701979.html</id>
+    <title type="text">Entity Framework教程(第二版) - hystar</title>
+    <summary type="text">源起很多年前刚毕业那阵写过一篇关于Entity Framework的文章，没发首页却得到100+的推荐。可能是当时Entity Framework刚刚发布介绍EF的文章比较少。一晃这么多年过去了，EF6.1已经发布很久，EF7马上就到来。那篇文章已经显得相当过时，这期间园子里出现了很多介绍EF4/5...</summary>
+    <published>2015-08-07T13:58:00Z</published>
+    <updated>2015-08-07T13:58:00Z</updated>
+    <author>
+      <name>hystar</name>
+      <uri>http://www.cnblogs.com/lsxqw2004/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/lsxqw2004/p/4701979.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/lsxqw2004/p/4701979.html" />
+    <content type="html">源起很多年前刚毕业那阵写过一篇关于Entity Framework的文章，没发首页却得到100+的推荐。可能是当时Entity Framework刚刚发布介绍EF的文章比较少。一晃这么多年过去了，EF6.1已经发布很久，EF7马上就到来。那篇文章已经显得相当过时，这期间园子里出现了很多介绍EF4/5...&lt;img src="http://counter.cnblogs.com/blog/rss/4701979" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/lsxqw2004/p/4701979.html" target="_blank"&gt;Entity Framework教程(第二版)&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/lsxqw2004/p/4788303.html</id>
+    <title type="text">[翻译]Orchard如何工作 - hystar</title>
+    <summary type="text">Orchard一直是博主心中神一般的存在，由于水平比较菜，Orchard代码又比较复杂看了几次都不了了之了。这次下定决心要搞懂其工作原理，争取可以在自己的项目中有所应用。为了入门先到官网去学习一下相关的基础内容。看到这篇比较不错的入门文章，边学习边翻译一下。希望给有需要的朋友以帮助，也希望和对Orc...</summary>
+    <published>2015-07-07T02:50:00Z</published>
+    <updated>2015-07-07T02:50:00Z</updated>
+    <author>
+      <name>hystar</name>
+      <uri>http://www.cnblogs.com/lsxqw2004/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/lsxqw2004/p/4788303.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/lsxqw2004/p/4788303.html" />
+    <content type="html">Orchard一直是博主心中神一般的存在，由于水平比较菜，Orchard代码又比较复杂看了几次都不了了之了。这次下定决心要搞懂其工作原理，争取可以在自己的项目中有所应用。为了入门先到官网去学习一下相关的基础内容。看到这篇比较不错的入门文章，边学习边翻译一下。希望给有需要的朋友以帮助，也希望和对Orc...&lt;img src="http://counter.cnblogs.com/blog/rss/4788303" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/lsxqw2004/p/4788303.html" target="_blank"&gt;[翻译]Orchard如何工作&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/lsxqw2004/p/4537880.html</id>
+    <title type="text">RavenDB官网文档翻译系列第一 - hystar</title>
+    <summary type="text">本系列文章主要翻译自RavenDB官方文档，有些地方做了删减，有些内容整合在一起。欢迎有需要的朋友阅读。毕竟还是中文读起来更亲切吗。下面进入正题。起航获取RavenDBRavenDB可以通过NuGet获取，也可以直接在RavenDB官网下载压缩包。首先了解下压缩包中的内容，可以更好的根据需要进行选择...</summary>
+    <published>2015-06-01T03:47:00Z</published>
+    <updated>2015-06-01T03:47:00Z</updated>
+    <author>
+      <name>hystar</name>
+      <uri>http://www.cnblogs.com/lsxqw2004/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/lsxqw2004/p/4537880.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/lsxqw2004/p/4537880.html" />
+    <content type="html">本系列文章主要翻译自RavenDB官方文档，有些地方做了删减，有些内容整合在一起。欢迎有需要的朋友阅读。毕竟还是中文读起来更亲切吗。下面进入正题。起航获取RavenDBRavenDB可以通过NuGet获取，也可以直接在RavenDB官网下载压缩包。首先了解下压缩包中的内容，可以更好的根据需要进行选择...&lt;img src="http://counter.cnblogs.com/blog/rss/4537880" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/lsxqw2004/p/4537880.html" target="_blank"&gt;RavenDB官网文档翻译系列第一&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/lsxqw2004/p/4699747.html</id>
+    <title type="text">学习设计模式第二十七 - GoF之外简单工厂模式 - hystar</title>
+    <summary type="text">示例代码来自《深入浅出设计模式》和《大话设计模式》概述简单工厂模式又被称为静态工厂模式，属于类的创建型模式。其实质是由一个工厂类根据传入的参量，动态决定应该创建出哪一个产品类的实例。意图专门定义一个类来负责创建其他类的实例，被创建的实例通常都具有共同的父类。UML图1 简单工厂模式的UML图参与者这...</summary>
+    <published>2015-04-06T08:46:00Z</published>
+    <updated>2015-04-06T08:46:00Z</updated>
+    <author>
+      <name>hystar</name>
+      <uri>http://www.cnblogs.com/lsxqw2004/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/lsxqw2004/p/4699747.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/lsxqw2004/p/4699747.html" />
+    <content type="html">示例代码来自《深入浅出设计模式》和《大话设计模式》概述简单工厂模式又被称为静态工厂模式，属于类的创建型模式。其实质是由一个工厂类根据传入的参量，动态决定应该创建出哪一个产品类的实例。意图专门定义一个类来负责创建其他类的实例，被创建的实例通常都具有共同的父类。UML图1 简单工厂模式的UML图参与者这...&lt;img src="http://counter.cnblogs.com/blog/rss/4699747" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/lsxqw2004/p/4699747.html" target="_blank"&gt;学习设计模式第二十七 - GoF之外简单工厂模式&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/lsxqw2004/p/4699616.html</id>
+    <title type="text">学习设计模式第二十六 - 访问者模式 - hystar</title>
+    <summary type="text">示例代码来自DoFactory。概述当你想要为一个对象的组合增加新的能力，且封装并不重要时，就使用访问者模式。意图表示一个作用于某对象结构中的各元素的操作。它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作。UML图1 Visitor模式UML图参与者这个模式涉及的类或对象：Visito...</summary>
+    <published>2015-03-15T08:10:00Z</published>
+    <updated>2015-03-15T08:10:00Z</updated>
+    <author>
+      <name>hystar</name>
+      <uri>http://www.cnblogs.com/lsxqw2004/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/lsxqw2004/p/4699616.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/lsxqw2004/p/4699616.html" />
+    <content type="html">示例代码来自DoFactory。概述当你想要为一个对象的组合增加新的能力，且封装并不重要时，就使用访问者模式。意图表示一个作用于某对象结构中的各元素的操作。它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作。UML图1 Visitor模式UML图参与者这个模式涉及的类或对象：Visito...&lt;img src="http://counter.cnblogs.com/blog/rss/4699616" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/lsxqw2004/p/4699616.html" target="_blank"&gt;学习设计模式第二十六 - 访问者模式&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/lsxqw2004/p/4692646.html</id>
+    <title type="text">学习设计模式第二十五 - 模板方法模式 - hystar</title>
+    <summary type="text">本文摘取自TerryLee(李会军)老师的设计模式系列文章，版权归TerryLee，仅供个人学习参考。转载请标明原作者TerryLee。部分示例代码来自DoFactory。概述变化一直以来都是软件设计的永恒话题，在XP编程中提倡拥抱变化，积极应对。如何更好的去抓住变化点，应对变化？如何更好的提高代码...</summary>
+    <published>2015-02-17T09:04:00Z</published>
+    <updated>2015-02-17T09:04:00Z</updated>
+    <author>
+      <name>hystar</name>
+      <uri>http://www.cnblogs.com/lsxqw2004/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/lsxqw2004/p/4692646.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/lsxqw2004/p/4692646.html" />
+    <content type="html">本文摘取自TerryLee(李会军)老师的设计模式系列文章，版权归TerryLee，仅供个人学习参考。转载请标明原作者TerryLee。部分示例代码来自DoFactory。概述变化一直以来都是软件设计的永恒话题，在XP编程中提倡拥抱变化，积极应对。如何更好的去抓住变化点，应对变化？如何更好的提高代码...&lt;img src="http://counter.cnblogs.com/blog/rss/4692646" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/lsxqw2004/p/4692646.html" target="_blank"&gt;学习设计模式第二十五 - 模板方法模式&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/lsxqw2004/p/4692567.html</id>
+    <title type="text">学习设计模式第二十四 - 策略模式 - hystar</title>
+    <summary type="text">示例代码来自DoFactory。概述策略模式通过将实现相同功能的不同方法封装起来，使调用者可以方便的在需要的方法之间做出选择。意图定义一系列的算法,把它们一个个封装起来, 并且使它们可相互替换。本模式使得算法可独立于使用它的客户而变化。UML图1 策略模式的UML图参与者这个模式涉及的类或对象：St...</summary>
+    <published>2015-02-11T08:47:00Z</published>
+    <updated>2015-02-11T08:47:00Z</updated>
+    <author>
+      <name>hystar</name>
+      <uri>http://www.cnblogs.com/lsxqw2004/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/lsxqw2004/p/4692567.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/lsxqw2004/p/4692567.html" />
+    <content type="html">示例代码来自DoFactory。概述策略模式通过将实现相同功能的不同方法封装起来，使调用者可以方便的在需要的方法之间做出选择。意图定义一系列的算法,把它们一个个封装起来, 并且使它们可相互替换。本模式使得算法可独立于使用它的客户而变化。UML图1 策略模式的UML图参与者这个模式涉及的类或对象：St...&lt;img src="http://counter.cnblogs.com/blog/rss/4692567" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/lsxqw2004/p/4692567.html" target="_blank"&gt;学习设计模式第二十四 - 策略模式&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+</feed>

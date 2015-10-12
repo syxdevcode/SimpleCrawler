@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_枫伶忆</title>
+  <subtitle type="text">不积跬步，无以至千里；不积小流，无以成江海。 ☞☞☞枫伶忆个人开源博客</subtitle>
+  <id>uuid:b4817541-f82b-488c-b5c3-8dd6c9f747d0;id=3503</id>
+  <updated>2015-09-09T15:03:34Z</updated>
+  <author>
+    <name>枫伶忆</name>
+    <uri>http://www.cnblogs.com/fenglingyi/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/fenglingyi/p/4783018.html</id>
+    <title type="text">曾几何时，你是否也曾有一个博客梦? - 枫伶忆</title>
+    <summary type="text">1.现在的你是否还有梦想？ 座在客厅的沙发上，戴着耳机，闭上眼睛，听着那首我听了上百遍的see you again，想着速度与激情的那群人，我很羡慕他们，一群志同道合的人在一起，干着一件大家都那么向往的事，梦想，感觉这两个字离我越来越远，太多世俗的东西，夺走了我们原有的天真，每天感觉除了上班...</summary>
+    <published>2015-09-07T01:01:00Z</published>
+    <updated>2015-09-07T01:01:00Z</updated>
+    <author>
+      <name>枫伶忆</name>
+      <uri>http://www.cnblogs.com/fenglingyi/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/fenglingyi/p/4783018.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/fenglingyi/p/4783018.html" />
+    <content type="html">1.现在的你是否还有梦想？ 座在客厅的沙发上，戴着耳机，闭上眼睛，听着那首我听了上百遍的see you again，想着速度与激情的那群人，我很羡慕他们，一群志同道合的人在一起，干着一件大家都那么向往的事，梦想，感觉这两个字离我越来越远，太多世俗的东西，夺走了我们原有的天真，每天感觉除了上班...&lt;img src="http://counter.cnblogs.com/blog/rss/4783018" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/fenglingyi/p/4783018.html" target="_blank"&gt;曾几何时，你是否也曾有一个博客梦?&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/fenglingyi/p/4750378.html</id>
+    <title type="text">大话二进制，八进制，十进制，十六进制之间的转换 - 枫伶忆</title>
+    <summary type="text">1.前言 每次放假最无聊的事情，就是不想起床，不想吃饭，方正就是不想动，躺在床上，看着手机，无聊的刷着QQ空间，虽然现在已经很少人玩QQ空间，可是这种习惯一直保持到现在，都没有改变过，电脑上的QQ突然闪动着，我知道是丁大叔发来的QQ消息，叫我一起去吃重庆老麻抄手，丁大叔之所以叫大叔，是因为一起上...</summary>
+    <published>2015-09-02T00:34:00Z</published>
+    <updated>2015-09-02T00:34:00Z</updated>
+    <author>
+      <name>枫伶忆</name>
+      <uri>http://www.cnblogs.com/fenglingyi/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/fenglingyi/p/4750378.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/fenglingyi/p/4750378.html" />
+    <content type="html">1.前言 每次放假最无聊的事情，就是不想起床，不想吃饭，方正就是不想动，躺在床上，看着手机，无聊的刷着QQ空间，虽然现在已经很少人玩QQ空间，可是这种习惯一直保持到现在，都没有改变过，电脑上的QQ突然闪动着，我知道是丁大叔发来的QQ消息，叫我一起去吃重庆老麻抄手，丁大叔之所以叫大叔，是因为一起上...&lt;img src="http://counter.cnblogs.com/blog/rss/4750378" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/fenglingyi/p/4750378.html" target="_blank"&gt;大话二进制，八进制，十进制，十六进制之间的转换&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/fenglingyi/p/4750323.html</id>
+    <title type="text">总结一下工作中遇到的NPOI以及在ASP.NET MVC中的使用 - 枫伶忆</title>
+    <summary type="text">1.前言相信大家在工作中经常要遇到一些导入导出Execl操作。学习贵在分享，分享使人快乐，园子里的前辈已经有很多好的文章，鄙人也是能力有限，在这里把这些好的文章总结，方便以后再工作中使用。NPOI：是 POI 项目的 .NET 版本。POI是一个开源的Java读写Excel、WORD等微软OLE2组...</summary>
+    <published>2015-08-25T00:10:00Z</published>
+    <updated>2015-08-25T00:10:00Z</updated>
+    <author>
+      <name>枫伶忆</name>
+      <uri>http://www.cnblogs.com/fenglingyi/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/fenglingyi/p/4750323.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/fenglingyi/p/4750323.html" />
+    <content type="html">1.前言相信大家在工作中经常要遇到一些导入导出Execl操作。学习贵在分享，分享使人快乐，园子里的前辈已经有很多好的文章，鄙人也是能力有限，在这里把这些好的文章总结，方便以后再工作中使用。NPOI：是 POI 项目的 .NET 版本。POI是一个开源的Java读写Excel、WORD等微软OLE2组...&lt;img src="http://counter.cnblogs.com/blog/rss/4750323" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/fenglingyi/p/4750323.html" target="_blank"&gt;总结一下工作中遇到的NPOI以及在ASP.NET MVC中的使用&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/fenglingyi/p/4754738.html</id>
+    <title type="text">个人简历【寻找为技术而生的团队】 - 枫伶忆</title>
+    <summary type="text">该文被密码保护。</summary>
+    <published>2015-08-24T06:46:00Z</published>
+    <updated>2015-08-24T06:46:00Z</updated>
+    <author>
+      <name>枫伶忆</name>
+      <uri>http://www.cnblogs.com/fenglingyi/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/fenglingyi/p/4754738.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/fenglingyi/p/4754738.html" />
+    <content type="html">该文被密码保护。</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/fenglingyi/p/4747538.html</id>
+    <title type="text">【原创】WCF+Socket实现Java和.Net智能停车系统交互 - 枫伶忆</title>
+    <summary type="text">公司的一个项目，智能停车系统，我负责的主要是微信公众平台的开发，和socket异步通讯这块，来完成云平台和停车收费软件之间的交互。</summary>
+    <published>2015-08-22T01:44:00Z</published>
+    <updated>2015-08-22T01:44:00Z</updated>
+    <author>
+      <name>枫伶忆</name>
+      <uri>http://www.cnblogs.com/fenglingyi/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/fenglingyi/p/4747538.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/fenglingyi/p/4747538.html" />
+    <content type="html">公司的一个项目，智能停车系统，我负责的主要是微信公众平台的开发，和socket异步通讯这块，来完成云平台和停车收费软件之间的交互。&lt;img src="http://images.cnblogs.com/cnblogs_com/fenglingyi/713075/o_3454354.png" class="desc_img"/&gt;&lt;img src="http://counter.cnblogs.com/blog/rss/4747538" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/fenglingyi/p/4747538.html" target="_blank"&gt;【原创】WCF+Socket实现Java和.Net智能停车系统交互&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/fenglingyi/p/4708006.html</id>
+    <title type="text">网络爬虫+HtmlAgilityPack+windows服务从博客园爬取20万博文 - 枫伶忆</title>
+    <summary type="text">最新在公司做一个项目，需要一些文章类的数据，当时就想到了用网络爬虫去一些技术性的网站爬一些，当然我经常去的就是博客园，于是就有下面的这篇文章。</summary>
+    <published>2015-08-06T07:21:00Z</published>
+    <updated>2015-08-06T07:21:00Z</updated>
+    <author>
+      <name>枫伶忆</name>
+      <uri>http://www.cnblogs.com/fenglingyi/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/fenglingyi/p/4708006.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/fenglingyi/p/4708006.html" />
+    <content type="html">&lt;img src="http://images.cnblogs.com/cnblogs_com/fenglingyi/713075/o_3454354.png" class="desc_img"/&gt;最新在公司做一个项目，需要一些文章类的数据，当时就想到了用网络爬虫去一些技术性的网站爬一些，当然我经常去的就是博客园，于是就有下面的这篇文章。&lt;img src="http://counter.cnblogs.com/blog/rss/4708006" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/fenglingyi/p/4708006.html" target="_blank"&gt;网络爬虫+HtmlAgilityPack+windows服务从博客园爬取20万博文&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/fenglingyi/p/4656502.html</id>
+    <title type="text">【原创】贡献一个JS的弹出框代码... - 枫伶忆</title>
+    <summary type="text">最近在做一个项目，自己感觉系统自带的alert()方法的弹出框实在是太不抗入目，所以在网上找了一些自己，然后自己加工了一下，做出了自己的一个js弹出框，在这里贡献出来，希望对你有说帮助.</summary>
+    <published>2015-07-18T04:09:00Z</published>
+    <updated>2015-07-18T04:09:00Z</updated>
+    <author>
+      <name>枫伶忆</name>
+      <uri>http://www.cnblogs.com/fenglingyi/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/fenglingyi/p/4656502.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/fenglingyi/p/4656502.html" />
+    <content type="html">&lt;img src="http://images.cnblogs.com/cnblogs_com/fenglingyi/712986/o_ja77s.png" class="desc_img"/&gt;最近在做一个项目，自己感觉系统自带的alert()方法的弹出框实在是太不抗入目，所以在网上找了一些自己，然后自己加工了一下，做出了自己的一个js弹出框，在这里贡献出来，希望对你有说帮助.&lt;img src="http://counter.cnblogs.com/blog/rss/4656502" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/fenglingyi/p/4656502.html" target="_blank"&gt;【原创】贡献一个JS的弹出框代码...&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/fenglingyi/p/4653443.html</id>
+    <title type="text">.NET微信公众号开发-6.0模板消息 - 枫伶忆</title>
+    <summary type="text">为了保证用户不受到骚扰，在开发者出现需要主动提醒、通知用户时，才允许开发者在公众平台网站中模板消息库中选择模板，选择后获得模板ID，再根据模板ID向用户主动推送提醒、通知消息。这个意思也就是，我们作为微信商户，不能主动的给用户推送消息，如果这个功能完全开放，那么用户有可能会受到大量的垃圾信息，为了做一个很好的控制，微信那边给我们开放了一个模板消息，通过模板消息我们可以友好的给用户发送一些相关的消息提醒</summary>
+    <published>2015-07-17T01:26:00Z</published>
+    <updated>2015-07-17T01:26:00Z</updated>
+    <author>
+      <name>枫伶忆</name>
+      <uri>http://www.cnblogs.com/fenglingyi/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/fenglingyi/p/4653443.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/fenglingyi/p/4653443.html" />
+    <content type="html">&lt;img src="http://images.cnblogs.com/cnblogs_com/fenglingyi/712986/o_wx.jpg" class="desc_img"/&gt;为了保证用户不受到骚扰，在开发者出现需要主动提醒、通知用户时，才允许开发者在公众平台网站中模板消息库中选择模板，选择后获得模板ID，再根据模板ID向用户主动推送提醒、通知消息。这个意思也就是，我们作为微信商户，不能主动的给用户推送消息，如果这个功能完全开放，那么用户有可能会受到大量的垃圾信息，为了做一个很好的控制，微信那边给我们开放了一个模板消息，通过模板消息我们可以友好的给用户发送一些相关的消息提醒&lt;img src="http://counter.cnblogs.com/blog/rss/4653443" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/fenglingyi/p/4653443.html" target="_blank"&gt;.NET微信公众号开发-6.0模板消息&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/fenglingyi/p/4650532.html</id>
+    <title type="text">.NET微信公众号开发-5.0微信支付 - 枫伶忆</title>
+    <summary type="text">在开始做这个功能之前，我们要做的第一件事情就是思考，如何做这个微信支付，从哪里开始，从哪里入手，官方的sdk说明什么的，有没有什么官方的demo,还有就是老板给我的一些资料齐全不，那些要申请的接口什么的都有没有。经过自己的一些探索，在老板的催促下终于硬着头皮做完了这个，很坑很坑的微信支付，在此做一些总结，希望对你们有所帮助，本人能力有限，如果有什么说的不好，希望大家多多包涵。</summary>
+    <published>2015-07-16T08:47:00Z</published>
+    <updated>2015-07-16T08:47:00Z</updated>
+    <author>
+      <name>枫伶忆</name>
+      <uri>http://www.cnblogs.com/fenglingyi/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/fenglingyi/p/4650532.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/fenglingyi/p/4650532.html" />
+    <content type="html">&lt;img src="http://images.cnblogs.com/cnblogs_com/fenglingyi/712986/o_wx.jpg" class="desc_img"/&gt;在开始做这个功能之前，我们要做的第一件事情就是思考，如何做这个微信支付，从哪里开始，从哪里入手，官方的sdk说明什么的，有没有什么官方的demo,还有就是老板给我的一些资料齐全不，那些要申请的接口什么的都有没有。经过自己的一些探索，在老板的催促下终于硬着头皮做完了这个，很坑很坑的微信支付，在此做一些总结，希望对你们有所帮助，本人能力有限，如果有什么说的不好，希望大家多多包涵。&lt;img src="http://counter.cnblogs.com/blog/rss/4650532" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/fenglingyi/p/4650532.html" target="_blank"&gt;.NET微信公众号开发-5.0微信支付&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/fenglingyi/p/4650213.html</id>
+    <title type="text">.NET微信公众号开发-4.0公众号消息处理 - 枫伶忆</title>
+    <summary type="text"> 微信公众平台的消息处理还是比较完善的，有最基本的文本消息，到图文消息，到图片消息，语音消息，视频消息，音乐消息其基本原理都是一样的，只不过所post的xml数据有所差别，在处理消息之前，我们要认真阅读，官方给我们的文档</summary>
+    <published>2015-07-16T01:55:00Z</published>
+    <updated>2015-07-16T01:55:00Z</updated>
+    <author>
+      <name>枫伶忆</name>
+      <uri>http://www.cnblogs.com/fenglingyi/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/fenglingyi/p/4650213.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/fenglingyi/p/4650213.html" />
+    <content type="html">&lt;img src="http://images.cnblogs.com/cnblogs_com/fenglingyi/712986/o_wx.jpg" class="desc_img"/&gt; 微信公众平台的消息处理还是比较完善的，有最基本的文本消息，到图文消息，到图片消息，语音消息，视频消息，音乐消息其基本原理都是一样的，只不过所post的xml数据有所差别，在处理消息之前，我们要认真阅读，官方给我们的文档&lt;img src="http://counter.cnblogs.com/blog/rss/4650213" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/fenglingyi/p/4650213.html" target="_blank"&gt;.NET微信公众号开发-4.0公众号消息处理&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+</feed>

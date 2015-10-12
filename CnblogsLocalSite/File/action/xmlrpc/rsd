@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
+<service>
+<engineName>OSCHINA.NET</engineName>
+<engineLink>http://www.oschina.net/</engineLink>
+<homePageLink>http://my.oschina.net/chen7</homePageLink>
+<apis><api name="MetaWeblog" preferred="true" apiLink="http://www.oschina.net/action/xmlrpc"  blogID="1164674"/></apis>
+</service>
+</rsd>

@@ -1,0 +1,64 @@
+#cnblogs_post_body p {
+    text-indent: 28px;
+}
+
+#cnblogs_post_body a {
+    color:#4F81BD;
+    text-decoration: none;
+}
+
+.postBody p
+{
+    font-family: "Microsoft YaHei", "微软雅黑", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-indent: 28px 2.8em;
+    padding-bottom: 8pt;
+}
+.postBody h1 
+	{
+		font-size: 20px;
+		color: #365F91;
+		font-family: "Microsoft YaHei", "微软雅黑", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+		font-weight: bold;
+		padding-top: 12pt;
+	}
+
+	.postBody h2
+	{
+		font-size: 16px;
+		color: #4F81BD;
+		font-family: "Microsoft YaHei", "微软雅黑", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+		font-weight: bold;
+		padding-top: 12pt;
+	}
+
+	.postBody h3
+	{
+		font-size: 14px;
+		color: #4F81BD;
+		font-family: "Microsoft YaHei", "微软雅黑", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+		font-weight: bold;
+		padding-top: 12pt;
+	}
+
+	.postBody h4
+	{
+		font-size: 14px;
+		color: #4F81BD;
+		font-family: "Microsoft YaHei", "微软雅黑", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+		padding-top: 12pt;
+		font-weight: bold;
+		font-style: italic;
+	}
+	
+	.postBody ol li
+	{
+		font-size: 16px;
+		font-family: "Microsoft YaHei", "微软雅黑", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	}
+	
+	.postBody ul li
+	{
+		font-size: 16px;
+		font-family: "Microsoft YaHei", "微软雅黑", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	}

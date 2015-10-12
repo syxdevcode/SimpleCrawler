@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_腾飞（Jesse）</title>
+  <subtitle type="text"></subtitle>
+  <id>uuid:7cdcfaf2-affe-4a93-ab21-8358b425acef;id=3724</id>
+  <updated>2015-09-05T03:35:29Z</updated>
+  <author>
+    <name>腾飞（Jesse)</name>
+    <uri>http://www.cnblogs.com/jesse2013/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/jesse2013/p/4648793.html</id>
+    <title type="text">我想和大家说说心里话 - 腾飞（Jesse)</title>
+    <summary type="text">对于一个接近一年都没有更新博客的人来说，突然跳出来不知道会不会吓到大家？所以我决定用一个真(zhuang)诚(bi)的标题，希望能给大伙压压惊。顺便怒吼一声，我胡汉三又回来了！！！假装自己人气依在，此番回来一定要干出一番事业啊！！ 写这篇博客主要是想和大...</summary>
+    <published>2015-07-21T00:36:00Z</published>
+    <updated>2015-07-21T00:36:00Z</updated>
+    <author>
+      <name>腾飞（Jesse)</name>
+      <uri>http://www.cnblogs.com/jesse2013/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/jesse2013/p/4648793.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/jesse2013/p/4648793.html" />
+    <content type="html">对于一个接近一年都没有更新博客的人来说，突然跳出来不知道会不会吓到大家？所以我决定用一个真(zhuang)诚(bi)的标题，希望能给大伙压压惊。顺便怒吼一声，我胡汉三又回来了！！！假装自己人气依在，此番回来一定要干出一番事业啊！！ 写这篇博客主要是想和大...&lt;img src="http://counter.cnblogs.com/blog/rss/4648793" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/jesse2013/p/4648793.html" target="_blank"&gt;我想和大家说说心里话&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/jesse2013/p/how-xamarin-works.html</id>
+    <title type="text">C#移动跨平台开发（2）Xamarin移动跨平台解决方案是如何工作的？ - 腾飞（Jesse)</title>
+    <summary type="text">概述 上一篇 C#移动跨平台开发（1）环境准备发布之后不久，无独有偶，微软宣布了开放.NET框架源代码并且会为Windows、Mac和Linux开发一个核心运行时（Core CLR），这也是开源的！IT媒体网站纷纷转载，博客园的C#开发者们热泪盈眶（泥煤都等这一天好久了！） 与此同时VS2015...</summary>
+    <published>2014-11-14T05:02:00Z</published>
+    <updated>2014-11-14T05:02:00Z</updated>
+    <author>
+      <name>腾飞（Jesse)</name>
+      <uri>http://www.cnblogs.com/jesse2013/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/jesse2013/p/how-xamarin-works.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/jesse2013/p/how-xamarin-works.html" />
+    <content type="html">概述 上一篇 C#移动跨平台开发（1）环境准备发布之后不久，无独有偶，微软宣布了开放.NET框架源代码并且会为Windows、Mac和Linux开发一个核心运行时（Core CLR），这也是开源的！IT媒体网站纷纷转载，博客园的C#开发者们热泪盈眶（泥煤都等这一天好久了！） 与此同时VS2015...&lt;img src="http://counter.cnblogs.com/blog/rss/4096960" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/jesse2013/p/how-xamarin-works.html" target="_blank"&gt;C#移动跨平台开发（2）Xamarin移动跨平台解决方案是如何工作的？&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/jesse2013/p/4084723.html</id>
+    <title type="text">C#移动跨平台开发（1）环境准备 - 腾飞（Jesse)</title>
+    <summary type="text">C#依托于mono平台可以实现Unix平台服务器端开发已经不是什么新鲜事了，而Xarmain公司（初始成员大多来自原Mono、MonoTouch、Mono For Android成员)继续将C#的先进性带到了移动平台 —— 这也不是新鲜事了！但是国内的学习资料却很少，倒是有培训班已经看准了这个赚...</summary>
+    <published>2014-11-09T08:56:00Z</published>
+    <updated>2014-11-09T08:56:00Z</updated>
+    <author>
+      <name>腾飞（Jesse)</name>
+      <uri>http://www.cnblogs.com/jesse2013/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/jesse2013/p/4084723.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/jesse2013/p/4084723.html" />
+    <content type="html">C#依托于mono平台可以实现Unix平台服务器端开发已经不是什么新鲜事了，而Xarmain公司（初始成员大多来自原Mono、MonoTouch、Mono For Android成员)继续将C#的先进性带到了移动平台 —— 这也不是新鲜事了！但是国内的学习资料却很少，倒是有培训班已经看准了这个赚...&lt;img src="http://counter.cnblogs.com/blog/rss/4084723" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/jesse2013/p/4084723.html" target="_blank"&gt;C#移动跨平台开发（1）环境准备&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/jesse2013/p/ddd-repository.html</id>
+    <title type="text">初探领域驱动设计（2）Repository在DDD中的应用 - 腾飞（Jesse)</title>
+    <summary type="text">概述 上一篇我们算是粗略的介绍了一下DDD，我们提到了实体、值类型和领域服务，也稍微讲到了DDD中的分层结构。但这只能算是一个很简单的介绍，并且我们在上篇的末尾还留下了一些问题，其中大家讨论比较多的，也是我本人之前有一些疑问的地方就是Repository。我之前觉得IRepository和三层里面...</summary>
+    <published>2014-10-09T00:55:00Z</published>
+    <updated>2014-10-09T00:55:00Z</updated>
+    <author>
+      <name>腾飞（Jesse)</name>
+      <uri>http://www.cnblogs.com/jesse2013/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/jesse2013/p/ddd-repository.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/jesse2013/p/ddd-repository.html" />
+    <content type="html">概述 上一篇我们算是粗略的介绍了一下DDD，我们提到了实体、值类型和领域服务，也稍微讲到了DDD中的分层结构。但这只能算是一个很简单的介绍，并且我们在上篇的末尾还留下了一些问题，其中大家讨论比较多的，也是我本人之前有一些疑问的地方就是Repository。我之前觉得IRepository和三层里面...&lt;img src="http://counter.cnblogs.com/blog/rss/3959225" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/jesse2013/p/ddd-repository.html" target="_blank"&gt;初探领域驱动设计（2）Repository在DDD中的应用&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/jesse2013/p/the-first-glance-of-ddd.html</id>
+    <title type="text">初探领域驱动设计（1）为复杂业务而生 - 腾飞（Jesse)</title>
+    <summary type="text">概述 领域驱动设计也就是3D（Domain-Driven Design)已经有了10年的历史，我相信很多人或多或少都听说过这个名词，但是有多少人真正懂得如何去运用它，或者把它运用好呢？于是有人说，DDD和TDD这些玩意是一些形而上的东西，只是一茶余饭后的谈资，又或是放到简历上提升逼格而已。前面这句...</summary>
+    <published>2014-09-10T00:35:00Z</published>
+    <updated>2014-09-10T00:35:00Z</updated>
+    <author>
+      <name>腾飞（Jesse)</name>
+      <uri>http://www.cnblogs.com/jesse2013/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/jesse2013/p/the-first-glance-of-ddd.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/jesse2013/p/the-first-glance-of-ddd.html" />
+    <content type="html">概述 领域驱动设计也就是3D（Domain-Driven Design)已经有了10年的历史，我相信很多人或多或少都听说过这个名词，但是有多少人真正懂得如何去运用它，或者把它运用好呢？于是有人说，DDD和TDD这些玩意是一些形而上的东西，只是一茶余饭后的谈资，又或是放到简历上提升逼格而已。前面这句...&lt;img src="http://counter.cnblogs.com/blog/rss/3947742" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/jesse2013/p/the-first-glance-of-ddd.html" target="_blank"&gt;初探领域驱动设计（1）为复杂业务而生&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/jesse2013/p/Asynchronous-Programming-In-DotNet.html</id>
+    <title type="text">异步编程 In .NET - 腾飞（Jesse)</title>
+    <summary type="text">概述 在之前写的一篇关于async和await的前世今生的文章之后，大家似乎在async和await提高网站处理能力方面还有一些疑问，博客园本身也做了不少的尝试。今天我们再来回答一下这个问题，同时我们会做一个async和await在WinForm中的尝试，并且对比在4.5之前的异步编程模式APM/...</summary>
+    <published>2014-07-15T00:42:00Z</published>
+    <updated>2014-07-15T00:42:00Z</updated>
+    <author>
+      <name>腾飞（Jesse)</name>
+      <uri>http://www.cnblogs.com/jesse2013/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/jesse2013/p/Asynchronous-Programming-In-DotNet.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/jesse2013/p/Asynchronous-Programming-In-DotNet.html" />
+    <content type="html">概述 在之前写的一篇关于async和await的前世今生的文章之后，大家似乎在async和await提高网站处理能力方面还有一些疑问，博客园本身也做了不少的尝试。今天我们再来回答一下这个问题，同时我们会做一个async和await在WinForm中的尝试，并且对比在4.5之前的异步编程模式APM/...&lt;img src="http://counter.cnblogs.com/blog/rss/3826756" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/jesse2013/p/Asynchronous-Programming-In-DotNet.html" target="_blank"&gt;异步编程 In .NET&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/jesse2013/p/dlws-loadbalancer2.html</id>
+    <title type="text">Windows平台分布式架构实践 - 负载均衡（下） - 腾飞（Jesse)</title>
+    <summary type="text">概述 我们在上一篇Windows平台分布式架构实践 - 负载均衡中讨论了Windows平台下通过NLB（Network Load Balancer) 来实现网站的负载均衡，并且通过压力测试演示了它的效果，可以说还是非常的理想的。同时我们也收集到了不少的问题，比如说如何在这种分布式的架构下使用Ses...</summary>
+    <published>2014-06-10T00:37:00Z</published>
+    <updated>2014-06-10T00:37:00Z</updated>
+    <author>
+      <name>腾飞（Jesse)</name>
+      <uri>http://www.cnblogs.com/jesse2013/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/jesse2013/p/dlws-loadbalancer2.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/jesse2013/p/dlws-loadbalancer2.html" />
+    <content type="html">概述 我们在上一篇Windows平台分布式架构实践 - 负载均衡中讨论了Windows平台下通过NLB（Network Load Balancer) 来实现网站的负载均衡，并且通过压力测试演示了它的效果，可以说还是非常的理想的。同时我们也收集到了不少的问题，比如说如何在这种分布式的架构下使用Ses...&lt;img src="http://counter.cnblogs.com/blog/rss/3770729" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/jesse2013/p/dlws-loadbalancer2.html" target="_blank"&gt;Windows平台分布式架构实践 - 负载均衡（下）&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/jesse2013/p/dlws-loadbalancer.html</id>
+    <title type="text">Windows平台分布式架构实践 - 负载均衡 - 腾飞（Jesse)</title>
+    <summary type="text">概述 最近.NET的世界开始闹腾了，微软官方终于加入到了对.NET跨平台的支持，并且在不久的将来，我们在VS里面写的代码可能就可以通过Mono直接在Linux和Mac上运行。那么大家（开发者和企业）为什么那么的迫切的希望.NET跨平台呢？第一个理由是便宜，淘宝号称4万多台服务器全部运行在Linux...</summary>
+    <published>2014-05-22T01:26:00Z</published>
+    <updated>2014-05-22T01:26:00Z</updated>
+    <author>
+      <name>腾飞（Jesse)</name>
+      <uri>http://www.cnblogs.com/jesse2013/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/jesse2013/p/dlws-loadbalancer.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/jesse2013/p/dlws-loadbalancer.html" />
+    <content type="html">概述 最近.NET的世界开始闹腾了，微软官方终于加入到了对.NET跨平台的支持，并且在不久的将来，我们在VS里面写的代码可能就可以通过Mono直接在Linux和Mac上运行。那么大家（开发者和企业）为什么那么的迫切的希望.NET跨平台呢？第一个理由是便宜，淘宝号称4万多台服务器全部运行在Linux...&lt;img src="http://counter.cnblogs.com/blog/rss/3734939" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/jesse2013/p/dlws-loadbalancer.html" target="_blank"&gt;Windows平台分布式架构实践 - 负载均衡&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/jesse2013/p/owin-webserver.html</id>
+    <title type="text">一不小心写了个WEB服务器 - 腾飞（Jesse)</title>
+    <summary type="text">开场 Web服务器是啥玩意? 是那个托管了我的网站的机器么? No，虽然那个也是服务器，但是我们今天要说的Web服务器主要是指像IIS这样一类的，用于处理request并返回response的工具，没错我们可以说它是一个工具，不就是一个应用程序吗？谁不会写应用程序呀，等着，三分钟就搞一个出来。We...</summary>
+    <published>2014-04-22T00:32:00Z</published>
+    <updated>2014-04-22T00:32:00Z</updated>
+    <author>
+      <name>腾飞（Jesse)</name>
+      <uri>http://www.cnblogs.com/jesse2013/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/jesse2013/p/owin-webserver.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/jesse2013/p/owin-webserver.html" />
+    <content type="html">开场 Web服务器是啥玩意? 是那个托管了我的网站的机器么? No，虽然那个也是服务器，但是我们今天要说的Web服务器主要是指像IIS这样一类的，用于处理request并返回response的工具，没错我们可以说它是一个工具，不就是一个应用程序吗？谁不会写应用程序呀，等着，三分钟就搞一个出来。We...&lt;img src="http://counter.cnblogs.com/blog/rss/3643970" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/jesse2013/p/owin-webserver.html" target="_blank"&gt;一不小心写了个WEB服务器&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/jesse2013/p/aspnet-identity-claims-based-authentication-and-owin.html</id>
+    <title type="text">MVC5 - ASP.NET Identity登录原理 - Claims-based认证和OWIN - 腾飞（Jesse)</title>
+    <summary type="text">在Membership系列的最后一篇引入了ASP.NET Identity，看到大家对它还是挺感兴趣的，于是来一篇详解登录原理的文章。本文会涉及到Claims-based（基于声明）的认证，我们会详细介绍什么是Claims-based认证，它与传统认证方式的区别，以及它的特点。同时我们还会介绍OWI...</summary>
+    <published>2014-04-01T00:27:00Z</published>
+    <updated>2014-04-01T00:27:00Z</updated>
+    <author>
+      <name>腾飞（Jesse)</name>
+      <uri>http://www.cnblogs.com/jesse2013/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/jesse2013/p/aspnet-identity-claims-based-authentication-and-owin.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/jesse2013/p/aspnet-identity-claims-based-authentication-and-owin.html" />
+    <content type="html">在Membership系列的最后一篇引入了ASP.NET Identity，看到大家对它还是挺感兴趣的，于是来一篇详解登录原理的文章。本文会涉及到Claims-based（基于声明）的认证，我们会详细介绍什么是Claims-based认证，它与传统认证方式的区别，以及它的特点。同时我们还会介绍OWI...&lt;img src="http://counter.cnblogs.com/blog/rss/3624127" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/jesse2013/p/aspnet-identity-claims-based-authentication-and-owin.html" target="_blank"&gt;MVC5 - ASP.NET Identity登录原理 - Claims-based认证和OWIN&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+</feed>

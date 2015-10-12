@@ -1,0 +1,30 @@
+#MySignature{ border:solid 2px orange;padding:10px;background:#fffefe url(http://images.cnblogs.com/cnblogs_com/grenet/226272/o_o_o_info.png) no-repeat scroll 15px 50%;padding-left:80px;}
+#MySignature div{line-height: 25px;}
+
+#div_digg {
+float:right;
+font-size:12px;
+margin-bottom:10px;
+margin-right:30px;
+margin-top:10px;
+text-align:center;
+width:120px;
+position: fixed; right: 0px; bottom: 0px; z-index: 10; background-color: white; margin: 10px; padding: 10px; border: 1px solid rgb(204, 204, 204);
+}
+
+.vote
+{
+float:right;
+font-size:12px;
+margin-bottom:10px;
+margin-right:30px;
+margin-top:10px;
+text-align:center;
+width:120px;
+position: fixed; right: 0px; bottom: 0px; z-index: 10; background-color: white; margin: 10px; padding: 10px; border: 1px solid green;
+}
+
+.hideme{
+display:none;
+visible:hidden;
+}

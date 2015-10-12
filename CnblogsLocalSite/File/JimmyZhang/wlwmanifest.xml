@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns="http://schemas.microsoft.com/wlw/manifest/weblog">
+<options>
+<clientType>Metaweblog</clientType>
+<supportsKeywords>Yes</supportsKeywords>
+<supportsNewCategories>Yes</supportsNewCategories>
+<supportsSlug>Yes</supportsSlug>
+<supportsAuthor>No</supportsAuthor>
+<supportsGetTags>No</supportsGetTags>
+<supportsEmbeds>Yes</supportsEmbeds>
+<supportsExcerpt>Yes</supportsExcerpt>
+<supportsExtendedEntries>Yes</supportsExtendedEntries>
+<supportsCustomDate>No</supportsCustomDate>
+<supportsEmptyTitles>No</supportsEmptyTitles>
+<supportsAutoUpdate>Yes</supportsAutoUpdate>
+</options>
+<weblog>
+<serviceName>CNBlogs</serviceName>
+<homepageLinkText>Jimmy Zhang</homepageLinkText>
+<adminLinkText>管理</adminLinkText>
+<adminUrl>http://i.cnblogs.com/</adminUrl>
+<postEditingUrl>http://i.cnblogs.com/EditPosts.aspx?postid={post-id}</postEditingUrl>
+</weblog>
+<views>
+<default>WebLayout</default>
+<view type="WebLayout" src="http://www.cnblogs.com/JimmyZhang/wlw/weblayout.html" />
+<view type="WebPreview" src="http://www.cnblogs.com/JimmyZhang/wlw/weblayout.html" />
+</views>
+</manifest>

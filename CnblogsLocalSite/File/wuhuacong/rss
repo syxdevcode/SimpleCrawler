@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_wuhuacong(伍华聪)的专栏</title>
+  <subtitle type="text"></subtitle>
+  <id>uuid:8dc7efba-43f2-4416-95a0-534dced3b48f;id=1774</id>
+  <updated>2015-09-16T13:58:26Z</updated>
+  <author>
+    <name>伍华聪</name>
+    <uri>http://www.cnblogs.com/wuhuacong/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/wuhuacong/p/4814708.html</id>
+    <title type="text">Web API应用支持HTTPS的经验总结 - 伍华聪</title>
+    <summary type="text">在我前面介绍的WebAPI文章里面，介绍了WebAPI的架构设计方面的内容，其中提出了现在流行的WebAPI优先的路线，这种也是我们开发多应用（APP、微信、微网站、商城、以及Winform等方面的整合）的时候值得考虑的线路之一。一般情况下，由于HTTP协议的安全性，传递的参数容易被拦截，从而可能导致潜在的危险，所以一般WebAPI接口层都采用了HTTPS协议的，也就是采用SSL层来对数据进行安全性的加密的。</summary>
+    <published>2015-09-16T13:51:00Z</published>
+    <updated>2015-09-16T13:51:00Z</updated>
+    <author>
+      <name>伍华聪</name>
+      <uri>http://www.cnblogs.com/wuhuacong/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/wuhuacong/p/4814708.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/wuhuacong/p/4814708.html" />
+    <content type="html">在我前面介绍的WebAPI文章里面，介绍了WebAPI的架构设计方面的内容，其中提出了现在流行的WebAPI优先的路线，这种也是我们开发多应用（APP、微信、微网站、商城、以及Winform等方面的整合）的时候值得考虑的线路之一。一般情况下，由于HTTP协议的安全性，传递的参数容易被拦截，从而可能导致潜在的危险，所以一般WebAPI接口层都采用了HTTPS协议的，也就是采用SSL层来对数据进行安全性的加密的。&lt;img src="http://counter.cnblogs.com/blog/rss/4814708" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/wuhuacong/p/4814708.html" target="_blank"&gt;Web API应用支持HTTPS的经验总结&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/wuhuacong/p/4784957.html</id>
+    <title type="text">基于Metronic的Bootstrap开发框架经验总结（8）--框架功能总体界面介绍 - 伍华聪</title>
+    <summary type="text">在前面介绍了一系列的《基于Metronic的Bootstrap开发框架经验总结》的随笔文章，随笔主要是介绍各个知识点的内容，对框架的总体性界面没有很好的阐述，本篇随笔主要介绍这个Bootstrap框架的总体性功能界面，介绍其中用到的知识点和整体性的界面，希望读者对框架有一个更加直观的认识。</summary>
+    <published>2015-09-06T11:26:00Z</published>
+    <updated>2015-09-06T11:26:00Z</updated>
+    <author>
+      <name>伍华聪</name>
+      <uri>http://www.cnblogs.com/wuhuacong/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/wuhuacong/p/4784957.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/wuhuacong/p/4784957.html" />
+    <content type="html">在前面介绍了一系列的《基于Metronic的Bootstrap开发框架经验总结》的随笔文章，随笔主要是介绍各个知识点的内容，对框架的总体性界面没有很好的阐述，本篇随笔主要介绍这个Bootstrap框架的总体性功能界面，介绍其中用到的知识点和整体性的界面，希望读者对框架有一个更加直观的认识。&lt;img src="http://counter.cnblogs.com/blog/rss/4784957" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/wuhuacong/p/4784957.html" target="_blank"&gt;基于Metronic的Bootstrap开发框架经验总结（8）--框架功能总体界面介绍&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/wuhuacong/p/4777720.html</id>
+    <title type="text">基于Metronic的Bootstrap开发框架经验总结（7）--数据的导入、导出及附件的查看处理 - 伍华聪</title>
+    <summary type="text">在很多系统模块里面，我们可能都需要进行一定的数据交换处理，也就是数据的导入或者导出操作，这样的批量处理能给系统用户更好的操作体验，也提高了用户录入数据的效率。我在较早时期的EasyUI的Web框架上，也介绍过通过Excel进行的数据导入导出操作，随笔文章为《基于MVC4+EasyUI的Web开发框架经验总结（10）--在Web界面上实现数据的导入和导出》，本文基于Bootstrap的框架基础上，再对这个模块进行更新处理，以及Office文档或者图片等附件的查看处理。</summary>
+    <published>2015-09-02T02:47:00Z</published>
+    <updated>2015-09-02T02:47:00Z</updated>
+    <author>
+      <name>伍华聪</name>
+      <uri>http://www.cnblogs.com/wuhuacong/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/wuhuacong/p/4777720.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/wuhuacong/p/4777720.html" />
+    <content type="html">在很多系统模块里面，我们可能都需要进行一定的数据交换处理，也就是数据的导入或者导出操作，这样的批量处理能给系统用户更好的操作体验，也提高了用户录入数据的效率。我在较早时期的EasyUI的Web框架上，也介绍过通过Excel进行的数据导入导出操作，随笔文章为《基于MVC4+EasyUI的Web开发框架经验总结（10）--在Web界面上实现数据的导入和导出》，本文基于Bootstrap的框架基础上，再对这个模块进行更新处理，以及Office文档或者图片等附件的查看处理。&lt;img src="http://counter.cnblogs.com/blog/rss/4777720" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/wuhuacong/p/4777720.html" target="_blank"&gt;基于Metronic的Bootstrap开发框架经验总结（7）--数据的导入、导出及附件的查看处理&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/wuhuacong/p/4775282.html</id>
+    <title type="text">基于Metronic的Bootstrap开发框架经验总结（6）--对话框及提示框的处理和优化 - 伍华聪</title>
+    <summary type="text">在各种Web开发过程中，对话框和提示框的处理是很常见的一种界面处理技术，用得好，可以给用户很好的页面体验，Bootstrap开发也一样，我们往往在页面新增、编辑、查看详细等界面使用弹出对话框层的方式进行显示数据，删除则可能使用一个提示确认框，如果操作成功，我们可以使用更丰富的提示框来处理，本篇主要对比说明在Bootstrap开发中用到的这些技术要点。</summary>
+    <published>2015-09-01T06:44:00Z</published>
+    <updated>2015-09-01T06:44:00Z</updated>
+    <author>
+      <name>伍华聪</name>
+      <uri>http://www.cnblogs.com/wuhuacong/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/wuhuacong/p/4775282.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/wuhuacong/p/4775282.html" />
+    <content type="html">在各种Web开发过程中，对话框和提示框的处理是很常见的一种界面处理技术，用得好，可以给用户很好的页面体验，Bootstrap开发也一样，我们往往在页面新增、编辑、查看详细等界面使用弹出对话框层的方式进行显示数据，删除则可能使用一个提示确认框，如果操作成功，我们可以使用更丰富的提示框来处理，本篇主要对比说明在Bootstrap开发中用到的这些技术要点。&lt;img src="http://counter.cnblogs.com/blog/rss/4775282" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/wuhuacong/p/4775282.html" target="_blank"&gt;基于Metronic的Bootstrap开发框架经验总结（6）--对话框及提示框的处理和优化&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/wuhuacong/p/4774396.html</id>
+    <title type="text">基于Metronic的Bootstrap开发框架经验总结（5）--Bootstrap文件上传插件File Input的使用 - 伍华聪</title>
+    <summary type="text">Bootstrap文件上传插件File Input是一个不错的文件上传控件，但是搜索使用到的案例不多，使用的时候，也是一步一个脚印一样摸着石头过河，这个控件在界面呈现上，叫我之前使用过的Uploadify 好看一些，功能也强大些，本文主要基于我自己的框架代码案例，介绍其中文件上传插件File Input的使用。</summary>
+    <published>2015-08-31T15:30:00Z</published>
+    <updated>2015-08-31T15:30:00Z</updated>
+    <author>
+      <name>伍华聪</name>
+      <uri>http://www.cnblogs.com/wuhuacong/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/wuhuacong/p/4774396.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/wuhuacong/p/4774396.html" />
+    <content type="html">Bootstrap文件上传插件File Input是一个不错的文件上传控件，但是搜索使用到的案例不多，使用的时候，也是一步一个脚印一样摸着石头过河，这个控件在界面呈现上，叫我之前使用过的Uploadify 好看一些，功能也强大些，本文主要基于我自己的框架代码案例，介绍其中文件上传插件File Input的使用。&lt;img src="http://counter.cnblogs.com/blog/rss/4774396" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/wuhuacong/p/4774396.html" target="_blank"&gt;基于Metronic的Bootstrap开发框架经验总结（5）--Bootstrap文件上传插件File Input的使用&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/wuhuacong/p/4762924.html</id>
+    <title type="text">基于Metronic的Bootstrap开发框架经验总结（4）--Bootstrap图标的提取和利用 - 伍华聪</title>
+    <summary type="text">在前面的一篇随笔《基于Metronic的Bootstrap开发框架经验总结（1）-框架总览及菜单模块的处理》介绍了菜单模块的处理，主要介绍如何动态从数据库里面获取记录并构建菜单列表。其中菜单信息的图标样式，也是从数据库里面获取的，因此要求我们能够动态取得Bootstrap里面的各种图标定义了。本篇主要介绍如何提取Bootstrap的图标信息，存储到数据库里面为我所用。</summary>
+    <published>2015-08-27T08:14:00Z</published>
+    <updated>2015-08-27T08:14:00Z</updated>
+    <author>
+      <name>伍华聪</name>
+      <uri>http://www.cnblogs.com/wuhuacong/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/wuhuacong/p/4762924.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/wuhuacong/p/4762924.html" />
+    <content type="html">在前面的一篇随笔《基于Metronic的Bootstrap开发框架经验总结（1）-框架总览及菜单模块的处理》介绍了菜单模块的处理，主要介绍如何动态从数据库里面获取记录并构建菜单列表。其中菜单信息的图标样式，也是从数据库里面获取的，因此要求我们能够动态取得Bootstrap里面的各种图标定义了。本篇主要介绍如何提取Bootstrap的图标信息，存储到数据库里面为我所用。&lt;img src="http://counter.cnblogs.com/blog/rss/4762924" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/wuhuacong/p/4762924.html" target="_blank"&gt;基于Metronic的Bootstrap开发框架经验总结（4）--Bootstrap图标的提取和利用&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/wuhuacong/p/4761637.html</id>
+    <title type="text">基于Metronic的Bootstrap开发框架经验总结（3）--下拉列表Select2插件的使用 - 伍华聪</title>
+    <summary type="text">在上篇《基于Metronic的Bootstrap开发框架经验总结（2）--列表分页处理和插件JSTree的使用》介绍了数据的分页处理，使用了Bootstrap Paginator插件，另外对树形列表，采用了JSTree插件，本篇继续介绍在编辑页面中常用到的控件Select2，这个控件可以更加丰富传统的Select下拉列表控件，提供更多的功能和更好的用户体验。</summary>
+    <published>2015-08-26T14:53:00Z</published>
+    <updated>2015-08-26T14:53:00Z</updated>
+    <author>
+      <name>伍华聪</name>
+      <uri>http://www.cnblogs.com/wuhuacong/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/wuhuacong/p/4761637.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/wuhuacong/p/4761637.html" />
+    <content type="html">在上篇《基于Metronic的Bootstrap开发框架经验总结（2）--列表分页处理和插件JSTree的使用》介绍了数据的分页处理，使用了Bootstrap Paginator插件，另外对树形列表，采用了JSTree插件，本篇继续介绍在编辑页面中常用到的控件Select2，这个控件可以更加丰富传统的Select下拉列表控件，提供更多的功能和更好的用户体验。&lt;img src="http://counter.cnblogs.com/blog/rss/4761637" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/wuhuacong/p/4761637.html" target="_blank"&gt;基于Metronic的Bootstrap开发框架经验总结（3）--下拉列表Select2插件的使用&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/wuhuacong/p/4759564.html</id>
+    <title type="text">基于Metronic的Bootstrap开发框架经验总结（2）--列表分页处理和插件JSTree的使用 - 伍华聪</title>
+    <summary type="text">在上篇《基于Metronic的Bootstrap开发框架经验总结（1）-框架总览及菜单模块的处理》介绍了Bootstrap开发框架的一些基础性概括，包括总体界面效果，以及布局、菜单等内容，本篇继续这一主题，介绍页面内容常用到的数据分页处理，以及Bootstrap插件JSTree的使用。在数据的界面显示当中，表格数据的展示以及分页是非常常见的处理操作，利用Bootstrap的样式布局，以及JQuery的Ajax数据处理，就能很好实现数据的动态展示和分页处理。</summary>
+    <published>2015-08-26T03:52:00Z</published>
+    <updated>2015-08-26T03:52:00Z</updated>
+    <author>
+      <name>伍华聪</name>
+      <uri>http://www.cnblogs.com/wuhuacong/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/wuhuacong/p/4759564.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/wuhuacong/p/4759564.html" />
+    <content type="html">在上篇《基于Metronic的Bootstrap开发框架经验总结（1）-框架总览及菜单模块的处理》介绍了Bootstrap开发框架的一些基础性概括，包括总体界面效果，以及布局、菜单等内容，本篇继续这一主题，介绍页面内容常用到的数据分页处理，以及Bootstrap插件JSTree的使用。在数据的界面显示当中，表格数据的展示以及分页是非常常见的处理操作，利用Bootstrap的样式布局，以及JQuery的Ajax数据处理，就能很好实现数据的动态展示和分页处理。&lt;img src="http://counter.cnblogs.com/blog/rss/4759564" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/wuhuacong/p/4759564.html" target="_blank"&gt;基于Metronic的Bootstrap开发框架经验总结（2）--列表分页处理和插件JSTree的使用&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/wuhuacong/p/4757984.html</id>
+    <title type="text">基于Metronic的Bootstrap开发框架经验总结（1）-框架总览及菜单模块的处理 - 伍华聪</title>
+    <summary type="text">最近一直很多事情，博客停下来好久没写了，整理下思路，把最近研究的基于Metronic的Bootstrap开发框架进行经验的总结出来和大家分享下，同时也记录自己对Bootstrap开发的学习研究的点点滴滴，希望在开一个《基于MVC4+EasyUI的Web开发框架经验总结》的系列文章，逐步介绍这个响应式框架的点点滴滴。Bootstrap是一个前端的技术框架，很多平台都可以采用，JAVA/PHP/.NET都可以用来做前端界面，整合JQuery可以实现非常丰富的界面效果，目前也有很多Bootstrap的插件能够提供给大家使用，但是在国内很多基于Bootstrap的介绍很多还是停留在教学的基础上，介绍Bootstrap的各种基础知识和简单的使用；本文希望以基于C#的MVC实际项目的基础上，对Bootstrap开发框架进行全面的案例介绍，以实际项目的代码和效果截图进行讲解，力求详尽、直观为大家介绍这方面的经验和心得。</summary>
+    <published>2015-08-25T10:30:00Z</published>
+    <updated>2015-08-25T10:30:00Z</updated>
+    <author>
+      <name>伍华聪</name>
+      <uri>http://www.cnblogs.com/wuhuacong/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/wuhuacong/p/4757984.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/wuhuacong/p/4757984.html" />
+    <content type="html">最近一直很多事情，博客停下来好久没写了，整理下思路，把最近研究的基于Metronic的Bootstrap开发框架进行经验的总结出来和大家分享下，同时也记录自己对Bootstrap开发的学习研究的点点滴滴，希望在开一个《基于MVC4+EasyUI的Web开发框架经验总结》的系列文章，逐步介绍这个响应式框架的点点滴滴。Bootstrap是一个前端的技术框架，很多平台都可以采用，JAVA/PHP/.NET都可以用来做前端界面，整合JQuery可以实现非常丰富的界面效果，目前也有很多Bootstrap的插件能够提供给大家使用，但是在国内很多基于Bootstrap的介绍很多还是停留在教学的基础上，介绍Bootstrap的各种基础知识和简单的使用；本文希望以基于C#的MVC实际项目的基础上，对Bootstrap开发框架进行全面的案例介绍，以实际项目的代码和效果截图进行讲解，力求详尽、直观为大家介绍这方面的经验和心得。&lt;img src="http://counter.cnblogs.com/blog/rss/4757984" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/wuhuacong/p/4757984.html" target="_blank"&gt;基于Metronic的Bootstrap开发框架经验总结（1）-框架总览及菜单模块的处理&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/wuhuacong/p/4620300.html</id>
+    <title type="text">Web API应用架构设计分析（2） - 伍华聪</title>
+    <summary type="text">在上篇随笔《Web API应用架构设计分析（1）》，我对Web API的各种应用架构进行了概括性的分析和设计，Web API 是一种应用接口框架，它能够构建HTTP服务以支撑更广泛的客户端（包括浏览器，手机和平板电脑等移动设备）的框架，本篇继续这个主题，介绍如何利用ASP.NET Web API 来设计Web API层以及相关的调用处理。</summary>
+    <published>2015-07-04T04:20:00Z</published>
+    <updated>2015-07-04T04:20:00Z</updated>
+    <author>
+      <name>伍华聪</name>
+      <uri>http://www.cnblogs.com/wuhuacong/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/wuhuacong/p/4620300.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/wuhuacong/p/4620300.html" />
+    <content type="html">在上篇随笔《Web API应用架构设计分析（1）》，我对Web API的各种应用架构进行了概括性的分析和设计，Web API 是一种应用接口框架，它能够构建HTTP服务以支撑更广泛的客户端（包括浏览器，手机和平板电脑等移动设备）的框架，本篇继续这个主题，介绍如何利用ASP.NET Web API 来设计Web API层以及相关的调用处理。&lt;img src="http://counter.cnblogs.com/blog/rss/4620300" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/wuhuacong/p/4620300.html" target="_blank"&gt;Web API应用架构设计分析（2）&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+</feed>

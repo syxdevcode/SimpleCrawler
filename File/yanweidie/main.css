@@ -1,0 +1,98 @@
+﻿/*文章标题*/
+.postTitle h1{
+	font-size:22px;
+}
+
+a.postTitle2{
+	padding:3px;
+	font-family:微软雅黑, Consolas, Arial, 宋体;
+	text-decoration:none;
+}
+
+a.postTitle2:hover{
+	color: #fff;
+	background-color: #78AFD3;
+	padding: 3px;
+	text-decoration: none;
+}
+
+
+#cnblogs_post_body a{
+	text-decoration: none;
+	font-size: 15px;
+
+}
+#cnblogs_post_body a:hover{
+	color: #fff;
+	background-color: #78AFD3;
+}
+
+/*文章摘要*/
+#zy
+{
+    border: 1px solid #c9ddfa;
+	background-color: #e7f4ff;
+}
+
+/*文章摘要*/
+#zy
+{
+    border: 1px solid #c9ddfa;
+	background-color: #e7f4ff;
+}
+
+/*文章摘要-摘要内容*/
+#zy p
+{
+    margin: 10px;
+}
+
+/*文章目录*/
+#ml
+{
+    font-family:Courier New, 微软雅黑, Consolas, Arial, 宋体;
+    font-size:13px;
+}
+
+#ml ul
+{
+    margin :10px;
+}
+
+#ml ul li
+{
+   padding:3px;
+   margin :0px;
+}
+
+
+.code
+{
+    color: #2b91af;
+}
+
+.title
+{
+    background-color: #a5a5a5; 
+    color: white; 
+    font-size: 22px;
+	padding-left:10px;
+}
+
+#div_digg {
+	padding: 8px 8px 8px 10px; 
+	border: 1px solid rgb(217, 219, 225); 
+	right: -20px; 
+	bottom: 0px; 
+	position: fixed; 
+	background-color: rgb(255, 255, 255);
+}
+
+#cnblogs_post_body .articleFooter {
+	padding: 15px;
+	background-color: #FFF7DC;
+	border: 2px solid #FFBFBF;
+	font-family:"Courier New", 微软雅黑, Consolas, Arial, 宋体;
+}
+
+

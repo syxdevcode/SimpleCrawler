@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>“闲云博客”的评论</title>
+	<atom:link href="http://jianyun.org/comments/feed" rel="self" type="application/rss+xml" />
+	<link>http://jianyun.org</link>
+	<description>关注互联网科技，记录编程点滴</description>
+	<lastBuildDate>Sun, 15 Sep 2013 15:03:10 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.1.8</generator>
+	<item>
+		<title>joyteam对《各Windows系统自带什么版本的.NET Framework》的评论</title>
+		<link>http://jianyun.org/archives/667.html/comment-page-1#comment-1063</link>
+		<dc:creator><![CDATA[joyteam]]></dc:creator>
+		<pubDate>Sun, 15 Sep 2013 15:03:10 +0000</pubDate>
+		<guid isPermaLink="false">http://jianyun.org/?p=667#comment-1063</guid>
+		<description><![CDATA[至少vista起都带了.net 2.0，刚好有用，谢谢阿]]></description>
+		<content:encoded><![CDATA[<p>至少vista起都带了.net 2.0，刚好有用，谢谢阿</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>fish对《Cisco VPN Client 5.0.07.0410-k9官方原版》的评论</title>
+		<link>http://jianyun.org/archives/414.html/comment-page-1#comment-1003</link>
+		<dc:creator><![CDATA[fish]]></dc:creator>
+		<pubDate>Sun, 18 Aug 2013 09:27:47 +0000</pubDate>
+		<guid isPermaLink="false">http://jianyun.org/?p=414#comment-1003</guid>
+		<description><![CDATA[hi,
+我下载安装了32位版，不过在导入证书时，它的格式是pcf,我的格式是p12,没法成功导入。如何把pcf格式转换为p12呢？]]></description>
+		<content:encoded><![CDATA[<p>hi,<br />
+我下载安装了32位版，不过在导入证书时，它的格式是pcf,我的格式是p12,没法成功导入。如何把pcf格式转换为p12呢？</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>WanderMax对《UMDEditor更新到V2.7.3,新增合并章节，优化程序性能》的评论</title>
+		<link>http://jianyun.org/archives/983.html/comment-page-1#comment-938</link>
+		<dc:creator><![CDATA[WanderMax]]></dc:creator>
+		<pubDate>Thu, 06 Jun 2013 09:39:12 +0000</pubDate>
+		<guid isPermaLink="false">http://jianyun.org/?p=983#comment-938</guid>
+		<description><![CDATA[期待可以一键 制作umd :
+导入txt,按照给定的模板/关键字,搜索章节目录并导入UMD的章节.
+最后检查下缺失的/没有搜索到的章节,右键添加到章节.
+最后另存为UMD.
+这样就得增加如下新功能:
+⒈搜索目录
+⒉右键添加目录
+⒊按次结构保存为umd]]></description>
+		<content:encoded><![CDATA[<p>期待可以一键 制作umd :<br />
+导入txt,按照给定的模板/关键字,搜索章节目录并导入UMD的章节.<br />
+最后检查下缺失的/没有搜索到的章节,右键添加到章节.<br />
+最后另存为UMD.<br />
+这样就得增加如下新功能:<br />
+⒈搜索目录<br />
+⒉右键添加目录<br />
+⒊按次结构保存为umd</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>cnm对《UMDEditor更新到V2.7.3,新增合并章节，优化程序性能》的评论</title>
+		<link>http://jianyun.org/archives/983.html/comment-page-1#comment-932</link>
+		<dc:creator><![CDATA[cnm]]></dc:creator>
+		<pubDate>Thu, 23 May 2013 11:52:26 +0000</pubDate>
+		<guid isPermaLink="false">http://jianyun.org/?p=983#comment-932</guid>
+		<description><![CDATA[替换文字容易假死啊]]></description>
+		<content:encoded><![CDATA[<p>替换文字容易假死啊</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>林东流对《UMDEditor更新到V2.7.3,新增合并章节，优化程序性能》的评论</title>
+		<link>http://jianyun.org/archives/983.html/comment-page-1#comment-928</link>
+		<dc:creator><![CDATA[林东流]]></dc:creator>
+		<pubDate>Tue, 07 May 2013 13:28:42 +0000</pubDate>
+		<guid isPermaLink="false">http://jianyun.org/?p=983#comment-928</guid>
+		<description><![CDATA[windows 8  64bit 下，不能保存对章节名的  批量 更改
+
+使用Windows7 兼容模式可以保存]]></description>
+		<content:encoded><![CDATA[<p>windows 8  64bit 下，不能保存对章节名的  批量 更改</p>
+<p>使用Windows7 兼容模式可以保存</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>林东流对《UMDEditor更新到V2.7.3,新增合并章节，优化程序性能》的评论</title>
+		<link>http://jianyun.org/archives/983.html/comment-page-1#comment-925</link>
+		<dc:creator><![CDATA[林东流]]></dc:creator>
+		<pubDate>Tue, 07 May 2013 09:06:03 +0000</pubDate>
+		<guid isPermaLink="false">http://jianyun.org/?p=983#comment-925</guid>
+		<description><![CDATA[关于批量编辑章节名称有一个想法：
+将UMD文件已有的章节名  导出另存为txt文本，然后编辑这个txt文本，再把内容导进去
+
+希望有这个功能啊]]></description>
+		<content:encoded><![CDATA[<p>关于批量编辑章节名称有一个想法：<br />
+将UMD文件已有的章节名  导出另存为txt文本，然后编辑这个txt文本，再把内容导进去</p>
+<p>希望有这个功能啊</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>WanderMax对《UMDEditor更新到V2.7.3,新增合并章节，优化程序性能》的评论</title>
+		<link>http://jianyun.org/archives/983.html/comment-page-1#comment-851</link>
+		<dc:creator><![CDATA[WanderMax]]></dc:creator>
+		<pubDate>Thu, 21 Feb 2013 14:22:25 +0000</pubDate>
+		<guid isPermaLink="false">http://jianyun.org/?p=983#comment-851</guid>
+		<description><![CDATA[增加合并 撤销
+增加书签 或者保持上次位置]]></description>
+		<content:encoded><![CDATA[<p>增加合并 撤销<br />
+增加书签 或者保持上次位置</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Bing Wallpaper 1.0.0.0 &#124; K.F.Storm&#039;s Home对《各Windows系统自带什么版本的.NET Framework》的评论</title>
+		<link>http://jianyun.org/archives/667.html/comment-page-1#comment-825</link>
+		<dc:creator><![CDATA[Bing Wallpaper 1.0.0.0 &#124; K.F.Storm&#039;s Home]]></dc:creator>
+		<pubDate>Wed, 06 Feb 2013 14:21:24 +0000</pubDate>
+		<guid isPermaLink="false">http://jianyun.org/?p=667#comment-825</guid>
+		<description><![CDATA[[...] 完整列表请看这里 [...]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] 完整列表请看这里 [&#8230;]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>WanderMax对《UMDEditor更新到V2.7.3,新增合并章节，优化程序性能》的评论</title>
+		<link>http://jianyun.org/archives/983.html/comment-page-1#comment-800</link>
+		<dc:creator><![CDATA[WanderMax]]></dc:creator>
+		<pubDate>Thu, 17 Jan 2013 02:33:14 +0000</pubDate>
+		<guid isPermaLink="false">http://jianyun.org/?p=983#comment-800</guid>
+		<description><![CDATA[嘿嘿   感谢更新 一打开 发现一个更新
+谢谢~~~]]></description>
+		<content:encoded><![CDATA[<p>嘿嘿   感谢更新 一打开 发现一个更新<br />
+谢谢~~~</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>kfcyaya对《Cisco VPN Client 5.0.07.0410-k9官方原版》的评论</title>
+		<link>http://jianyun.org/archives/414.html/comment-page-1#comment-796</link>
+		<dc:creator><![CDATA[kfcyaya]]></dc:creator>
+		<pubDate>Fri, 28 Dec 2012 00:37:29 +0000</pubDate>
+		<guid isPermaLink="false">http://jianyun.org/?p=414#comment-796</guid>
+		<description><![CDATA[我只搜索下就搜索到这边了 。看别人都走弯路才找到这边，就特地感谢楼主的。]]></description>
+		<content:encoded><![CDATA[<p>我只搜索下就搜索到这边了 。看别人都走弯路才找到这边，就特地感谢楼主的。</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.063 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-09-17 14:36:38 -->

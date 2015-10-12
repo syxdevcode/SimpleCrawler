@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_Artech</title>
+  <subtitle type="text"></subtitle>
+  <id>uuid:283f8d56-61ca-49a6-8cba-78657ba4eeb7;id=4799</id>
+  <updated>2015-09-16T02:46:37Z</updated>
+  <author>
+    <name>Artech</name>
+    <uri>http://www.cnblogs.com/artech/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/artech/p/react-demo-radio-button-list.html</id>
+    <title type="text">初学ReactJS，写了一个RadioButtonList组件 - Artech</title>
+    <summary type="text">ReactJS学习日志</summary>
+    <published>2015-09-16T02:34:00Z</published>
+    <updated>2015-09-16T02:34:00Z</updated>
+    <author>
+      <name>Artech</name>
+      <uri>http://www.cnblogs.com/artech/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/artech/p/react-demo-radio-button-list.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/artech/p/react-demo-radio-button-list.html" />
+    <content type="html">ReactJS学习日志&lt;img src="http://counter.cnblogs.com/blog/rss/4812461" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/artech/p/react-demo-radio-button-list.html" target="_blank"&gt;初学ReactJS，写了一个RadioButtonList组件&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/artech/p/asp-net-mvc-bug.html</id>
+    <title type="text">这算是ASP.NET MVC的一个大BUG吗？ - Artech</title>
+    <summary type="text">这是昨天一个同事遇到的问题，我觉得这是一个蛮大的问题，而且应该不是ASP.NET MVC的设计者有意为之，换言之，这可能是ASP.NET MVC的一个大Bug。</summary>
+    <published>2015-07-17T09:18:00Z</published>
+    <updated>2015-07-17T09:18:00Z</updated>
+    <author>
+      <name>Artech</name>
+      <uri>http://www.cnblogs.com/artech/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/artech/p/asp-net-mvc-bug.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/artech/p/asp-net-mvc-bug.html" />
+    <content type="html">&lt;img src="http://images.cnblogs.com/cnblogs_com/artech/158198/r_Aspnet.png" class="desc_img"/&gt;这是昨天一个同事遇到的问题，我觉得这是一个蛮大的问题，而且应该不是ASP.NET MVC的设计者有意为之，换言之，这可能是ASP.NET MVC的一个大Bug。&lt;img src="http://counter.cnblogs.com/blog/rss/4655183" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/artech/p/asp-net-mvc-bug.html" target="_blank"&gt;这算是ASP.NET MVC的一个大BUG吗？&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/artech/p/asp-net-5-hello-world-03.html</id>
+    <title type="text">通过3个Hello World应用来了解ASP.NET 5应用是如何运行的（3） - Artech</title>
+    <summary type="text">设置自定义的入口程序体现应用本身与应用托管之间的分离，它使我们可以创建独立于托管环境的应用，并根据需要寄宿于任何一个我们希望的宿主程序下，对于Web应用来说这一点尤为重要。对于之前的Web应用来说，IIS是它们唯一的宿主，但是ASP.NET 5应用却可以将我们指定的入口程序作为宿主。如果将应用寄宿于我们指定的宿主程序，这样的寄宿方式被称为Self-Host，接下来我们通过一个具体的例子来演示如何定义一个简单的ASP.NET MVC应用，并采用Self-Host的方式启动它。</summary>
+    <published>2014-12-09T01:25:00Z</published>
+    <updated>2014-12-09T01:25:00Z</updated>
+    <author>
+      <name>Artech</name>
+      <uri>http://www.cnblogs.com/artech/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/artech/p/asp-net-5-hello-world-03.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/artech/p/asp-net-5-hello-world-03.html" />
+    <content type="html">&lt;img src="http://images.cnblogs.com/cnblogs_com/artech/158198/r_Aspnet.png" class="desc_img"/&gt;设置自定义的入口程序体现应用本身与应用托管之间的分离，它使我们可以创建独立于托管环境的应用，并根据需要寄宿于任何一个我们希望的宿主程序下，对于Web应用来说这一点尤为重要。对于之前的Web应用来说，IIS是它们唯一的宿主，但是ASP.NET 5应用却可以将我们指定的入口程序作为宿主。如果将应用寄宿于我们指定的宿主程序，这样的寄宿方式被称为Self-Host，接下来我们通过一个具体的例子来演示如何定义一个简单的ASP.NET MVC应用，并采用Self-Host的方式启动它。&lt;img src="http://counter.cnblogs.com/blog/rss/4152461" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/artech/p/asp-net-5-hello-world-03.html" target="_blank"&gt;通过3个Hello World应用来了解ASP.NET 5应用是如何运行的（3）&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/artech/p/asp-net-5-hello-world-02.html</id>
+    <title type="text">通过3个Hello World应用来了解ASP.NET 5应用是如何运行的（2） - Artech</title>
+    <summary type="text">对于上面创建的这个Hello World应用来说，程序入口点由应用自身来提供，所以应用本身具有自我执行的能力。从应用托管（Host）的角度来讲，这样的应用同时负责对自身的托管。将应用与托管环境独立起来其实是更好的选择，因为这样可以使同一个应用运行于不同的环境中。接下来我们就来演示如何为应用指定入口程序来达到应用与应用托管的分离。</summary>
+    <published>2014-12-08T09:37:00Z</published>
+    <updated>2014-12-08T09:37:00Z</updated>
+    <author>
+      <name>Artech</name>
+      <uri>http://www.cnblogs.com/artech/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/artech/p/asp-net-5-hello-world-02.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/artech/p/asp-net-5-hello-world-02.html" />
+    <content type="html">&lt;img src="http://images.cnblogs.com/cnblogs_com/artech/158198/r_Aspnet.png" class="desc_img"/&gt;对于上面创建的这个Hello World应用来说，程序入口点由应用自身来提供，所以应用本身具有自我执行的能力。从应用托管（Host）的角度来讲，这样的应用同时负责对自身的托管。将应用与托管环境独立起来其实是更好的选择，因为这样可以使同一个应用运行于不同的环境中。接下来我们就来演示如何为应用指定入口程序来达到应用与应用托管的分离。&lt;img src="http://counter.cnblogs.com/blog/rss/4151611" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/artech/p/asp-net-5-hello-world-02.html" target="_blank"&gt;通过3个Hello World应用来了解ASP.NET 5应用是如何运行的（2）&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/artech/p/asp-net-5-hello-world-01.html</id>
+    <title type="text">通过3个Hello World应用来了解ASP.NET 5应用是如何运行的（1） - Artech</title>
+    <summary type="text">微软在开发ASP.NET 5（当时被称为ASP.NET vNext）是采用的代号为Project K，所以运行时被称为KRuntime。KRuntime是一个SDK，它包含了编译和运行应用程序的所有资源。接下来我们通过三个Hello World实例来演示如何利用KRuntime让我们编写的应用运行起来。这三个实例如此的简单，以至于我们根本不需要利用IDE来编写。作为第一个Hello World应用，我们会编写一个包含入口点的程序，并通过执行KRuntime的K.cmd命令来启动它。</summary>
+    <published>2014-12-08T02:47:00Z</published>
+    <updated>2014-12-08T02:47:00Z</updated>
+    <author>
+      <name>Artech</name>
+      <uri>http://www.cnblogs.com/artech/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/artech/p/asp-net-5-hello-world-01.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/artech/p/asp-net-5-hello-world-01.html" />
+    <content type="html">&lt;img src="http://images.cnblogs.com/cnblogs_com/artech/158198/r_Aspnet.png" class="desc_img"/&gt;微软在开发ASP.NET 5（当时被称为ASP.NET vNext）是采用的代号为Project K，所以运行时被称为KRuntime。KRuntime是一个SDK，它包含了编译和运行应用程序的所有资源。接下来我们通过三个Hello World实例来演示如何利用KRuntime让我们编写的应用运行起来。这三个实例如此的简单，以至于我们根本不需要利用IDE来编写。作为第一个Hello World应用，我们会编写一个包含入口点的程序，并通过执行KRuntime的K.cmd命令来启动它。&lt;img src="http://counter.cnblogs.com/blog/rss/4150561" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/artech/p/asp-net-5-hello-world-01.html" target="_blank"&gt;通过3个Hello World应用来了解ASP.NET 5应用是如何运行的（1）&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/artech/p/book-as-a-present-2.html</id>
+    <title type="text">感恩回馈，新鲜出炉的《ASP.NET MVC 5框架揭秘》免费赠送 - Artech</title>
+    <summary type="text">上次针对《ASP.NET Web API 2框架揭秘》举办了一次评论赠书活动，很多人问我相同的活动要不要针对《ASP.NET MVC 5框架揭秘》再来一次，为此我向出版社要了10本，其中5本以评论博客的形式送出，另5本则以转发微博的形式送出.</summary>
+    <published>2014-08-18T03:51:00Z</published>
+    <updated>2014-08-18T03:51:00Z</updated>
+    <author>
+      <name>Artech</name>
+      <uri>http://www.cnblogs.com/artech/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/artech/p/book-as-a-present-2.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/artech/p/book-as-a-present-2.html" />
+    <content type="html">&lt;img src="http://images.cnblogs.com/cnblogs_com/artech/158198/r_Aspnet.png" class="desc_img"/&gt;上次针对《ASP.NET Web API 2框架揭秘》举办了一次评论赠书活动，很多人问我相同的活动要不要针对《ASP.NET MVC 5框架揭秘》再来一次，为此我向出版社要了10本，其中5本以评论博客的形式送出，另5本则以转发微博的形式送出.&lt;img src="http://counter.cnblogs.com/blog/rss/3919199" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/artech/p/book-as-a-present-2.html" target="_blank"&gt;感恩回馈，新鲜出炉的《ASP.NET MVC 5框架揭秘》免费赠送&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/artech/p/inside-asp-net-mvc-5-framework-demo.html</id>
+    <title type="text">《ASP.NET MVC 5框架揭秘》样章发布 - Artech</title>
+    <summary type="text">今天算是新作《ASP.NET MVC 5框架揭秘》正式上架销售的日子（目前本书在互动网已经到货），为了让更多适合的朋友们能够阅读此书，同时也避免让不适合的读者误买此书，特将此书的样章发布出来。</summary>
+    <published>2014-08-14T13:37:00Z</published>
+    <updated>2014-08-14T13:37:00Z</updated>
+    <author>
+      <name>Artech</name>
+      <uri>http://www.cnblogs.com/artech/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/artech/p/inside-asp-net-mvc-5-framework-demo.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/artech/p/inside-asp-net-mvc-5-framework-demo.html" />
+    <content type="html">&lt;img src="http://images.cnblogs.com/cnblogs_com/artech/158198/r_Aspnet.png" class="desc_img"/&gt;今天算是新作《ASP.NET MVC 5框架揭秘》正式上架销售的日子（目前本书在互动网已经到货），为了让更多适合的朋友们能够阅读此书，同时也避免让不适合的读者误买此书，特将此书的样章发布出来。&lt;img src="http://counter.cnblogs.com/blog/rss/3913503" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/artech/p/inside-asp-net-mvc-5-framework-demo.html" target="_blank"&gt;《ASP.NET MVC 5框架揭秘》样章发布&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/artech/p/inside-asp-net-mvc-5-framework.html</id>
+    <title type="text">新作《ASP.NET MVC 5框架揭秘》正式出版 - Artech</title>
+    <summary type="text">本书以一个模拟ASP.NET MVC内部运行机制的“迷你版MVC框架”作为开篇，其目的在于将ASP.NET MVC真实架构的“全景”勾勒出来。接下来本书以请求消息在ASP.NET MVC框架内部的流向为主线将相关的知识点串连起来，力求将”黑盒式”的消息处理管道清晰透明地展示在读者面前。相信精读本书的读者一定能够将ASP.NET MVC从接收请求到响应回复的整个流程了然于胸，对包括路由、Controller的激活、Model元数据的解析、Action方法的选择与执行、参数的绑定与验证、过滤器的执行以及View的呈现等相关的机制具有深刻的理解。本书以实例演示的方式介绍了很多与ASP.NET MVC相关的最佳实践，同时还提供了一系列实用性的扩展，相信它们一定能够解决你在真实开发过程中遇到的很多问题。本书最后一章提供的案例不仅仅用于演示实践中的ASP.NET MVC，很多的架构设计方面的东西也包含其中。除此之</summary>
+    <published>2014-08-07T07:28:00Z</published>
+    <updated>2014-08-07T07:28:00Z</updated>
+    <author>
+      <name>Artech</name>
+      <uri>http://www.cnblogs.com/artech/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/artech/p/inside-asp-net-mvc-5-framework.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/artech/p/inside-asp-net-mvc-5-framework.html" />
+    <content type="html">&lt;img src="http://images.cnblogs.com/cnblogs_com/artech/158198/r_Aspnet.png" class="desc_img"/&gt;本书以一个模拟ASP.NET MVC内部运行机制的“迷你版MVC框架”作为开篇，其目的在于将ASP.NET MVC真实架构的“全景”勾勒出来。接下来本书以请求消息在ASP.NET MVC框架内部的流向为主线将相关的知识点串连起来，力求将”黑盒式”的消息处理管道清晰透明地展示在读者面前。相信精读本书的读者一定能够将ASP.NET MVC从接收请求到响应回复的整个流程了然于胸，对包括路由、Controller的激活、Model元数据的解析、Action方法的选择与执行、参数的绑定与验证、过滤器的执行以及View的呈现等相关的机制具有深刻的理解。本书以实例演示的方式介绍了很多与ASP.NET MVC相关的最佳实践，同时还提供了一系列实用性的扩展，相信它们一定能够解决你在真实开发过程中遇到的很多问题。本书最后一章提供的案例不仅仅用于演示实践中的ASP.NET MVC，很多的架构设计方面的东西也包含其中。除此之&lt;img src="http://counter.cnblogs.com/blog/rss/3897290" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/artech/p/inside-asp-net-mvc-5-framework.html" target="_blank"&gt;新作《ASP.NET MVC 5框架揭秘》正式出版&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/artech/p/book-as-a-present.html</id>
+    <title type="text">感恩回馈，《ASP.NET Web API 2框架揭秘》免费赠送 - Artech</title>
+    <summary type="text">在继《WCF全面解析》、《ASP.NET MVC 4框架揭秘》之后，我的另一本书《ASP.NET Web API 2框架揭秘》于本月正式出版，《ASP.NET MVC 5框架揭秘》也即将推出。这几本上算畅销的技术书籍的出版源于多年写博客的积累，所以离不开博客园这个平台和广大网友的支持。作为回馈，我也学学汤姆大叔来一个评论送书活动。</summary>
+    <published>2014-07-14T00:15:00Z</published>
+    <updated>2014-07-14T00:15:00Z</updated>
+    <author>
+      <name>Artech</name>
+      <uri>http://www.cnblogs.com/artech/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/artech/p/book-as-a-present.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/artech/p/book-as-a-present.html" />
+    <content type="html">&lt;img src="http://images.cnblogs.com/cnblogs_com/artech/158198/o_webapi.png" class="desc_img"/&gt;在继《WCF全面解析》、《ASP.NET MVC 4框架揭秘》之后，我的另一本书《ASP.NET Web API 2框架揭秘》于本月正式出版，《ASP.NET MVC 5框架揭秘》也即将推出。这几本上算畅销的技术书籍的出版源于多年写博客的积累，所以离不开博客园这个平台和广大网友的支持。作为回馈，我也学学汤姆大叔来一个评论送书活动。&lt;img src="http://counter.cnblogs.com/blog/rss/3842017" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/artech/p/book-as-a-present.html" target="_blank"&gt;感恩回馈，《ASP.NET Web API 2框架揭秘》免费赠送&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/artech/p/inside-asp-net-web-api-2-framework-sample.html</id>
+    <title type="text">《ASP.NET Web API 2框架揭秘》样章（PDF版本） - Artech</title>
+    <summary type="text">《ASP.NET Web API 2框架揭秘》以实例演示的方式介绍了很多与ASP.NET Web API相关的最佳实践，同时还提供了一系列实用性的扩展。本书详细讲解了ASP.NET Web API从接收请求到响应回复的整个流程，包括路由、Http Controller的激活、Action方法的选择与执行、参数的绑定与验证、过滤器的执行和安全等相关的机制。</summary>
+    <published>2014-07-07T14:21:00Z</published>
+    <updated>2014-07-07T14:21:00Z</updated>
+    <author>
+      <name>Artech</name>
+      <uri>http://www.cnblogs.com/artech/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/artech/p/inside-asp-net-web-api-2-framework-sample.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/artech/p/inside-asp-net-web-api-2-framework-sample.html" />
+    <content type="html">&lt;img src="http://images.cnblogs.com/cnblogs_com/artech/158198/o_webapi.png" class="desc_img"/&gt;《ASP.NET Web API 2框架揭秘》以实例演示的方式介绍了很多与ASP.NET Web API相关的最佳实践，同时还提供了一系列实用性的扩展。本书详细讲解了ASP.NET Web API从接收请求到响应回复的整个流程，包括路由、Http Controller的激活、Action方法的选择与执行、参数的绑定与验证、过滤器的执行和安全等相关的机制。&lt;img src="http://counter.cnblogs.com/blog/rss/3830533" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/artech/p/inside-asp-net-web-api-2-framework-sample.html" target="_blank"&gt;《ASP.NET Web API 2框架揭秘》样章（PDF版本）&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+</feed>

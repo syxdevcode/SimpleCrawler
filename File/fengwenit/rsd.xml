@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
+<service>
+<engineName>CNBlogs</engineName>
+<engineLink>http://www.cnblogs.com/</engineLink>
+<homePageLink>http://www.cnblogs.com/fengwenit/</homePageLink>
+<apis><api name="MetaWeblog" preferred="true" apiLink="http://rpc.cnblogs.com/metaweblog/fengwenit" blogID="27612"/></apis>
+</service>
+</rsd>

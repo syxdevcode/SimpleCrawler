@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_天生我豺</title>
+  <subtitle type="text">--关注数据分析、数据挖掘及信息化展示(DA、DM、Infographic)</subtitle>
+  <id>uuid:fe355ab1-d2aa-4bf3-8e3c-b58532231d89;id=3872</id>
+  <updated>2015-09-01T08:14:52Z</updated>
+  <author>
+    <name>天生我豺</name>
+    <uri>http://www.cnblogs.com/tippoint/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/tippoint/p/4775982.html</id>
+    <title type="text">使用nginx-http-concat优化网站响应 - 天生我豺</title>
+    <summary type="text">我们在访问淘宝的时候，会看到代码中的js和css文件是通过一次请求或得的，我们知道浏览器一次请求只能并发访问数个资源，这样的处理错输在网络传输层面可以大大节省时间，这里使用的技术就是把css、js等静态资源合并为一个资源。淘宝使用的tengine是基于nginx的web服务器，从11年底开源。所使用的是mod_concat模块，合并多个文件在一个响应报文中。</summary>
+    <published>2015-09-01T08:11:00Z</published>
+    <updated>2015-09-01T08:11:00Z</updated>
+    <author>
+      <name>天生我豺</name>
+      <uri>http://www.cnblogs.com/tippoint/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/tippoint/p/4775982.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/tippoint/p/4775982.html" />
+    <content type="html">我们在访问淘宝的时候，会看到代码中的js和css文件是通过一次请求或得的，我们知道浏览器一次请求只能并发访问数个资源，这样的处理错输在网络传输层面可以大大节省时间，这里使用的技术就是把css、js等静态资源合并为一个资源。淘宝使用的tengine是基于nginx的web服务器，从11年底开源。所使用的是mod_concat模块，合并多个文件在一个响应报文中。&lt;img src="http://counter.cnblogs.com/blog/rss/4775982" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/tippoint/p/4775982.html" target="_blank"&gt;使用nginx-http-concat优化网站响应&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/tippoint/p/4010976.html</id>
+    <title type="text">mysql自动化安装 - 天生我豺</title>
+    <summary type="text">MySQL安装一般使用RPM或者源码安装的方式。RPM安装的优点是快速,方便.缺点是不能自定义安装目录.如果需要调整数据文件和日志文件的存放位置,还需要进行一些手动调整。源码安装的优点是可以自定义安装目录,缺点是编译时间长,过程复杂其实还有一种方式,定制RPM包.它相当于用源码安装的方式定制了一个R...</summary>
+    <published>2014-10-08T05:36:00Z</published>
+    <updated>2014-10-08T05:36:00Z</updated>
+    <author>
+      <name>天生我豺</name>
+      <uri>http://www.cnblogs.com/tippoint/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/tippoint/p/4010976.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/tippoint/p/4010976.html" />
+    <content type="html">MySQL安装一般使用RPM或者源码安装的方式。RPM安装的优点是快速,方便.缺点是不能自定义安装目录.如果需要调整数据文件和日志文件的存放位置,还需要进行一些手动调整。源码安装的优点是可以自定义安装目录,缺点是编译时间长,过程复杂其实还有一种方式,定制RPM包.它相当于用源码安装的方式定制了一个R...&lt;img src="http://counter.cnblogs.com/blog/rss/4010976" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/tippoint/p/4010976.html" target="_blank"&gt;mysql自动化安装&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/tippoint/p/4001593.html</id>
+    <title type="text">SQL迁移到ORACLE实例 - 天生我豺</title>
+    <summary type="text">nohup ./command.sh &gt; output 2&gt;&amp;1 &amp; SQL迁移到ORACLE实例日常运维中，我们经常会有数据库不同类型的迁移，比较多的就是从sql server迁移到oracle 的情况，前一阶段正好有一个类似的项目进行，我将其中的一些注意事项记录下来。一、迁移的方案之前也进行过...</summary>
+    <published>2014-09-30T03:12:00Z</published>
+    <updated>2014-09-30T03:12:00Z</updated>
+    <author>
+      <name>天生我豺</name>
+      <uri>http://www.cnblogs.com/tippoint/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/tippoint/p/4001593.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/tippoint/p/4001593.html" />
+    <content type="html">nohup ./command.sh &amp;gt; output 2&amp;gt;&amp;amp;1 &amp;amp; SQL迁移到ORACLE实例日常运维中，我们经常会有数据库不同类型的迁移，比较多的就是从sql server迁移到oracle 的情况，前一阶段正好有一个类似的项目进行，我将其中的一些注意事项记录下来。一、迁移的方案之前也进行过...&lt;img src="http://counter.cnblogs.com/blog/rss/4001593" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/tippoint/p/4001593.html" target="_blank"&gt;SQL迁移到ORACLE实例&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/tippoint/p/3962677.html</id>
+    <title type="text">yum源的相关事项 - 天生我豺</title>
+    <summary type="text">有时候需要某些个别的包，不想使用yum的关联更新的时候，找到rpm包是个问题，但是163可以提供：http://mirrors.163.com/centos1.先看看centos版本：cat /etc/redhat-release2.找到对应的路径如：http://mirrors.163.com/c...</summary>
+    <published>2014-09-09T06:58:00Z</published>
+    <updated>2014-09-09T06:58:00Z</updated>
+    <author>
+      <name>天生我豺</name>
+      <uri>http://www.cnblogs.com/tippoint/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/tippoint/p/3962677.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/tippoint/p/3962677.html" />
+    <content type="html">有时候需要某些个别的包，不想使用yum的关联更新的时候，找到rpm包是个问题，但是163可以提供：http://mirrors.163.com/centos1.先看看centos版本：cat /etc/redhat-release2.找到对应的路径如：http://mirrors.163.com/c...&lt;img src="http://counter.cnblogs.com/blog/rss/3962677" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/tippoint/p/3962677.html" target="_blank"&gt;yum源的相关事项&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/tippoint/p/3961799.html</id>
+    <title type="text">Oracle限制某个用户的连接数及PROFILE介绍 - 天生我豺</title>
+    <summary type="text">限制一个用户的链接数，可以通过ORACLE的PROFILE文件来实现1. 查看resource_limit参数：SQL&gt; show parameter resource_limit如果为FALSE,设置RESOURCE_LIMIT参数为TRUE，即开启资源限制：alter system set re...</summary>
+    <published>2014-09-08T14:11:00Z</published>
+    <updated>2014-09-08T14:11:00Z</updated>
+    <author>
+      <name>天生我豺</name>
+      <uri>http://www.cnblogs.com/tippoint/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/tippoint/p/3961799.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/tippoint/p/3961799.html" />
+    <content type="html">限制一个用户的链接数，可以通过ORACLE的PROFILE文件来实现1. 查看resource_limit参数：SQL&amp;gt; show parameter resource_limit如果为FALSE,设置RESOURCE_LIMIT参数为TRUE，即开启资源限制：alter system set re...&lt;img src="http://counter.cnblogs.com/blog/rss/3961799" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/tippoint/p/3961799.html" target="_blank"&gt;Oracle限制某个用户的连接数及PROFILE介绍&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/tippoint/p/3953440.html</id>
+    <title type="text">不知道密码情况下创建用户 （转） - 天生我豺</title>
+    <summary type="text">很多数据库迁移要求使用exp，或者需要使用exp，比如我这次为用户做的数据库升级，从oracle9i升级到oracle11g。我们需要在新服务器上创建数据库，创建表空间，创建用户，赋予用户权限，然后再执行imp命令导入数据。创建用户之前我们可以通过select username from dab_u...</summary>
+    <published>2014-09-03T04:55:00Z</published>
+    <updated>2014-09-03T04:55:00Z</updated>
+    <author>
+      <name>天生我豺</name>
+      <uri>http://www.cnblogs.com/tippoint/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/tippoint/p/3953440.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/tippoint/p/3953440.html" />
+    <content type="html">很多数据库迁移要求使用exp，或者需要使用exp，比如我这次为用户做的数据库升级，从oracle9i升级到oracle11g。我们需要在新服务器上创建数据库，创建表空间，创建用户，赋予用户权限，然后再执行imp命令导入数据。创建用户之前我们可以通过select username from dab_u...&lt;img src="http://counter.cnblogs.com/blog/rss/3953440" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/tippoint/p/3953440.html" target="_blank"&gt;不知道密码情况下创建用户 （转）&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/tippoint/p/3951337.html</id>
+    <title type="text">服务器断电,Oracle数据库无法启动解决方案 - 天生我豺</title>
+    <summary type="text">数据库没有备份的情况下，数据库所在服务器由于意外断电，导致服务器启动之后，Oracle数据库startup报错.1. 数据库没开归档模式2. 无备份解决方案：1234567891011121314151617181920212223SQL&gt;startup mountSQL&gt;recover datab...</summary>
+    <published>2014-09-02T06:01:00Z</published>
+    <updated>2014-09-02T06:01:00Z</updated>
+    <author>
+      <name>天生我豺</name>
+      <uri>http://www.cnblogs.com/tippoint/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/tippoint/p/3951337.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/tippoint/p/3951337.html" />
+    <content type="html">数据库没有备份的情况下，数据库所在服务器由于意外断电，导致服务器启动之后，Oracle数据库startup报错.1. 数据库没开归档模式2. 无备份解决方案：1234567891011121314151617181920212223SQL&amp;gt;startup mountSQL&amp;gt;recover datab...&lt;img src="http://counter.cnblogs.com/blog/rss/3951337" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/tippoint/p/3951337.html" target="_blank"&gt;服务器断电,Oracle数据库无法启动解决方案&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/tippoint/p/3949608.html</id>
+    <title type="text">Oracle中Kill session的研究（转 出自eagle） - 天生我豺</title>
+    <summary type="text">itpub link:http://www.itpub.net/235873.html我们知道,在Oracle数据库中,可以通过kill session的方式来终止一个进程,其基本语法结构为:alter system kill session 'sid,serial#' ;被kill掉的sessio...</summary>
+    <published>2014-09-01T09:13:00Z</published>
+    <updated>2014-09-01T09:13:00Z</updated>
+    <author>
+      <name>天生我豺</name>
+      <uri>http://www.cnblogs.com/tippoint/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/tippoint/p/3949608.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/tippoint/p/3949608.html" />
+    <content type="html">itpub link:http://www.itpub.net/235873.html我们知道,在Oracle数据库中,可以通过kill session的方式来终止一个进程,其基本语法结构为:alter system kill session &amp;#39;sid,serial#&amp;#39; ;被kill掉的sessio...&lt;img src="http://counter.cnblogs.com/blog/rss/3949608" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/tippoint/p/3949608.html" target="_blank"&gt;Oracle中Kill session的研究（转 出自eagle）&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/tippoint/p/3844738.html</id>
+    <title type="text">oracle 判断中文函数 - 天生我豺</title>
+    <summary type="text">create or replace function func_chinese(p_str in varchar2, -- 输入的字符串p_code in varchar2, -- dump(字符串)p_chinese in pls_integer -- 1, 提取汉字, 非1, 提取非汉字) r...</summary>
+    <published>2014-07-15T06:41:00Z</published>
+    <updated>2014-07-15T06:41:00Z</updated>
+    <author>
+      <name>天生我豺</name>
+      <uri>http://www.cnblogs.com/tippoint/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/tippoint/p/3844738.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/tippoint/p/3844738.html" />
+    <content type="html">create or replace function func_chinese(p_str in varchar2, -- 输入的字符串p_code in varchar2, -- dump(字符串)p_chinese in pls_integer -- 1, 提取汉字, 非1, 提取非汉字) r...&lt;img src="http://counter.cnblogs.com/blog/rss/3844738" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/tippoint/p/3844738.html" target="_blank"&gt;oracle 判断中文函数&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/tippoint/p/3706623.html</id>
+    <title type="text">数据库的每日构建脚本完整版 - 天生我豺</title>
+    <summary type="text">引言：在数据库日常维护中，我们经常需要不定期或者定期从生产数据库备份数据恢复到开发或者测试服务器，一般的处理是编写好对应的脚本文件，然后手工或者自动调度执行。但是在调用脚本的过程中，我们经常会遇到一些特殊情况，比如有用户正在使用或者连接，这样就会导致脚本执行的错误，这个汇总的脚本包含了对这种情况的通用处理方法，本脚本包含oracle和sqlserver的处理脚本，基本实现了现有常用数据库的每日构建工作，希望对一些刚接触DBA工作的人有一些指导建议，虽然网上有一些零星的脚本，但是还没有发现有这么仔细和全部的内容，因此有必要共享出来。  说明： oracle和sql的双库备份恢复 oracle:192.168.200.17 的CAS HRM ARM用户恢复到192.168.201.12 sql:192.168.200.117的ekp2和bfclogin库恢复到192.168.201.14  工作原理： oracle的工作原理：通过expdp导出用户数据然后scp到开发服务器然后impdp导入数据，前提是脚本删除用户和库，重建后导入 sql工作原理：b</summary>
+    <published>2014-05-04T05:13:00Z</published>
+    <updated>2014-05-04T05:13:00Z</updated>
+    <author>
+      <name>天生我豺</name>
+      <uri>http://www.cnblogs.com/tippoint/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/tippoint/p/3706623.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/tippoint/p/3706623.html" />
+    <content type="html">引言：在数据库日常维护中，我们经常需要不定期或者定期从生产数据库备份数据恢复到开发或者测试服务器，一般的处理是编写好对应的脚本文件，然后手工或者自动调度执行。但是在调用脚本的过程中，我们经常会遇到一些特殊情况，比如有用户正在使用或者连接，这样就会导致脚本执行的错误，这个汇总的脚本包含了对这种情况的通用处理方法，本脚本包含oracle和sqlserver的处理脚本，基本实现了现有常用数据库的每日构建工作，希望对一些刚接触DBA工作的人有一些指导建议，虽然网上有一些零星的脚本，但是还没有发现有这么仔细和全部的内容，因此有必要共享出来。说明：oracle和sql的双库备份恢复oracle:192.168.200.17 的CAS HRM ARM用户恢复到192.168.201.12sql:192.168.200.117的ekp2和bfclogin库恢复到192.168.201.14 工作原理：oracle的工作原理：通过expdp导出用户数据然后scp到开发服务器然后impdp导入数据，前提是脚本删除用户和库，重建后导入sql工作原理：b&lt;img src="http://counter.cnblogs.com/blog/rss/3706623" width="1" height="1" alt=""/&gt;&lt;br/&gt;&lt;p&gt;本文链接：&lt;a href="http://www.cnblogs.com/tippoint/p/3706623.html" target="_blank"&gt;数据库的每日构建脚本完整版&lt;/a&gt;，转载请注明。&lt;/p&gt;</content>
+  </entry>
+</feed>
