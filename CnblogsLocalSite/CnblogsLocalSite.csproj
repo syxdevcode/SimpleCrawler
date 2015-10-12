@@ -26,6 +26,7 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>12.0</OldToolsVersion>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -132,26 +133,6 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Content Include="File\blog2015\712650\201508\061508347679524.png" />
-    <Content Include="File\blog2015\712650\201508\061512338929104.png" />
-    <Content Include="File\blog2015\712650\201508\061513595642098.png" />
-    <Content Include="File\blog2015\712650\201508\061515073922676.png" />
-    <Content Include="File\blog2015\712650\201508\061516111264971.png" />
-    <Content Include="File\blog2015\712650\201508\061516201738407.png" />
-    <Content Include="File\blog2015\712650\201508\061518177059933.png" />
-    <Content Include="File\blog\customcss\211537.css" />
-    <Content Include="File\bundles\blog-common.css" />
-    <Content Include="File\bundles\blog-common.js" />
-    <Content Include="File\fenglingyi\rsd.xml" />
-    <Content Include="File\fenglingyi\wlwmanifest.xml" />
-    <Content Include="File\files\fenglingyi\cus123.js" />
-    <Content Include="File\files\fenglingyi\newHeader.js" />
-    <Content Include="File\images\xml.gif" />
-    <Content Include="File\logo.gif" />
-    <Content Include="File\OutliningIndicators\ContractedBlock.gif" />
-    <Content Include="File\OutliningIndicators\ExpandedBlockStart.gif" />
-    <Content Include="File\script\jquery.js" />
-    <Content Include="File\Skins\custom\images\logo.gif" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.3.2.js" />
     <Content Include="Scripts\jquery-1.3.2.min.js" />
@@ -187,9 +168,6 @@
       <Project>{58c45697-7dd8-473c-bf79-389ff41a0033}</Project>
       <Name>BlogComm</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="File\fenglingyi\rss" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Blogs\IndexList.cshtml" />
