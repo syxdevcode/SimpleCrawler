@@ -40,6 +40,7 @@ namespace CnblogsLocalSite.Controllers
 
         public ActionResult Test()
         {
+
             return View();
         }
 
