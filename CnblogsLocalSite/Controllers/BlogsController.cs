@@ -38,7 +38,7 @@ namespace CnblogsLocalSite.Controllers
             }
         }
 
-        public ActionResult Test()
+        public ActionResult Test() 
         {
 
             return View();
