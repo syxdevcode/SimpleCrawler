@@ -1,6 +1,6 @@
 ﻿body {
 	font-size: 12px;
-	font-family: "Microsoft YaHei",Verdana,Helvetica,Arial,Sans-Serif;
+	font-family: Tahoma, Arial;
 	background-color: #dbe3e7;
 	margin: 0px;
 	padding: 0px;
@@ -92,10 +92,18 @@ select {
 	width: 100%;
 	margin:0px;
 }
+/**
 #header {
 	background: url('/images/logo.jpg') repeat-x;
 	background-color:#4d8394;
 	height:150px;
+}
+**/
+#header {
+	background: url('http://www.codesec.net/template/default/plus/z_portal_wap/images/logo.png') no-repeat;
+	background-color: #4d8394;
+	background-position: 2% 70%;
+	height: 150px;
 }
 #innerHeader {
     width: 100%;
@@ -537,13 +545,11 @@ color: #FFF;
 	padding: 10px;
 	line-height: 25px;
 	text-indent: 2em;
-	font-size: 14px;
+	font-size: 12px;
 }
-
-.textbox-content img{
-	max-width: 50%;
+#textbox-content-img img{
+	max-width:80%;
 }
-
 .tags {
 	padding-top: 5px;
 	padding-bottom: 6px;

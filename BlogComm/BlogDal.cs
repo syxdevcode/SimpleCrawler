@@ -33,11 +33,11 @@ namespace BlogComm
         {
             get
             {
-                if (Instance == null)
+                if (instance == null)
                 {
                     lock (syncRoot)
                     {
-                        if(Instance==null)
+                        if(instance == null)
                             instance = new BlogDal();
                     }
                 }

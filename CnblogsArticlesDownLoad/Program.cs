@@ -95,11 +95,17 @@ namespace CnblogsArticlesDownLoad
             var master = new CrawlMaster(Settings);
             master.AddUrlEvent += MasterAddUrlEvent;
             master.DataReceivedEvent += MasterDataReceivedEvent;
-            //master.DataReceivedEvent += SaveHtmlEvent;
+            master.DataReceivedEvent += SaveHtmlEvent;
             master.Crawl();
 
+
+            #region 变量未赋值，写法有问题
+
             //批量更新
-            dal.BatchAddBlog(list);
+            //dal.BatchAddBlog(list);
+
+            #endregion
+
 
             Console.ReadKey();
         }
@@ -205,7 +211,8 @@ namespace CnblogsArticlesDownLoad
                 entity.BlogTitle = m_title;
                 entity.Content = shtml;
 
-                //dal.AddBlog(entity);
+                //保存到数据库
+                dal.AddBlog(entity);
 
                 list.Add(entity);
             }
