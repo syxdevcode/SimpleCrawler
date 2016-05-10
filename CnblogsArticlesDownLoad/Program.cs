@@ -46,7 +46,7 @@ namespace CnblogsArticlesDownLoad
         /// The args.
         /// </param>
         private static void Main(string[] args)
-        {
+        { 
             CreateDataBase();
             BrowserCollection browserCollection = new BrowserCollection();
 
