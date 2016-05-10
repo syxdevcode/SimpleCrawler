@@ -1,0 +1,17 @@
+function getPageCharset(){var charSet = "";var oType = getBrowser();switch(oType){case "IE":charSet = document.charset;break;case "FIREFOX":charSet = document.characterSet;break;default:break;}return charSet;}var siteAdspaceId = "105011";function getBrowser(){var oType = "";if(navigator.userAgent.indexOf("MSIE")!=-1){ oType="IE";}else if(navigator.userAgent.indexOf("Firefox")!=-1 || navigator.userAgent.indexOf("Mozilla")!=-1 ){oType="FIREFOX";}return oType;}var charset = getPageCharset();if(charset=="gb2312") charset="gbk";if(charset!="gbk") charset="utf8";function loadjscssfile(filename,filetype, charset){
+				    if(filetype == "js"){
+				        var fileref = document.createElement('script');
+				        fileref.setAttribute("type","text/javascript");
+				        fileref.setAttribute("src",filename);
+					    fileref.setAttribute("charset", charset);
+				    }else if(filetype == "css"){
+
+				        var fileref = document.createElement('link');
+				        fileref.setAttribute("rel","stylesheet");
+				        fileref.setAttribute("type","text/css");
+				        fileref.setAttribute("href",filename);
+				    }
+				   if(typeof fileref != "undefined"){
+				        document.getElementsByTagName("head")[0].appendChild(fileref);
+				    }
+				}if(typeof ichaotu == "undefined" ){loadjscssfile("http://statics.ichaotu.com/widget/2.0/"+charset+"/ichaotu.js?_v=1&v=1.0&i=uq_b4", "js", charset);loadjscssfile("http://statics.ichaotu.com/widget/2.0/css/discuz.css?_v=1", "css");}

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_简简单单就好</title>
+  <subtitle type="text">HTML CSS JavaScript AJAX Asp.Net C# MVC Performance 纸上得来终觉浅,绝知此事要躬行.</subtitle>
+  <id>uuid:32cd7a74-f712-4295-acf3-1dd3f9958ea3;id=4145</id>
+  <updated>2016-01-18T07:32:19Z</updated>
+  <author>
+    <name>文旺</name>
+    <uri>http://www.cnblogs.com/Wenwang/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/Wenwang/p/5138826.html</id>
+    <title type="text">Diy页面服务端渲染解决方案 - 文旺</title>
+    <summary type="text">1. 问题由来在移动互联网电商领域，运营每天需要搭建多个促销页面来吸引用户去点击去购买，一开始程序员临时写个新页面去实现，可这些页面可以用几次就不用了，每次创建新页面去实现费时费力，而且，电商的运营需求是快速迭代的，每次去页面代码里去改，然后上线也太不方便了。所以产品提出了Diy 页面----配置w...</summary>
+    <published>2016-01-18T07:28:00Z</published>
+    <updated>2016-01-18T07:28:00Z</updated>
+    <author>
+      <name>文旺</name>
+      <uri>http://www.cnblogs.com/Wenwang/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/Wenwang/p/5138826.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/Wenwang/p/5138826.html" />
+    <content type="html">【摘要】1. 问题由来在移动互联网电商领域，运营每天需要搭建多个促销页面来吸引用户去点击去购买，一开始程序员临时写个新页面去实现，可这些页面可以用几次就不用了，每次创建新页面去实现费时费力，而且，电商的运营需求是快速迭代的，每次去页面代码里去改，然后上线也太不方便了。所以产品提出了Diy 页面----配置w... &lt;a href="http://www.cnblogs.com/Wenwang/p/5138826.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/Wenwang/archive/2012/05/10/2494555.html</id>
+    <title type="text">数据表格表头与首列固定的完全实现 - 文旺</title>
+    <summary type="text">前几天项目经理跟我说有这么个需求：一个很大的表格，垂直滑动时表头固定，水平滑动里第一、二列固定。我一想这也太难实现了，直接回复说可能实现不了，可是没过会经理发个12306网站的一个现存的实现样子，汗！...</summary>
+    <published>2012-05-10T08:21:00Z</published>
+    <updated>2012-05-10T08:21:00Z</updated>
+    <author>
+      <name>文旺</name>
+      <uri>http://www.cnblogs.com/Wenwang/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/Wenwang/archive/2012/05/10/2494555.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/Wenwang/archive/2012/05/10/2494555.html" />
+    <content type="html">【摘要】前几天项目经理跟我说有这么个需求：一个很大的表格，垂直滑动时表头固定，水平滑动里第一、二列固定。我一想这也太难实现了，直接回复说可能实现不了，可是没过会经理发个12306网站的一个现存的实现样子，汗！... &lt;a href="http://www.cnblogs.com/Wenwang/archive/2012/05/10/2494555.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/Wenwang/archive/2012/04/26/2470403.html</id>
+    <title type="text">HTML5表单及其验证 - 文旺</title>
+    <summary type="text">HTML表单一直都是Web的核心技术之一，有了它我们才能在Web上进行各种各样的应用。HTML5 Forms新增了许多新控件及其API，方便我们做更复杂的应用，而不用借助其它Javascript...</summary>
+    <published>2012-04-26T02:19:00Z</published>
+    <updated>2012-04-26T02:19:00Z</updated>
+    <author>
+      <name>文旺</name>
+      <uri>http://www.cnblogs.com/Wenwang/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/Wenwang/archive/2012/04/26/2470403.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/Wenwang/archive/2012/04/26/2470403.html" />
+    <content type="html">【摘要】HTML表单一直都是Web的核心技术之一，有了它我们才能在Web上进行各种各样的应用。HTML5 Forms新增了许多新控件及其API，方便我们做更复杂的应用，而不用借助其它Javascript... &lt;a href="http://www.cnblogs.com/Wenwang/archive/2012/04/26/2470403.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/Wenwang/archive/2012/01/06/2314283.html</id>
+    <title type="text">谈谈javascript中的定时器 - 文旺</title>
+    <summary type="text">最近写一些JS动画，常用到JS中的定时器(setTimeout &amp; set Interval)，查找相关资料，有些心得与大家一起分享。 使用setTimeout &amp; set Interval创建的定时...</summary>
+    <published>2012-01-06T05:26:00Z</published>
+    <updated>2012-01-06T05:26:00Z</updated>
+    <author>
+      <name>文旺</name>
+      <uri>http://www.cnblogs.com/Wenwang/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/Wenwang/archive/2012/01/06/2314283.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/Wenwang/archive/2012/01/06/2314283.html" />
+    <content type="html">【摘要】最近写一些JS动画，常用到JS中的定时器(setTimeout &amp; set Interval)，查找相关资料，有些心得与大家一起分享。 使用setTimeout &amp; set Interval创建的定时... &lt;a href="http://www.cnblogs.com/Wenwang/archive/2012/01/06/2314283.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/Wenwang/archive/2011/12/16/2289869.html</id>
+    <title type="text">web前端工程师入门须知 - 文旺</title>
+    <summary type="text">本文是写给那些想要入门web前端工程的初学者，高手请路过，也欢迎高手们拍砖。 先说下web前端工程师的价值，目前web产品交互越来越复杂，用户使用体验和网站前端性能优化这些都得靠web前端工程师去做w...</summary>
+    <published>2011-12-16T02:52:00Z</published>
+    <updated>2011-12-16T02:52:00Z</updated>
+    <author>
+      <name>文旺</name>
+      <uri>http://www.cnblogs.com/Wenwang/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/Wenwang/archive/2011/12/16/2289869.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/Wenwang/archive/2011/12/16/2289869.html" />
+    <content type="html">【摘要】本文是写给那些想要入门web前端工程的初学者，高手请路过，也欢迎高手们拍砖。 先说下web前端工程师的价值，目前web产品交互越来越复杂，用户使用体验和网站前端性能优化这些都得靠web前端工程师去做w... &lt;a href="http://www.cnblogs.com/Wenwang/archive/2011/12/16/2289869.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/Wenwang/archive/2011/11/21/2256190.html</id>
+    <title type="text">CSS3实践之路(六):CSS3的过渡效果(transition)与动画(animation) - 文旺</title>
+    <summary type="text">刚开始W3C CSS Workgroup拒绝将CSS3 transition与animation加入官方标准，一些成员认为过渡效果和动画并非样式属性，而且已经可以用脚本实现。所以请大家明白，特别是Web前端开发员，用CSS3做一些过渡效果和动画，并不比运用JS脚本实现要好（个人认为：用CSS只不过让...</summary>
+    <published>2011-11-21T02:30:00Z</published>
+    <updated>2011-11-21T02:30:00Z</updated>
+    <author>
+      <name>文旺</name>
+      <uri>http://www.cnblogs.com/Wenwang/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/Wenwang/archive/2011/11/21/2256190.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/Wenwang/archive/2011/11/21/2256190.html" />
+    <content type="html">【摘要】刚开始W3C CSS Workgroup拒绝将CSS3 transition与animation加入官方标准，一些成员认为过渡效果和动画并非样式属性，而且已经可以用脚本实现。所以请大家明白，特别是Web前端开发员，用CSS3做一些过渡效果和动画，并不比运用JS脚本实现要好（个人认为：用CSS只不过让... &lt;a href="http://www.cnblogs.com/Wenwang/archive/2011/11/21/2256190.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/Wenwang/archive/2011/11/17/2249410.html</id>
+    <title type="text">CSS3实践之路(五):2D和3D转换(transform) - 文旺</title>
+    <summary type="text">Transform 适应于对任一DOM元素的2D或3D转换,这些转换效果有:旋转(rotate)、拉伸(scale)、平移(move)、倾斜(skew)等，利用Transform和javascript可以制作一些简单的动画，可以为web应用带来些意想不到的效果。 目前浏览器并不是完全支持所有的Tra...</summary>
+    <published>2011-11-17T03:02:00Z</published>
+    <updated>2011-11-17T03:02:00Z</updated>
+    <author>
+      <name>文旺</name>
+      <uri>http://www.cnblogs.com/Wenwang/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/Wenwang/archive/2011/11/17/2249410.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/Wenwang/archive/2011/11/17/2249410.html" />
+    <content type="html">【摘要】Transform 适应于对任一DOM元素的2D或3D转换,这些转换效果有:旋转(rotate)、拉伸(scale)、平移(move)、倾斜(skew)等，利用Transform和javascript可以制作一些简单的动画，可以为web应用带来些意想不到的效果。 目前浏览器并不是完全支持所有的Tra... &lt;a href="http://www.cnblogs.com/Wenwang/archive/2011/11/17/2249410.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/Wenwang/archive/2011/11/14/2247427.html</id>
+    <title type="text">CSS3实践之路(四):文本特效 - 文旺</title>
+    <summary type="text">之前工作忙，这篇博文来的有点晚，向大家说声抱歉！ 1 文本特效 CSS3给文字加了很多特效,http://www.w3schools.com/css3/css3_text_effects.asp 在这里我将介绍：text-shadow、word-wrap、word-break和text-overfl...</summary>
+    <published>2011-11-14T02:22:00Z</published>
+    <updated>2011-11-14T02:22:00Z</updated>
+    <author>
+      <name>文旺</name>
+      <uri>http://www.cnblogs.com/Wenwang/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/Wenwang/archive/2011/11/14/2247427.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/Wenwang/archive/2011/11/14/2247427.html" />
+    <content type="html">【摘要】之前工作忙，这篇博文来的有点晚，向大家说声抱歉！ 1 文本特效 CSS3给文字加了很多特效,http://www.w3schools.com/css3/css3_text_effects.asp 在这里我将介绍：text-shadow、word-wrap、word-break和text-overfl... &lt;a href="http://www.cnblogs.com/Wenwang/archive/2011/11/14/2247427.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/Wenwang/archive/2011/11/06/2235928.html</id>
+    <title type="text">CSS3实践之路(三):颜色(Color)和背景(Backgroud) - 文旺</title>
+    <summary type="text">1. 颜色 和 透明度 在CSS3中对颜色进行了很多扩展,具体详情可参照官网：www.w3.org/TR/2003/CR-css3-color-20030514，下面说下CSS3中新的数字定义颜色的方法。 1.1 RGBA 相信大家以前定义颜色经常使用RGB， RGB色彩模式（也翻译为“红绿蓝”，比...</summary>
+    <published>2011-11-06T02:29:00Z</published>
+    <updated>2011-11-06T02:29:00Z</updated>
+    <author>
+      <name>文旺</name>
+      <uri>http://www.cnblogs.com/Wenwang/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/Wenwang/archive/2011/11/06/2235928.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/Wenwang/archive/2011/11/06/2235928.html" />
+    <content type="html">【摘要】1. 颜色 和 透明度 在CSS3中对颜色进行了很多扩展,具体详情可参照官网：www.w3.org/TR/2003/CR-css3-color-20030514，下面说下CSS3中新的数字定义颜色的方法。 1.1 RGBA 相信大家以前定义颜色经常使用RGB， RGB色彩模式（也翻译为“红绿蓝”，比... &lt;a href="http://www.cnblogs.com/Wenwang/archive/2011/11/06/2235928.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/Wenwang/archive/2011/11/02/2231236.html</id>
+    <title type="text">CSS3实践之路(二):盒子模型(box Model)和边框(border) - 文旺</title>
+    <summary type="text">首先感谢广大网友们的支持，最新CSS标准参考网站:www.w3.org/Style/CSS/current-work，大家可以从此网站找到当前CSS详细信息，以及未来CSS4的相关信息，接下来谈正事。 1 CSS盒子模型 首先来复习下CSS的box Model,box Model 是CSS+DIV布...</summary>
+    <published>2011-11-02T01:53:00Z</published>
+    <updated>2011-11-02T01:53:00Z</updated>
+    <author>
+      <name>文旺</name>
+      <uri>http://www.cnblogs.com/Wenwang/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/Wenwang/archive/2011/11/02/2231236.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/Wenwang/archive/2011/11/02/2231236.html" />
+    <content type="html">【摘要】首先感谢广大网友们的支持，最新CSS标准参考网站:www.w3.org/Style/CSS/current-work，大家可以从此网站找到当前CSS详细信息，以及未来CSS4的相关信息，接下来谈正事。 1 CSS盒子模型 首先来复习下CSS的box Model,box Model 是CSS+DIV布... &lt;a href="http://www.cnblogs.com/Wenwang/archive/2011/11/02/2231236.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+</feed>

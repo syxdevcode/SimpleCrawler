@@ -1,0 +1,74 @@
+#div_digg {
+    position: fixed;
+    bottom: 50px;
+    right: 450px;
+    padding: 8px 8px 8px 10px;
+    background-color: #fff;
+    border: 1px solid #D9DBE1;
+   z-index:100;
+}
+#cnblogs_post_body p img{
+
+   -webkit-box-shadow: 0 0 5px gray;
+     -ms-box-shadow: 0 0 5px gray;
+     box-shadow: 0 0 5px gray
+}
+.cnblogs_code{
+ border-left: 5px solid #00bfff ;background: #f8f8ff;
+}
+.cnblogs_code_toolbar{ background: #f8f8ff !important; }
+ h3{ font-size: 16px;font-weight: bold}
+}
+ 
+#cnblogs_post_body{  font-family: 微软雅黑, Gungsuh;
+     
+}
+#cnblogs_post_body .ptitle{
+background-color: #00bfff; -ms-text-shadow: 0 1px 0 gray; text-shadow: 0 1px 0 gray; -ms-border-radius: 5px; padding: 10px; border-radius: 5px; color: white; font-size: 1.2em; font-family: Arial;  -webkit-box-shadow: 0 0 5px gray; -ms-box-shadow: 0 0 5px gray; box-shadow: 0 0 5px gray;
+font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+font-size: 18px;
+font-weight: bold;
+height: 25px;
+line-height: 25px;
+margin: 15px 0 !important;
+
+}
+.alt span{display:line-block !important}
+#read{width:50%;height:50%}
+a.nbg {
+margin-top: 5px;margin-left:5px;
+}
+.nbg img{height:120px;}
+.com{color:gray;font-size:small;border:1px solid gainsboro;padding:5px}
+.tit {
+    height:35px;
+    padding-left: 10px;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.bluet {
+    border-left: 6px solid #00bfff;
+}
+.deepredt {
+  border-left: 6px solid #cd5c5c 
+}
+.article-post {
+    line-height: 30px;
+     padding-top: 20px;text-indent: 20px;
+}
+div#cnblogs_post_body h3 {
+    margin: 1em 0 0.5em 0;
+  
+    font-family: 'Titillium Web', sans-serif;
+    position: relative;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.4);
+    border-bottom-color: rgb(204, 204, 204);
+border-bottom-style: dashed;
+border-bottom-width: 1px;
+    line-height: 40px;
+    color: black;
+     font-size: 16px;
+    font-weight: bold;
+}

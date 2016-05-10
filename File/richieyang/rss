@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_richiezhang</title>
+  <subtitle type="text"></subtitle>
+  <id>uuid:10c1f820-9c8e-4a0e-a6d8-65157cdf3bf7;id=3307</id>
+  <updated>2016-02-17T07:29:30Z</updated>
+  <author>
+    <name>richiezhang</name>
+    <uri>http://www.cnblogs.com/richieyang/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/richieyang/p/5180939.html</id>
+    <title type="text">玩转Asp.net MVC 的八个扩展点 - richiezhang</title>
+    <summary type="text">MVC模型以低耦合、可重用、可维护性高等众多优点已逐渐代替了WebForm模型。能够灵活使用MVC提供的扩展点可以达到事半功倍的效果，另一方面Asp.net MVC优秀的设计和高质量的代码也值得我们去阅读和学习。 本文将介绍Asp.net MVC中常用的八个扩展点并举例说明。 一、ActionRes</summary>
+    <published>2016-02-04T13:02:00Z</published>
+    <updated>2016-02-04T13:02:00Z</updated>
+    <author>
+      <name>richiezhang</name>
+      <uri>http://www.cnblogs.com/richieyang/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/richieyang/p/5180939.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/richieyang/p/5180939.html" />
+    <content type="html">【摘要】MVC模型以低耦合、可重用、可维护性高等众多优点已逐渐代替了WebForm模型。能够灵活使用MVC提供的扩展点可以达到事半功倍的效果，另一方面Asp.net MVC优秀的设计和高质量的代码也值得我们去阅读和学习。 本文将介绍Asp.net MVC中常用的八个扩展点并举例说明。 一、ActionRes &lt;a href="http://www.cnblogs.com/richieyang/p/5180939.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/richieyang/p/5154985.html</id>
+    <title type="text">IDisposable的另类用法 - richiezhang</title>
+    <summary type="text">IDisposable是.Net中一个很重要的接口，一般用来释放非托管资源，我们知道在使用了IDisposable的对象之后一定要调用IDisposable.Dispose()方法，或者使用.Net提供的关键字using来达到这一目的，如： public void ReadFile()...</summary>
+    <published>2016-01-24T05:08:00Z</published>
+    <updated>2016-01-24T05:08:00Z</updated>
+    <author>
+      <name>richiezhang</name>
+      <uri>http://www.cnblogs.com/richieyang/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/richieyang/p/5154985.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/richieyang/p/5154985.html" />
+    <content type="html">【摘要】IDisposable是.Net中一个很重要的接口，一般用来释放非托管资源，我们知道在使用了IDisposable的对象之后一定要调用IDisposable.Dispose()方法，或者使用.Net提供的关键字using来达到这一目的，如： public void ReadFile()... &lt;a href="http://www.cnblogs.com/richieyang/p/5154985.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/richieyang/p/5149173.html</id>
+    <title type="text">[翻译]理解Swift中的Optional - richiezhang</title>
+    <summary type="text">原文出处：Understanding Optionals in Swift苹果新的Swift编程语言带来了一些新的技巧，能使软件开发比以往更方便、更安全。然而，一个很有力的特性Optional，在你第一次使用时可能会感到困惑。Optionals将会在编译阶段检查哪些值为nil。通过这种方式，你可以更...</summary>
+    <published>2016-01-23T04:03:00Z</published>
+    <updated>2016-01-23T04:03:00Z</updated>
+    <author>
+      <name>richiezhang</name>
+      <uri>http://www.cnblogs.com/richieyang/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/richieyang/p/5149173.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/richieyang/p/5149173.html" />
+    <content type="html">【摘要】原文出处：Understanding Optionals in Swift苹果新的Swift编程语言带来了一些新的技巧，能使软件开发比以往更方便、更安全。然而，一个很有力的特性Optional，在你第一次使用时可能会感到困惑。Optionals将会在编译阶段检查哪些值为nil。通过这种方式，你可以更... &lt;a href="http://www.cnblogs.com/richieyang/p/5149173.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/richieyang/p/5118728.html</id>
+    <title type="text">继承结构的另类实现方式 - richiezhang</title>
+    <summary type="text">不知从何时起，我不太轻易去设计抽象类了，一方面是因为我写的业务确实没有设计抽象类的需求，另一方面则基于以下三个考虑：1、面向对象编程中建议多使用“组合”而不是使用“抽象”，原因在于“组合”更加灵活。2、因为要公用一个“方法”，就迫不及待的设计出抽象关系，很容易造成抽象类不够SRP，久而久之抽象类成了...</summary>
+    <published>2016-01-10T09:12:00Z</published>
+    <updated>2016-01-10T09:12:00Z</updated>
+    <author>
+      <name>richiezhang</name>
+      <uri>http://www.cnblogs.com/richieyang/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/richieyang/p/5118728.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/richieyang/p/5118728.html" />
+    <content type="html">【摘要】不知从何时起，我不太轻易去设计抽象类了，一方面是因为我写的业务确实没有设计抽象类的需求，另一方面则基于以下三个考虑：1、面向对象编程中建议多使用“组合”而不是使用“抽象”，原因在于“组合”更加灵活。2、因为要公用一个“方法”，就迫不及待的设计出抽象关系，很容易造成抽象类不够SRP，久而久之抽象类成了... &lt;a href="http://www.cnblogs.com/richieyang/p/5118728.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/richieyang/p/5071744.html</id>
+    <title type="text">编写具有单一职责(SRP)的类 - richiezhang</title>
+    <summary type="text">这两周我需要对一个历史遗留的功能做一些扩展，正如很多人不愿意碰这些历史遗留的代码一样，我的内心也同样对这样的任务充满反抗。这些代码中充斥着各种null判断（你写的return null正确吗？），不规范的变量命名，层层嵌套的if…else语句。显然面对这样的代码我无从下手，更别提什么重构、单元测试了...</summary>
+    <published>2015-12-25T00:54:00Z</published>
+    <updated>2015-12-25T00:54:00Z</updated>
+    <author>
+      <name>richiezhang</name>
+      <uri>http://www.cnblogs.com/richieyang/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/richieyang/p/5071744.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/richieyang/p/5071744.html" />
+    <content type="html">【摘要】这两周我需要对一个历史遗留的功能做一些扩展，正如很多人不愿意碰这些历史遗留的代码一样，我的内心也同样对这样的任务充满反抗。这些代码中充斥着各种null判断（你写的return null正确吗？），不规范的变量命名，层层嵌套的if…else语句。显然面对这样的代码我无从下手，更别提什么重构、单元测试了... &lt;a href="http://www.cnblogs.com/richieyang/p/5071744.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/richieyang/p/5054683.html</id>
+    <title type="text">[转载]十年学会程序设计 - richiezhang</title>
+    <summary type="text">译文转自徐宥的博客Peter Norvig (Copyright 2001) 原文网址为何大家如此匆忙?走进任何一家书店，你会看到书架上一排不见尽头的放着如 以及几天或者几小时学会Windows, 因特网或者Visual Basic 这类书。我在Amazon 网上书店用一下的方式进行高级搜索:出版....</summary>
+    <published>2015-12-17T09:09:00Z</published>
+    <updated>2015-12-17T09:09:00Z</updated>
+    <author>
+      <name>richiezhang</name>
+      <uri>http://www.cnblogs.com/richieyang/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/richieyang/p/5054683.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/richieyang/p/5054683.html" />
+    <content type="html">【摘要】译文转自徐宥的博客Peter Norvig (Copyright 2001) 原文网址为何大家如此匆忙?走进任何一家书店，你会看到书架上一排不见尽头的放着如 以及几天或者几小时学会Windows, 因特网或者Visual Basic 这类书。我在Amazon 网上书店用一下的方式进行高级搜索:出版.... &lt;a href="http://www.cnblogs.com/richieyang/p/5054683.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/richieyang/p/5041883.html</id>
+    <title type="text">使用NServiceBus开发分布式应用 - richiezhang</title>
+    <summary type="text">系列主题：基于消息的软件架构模型演变 NServiceBus 是一个.Net平台下开源的消息服务框架，这类产品有时也被称作ESB(Enterprise Service Bus)——企业服务总线。NServicebus官方地址：http://particular.net/git: https://gi...</summary>
+    <published>2015-12-14T06:26:00Z</published>
+    <updated>2015-12-14T06:26:00Z</updated>
+    <author>
+      <name>richiezhang</name>
+      <uri>http://www.cnblogs.com/richieyang/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/richieyang/p/5041883.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/richieyang/p/5041883.html" />
+    <content type="html">【摘要】系列主题：基于消息的软件架构模型演变 NServiceBus 是一个.Net平台下开源的消息服务框架，这类产品有时也被称作ESB(Enterprise Service Bus)——企业服务总线。NServicebus官方地址：http://particular.net/git: https://gi... &lt;a href="http://www.cnblogs.com/richieyang/p/5041883.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/richieyang/p/5020849.html</id>
+    <title type="text">你眼中的async/await是什么样的？ - richiezhang</title>
+    <summary type="text">又到了周末的code review环节，这次code review发现了一个对async/await的理解问题。让我们直奔主题： var foodsSearch = new FoodSearchService().SearchAsync(); var fruitsSearch = new Fruit...</summary>
+    <published>2015-12-04T16:08:00Z</published>
+    <updated>2015-12-04T16:08:00Z</updated>
+    <author>
+      <name>richiezhang</name>
+      <uri>http://www.cnblogs.com/richieyang/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/richieyang/p/5020849.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/richieyang/p/5020849.html" />
+    <content type="html">【摘要】又到了周末的code review环节，这次code review发现了一个对async/await的理解问题。让我们直奔主题： var foodsSearch = new FoodSearchService().SearchAsync(); var fruitsSearch = new Fruit... &lt;a href="http://www.cnblogs.com/richieyang/p/5020849.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/richieyang/p/5018975.html</id>
+    <title type="text">[翻译]理解Ruby中的blocks,Procs和lambda - richiezhang</title>
+    <summary type="text">原文出处：Understanding Ruby Blocks, Procs and Lambdas blocks，Procs和lambda(在编程领域被称为闭包)是Ruby中很强大的特性，也是最容易引起误解的特性。 这有可能是因为Ruby使用相当独特的方式来处理闭包。Ruby有四种处理闭包的方式，每...</summary>
+    <published>2015-12-04T05:10:00Z</published>
+    <updated>2015-12-04T05:10:00Z</updated>
+    <author>
+      <name>richiezhang</name>
+      <uri>http://www.cnblogs.com/richieyang/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/richieyang/p/5018975.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/richieyang/p/5018975.html" />
+    <content type="html">【摘要】原文出处：Understanding Ruby Blocks, Procs and Lambdas blocks，Procs和lambda(在编程领域被称为闭包)是Ruby中很强大的特性，也是最容易引起误解的特性。 这有可能是因为Ruby使用相当独特的方式来处理闭包。Ruby有四种处理闭包的方式，每... &lt;a href="http://www.cnblogs.com/richieyang/p/5018975.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/richieyang/p/5002526.html</id>
+    <title type="text">使用OAuth打造webapi认证服务供自己的客户端使用（二） - richiezhang</title>
+    <summary type="text">在上一篇”使用OAuth打造webapi认证服务供自己的客户端使用“的文章中我们实现了一个采用了OAuth流程3-密码模式（resource owner password credentials）的WebApi服务端。今天我们来实现一个js+html版本的客户端。一、angular客户端angula...</summary>
+    <published>2015-11-28T05:11:00Z</published>
+    <updated>2015-11-28T05:11:00Z</updated>
+    <author>
+      <name>richiezhang</name>
+      <uri>http://www.cnblogs.com/richieyang/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/richieyang/p/5002526.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/richieyang/p/5002526.html" />
+    <content type="html">【摘要】在上一篇”使用OAuth打造webapi认证服务供自己的客户端使用“的文章中我们实现了一个采用了OAuth流程3-密码模式（resource owner password credentials）的WebApi服务端。今天我们来实现一个js+html版本的客户端。一、angular客户端angula... &lt;a href="http://www.cnblogs.com/richieyang/p/5002526.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+</feed>

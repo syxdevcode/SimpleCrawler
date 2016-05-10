@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_H5前端开发推送</title>
+  <subtitle type="text">H5移动前端开发资讯推送</subtitle>
+  <id>uuid:6efccebf-747d-47c2-8a70-71b451af1a86;id=4304</id>
+  <updated>2015-12-16T03:32:47Z</updated>
+  <author>
+    <name>webpush</name>
+    <uri>http://www.cnblogs.com/webpush/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/webpush/p/5050612.html</id>
+    <title type="text">sublime text 3快捷键汇总 - webpush</title>
+    <summary type="text">Sublime Text 3 快捷键精华版Ctrl+Shift+P：打开命令面板Ctrl+P：搜索项目中的文件Ctrl+G：跳转到第几行Ctrl+W：关闭当前打开文件Ctrl+Shift+W：关闭所有打开文件Ctrl+Shift+V：粘贴并格式化Ctrl+D：选择单词，重复可增加选择下一个相同的单词...</summary>
+    <published>2015-12-16T03:33:00Z</published>
+    <updated>2015-12-16T03:33:00Z</updated>
+    <author>
+      <name>webpush</name>
+      <uri>http://www.cnblogs.com/webpush/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/webpush/p/5050612.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/webpush/p/5050612.html" />
+    <content type="html">【摘要】Sublime Text 3 快捷键精华版Ctrl+Shift+P：打开命令面板Ctrl+P：搜索项目中的文件Ctrl+G：跳转到第几行Ctrl+W：关闭当前打开文件Ctrl+Shift+W：关闭所有打开文件Ctrl+Shift+V：粘贴并格式化Ctrl+D：选择单词，重复可增加选择下一个相同的单词... &lt;a href="http://www.cnblogs.com/webpush/p/5050612.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/webpush/p/5035286.html</id>
+    <title type="text">插件uaredirect.js实现电脑版跳转到手机版网站 - webpush</title>
+    <summary type="text">一、介绍这段时间，有好多朋友问我，跳转到手机版的那个JS是怎么写的。其实这个JS也不是我写的，是百度siteapp下的一款跳转的产品，使用起来很方便。你可以用这款JS跳转到手机版，也可以跳转到任何你想跳转的位置。二、JS下载百度下载地址： http://siteapp.baidu.com/stati...</summary>
+    <published>2015-12-10T02:59:00Z</published>
+    <updated>2015-12-10T02:59:00Z</updated>
+    <author>
+      <name>webpush</name>
+      <uri>http://www.cnblogs.com/webpush/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/webpush/p/5035286.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/webpush/p/5035286.html" />
+    <content type="html">【摘要】一、介绍这段时间，有好多朋友问我，跳转到手机版的那个JS是怎么写的。其实这个JS也不是我写的，是百度siteapp下的一款跳转的产品，使用起来很方便。你可以用这款JS跳转到手机版，也可以跳转到任何你想跳转的位置。二、JS下载百度下载地址： http://siteapp.baidu.com/stati... &lt;a href="http://www.cnblogs.com/webpush/p/5035286.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/webpush/p/5013434.html</id>
+    <title type="text">使用git bush 生成github SSH公钥 - webpush</title>
+    <summary type="text">1 如果没有安装ssh，那么使用下面的指令sudo apt-get install ssh2检查SSH公钥cd ~/.ssh看看存不存在.ssh，如果存在的话，掠过下一步；不存在的请看下一步3生成SSH公钥$ ssh-keygen -t rsa -C "your_email@youremail.c....</summary>
+    <published>2015-12-02T08:40:00Z</published>
+    <updated>2015-12-02T08:40:00Z</updated>
+    <author>
+      <name>webpush</name>
+      <uri>http://www.cnblogs.com/webpush/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/webpush/p/5013434.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/webpush/p/5013434.html" />
+    <content type="html">【摘要】1 如果没有安装ssh，那么使用下面的指令sudo apt-get install ssh2检查SSH公钥cd ~/.ssh看看存不存在.ssh，如果存在的话，掠过下一步；不存在的请看下一步3生成SSH公钥$ ssh-keygen -t rsa -C "your_email@youremail.c.... &lt;a href="http://www.cnblogs.com/webpush/p/5013434.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/webpush/p/5000706.html</id>
+    <title type="text">从网易与淘宝的font-size思考前端设计稿与工作流 - webpush</title>
+    <summary type="text">1. 问题的引出最近阅读白树的博文《移动web资源整理》时，他在博文中有一段指出，如果html5要适应各种分辨率的移动设备，应该使用rem这样的尺寸单位，同时给出了一段针对各个分辨率范围在html上设置font-size的代码：html{font-size:10px}@media screen an...</summary>
+    <published>2015-11-27T07:02:00Z</published>
+    <updated>2015-11-27T07:02:00Z</updated>
+    <author>
+      <name>webpush</name>
+      <uri>http://www.cnblogs.com/webpush/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/webpush/p/5000706.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/webpush/p/5000706.html" />
+    <content type="html">【摘要】1. 问题的引出最近阅读白树的博文《移动web资源整理》时，他在博文中有一段指出，如果html5要适应各种分辨率的移动设备，应该使用rem这样的尺寸单位，同时给出了一段针对各个分辨率范围在html上设置font-size的代码：html{font-size:10px}@media screen an... &lt;a href="http://www.cnblogs.com/webpush/p/5000706.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/webpush/p/4991936.html</id>
+    <title type="text">最好的移动触摸滑动插件：Swiper - webpush</title>
+    <summary type="text">最近在使用的一个移动触摸滑动插件Swiper，功能很强大，跟之前的那个swipe.JS相比，同时支持在PC端滑动，支持上下方向滑动，支持多张图片滑动，支持多屏滑动，凡是你想得到的几乎都可以实现。最近作者还更新了3.0版本，优先支持ios和最新版的Android移动端。下载代码可以在github上下载...</summary>
+    <published>2015-11-24T08:09:00Z</published>
+    <updated>2015-11-24T08:09:00Z</updated>
+    <author>
+      <name>webpush</name>
+      <uri>http://www.cnblogs.com/webpush/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/webpush/p/4991936.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/webpush/p/4991936.html" />
+    <content type="html">【摘要】最近在使用的一个移动触摸滑动插件Swiper，功能很强大，跟之前的那个swipe.JS相比，同时支持在PC端滑动，支持上下方向滑动，支持多张图片滑动，支持多屏滑动，凡是你想得到的几乎都可以实现。最近作者还更新了3.0版本，优先支持ios和最新版的Android移动端。下载代码可以在github上下载... &lt;a href="http://www.cnblogs.com/webpush/p/4991936.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/webpush/p/4991865.html</id>
+    <title type="text">Web移动端Fixed布局的解决方案 - webpush</title>
+    <summary type="text">移动端业务开发，iOS 下经常会有 fixed 元素和输入框(input 元素)同时存在的情况。 但是 fixed 元素在有软键盘唤起的情况下，会出现许多莫名其妙的问题。 这篇文章里就提供一个简单的有输入框情况下的 fixed 布局方案。iOS下的 Fixed + Input BUG现象让我们先举个...</summary>
+    <published>2015-11-24T07:52:00Z</published>
+    <updated>2015-11-24T07:52:00Z</updated>
+    <author>
+      <name>webpush</name>
+      <uri>http://www.cnblogs.com/webpush/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/webpush/p/4991865.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/webpush/p/4991865.html" />
+    <content type="html">【摘要】移动端业务开发，iOS 下经常会有 fixed 元素和输入框(input 元素)同时存在的情况。 但是 fixed 元素在有软键盘唤起的情况下，会出现许多莫名其妙的问题。 这篇文章里就提供一个简单的有输入框情况下的 fixed 布局方案。iOS下的 Fixed + Input BUG现象让我们先举个... &lt;a href="http://www.cnblogs.com/webpush/p/4991865.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/webpush/p/4989558.html</id>
+    <title type="text">移动前端页面开发需要注意的20个要点 - webpush</title>
+    <summary type="text">1、首先我们来看看webkit内核中的一些私有的meta标签，这些meta标签在开发webapp时起到非常重要的作用123456代码laycode - v1.1第一个meta标签表示：强制让文档的宽度与设备的宽度保持1:1，并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览；第二个meta...</summary>
+    <published>2015-11-23T12:21:00Z</published>
+    <updated>2015-11-23T12:21:00Z</updated>
+    <author>
+      <name>webpush</name>
+      <uri>http://www.cnblogs.com/webpush/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/webpush/p/4989558.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/webpush/p/4989558.html" />
+    <content type="html">【摘要】1、首先我们来看看webkit内核中的一些私有的meta标签，这些meta标签在开发webapp时起到非常重要的作用123456代码laycode - v1.1第一个meta标签表示：强制让文档的宽度与设备的宽度保持1:1，并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览；第二个meta... &lt;a href="http://www.cnblogs.com/webpush/p/4989558.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/webpush/p/4988500.html</id>
+    <title type="text">3个方法实现JavaScript判断移动端及pc端访问不同的网站 - webpush</title>
+    <summary type="text">3个方法比较简单，分别在页面头部加入如下js代码：对于简单地直接从www.maslinkcom跳转到m.maslink.com,此方法仅从首页而言：2.如果网站除了首页部分，后面跟的还有，比如：www.maslink.com/list/98/，对于这样一个url，PC就直接这样访问了，对于移动端.....</summary>
+    <published>2015-11-23T07:01:00Z</published>
+    <updated>2015-11-23T07:01:00Z</updated>
+    <author>
+      <name>webpush</name>
+      <uri>http://www.cnblogs.com/webpush/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/webpush/p/4988500.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/webpush/p/4988500.html" />
+    <content type="html">【摘要】3个方法比较简单，分别在页面头部加入如下js代码：对于简单地直接从www.maslinkcom跳转到m.maslink.com,此方法仅从首页而言：2.如果网站除了首页部分，后面跟的还有，比如：www.maslink.com/list/98/，对于这样一个url，PC就直接这样访问了，对于移动端..... &lt;a href="http://www.cnblogs.com/webpush/p/4988500.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/webpush/p/4988277.html</id>
+    <title type="text">自适应网页前端开发要素 - webpush</title>
+    <summary type="text">"自适应网页设计"到底是怎么做到的？其实并不难。首先，在网页代码的头部，加入一行viewport元标签。 viewport是网页默认的宽度和高度，上面这行代码的意思是，网页宽度默认等于屏幕宽度（width=device-width），原始缩放比例（initial-scale=1）为1.0，即网页初....</summary>
+    <published>2015-11-23T06:00:00Z</published>
+    <updated>2015-11-23T06:00:00Z</updated>
+    <author>
+      <name>webpush</name>
+      <uri>http://www.cnblogs.com/webpush/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/webpush/p/4988277.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/webpush/p/4988277.html" />
+    <content type="html">【摘要】"自适应网页设计"到底是怎么做到的？其实并不难。首先，在网页代码的头部，加入一行viewport元标签。 viewport是网页默认的宽度和高度，上面这行代码的意思是，网页宽度默认等于屏幕宽度（width=device-width），原始缩放比例（initial-scale=1）为1.0，即网页初.... &lt;a href="http://www.cnblogs.com/webpush/p/4988277.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/webpush/p/4978415.html</id>
+    <title type="text">移动端自适应方案（转载） - webpush</title>
+    <summary type="text">真的需要动态生成viewport吗？如何自适应？然后给出主观的最佳实践。最帅的flex赶时间戳这里传送门比较无聊干燥的文章，看前请喝水。研究样本手淘 ml.js天猫首页手机携程一个月前去了css开发者大会，听到了手淘的自适应方案，想起之前一直就想了解ml.js到底干了什么事。回来仔细研究了一下，抱着...</summary>
+    <published>2015-11-19T09:52:00Z</published>
+    <updated>2015-11-19T09:52:00Z</updated>
+    <author>
+      <name>webpush</name>
+      <uri>http://www.cnblogs.com/webpush/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/webpush/p/4978415.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/webpush/p/4978415.html" />
+    <content type="html">【摘要】真的需要动态生成viewport吗？如何自适应？然后给出主观的最佳实践。最帅的flex赶时间戳这里传送门比较无聊干燥的文章，看前请喝水。研究样本手淘 ml.js天猫首页手机携程一个月前去了css开发者大会，听到了手淘的自适应方案，想起之前一直就想了解ml.js到底干了什么事。回来仔细研究了一下，抱着... &lt;a href="http://www.cnblogs.com/webpush/p/4978415.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+</feed>

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">博客园_Stoneniqiu</title>
+  <subtitle type="text">理想就是自己喜欢做,并对社会和他人都有意义的事情！</subtitle>
+  <id>uuid:70ffa425-7e6f-4758-afa3-ed38b12e1728;id=3057</id>
+  <updated>2016-02-18T08:26:12Z</updated>
+  <author>
+    <name>stoneniqiu</name>
+    <uri>http://www.cnblogs.com/stoneniqiu/</uri>
+  </author>
+  <generator>feed.cnblogs.com</generator>
+  <entry>
+    <id>http://www.cnblogs.com/stoneniqiu/p/5164375.html</id>
+    <title type="text">【源码笔记】Nop定时任务 - stoneniqiu</title>
+    <summary type="text">网站需要定时执行不同的任务，比如清理无效的数据、定时发送mail等，Nop的这个定时任务设计比较好，简单的说就是将所有任务相同的属性持久化，具体的执行通过继承接口来实现。 持久化对象：ScheduleTask ScheduleTask定义了Seconds，Type等属性，分别记录执行周期和任务类型。</summary>
+    <published>2016-01-28T00:13:00Z</published>
+    <updated>2016-01-28T00:13:00Z</updated>
+    <author>
+      <name>stoneniqiu</name>
+      <uri>http://www.cnblogs.com/stoneniqiu/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/stoneniqiu/p/5164375.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/stoneniqiu/p/5164375.html" />
+    <content type="html">【摘要】网站需要定时执行不同的任务，比如清理无效的数据、定时发送mail等，Nop的这个定时任务设计比较好，简单的说就是将所有任务相同的属性持久化，具体的执行通过继承接口来实现。 持久化对象：ScheduleTask ScheduleTask定义了Seconds，Type等属性，分别记录执行周期和任务类型。 &lt;a href="http://www.cnblogs.com/stoneniqiu/p/5164375.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/stoneniqiu/p/5143189.html</id>
+    <title type="text">平凡之路--读《异类》 - stoneniqiu</title>
+    <summary type="text">总览：异类，就是把事情做对做好的少数派，而《异类》这本书从天赋、个人努力、家庭教育、机遇、家族和地域文化几个方面分析了影响成功的因素。我们常常过于看重的就是个人努力（10000小时理论），而忽视了其他几个因素的影响，就像在命运的丛林里穿梭，没有看清庐山的真面目。从小就听到“性格决定命运”，“态度决定...</summary>
+    <published>2016-01-19T11:39:00Z</published>
+    <updated>2016-01-19T11:39:00Z</updated>
+    <author>
+      <name>stoneniqiu</name>
+      <uri>http://www.cnblogs.com/stoneniqiu/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/stoneniqiu/p/5143189.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/stoneniqiu/p/5143189.html" />
+    <content type="html">【摘要】总览：异类，就是把事情做对做好的少数派，而《异类》这本书从天赋、个人努力、家庭教育、机遇、家族和地域文化几个方面分析了影响成功的因素。我们常常过于看重的就是个人努力（10000小时理论），而忽视了其他几个因素的影响，就像在命运的丛林里穿梭，没有看清庐山的真面目。从小就听到“性格决定命运”，“态度决定... &lt;a href="http://www.cnblogs.com/stoneniqiu/p/5143189.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/stoneniqiu/p/5089986.html</id>
+    <title type="text">CefSharp初识--把网页移到桌面 - stoneniqiu</title>
+    <summary type="text">在开发中我们可曾有过这样的需求，将某个网页嵌入到.Net应用中来，但Winform自带的web browser不怎么理想。CefSharp可以让我们在.Net应用中嵌入一个Chromium。它提供了WPF和Winform版的webbrowser 控件，能很好的渲染出HTML5效果而且和宿主程序有很强...</summary>
+    <published>2016-01-06T00:16:00Z</published>
+    <updated>2016-01-06T00:16:00Z</updated>
+    <author>
+      <name>stoneniqiu</name>
+      <uri>http://www.cnblogs.com/stoneniqiu/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/stoneniqiu/p/5089986.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/stoneniqiu/p/5089986.html" />
+    <content type="html">【摘要】在开发中我们可曾有过这样的需求，将某个网页嵌入到.Net应用中来，但Winform自带的web browser不怎么理想。CefSharp可以让我们在.Net应用中嵌入一个Chromium。它提供了WPF和Winform版的webbrowser 控件，能很好的渲染出HTML5效果而且和宿主程序有很强... &lt;a href="http://www.cnblogs.com/stoneniqiu/p/5089986.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/stoneniqiu/p/5064942.html</id>
+    <title type="text">FTP文件管理 - stoneniqiu</title>
+    <summary type="text">因为网站有下载文件需要和网站分离，使用到了FTP管理文件，这里做一个简单的整理。1.安装FTP和安装iis一样。全部勾选。设置站点名称和路径。设置ip。身份授权选择所有用户，可以读写。完成之后 IIS就会出现：2.添加FTP用户计算机--&gt;管理--&gt;本地用户和组。 添加用户，描述为FTP。这里要设置...</summary>
+    <published>2015-12-23T03:17:00Z</published>
+    <updated>2015-12-23T03:17:00Z</updated>
+    <author>
+      <name>stoneniqiu</name>
+      <uri>http://www.cnblogs.com/stoneniqiu/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/stoneniqiu/p/5064942.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/stoneniqiu/p/5064942.html" />
+    <content type="html">【摘要】因为网站有下载文件需要和网站分离，使用到了FTP管理文件，这里做一个简单的整理。1.安装FTP和安装iis一样。全部勾选。设置站点名称和路径。设置ip。身份授权选择所有用户，可以读写。完成之后 IIS就会出现：2.添加FTP用户计算机--&gt;管理--&gt;本地用户和组。 添加用户，描述为FTP。这里要设置... &lt;a href="http://www.cnblogs.com/stoneniqiu/p/5064942.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/stoneniqiu/p/5057558.html</id>
+    <title type="text">2015我的读书盘点 - stoneniqiu</title>
+    <summary type="text">今年是我的读书元年，这一年我才真正把读书当做一种爱好，一种乐此不彼的习惯。读过的书越多，发觉自己知道的越少，从而更加渴望读到更多的好书。吃饭和行走是为了身体的成长和健康，那阅读就是在构建自己精神之树。这棵树不会因为时间而衰老，但会因为没有养分而枯萎，所以阅读是可以当做毕生的一个事业。读书其实是一个社...</summary>
+    <published>2015-12-21T02:25:00Z</published>
+    <updated>2015-12-21T02:25:00Z</updated>
+    <author>
+      <name>stoneniqiu</name>
+      <uri>http://www.cnblogs.com/stoneniqiu/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/stoneniqiu/p/5057558.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/stoneniqiu/p/5057558.html" />
+    <content type="html">【摘要】今年是我的读书元年，这一年我才真正把读书当做一种爱好，一种乐此不彼的习惯。读过的书越多，发觉自己知道的越少，从而更加渴望读到更多的好书。吃饭和行走是为了身体的成长和健康，那阅读就是在构建自己精神之树。这棵树不会因为时间而衰老，但会因为没有养分而枯萎，所以阅读是可以当做毕生的一个事业。读书其实是一个社... &lt;a href="http://www.cnblogs.com/stoneniqiu/p/5057558.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/stoneniqiu/p/5048364.html</id>
+    <title type="text">git 合并分支 - stoneniqiu</title>
+    <summary type="text">当前git有PreRelease和Release两个分支，现在需要将前者合并到后者。Clone版本在本地clone一个目标工程。然后右键 Tortoise--&gt;Switch/Checkout 切换到Release分支。目标是哪个分支就切换到哪个分支。合并先查看所有节点 ，右键Tortoise--&gt;g...</summary>
+    <published>2015-12-15T13:13:00Z</published>
+    <updated>2015-12-15T13:13:00Z</updated>
+    <author>
+      <name>stoneniqiu</name>
+      <uri>http://www.cnblogs.com/stoneniqiu/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/stoneniqiu/p/5048364.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/stoneniqiu/p/5048364.html" />
+    <content type="html">【摘要】当前git有PreRelease和Release两个分支，现在需要将前者合并到后者。Clone版本在本地clone一个目标工程。然后右键 Tortoise--&gt;Switch/Checkout 切换到Release分支。目标是哪个分支就切换到哪个分支。合并先查看所有节点 ，右键Tortoise--&gt;g... &lt;a href="http://www.cnblogs.com/stoneniqiu/p/5048364.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/stoneniqiu/p/5030749.html</id>
+    <title type="text">【读书笔记】---- 数学之美 - stoneniqiu</title>
+    <summary type="text">这本书对我有两个意义，首先是对高数的重新认识，原来在解决这些复杂问题的时候，数学是这么的准确。数学美在于，能将复杂的问题抽象成数学模型，在海量的数据中快速准确的解决问题。这种“神奇”的力量，不由得让你感觉到amazing。然而我的数学并不好，也只能大体看懂是什么样的逻辑，具体的计算实在无能为力，如果...</summary>
+    <published>2015-12-08T14:07:00Z</published>
+    <updated>2015-12-08T14:07:00Z</updated>
+    <author>
+      <name>stoneniqiu</name>
+      <uri>http://www.cnblogs.com/stoneniqiu/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/stoneniqiu/p/5030749.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/stoneniqiu/p/5030749.html" />
+    <content type="html">【摘要】这本书对我有两个意义，首先是对高数的重新认识，原来在解决这些复杂问题的时候，数学是这么的准确。数学美在于，能将复杂的问题抽象成数学模型，在海量的数据中快速准确的解决问题。这种“神奇”的力量，不由得让你感觉到amazing。然而我的数学并不好，也只能大体看懂是什么样的逻辑，具体的计算实在无能为力，如果... &lt;a href="http://www.cnblogs.com/stoneniqiu/p/5030749.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/stoneniqiu/p/5010769.html</id>
+    <title type="text">Portal.MVC —— nopcommerce的简化版 - stoneniqiu</title>
+    <summary type="text">Portal.MVC 简介项目是基于MVC4+EF,带有角色，权限，用户中心及账户相关(登录,注册,修改密码，找回密码等)等基本功能。参考的开源项目 nopcommerce，这是一个电商架构的MVC项目，我对其进行了简化，之前主要是方便我自己搭建一些小的网站。包含前台和后台。界面浏览1.首页。这是前...</summary>
+    <published>2015-12-04T00:21:00Z</published>
+    <updated>2015-12-04T00:21:00Z</updated>
+    <author>
+      <name>stoneniqiu</name>
+      <uri>http://www.cnblogs.com/stoneniqiu/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/stoneniqiu/p/5010769.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/stoneniqiu/p/5010769.html" />
+    <content type="html">【摘要】Portal.MVC 简介项目是基于MVC4+EF,带有角色，权限，用户中心及账户相关(登录,注册,修改密码，找回密码等)等基本功能。参考的开源项目 nopcommerce，这是一个电商架构的MVC项目，我对其进行了简化，之前主要是方便我自己搭建一些小的网站。包含前台和后台。界面浏览1.首页。这是前... &lt;a href="http://www.cnblogs.com/stoneniqiu/p/5010769.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/stoneniqiu/p/5005890.html</id>
+    <title type="text">抓取登录后的数据 - stoneniqiu</title>
+    <summary type="text">这次是应一个客户需要，抓取另外一个网站的数据，包括数据提交。这些操作需要在登录之后完成。技术上没有什么难点。关键都是用fiddler找到参数和url。记住登录状态 HttpClient能够记住登录状态的，登录完了可以讲Httpclient保存起来。 private HttpClient _cli.....</summary>
+    <published>2015-11-29T15:01:00Z</published>
+    <updated>2015-11-29T15:01:00Z</updated>
+    <author>
+      <name>stoneniqiu</name>
+      <uri>http://www.cnblogs.com/stoneniqiu/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/stoneniqiu/p/5005890.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/stoneniqiu/p/5005890.html" />
+    <content type="html">【摘要】这次是应一个客户需要，抓取另外一个网站的数据，包括数据提交。这些操作需要在登录之后完成。技术上没有什么难点。关键都是用fiddler找到参数和url。记住登录状态 HttpClient能够记住登录状态的，登录完了可以讲Httpclient保存起来。 private HttpClient _cli..... &lt;a href="http://www.cnblogs.com/stoneniqiu/p/5005890.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+  <entry>
+    <id>http://www.cnblogs.com/stoneniqiu/p/4989096.html</id>
+    <title type="text">Form认证的几点说明 - stoneniqiu</title>
+    <summary type="text">有的页面需要用户认证之后才可以进入，通常都是在Filter的OnActionExecuting方法中我们需要获取当前用户。有两种情况不必登录：1.用户是登录的，也就是认证过的。2.用户上次登录了，但没有退出就关闭了页面，且还Cookie还没有过期。这个时候Request.IsAuthentica.....</summary>
+    <published>2015-11-23T09:35:00Z</published>
+    <updated>2015-11-23T09:35:00Z</updated>
+    <author>
+      <name>stoneniqiu</name>
+      <uri>http://www.cnblogs.com/stoneniqiu/</uri>
+    </author>
+    <link rel="alternate" href="http://www.cnblogs.com/stoneniqiu/p/4989096.html" />
+    <link rel="alternate" type="text/html" href="http://www.cnblogs.com/stoneniqiu/p/4989096.html" />
+    <content type="html">【摘要】有的页面需要用户认证之后才可以进入，通常都是在Filter的OnActionExecuting方法中我们需要获取当前用户。有两种情况不必登录：1.用户是登录的，也就是认证过的。2.用户上次登录了，但没有退出就关闭了页面，且还Cookie还没有过期。这个时候Request.IsAuthentica..... &lt;a href="http://www.cnblogs.com/stoneniqiu/p/4989096.html" target="_blank"&gt;阅读全文&lt;/a&gt;</content>
+  </entry>
+</feed>
