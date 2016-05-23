@@ -1,1 +1,0 @@
-document.write("<font color=red>Referer restriction is taking effect.</font>");

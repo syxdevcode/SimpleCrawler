@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
-<service>
-<engineName>CNBlogs</engineName>
-<engineLink>http://www.cnblogs.com/</engineLink>
-<homePageLink>http://www.cnblogs.com/JamesLi2015/</homePageLink>
-<apis><api name="MetaWeblog" preferred="true" apiLink="http://rpc.cnblogs.com/metaweblog/JamesLi2015" blogID="20601"/></apis>
-</service>
-</rsd>
