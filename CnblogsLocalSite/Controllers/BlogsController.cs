@@ -1,16 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using BlogComm;
+using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
-using BlogComm;
 using Webdiyer.WebControls.Mvc;
 
 namespace CnblogsLocalSite.Controllers
 {
     public class BlogsController : Controller
     {
-        //
-        // GET: /Blogs/
-
         protected readonly BlogDal dal = BlogDal.Instance;
 
         public ActionResult IndexList(int? id)
@@ -40,7 +37,6 @@ namespace CnblogsLocalSite.Controllers
 
         public ActionResult Test()
         {
-
             return View();
         }
 

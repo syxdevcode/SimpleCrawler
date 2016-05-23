@@ -1,4 +1,5 @@
 ﻿@{
-    ViewBag.Title = "www.cnblogs.com本地预览首页";
+    ViewBag.Title = @Model.BlogTitle;
 }
+<h5>原文地址：@Model.BlogUrl</h5>
 @Html.Raw(Model.Content)

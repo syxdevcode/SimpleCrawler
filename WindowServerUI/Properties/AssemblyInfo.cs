@@ -30,11 +30,11 @@ using System.Windows;
 
 [assembly: ThemeInfo(
     ResourceDictionaryLocation.None, //主题特定资源词典所处位置
-    //(在页面或应用程序资源词典中
-    // 未找到某个资源的情况下使用)
+                                     //(在页面或应用程序资源词典中
+                                     // 未找到某个资源的情况下使用)
     ResourceDictionaryLocation.SourceAssembly //常规资源词典所处位置
-    //(在页面、应用程序或任何主题特定资源词典中
-    // 未找到某个资源的情况下使用)
+                                              //(在页面、应用程序或任何主题特定资源词典中
+                                              // 未找到某个资源的情况下使用)
 )]
 
 // 程序集的版本信息由下面四个值组成:

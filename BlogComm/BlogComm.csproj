@@ -47,11 +47,13 @@
   <ItemGroup>
     <Compile Include="BlogContext.cs" />
     <Compile Include="BlogDal.cs" />
+    <Compile Include="BrowserCollection.cs" />
     <Compile Include="CnblogsEntity.cs" />
     <Compile Include="DirFile.cs" />
     <Compile Include="ImageDown.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -3,7 +3,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading;
 
-namespace CnblogsArticlesDownLoad
+namespace BlogComm
 {
     /// <summary>
     /// 单例模式---测试

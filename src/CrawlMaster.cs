@@ -245,11 +245,11 @@ namespace SimpleCrawler
                             {
                                 this.DataReceivedEvent(
                                     new DataReceivedEventArgs
-                                        {
-                                            Url = urlInfo.UrlString,
-                                            Depth = urlInfo.Depth,
-                                            Html = html
-                                        });
+                                    {
+                                        Url = urlInfo.UrlString,
+                                        Depth = urlInfo.Depth,
+                                        Html = html
+                                    });
                             }
 
                             if (stream != null)

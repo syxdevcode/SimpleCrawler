@@ -1,24 +1,8 @@
-﻿/******************************************************************
-
-* Copyright (C): ***公司
-
-* CLR版本: 4.0.30319.34011
-
-* 命名空间名称: CnblogsArticlesDownLoad
-
-* 文件名: BrowserCollection
-
-* GUID1: e452e5de-183d-4201-980c-16980095efc2
-
-* 创建时间: 2015/9/17 8:57:20
-
-******************************************************************/
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace CnblogsArticlesDownLoad
+namespace BlogComm
 {
     /// <summary>
     /// 获取到IE浏览器收藏栏中链接
@@ -27,8 +11,8 @@ namespace CnblogsArticlesDownLoad
     {
         public List<string> GetBrowserCollectionsUrl()
         {
-            string FavoritePath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Favorites);
-            List<string> list = LoadLinkFolders(new System.IO.DirectoryInfo(FavoritePath));
+            string favoritePath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Favorites);
+            List<string> list = LoadLinkFolders(new System.IO.DirectoryInfo(favoritePath));
             return list;
         }
 
@@ -41,21 +25,21 @@ namespace CnblogsArticlesDownLoad
             //string ParentFolderName = ParentFolder.Name;
             List<string> listUrl = new List<string>();
 
-            foreach (FileInfo SubFile in ParentFolder.GetFiles())
+            foreach (FileInfo subFile in ParentFolder.GetFiles())
             {
-                string strCurrentLinkUrl = GetLinkFileUrl(SubFile.FullName);
+                string strCurrentLinkUrl = GetLinkFileUrl(subFile.FullName);
                 listUrl.Add(strCurrentLinkUrl);
                 //Console.WriteLine("当前文件" + SubFile.FullName + "链接网址为" + strCurrentLinkUrl);
             }
-            foreach (DirectoryInfo SubFolder in ParentFolder.GetDirectories())
+            foreach (DirectoryInfo subFolder in ParentFolder.GetDirectories())
             {
                 try
                 {
-                    listUrl.AddRange(LoadLinkFolders(SubFolder));
+                    listUrl.AddRange(LoadLinkFolders(subFolder));
                 }
                 catch (Exception)
                 {
-                    Console.WriteLine("读取当前文件夹" + SubFolder.FullName + "收藏网址失败!");
+                    Console.WriteLine("读取当前文件夹" + subFolder.FullName + "收藏网址失败!");
                 }
             }
             return listUrl;

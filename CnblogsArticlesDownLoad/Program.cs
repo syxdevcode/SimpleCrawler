@@ -1,18 +1,21 @@
-﻿using System;
+﻿using BlogComm;
+using SimpleCrawler;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Web;
 using System.Web.Configuration;
-using BlogComm;
-using SimpleCrawler;
 
 namespace CnblogsArticlesDownLoad
 {
     internal class Program
     {
         private static readonly string ImgUrl = WebConfigurationManager.AppSettings["FileUrl"].ToString();
+
+        private static readonly string sourceFile = WebConfigurationManager.AppSettings["sourceFile"].ToString();
 
         private static readonly List<CnblogsEntity> list;
 
@@ -47,10 +50,13 @@ namespace CnblogsArticlesDownLoad
         /// </param>
         private static void Main(string[] args)
         {
-            CreateDataBase();
+            /*获取IE浏览器收藏夹中的URL
+            //获取IE浏览器收藏夹中的URL
             BrowserCollection browserCollection = new BrowserCollection();
-
             List<string> urlList = browserCollection.GetBrowserCollectionsUrl();
+            */
+
+            List<string> urlList = GetHtmlUrlLink(ReadFile(sourceFile));
 
             filter = new BloomFilter<string>(200000);
 
@@ -95,32 +101,11 @@ namespace CnblogsArticlesDownLoad
             var master = new CrawlMaster(Settings);
             master.AddUrlEvent += MasterAddUrlEvent;
             master.DataReceivedEvent += MasterDataReceivedEvent;
-            //master.DataReceivedEvent += SaveHtmlEvent;
+            master.DataReceivedEvent += SaveHtmlEvent;
             master.Crawl();
-
-            //批量更新
-            dal.BatchAddBlog(list);
-
             Console.ReadKey();
         }
-
-        private static void CreateDataBase()
-        {
-            //初始化 博客上下文
-            //var migrate = new CreateDatabaseIfNotExists<BlogContext>();
-            //Database.SetInitializer(migrate);
-
-            //Database.SetInitializer(new SampleData());
-            //using (var db = new BlogContext())
-            //{
-            //    db.Database.Initialize(false);
-            //}
-            //using (var db = new BlogContext())
-            //{
-            //    Console.WriteLine("数据初始化完成：博客信息{0}条", db.CnblogsEntity.Count());
-            //}
-        }
-
+        
         /// <summary>
         /// The master add url event.
         /// </summary>
@@ -138,7 +123,6 @@ namespace CnblogsArticlesDownLoad
                 Console.WriteLine(args.Url);
                 return true;
             }
-
             return false; // 返回 false 代表：不添加到队列中
         }
 
@@ -150,10 +134,8 @@ namespace CnblogsArticlesDownLoad
         /// </param>
         private static void MasterDataReceivedEvent(DataReceivedEventArgs args)
         {
-            // 在此处解析页面，可以用类似于 HtmlAgilityPack（页面解析组件）的东东、也可以用正则表达式、还可以自己进行字符串分析
             Uri domain = new Uri(args.Url);
-
-            //http://www.cnblogs.com
+            
             string domainUrl = domain.Scheme + "://" + domain.Host;
             DomainName = domain.Port == 80 ? domainUrl : domainUrl + ":" + domain.Port;
 
@@ -171,16 +153,6 @@ namespace CnblogsArticlesDownLoad
         /// <param name="args"></param>
         private static void SaveHtmlEvent(DataReceivedEventArgs args)
         {
-            #region 不支持
-
-            //HtmlDocument doc = new HtmlDocument();
-            //doc.LoadHtml(args.Html);
-            //HtmlNode rootNode = doc.DocumentNode;
-            //string CategoryListXPath = "/title[1]";
-            //var categoryNodeList = rootNode.SelectNodes(CategoryListXPath);
-
-            #endregion 
-
             Regex reg = new Regex(@"(?m)<title[^>]*>(?<title>(?:\w|\W)*?)</title[^>]*>", RegexOptions.Multiline | RegexOptions.IgnoreCase);
             Match mc = reg.Match(args.Html);
             string m_title = String.Empty;
@@ -188,10 +160,7 @@ namespace CnblogsArticlesDownLoad
             {
                 m_title = mc.Groups["title"].Value.Trim();
             }
-
-            //定义正则表达式用来去除网页域名
-            //Regex regImg = new Regex(@"\b(\S+)://(\S+)\b", RegexOptions.IgnoreCase);
-
+            
             Regex urlRegex = new Regex(@"(?i)http://(\w+\.){1,3}(com(\.cn)?|cn|net)\b");
 
             //去除域名后
@@ -204,14 +173,14 @@ namespace CnblogsArticlesDownLoad
                 entity.BlogUrl = args.Url;
                 entity.BlogTitle = m_title;
                 entity.Content = shtml;
-
-                //dal.AddBlog(entity);
-
-                list.Add(entity);
+                dal.AddBlog(entity);
             }
         }
 
-        //下载
+        /// <summary>
+        /// 下载
+        /// </summary>
+        /// <param name="html"></param>
         private static void DownloadAll(string html)
         {
             List<string> fileList = GetHtmlFileList(html);
@@ -334,7 +303,7 @@ namespace CnblogsArticlesDownLoad
         /// <summary>
         /// 调用浏览器网页另存为
         /// </summary>
-        private void save()
+        private void Save()
         {
             string url = String.Empty;
             HttpRequest s = new HttpRequest("", url, "");
@@ -408,6 +377,54 @@ namespace CnblogsArticlesDownLoad
             if (File.Exists(dicPath + fileName)) { File.Delete(dicPath + fileName); }
             if (Directory.Exists(dicPath) == false) { Directory.CreateDirectory(dicPath); }
             wc.DownloadFile(url, dicPath + "/" + fileName);
+        }
+
+        /// <summary>  
+        /// 读文件  
+        /// </summary>  
+        /// <param name="path">完整本地文件路径</param>  
+        /// <returns></returns>  
+        public static string ReadFile(string path)
+        {
+            try
+            {
+                StreamReader sr = new StreamReader(path,
+                    System.Text.Encoding.GetEncoding("utf-8"));
+                string content = sr.ReadToEnd().ToString();
+                sr.Close();
+                return content;
+            }
+            catch
+            {
+                return
+                    "<span style='color:red; font-size:x-large;'>Sorry,The Ariticle wasn't found!! It may have been deleted accidentally from Server.</span>";
+            }
+        }
+
+        /// <summary>
+        /// 提取网页所有超链接和链接名称
+        /// </summary>
+        /// <param name="html"></param>
+        /// <returns></returns>
+        public static List<string> GetHtmlUrlLink(string html)
+        {
+
+            //提取网页所有超链接和链接名称
+
+            List<string> hrefList = new List<string>();//链接
+            //List<string> nameList = new List<string>();//链接名称
+            string strRef = @"<a[^<>]*?hrefs*=s*[,""s]([^"",]*)[,""][^<>]*?>(.*?)</a>";
+            Regex re = new Regex(strRef, RegexOptions.IgnoreCase | RegexOptions.Singleline);
+
+            MatchCollection matches = re.Matches(html);
+
+            ArrayList ulist = new ArrayList();
+            foreach (Match match in matches)
+            {
+                hrefList.Add(match.Groups[1].Value.Trim().ToLower());
+                //nameList.Add(match.Groups[2].Value.Trim().ToLower());
+            }
+            return hrefList;
         }
 
         #endregion Methods

@@ -1,50 +1,14 @@
-﻿/******************************************************************
-
-* Copyright (C): ***公司
-
-* CLR版本: 4.0.30319.34011
-
-* 命名空间名称: CnblogsArticlesDownLoad
-
-* 文件名: BlogDal
-
-* GUID1: cf09763c-cf2f-4d2b-8ddc-d1795380db65
-
-* 创建时间: 2015/9/14 20:42:36
-
-******************************************************************/
-
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 namespace BlogComm
 {
-    public class BlogDal
+    public class BlogDal:Singleton<BlogDal>
     {
-
-        private static volatile BlogDal instance;
-
-        private static object syncRoot = new object();
-
-        private BlogDal() { }
-
-        public static BlogDal Instance
+        private BlogDal()
         {
-            get
-            {
-                if (Instance == null)
-                {
-                    lock (syncRoot)
-                    {
-                        if(Instance==null)
-                            instance = new BlogDal();
-                    }
-                }
-                return instance;
-            }
         }
-
+        
         /// <summary>
         /// 增加
         /// </summary>
@@ -58,6 +22,7 @@ namespace BlogComm
                 return context.SaveChanges();
             }
         }
+
         /// <summary>
         /// 批量增加
         /// </summary>
