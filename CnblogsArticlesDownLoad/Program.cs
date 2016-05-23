@@ -23,7 +23,7 @@ namespace CnblogsArticlesDownLoad
 
         private static string DomainName = String.Empty;
 
-        #region Static Fields
+        #region Static Fields   
 
         /// <summary>
         /// The settings.
