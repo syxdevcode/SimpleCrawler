@@ -3,12 +3,12 @@ using System.Linq;
 
 namespace BlogComm
 {
-    public class BlogDal:Singleton<BlogDal>
+    public class BlogDal : Singleton<BlogDal>
     {
         private BlogDal()
         {
         }
-        
+
         /// <summary>
         /// 增加
         /// </summary>

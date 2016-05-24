@@ -23,7 +23,7 @@ namespace CnblogsArticlesDownLoad
 
         private static string DomainName = String.Empty;
 
-        #region Static Fields   
+        #region Static Fields
 
         /// <summary>
         /// The settings.
@@ -105,7 +105,7 @@ namespace CnblogsArticlesDownLoad
             master.Crawl();
             Console.ReadKey();
         }
-        
+
         /// <summary>
         /// The master add url event.
         /// </summary>
@@ -135,7 +135,7 @@ namespace CnblogsArticlesDownLoad
         private static void MasterDataReceivedEvent(DataReceivedEventArgs args)
         {
             Uri domain = new Uri(args.Url);
-            
+
             string domainUrl = domain.Scheme + "://" + domain.Host;
             DomainName = domain.Port == 80 ? domainUrl : domainUrl + ":" + domain.Port;
 
@@ -160,7 +160,7 @@ namespace CnblogsArticlesDownLoad
             {
                 m_title = mc.Groups["title"].Value.Trim();
             }
-            
+
             Regex urlRegex = new Regex(@"(?i)http://(\w+\.){1,3}(com(\.cn)?|cn|net)\b");
 
             //去除域名后
@@ -379,11 +379,11 @@ namespace CnblogsArticlesDownLoad
             wc.DownloadFile(url, dicPath + "/" + fileName);
         }
 
-        /// <summary>  
-        /// 读文件  
-        /// </summary>  
-        /// <param name="path">完整本地文件路径</param>  
-        /// <returns></returns>  
+        /// <summary>
+        /// 读文件
+        /// </summary>
+        /// <param name="path">完整本地文件路径</param>
+        /// <returns></returns>
         public static string ReadFile(string path)
         {
             try
@@ -408,7 +408,6 @@ namespace CnblogsArticlesDownLoad
         /// <returns></returns>
         public static List<string> GetHtmlUrlLink(string html)
         {
-
             //提取网页所有超链接和链接名称
 
             List<string> hrefList = new List<string>();//链接
