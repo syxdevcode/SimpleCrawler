@@ -1,6 +1,7 @@
 ﻿using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Routing;
+using log4net;
 
 namespace CnblogsLocalSite
 {
@@ -10,11 +11,16 @@ namespace CnblogsLocalSite
     {
         protected void Application_Start()
         {
+            string loggerConfig = Server.MapPath("~/Log4Net.config");
+            log4net.Config.XmlConfigurator.ConfigureAndWatch(new System.IO.FileInfo(loggerConfig));
+
             AreaRegistration.RegisterAllAreas();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+
         }
     }
 }
