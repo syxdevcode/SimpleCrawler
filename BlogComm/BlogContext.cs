@@ -9,6 +9,6 @@ namespace BlogComm
         {
         }
 
-        public DbSet<CnblogsEntity> CnblogsEntity { get; set; }
+        public DbSet<ArticleEntity> ArticleEntity { get; set; }
     }
 }

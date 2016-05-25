@@ -14,8 +14,8 @@ namespace CnblogsLocalSite.Controllers
         {
             int totalCount = 0;
             int pageIndex = id ?? 1;
-            List<CnblogsEntity> list = dal.GegEntitiesPageList("", 20, (pageIndex - 1) * 20, out totalCount);
-            PagedList<CnblogsEntity> mPage = list.AsQueryable().ToPagedList(pageIndex, 20);
+            List<ArticleEntity> list = dal.GegEntitiesPageList("", 20, (pageIndex - 1) * 20, out totalCount);
+            PagedList<ArticleEntity> mPage = list.AsQueryable().ToPagedList(pageIndex, 20);
             mPage.TotalItemCount = totalCount;
             mPage.CurrentPageIndex = (int)(id ?? 1);
             return View(mPage);
@@ -26,12 +26,12 @@ namespace CnblogsLocalSite.Controllers
         {
             if (id != null)
             {
-                CnblogsEntity entity = dal.GetBlogById(id.Value);
+                ArticleEntity entity = dal.GetBlogById(id.Value);
                 return View(entity);
             }
             else
             {
-                return View(new CnblogsEntity());
+                return View(new ArticleEntity());
             }
         }
 

@@ -1,4 +1,4 @@
-﻿@model PagedList<BlogComm.CnblogsEntity>
+﻿@model PagedList<BlogComm.ArticleEntity>
     @using Webdiyer.WebControls.Mvc;
     @{
     ViewBag.Title = "blogs首页";
@@ -12,7 +12,7 @@
                 <th>添加时间</th>
                 <th>URL</th>
             </tr>
-            @foreach (BlogComm.CnblogsEntity blog in Model)
+            @foreach (BlogComm.ArticleEntity blog in Model)
             {
             <tr>
                 <td align="center" style="width: 500px;">@Html.ActionLink(blog.BlogTitle, "Index", new { id = blog.Id }, new { target = "_blank" })</td>

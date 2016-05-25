@@ -5,7 +5,7 @@ namespace BlogComm
     /// <summary>
     /// 博客实体类
     /// </summary>
-    public class CnblogsEntity
+    public class ArticleEntity
     {
         /// <summary>
         /// 主键ID

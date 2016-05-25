@@ -1,4 +1,6 @@
-﻿using System.Data.Entity;
+﻿using System;
+using System.Data.Entity;
+using System.Data.Entity.Migrations;
 
 namespace BlogComm.Migrations
 {
@@ -14,9 +16,9 @@ namespace BlogComm.Migrations
         {
             //var blogs = new[]
             //{
-            //    new CnblogsEntity  {BlogTitle = "My First Blog",AddDateTime = DateTime.Now}
+            //    new ArticleEntity  {BlogTitle = "My First Blog",AddDateTime = DateTime.Now}
             //};
-            //context.CnblogsEntity.AddOrUpdate(blogs);
+            //context.ArticleEntity.AddOrUpdate(blogs);
 
             //context.SaveChanges();
         }

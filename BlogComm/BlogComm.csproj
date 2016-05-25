@@ -55,6 +55,7 @@
     <Compile Include="BlogDal.cs" />
     <Compile Include="BrowserCollection.cs" />
     <Compile Include="CnblogsEntity.cs" />
+    <Compile Include="DatabaseInitializer.cs" />
     <Compile Include="DirFile.cs" />
     <Compile Include="ImageDown.cs" />
     <Compile Include="Migrations\Configuration.cs" />

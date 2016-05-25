@@ -17,7 +17,7 @@ namespace CnblogsArticlesDownLoad
 
         private static readonly string sourceFile = WebConfigurationManager.AppSettings["sourceFile"].ToString();
 
-        private static readonly List<CnblogsEntity> list;
+        private static readonly List<ArticleEntity> list;
 
         private static readonly BlogDal dal = BlogDal.Instance;
 
@@ -50,6 +50,7 @@ namespace CnblogsArticlesDownLoad
         /// </param>
         private static void Main(string[] args)
         {
+            DatabaseInitializer.Initialize();
             /*获取IE浏览器收藏夹中的URL
             //获取IE浏览器收藏夹中的URL
             BrowserCollection browserCollection = new BrowserCollection();
@@ -168,7 +169,7 @@ namespace CnblogsArticlesDownLoad
 
             if (dal.GetBlog(args.Url) == null)
             {
-                CnblogsEntity entity = new CnblogsEntity();
+                ArticleEntity entity = new ArticleEntity();
                 entity.AddDateTime = DateTime.Now;
                 entity.BlogUrl = args.Url;
                 entity.BlogTitle = m_title;
@@ -362,21 +363,25 @@ namespace CnblogsArticlesDownLoad
             System.Net.WebClient wc = new System.Net.WebClient();
             string s = url.Substring(0, url.LastIndexOf("/"));
             string dicPath = String.Empty;
+            Uri imgUri = new Uri(url);
             if (url.Contains(DomainName))
             {
                 dicPath = s.Replace(DomainName, localPath).Replace("/", @"\");
             }
             else
             {
-                Uri imgUri = new Uri(url);
                 string domainUrl = imgUri.Scheme + "://" + imgUri.Host;
                 string imgDomain = imgUri.Port == 80 ? domainUrl : domainUrl + ":" + imgUri.Port;
                 dicPath = s.Replace(imgDomain, localPath).Replace("/", @"\");
             }
 
-            if (File.Exists(dicPath + fileName)) { File.Delete(dicPath + fileName); }
+            if (File.Exists(dicPath + fileName))
+            {
+                //File.Delete(dicPath + fileName);
+                return;
+            }
             if (Directory.Exists(dicPath) == false) { Directory.CreateDirectory(dicPath); }
-            wc.DownloadFile(url, dicPath + "/" + fileName);
+            wc.DownloadFileAsync(imgUri, dicPath + "/" + fileName);
         }
 
         /// <summary>
