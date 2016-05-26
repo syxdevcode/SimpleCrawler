@@ -7,6 +7,9 @@ namespace SimpleCrawler.Data.DAL
 {
     public class ArticleDal : Singleton<ArticleDal>
     {
+
+        private ArticleDal() { }
+
         /// <summary>
         /// 增加
         /// </summary>
