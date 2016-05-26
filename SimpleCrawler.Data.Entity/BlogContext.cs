@@ -1,6 +1,7 @@
 ﻿using System.Data.Entity;
+using SimpleCrawler.Data.Entity;
 
-namespace SimpleCrawler.Data.Entity
+namespace SimpleCrawler.Data
 {
     public class BlogContext : DbContext
     {

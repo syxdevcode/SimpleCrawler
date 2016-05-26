@@ -7,6 +7,8 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Web;
 using System.Web.Configuration;
+using SimpleCrawler.Data;
+using SimpleCrawler.Data.DAL;
 using SimpleCrawler.Data.Entity;
 
 namespace SimpleCrawler.ArticlesDownLoad
@@ -19,7 +21,7 @@ namespace SimpleCrawler.ArticlesDownLoad
 
         private static readonly List<ArticleEntity> list;
 
-        private static readonly BlogDal dal = BlogDal.Instance;
+        private static readonly ArticleDal dal = ArticleDal.Instance;
 
         private static string DomainName = String.Empty;
 

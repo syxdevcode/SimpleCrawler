@@ -1,4 +1,4 @@
-﻿@model PagedList<SimpleCrawler.Data.Entity.ArticleEntity>
+﻿@model PagedList<SimpleCrawler.Data.ArticleEntity>
     @using Webdiyer.WebControls.Mvc;
     @{
     ViewBag.Title = "blogs首页";
@@ -12,7 +12,7 @@
                 <th>添加时间</th>
                 <th>URL</th>
             </tr>
-            @foreach (SimpleCrawler.Data.Entity.ArticleEntity blog in Model)
+            @foreach (SimpleCrawler.Data.ArticleEntity blog in Model)
             {
             <tr>
                 <td align="center" style="width: 500px;">@Html.ActionLink(blog.BlogTitle, "Index", new { id = blog.Id }, new { target = "_blank" })</td>

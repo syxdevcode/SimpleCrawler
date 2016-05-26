@@ -54,9 +54,9 @@
       <Project>{58c45697-7dd8-473c-bf79-389ff41a0033}</Project>
       <Name>SimpleCrawler.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SimpleCrawler.Data.Entity\SimpleCrawler.Data.Entity.csproj">
+    <ProjectReference Include="..\SimpleCrawler.Data.Entity\SimpleCrawler.Data.csproj">
       <Project>{3f3701cd-6fb8-4ac2-99b1-a8e9b641749d}</Project>
-      <Name>SimpleCrawler.Data.Entity</Name>
+      <Name>SimpleCrawler.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\SimpleCrawler\SimpleCrawler.csproj">
       <Project>{67f07677-22a9-4176-b549-28f1448b0448}</Project>

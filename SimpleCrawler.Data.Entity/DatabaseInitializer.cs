@@ -4,9 +4,9 @@ using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SimpleCrawler.Data.Entity.Migrations;
+using SimpleCrawler.Data.Migrations;
 
-namespace SimpleCrawler.Data.Entity
+namespace SimpleCrawler.Data
 {
     public static class DatabaseInitializer
     {

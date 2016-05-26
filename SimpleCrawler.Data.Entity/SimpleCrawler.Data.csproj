@@ -7,8 +7,8 @@
     <ProjectGuid>{3F3701CD-6FB8-4AC2-99B1-A8E9B641749D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SimpleCrawler.Data.Entity</RootNamespace>
-    <AssemblyName>SimpleCrawler.Data.Entity</AssemblyName>
+    <RootNamespace>SimpleCrawler.Data</RootNamespace>
+    <AssemblyName>SimpleCrawler.Data</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -40,9 +40,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BlogContext.cs" />
-    <Compile Include="BlogDal.cs" />
-    <Compile Include="CnblogsEntity.cs" />
+    <Compile Include="DAL\ArticleDal.cs" />
+    <Compile Include="Entity\ArticleEntity.cs" />
     <Compile Include="DatabaseInitializer.cs" />
+    <Compile Include="Entity\SearchLog.cs" />
+    <Compile Include="Entity\SearchResult.cs" />
+    <Compile Include="Entity\SearchStastics.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -56,6 +59,7 @@
       <Name>SimpleCrawler.Common</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

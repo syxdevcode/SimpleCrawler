@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCrawler.Data.Entity", "SimpleCrawler.Data.Entity\SimpleCrawler.Data.Entity.csproj", "{3F3701CD-6FB8-4AC2-99B1-A8E9B641749D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCrawler.Data", "SimpleCrawler.Data.Entity\SimpleCrawler.Data.csproj", "{3F3701CD-6FB8-4AC2-99B1-A8E9B641749D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCrawler.ArticlesDownLoad", "SimpleCrawler.ArticlesDownLoad\SimpleCrawler.ArticlesDownLoad.csproj", "{A59764C3-7933-41E6-9973-DBC683A28C3E}"
 EndProject

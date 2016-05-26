@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Data.Entity;
 using System.Data.Entity.Migrations;
-using SimpleCrawler.Data.Entity;
+using SimpleCrawler.Data;
 
-namespace SimpleCrawler.Data.Entity.Migrations
+namespace SimpleCrawler.Data.Migrations
 {
     public class Configuration : CreateDatabaseIfNotExists<BlogContext>
     {

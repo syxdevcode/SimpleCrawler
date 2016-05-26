@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
+using SimpleCrawler.Data;
+using SimpleCrawler.Data.DAL;
 using SimpleCrawler.Data.Entity;
 using Webdiyer.WebControls.Mvc;
 
@@ -8,7 +10,7 @@ namespace SimpleCrawler.ArticlesWeb.Controllers
 {
     public class BlogsController : Controller
     {
-        protected readonly BlogDal dal = BlogDal.Instance;
+        protected readonly ArticleDal dal = ArticleDal.Instance;
 
         public ActionResult IndexList(int? id)
         {

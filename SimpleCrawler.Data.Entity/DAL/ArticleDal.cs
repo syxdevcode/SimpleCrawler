@@ -1,15 +1,12 @@
 ﻿using SimpleCrawler.Common;
 using System.Collections.Generic;
 using System.Linq;
+using SimpleCrawler.Data.Entity;
 
-namespace SimpleCrawler.Data.Entity
+namespace SimpleCrawler.Data.DAL
 {
-    public class BlogDal : Singleton<BlogDal>
+    public class ArticleDal : Singleton<ArticleDal>
     {
-        private BlogDal()
-        {
-        }
-
         /// <summary>
         /// 增加
         /// </summary>
