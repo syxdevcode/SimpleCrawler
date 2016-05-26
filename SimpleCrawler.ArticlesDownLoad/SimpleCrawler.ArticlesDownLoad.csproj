@@ -34,10 +34,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HtmlAgilityPack, Version=1.9.0.1, Culture=en-US, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\HtmlAgilityPack.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
@@ -62,7 +58,7 @@
       <Project>{3f3701cd-6fb8-4ac2-99b1-a8e9b641749d}</Project>
       <Name>SimpleCrawler.Data.Entity</Name>
     </ProjectReference>
-    <ProjectReference Include="..\src\SimpleCrawler.csproj">
+    <ProjectReference Include="..\SimpleCrawler\SimpleCrawler.csproj">
       <Project>{67f07677-22a9-4176-b549-28f1448b0448}</Project>
       <Name>SimpleCrawler</Name>
     </ProjectReference>

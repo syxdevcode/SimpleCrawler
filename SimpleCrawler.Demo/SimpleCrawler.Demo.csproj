@@ -43,7 +43,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\src\SimpleCrawler.csproj">
+    <ProjectReference Include="..\SimpleCrawler\SimpleCrawler.csproj">
       <Project>{67f07677-22a9-4176-b549-28f1448b0448}</Project>
       <Name>SimpleCrawler</Name>
     </ProjectReference>
