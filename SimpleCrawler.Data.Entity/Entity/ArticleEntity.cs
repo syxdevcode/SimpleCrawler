@@ -28,6 +28,11 @@ namespace SimpleCrawler.Data.Entity
         public string Content { get; set; }
 
         /// <summary>
+        /// 其它信息
+        /// </summary>
+        public string Message { get; set;}
+
+        /// <summary>
         /// 添加时间
         /// </summary>
         public DateTime AddDateTime { get; set; }

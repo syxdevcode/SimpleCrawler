@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCrawler", "SimpleCraw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCrawler.Demo", "SimpleCrawler.Demo\SimpleCrawler.Demo.csproj", "{E958D4BD-AC93-439C-90C1-7093969D9EF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCrawler.SearchEngine", "SimpleCrawler.SearchEngine\SimpleCrawler.SearchEngine.csproj", "{7F026161-6CEB-47F8-8D31-71B86E203F9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{E958D4BD-AC93-439C-90C1-7093969D9EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E958D4BD-AC93-439C-90C1-7093969D9EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E958D4BD-AC93-439C-90C1-7093969D9EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F026161-6CEB-47F8-8D31-71B86E203F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F026161-6CEB-47F8-8D31-71B86E203F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F026161-6CEB-47F8-8D31-71B86E203F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F026161-6CEB-47F8-8D31-71B86E203F9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

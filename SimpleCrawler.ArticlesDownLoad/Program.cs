@@ -67,7 +67,7 @@ namespace SimpleCrawler.ArticlesDownLoad
             //Settings.SeedsAddress.Add(string.Format("http://www.cnblogs.com/fenglingyi/p/4708006.html"));
             foreach (var url in urlList)
             {
-                if (url.Length > 0)
+                if (url.Length > 0 && ArticleDal.Instance.IsExistBlog(url))
                 {
                     Settings.SeedsAddress.Add(string.Format(url));
                 }

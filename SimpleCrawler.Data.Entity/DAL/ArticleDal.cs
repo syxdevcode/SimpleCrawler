@@ -55,12 +55,27 @@ namespace SimpleCrawler.Data.DAL
             }
         }
 
+
+        /// <summary>
+        /// 查询是否存在相同URL
+        /// </summary>
+        /// <param name="url"></param>
+        /// <returns></returns>
+        public bool IsExistBlog(string url)
+        {
+            using (BlogContext context = new BlogContext())
+            {
+                var result = context.ArticleEntity.Any(b => b.BlogUrl == url);
+                return result;
+            }
+        }
+
         /// <summary>
         /// 查询
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        public ArticleEntity GetBlogById(int id)
+        public ArticleEntity GetBlogById(long id)
         {
             using (BlogContext context = new BlogContext())
             {
