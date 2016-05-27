@@ -10,6 +10,7 @@ using System.Web.Configuration;
 using SimpleCrawler.Data;
 using SimpleCrawler.Data.DAL;
 using SimpleCrawler.Data.Entity;
+using SimpleCrawler.SearchEngine;
 
 namespace SimpleCrawler.ArticlesDownLoad
 {
@@ -37,9 +38,7 @@ namespace SimpleCrawler.ArticlesDownLoad
         /// 关于使用 Bloom 算法去除重复 URL：http://www.cnblogs.com/heaad/archive/2011/01/02/1924195.html
         /// </summary>
         private static BloomFilter<string> filter;
-
-        private static volatile StringBuilder htmlBuilder = new StringBuilder();
-
+        
         #endregion Static Fields
 
         #region Methods
@@ -52,7 +51,15 @@ namespace SimpleCrawler.ArticlesDownLoad
         /// </param>
         private static void Main(string[] args)
         {
+            //初始化数据库
             DatabaseInitializer.Initialize();
+
+            // 启动日志组件
+            log4net.Config.XmlConfigurator.Configure();
+
+            // 启动索引管理器
+            IndexManager.Instance.Start();
+            
             /*获取IE浏览器收藏夹中的URL
             //获取IE浏览器收藏夹中的URL
             BrowserCollection browserCollection = new BrowserCollection();
@@ -67,7 +74,7 @@ namespace SimpleCrawler.ArticlesDownLoad
             //Settings.SeedsAddress.Add(string.Format("http://www.cnblogs.com/fenglingyi/p/4708006.html"));
             foreach (var url in urlList)
             {
-                if (url.Length > 0 && ArticleDal.Instance.IsExistBlog(url))
+                if (url.Length > 0 && !ArticleDal.Instance.IsExistBlog(url))
                 {
                     Settings.SeedsAddress.Add(string.Format(url));
                 }
@@ -106,6 +113,7 @@ namespace SimpleCrawler.ArticlesDownLoad
             master.DataReceivedEvent += MasterDataReceivedEvent;
             master.DataReceivedEvent += SaveHtmlEvent;
             master.Crawl();
+
             Console.ReadKey();
         }
 
@@ -141,8 +149,7 @@ namespace SimpleCrawler.ArticlesDownLoad
 
             string domainUrl = domain.Scheme + "://" + domain.Host;
             DomainName = domain.Port == 80 ? domainUrl : domainUrl + ":" + domain.Port;
-
-            htmlBuilder.Append(args.Html);
+            
             DownloadAll(args.Html);
 
             //启用线程下载
@@ -169,14 +176,20 @@ namespace SimpleCrawler.ArticlesDownLoad
             //去除域名后
             var shtml = urlRegex.Replace(args.Html, "/File");
 
-            if (dal.GetBlog(args.Url) == null)
+            if (!dal.IsExistBlog(args.Url))
             {
+                //更新数据库
                 ArticleEntity entity = new ArticleEntity();
                 entity.AddDateTime = DateTime.Now;
                 entity.BlogUrl = args.Url;
                 entity.BlogTitle = m_title;
                 entity.Content = shtml;
                 dal.AddBlog(entity);
+
+                // 更新索引库
+                IndexTask task = new IndexTask();
+                task.TaskId = entity.Id;
+                IndexManager.Instance.AddArticle(task);
             }
         }
 

@@ -1,16 +1,19 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Web.Configuration;
 using System.Web.Hosting;
 using log4net;
 using Lucene.Net.Analysis.PanGu;
 using Lucene.Net.Documents;
 using Lucene.Net.Index;
 using Lucene.Net.Store;
+using SimpleCrawler.Common;
 using SimpleCrawler.Data.DAL;
 using SimpleCrawler.Data.Entity;
 
@@ -19,16 +22,13 @@ namespace SimpleCrawler.SearchEngine
     /// <summary>
     /// 索引管理类
     /// </summary>
-    public class IndexManager
+    public class IndexManager : Singleton<IndexManager>
     {
-        public static readonly IndexManager Instance = new IndexManager();
-        private static readonly string IndexPath = HostingEnvironment.MapPath("~/Index");
+        //private static readonly string IndexPath = HostingEnvironment.MapPath("~/Dic");
+        private static readonly string IndexPath = WebConfigurationManager.AppSettings["DicPath"];
         private static ILog log = LogManager.GetLogger(typeof(IndexManager));
 
         private IndexManager()
-        { }
-
-        static IndexManager()
         { }
 
         public void Start()
@@ -36,20 +36,18 @@ namespace SimpleCrawler.SearchEngine
             Thread thread = new Thread(WatchIndexTask);
             thread.IsBackground = true;
             thread.Start();
-            log.Debug("IndexManager has been lunched successfully!");
         }
 
-        private Queue<IndexTask> indexQueue = new Queue<IndexTask>();
+        private readonly ConcurrentQueue<IndexTask> IndexQueue = new ConcurrentQueue<IndexTask>();
         private void WatchIndexTask()
         {
             while (true)
             {
-                if (indexQueue.Count > 0)
+                if (IndexQueue.Count > 0)
                 {
                     // 索引文档保存位置
                     FSDirectory directory = FSDirectory.Open(new DirectoryInfo(IndexPath), new NativeFSLockFactory());
                     bool isUpdate = IndexReader.IndexExists(directory); //判断索引库是否存在
-                    log.Debug(string.Format("The status of index : {0}", isUpdate));
                     if (isUpdate)
                     {
                         //  如果索引目录被锁定（比如索引过程中程序异常退出），则首先解锁
@@ -57,7 +55,6 @@ namespace SimpleCrawler.SearchEngine
                         //  不能多线程执行，只能处理意外被永远锁定的情况
                         if (IndexWriter.IsLocked(directory))
                         {
-                            log.Debug("The index is existed, need to unlock.");
                             IndexWriter.Unlock(directory);  //unlock:强制解锁，待优化
                         }
                     }
@@ -65,11 +62,11 @@ namespace SimpleCrawler.SearchEngine
                     //  补充:使用IndexWriter打开directory时会自动对索引库文件上锁
                     IndexWriter writer = new IndexWriter(directory, new PanGuAnalyzer(), !isUpdate,
                         IndexWriter.MaxFieldLength.UNLIMITED);
-                    log.Debug(string.Format("Total number of task : {0}", indexQueue.Count));
 
-                    while (indexQueue.Count > 0)
+                    while (IndexQueue.Count > 0)
                     {
-                        IndexTask task = indexQueue.Dequeue();
+                        IndexTask task;
+                        IndexQueue.TryDequeue(out task);
                         long id = task.TaskId;
                         ArticleEntity article = ArticleDal.Instance.GetBlogById(id);
 
@@ -88,24 +85,19 @@ namespace SimpleCrawler.SearchEngine
                         //  WITH_POSITIONS_OFFSETS:指示不仅保存分割后的词，还保存词之间的距离
                         document.Add(new Field("title", article.BlogTitle, Field.Store.YES, Field.Index.ANALYZED,
                             Field.TermVector.WITH_POSITIONS_OFFSETS));
-                        document.Add(new Field("msg", article.Message, Field.Store.YES, Field.Index.ANALYZED,
-                            Field.TermVector.WITH_POSITIONS_OFFSETS));
+                        //document.Add(new Field("msg", article.Message, Field.Store.YES, Field.Index.ANALYZED,
+                        //    Field.TermVector.WITH_POSITIONS_OFFSETS));
                         if (task.TaskType != TaskTypeEnum.Add)
                         {
                             //  防止重复索引，如果不存在则删除0条
                             writer.DeleteDocuments(new Term("id", id.ToString()));// 防止已存在的数据 => delete from t where id=i
                         }
-
                         //  把文档写入索引库
                         writer.AddDocument(document);
-
-                        log.Debug(string.Format("Index {0} has been writen to index library!", id.ToString()));
                     }
 
                     writer.Dispose(); // Dispose后自动对索引库文件解锁
                     directory.Dispose();  //  不要忘了Dispose，否则索引结果搜不到
-
-                    log.Debug("The index library has been closed!");
                 }
                 else
                 {
@@ -117,13 +109,13 @@ namespace SimpleCrawler.SearchEngine
         public void AddArticle(IndexTask task)
         {
             task.TaskType = TaskTypeEnum.Add;
-            indexQueue.Enqueue(task);
+            IndexQueue.Enqueue(task);
         }
 
         public void UpdateArticle(IndexTask task)
         {
             task.TaskType = TaskTypeEnum.Update;
-            indexQueue.Enqueue(task);
+            IndexQueue.Enqueue(task);
         }
     }
 

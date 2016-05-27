@@ -11,5 +11,11 @@ namespace SimpleCrawler.Data
         }
 
         public DbSet<ArticleEntity> ArticleEntity { get; set; }
+
+        public DbSet<SearchLog> SearchLog { get; set; }
+
+        public DbSet<SearchResult> SearchResult { get; set; }
+
+        public DbSet<SearchStastics> SearchStastics { get; set; }
     }
 }

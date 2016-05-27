@@ -12,6 +12,11 @@ namespace SimpleCrawler.Data.Entity
     public class SearchStastics
     {
         /// <summary>
+        /// 主键ID
+        /// </summary>
+        public Guid Id { get; set; }
+
+        /// <summary>
         /// 关键词
         /// </summary>
         public string Word { get; set; }

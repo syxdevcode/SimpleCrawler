@@ -12,6 +12,11 @@ namespace SimpleCrawler.Data.Entity
     public class SearchResult
     {
         /// <summary>
+        /// 主键ID
+        /// </summary>
+        public Guid Id { get; set; }
+
+        /// <summary>
         /// 链接地址
         /// </summary>
         public string Url { get; set; }

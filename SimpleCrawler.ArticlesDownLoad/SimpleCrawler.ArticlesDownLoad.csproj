@@ -34,7 +34,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
   </ItemGroup>
@@ -56,6 +69,10 @@
     <ProjectReference Include="..\SimpleCrawler.Data.Entity\SimpleCrawler.Data.csproj">
       <Project>{3f3701cd-6fb8-4ac2-99b1-a8e9b641749d}</Project>
       <Name>SimpleCrawler.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimpleCrawler.SearchEngine\SimpleCrawler.SearchEngine.csproj">
+      <Project>{7F026161-6CEB-47F8-8D31-71B86E203F9A}</Project>
+      <Name>SimpleCrawler.SearchEngine</Name>
     </ProjectReference>
     <ProjectReference Include="..\SimpleCrawler\SimpleCrawler.csproj">
       <Project>{67f07677-22a9-4176-b549-28f1448b0448}</Project>
