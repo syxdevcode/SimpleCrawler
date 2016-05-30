@@ -20,8 +20,6 @@ namespace SimpleCrawler.ArticlesDownLoad
 
         private static readonly string sourceFile = WebConfigurationManager.AppSettings["sourceFile"].ToString();
 
-        private static readonly List<ArticleEntity> list;
-
         private static readonly ArticleDal dal = ArticleDal.Instance;
 
         private static string DomainName = String.Empty;
