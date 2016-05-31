@@ -14,21 +14,22 @@ namespace SimpleCrawler.Data.Entity
         /// <summary>
         /// 主键ID
         /// </summary>
-        public Guid Id { get; set; }
+        public long Id { get; set; }
 
         /// <summary>
         /// 链接地址
         /// </summary>
         public string Url { get; set; }
+
         /// <summary>
         /// 标题
         /// </summary>
         public string Title { get; set; }
 
         /// <summary>
-        /// 消息
+        /// 内容
         /// </summary>
-        public string Msg { get; set; }
+        public string Content { get; set; }
 
 
     }

@@ -85,8 +85,8 @@ namespace SimpleCrawler.SearchEngine
                         //  WITH_POSITIONS_OFFSETS:指示不仅保存分割后的词，还保存词之间的距离
                         document.Add(new Field("title", article.BlogTitle, Field.Store.YES, Field.Index.ANALYZED,
                             Field.TermVector.WITH_POSITIONS_OFFSETS));
-                        //document.Add(new Field("msg", article.Message, Field.Store.YES, Field.Index.ANALYZED,
-                        //    Field.TermVector.WITH_POSITIONS_OFFSETS));
+                        document.Add(new Field("content", article.Content, Field.Store.YES, Field.Index.ANALYZED,
+                            Field.TermVector.WITH_POSITIONS_OFFSETS));
                         if (task.TaskType != TaskTypeEnum.Add)
                         {
                             //  防止重复索引，如果不存在则删除0条

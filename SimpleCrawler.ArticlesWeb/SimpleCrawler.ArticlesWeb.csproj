@@ -82,6 +82,14 @@
       <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
@@ -144,6 +152,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="Content\PagedList.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\lucene-medium.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -202,7 +211,63 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Global.asax" />
     <Content Include="Log4Net.config" />
+    <Content Include="Scripts\bootstrap-3.3.5-dist\css\bootstrap-theme.css.map" />
+    <Content Include="Scripts\bootstrap-3.3.5-dist\css\bootstrap.css.map" />
+    <Content Include="Scripts\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Scripts\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Scripts\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Scripts\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Scripts\DataTables-1.10.12\images\Sorting icons.psd" />
     <None Include="Scripts\jquery-1.8.2-vsdoc.js" />
+    <Content Include="Scripts\bootstrap-3.3.5-dist\css\bootstrap-theme.css" />
+    <Content Include="Scripts\bootstrap-3.3.5-dist\css\bootstrap-theme.min.css" />
+    <Content Include="Scripts\bootstrap-3.3.5-dist\css\bootstrap.css" />
+    <Content Include="Scripts\bootstrap-3.3.5-dist\css\bootstrap.min.css" />
+    <Content Include="Scripts\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Scripts\bootstrap-3.3.5-dist\js\bootstrap.js" />
+    <Content Include="Scripts\bootstrap-3.3.5-dist\js\bootstrap.min.js" />
+    <Content Include="Scripts\bootstrap-3.3.5-dist\js\npm.js" />
+    <Content Include="Scripts\DataTables-1.10.12\css\dataTables.bootstrap.css" />
+    <Content Include="Scripts\DataTables-1.10.12\css\dataTables.bootstrap.min.css" />
+    <Content Include="Scripts\DataTables-1.10.12\css\dataTables.bootstrap4.css" />
+    <Content Include="Scripts\DataTables-1.10.12\css\dataTables.bootstrap4.min.css" />
+    <Content Include="Scripts\DataTables-1.10.12\css\dataTables.foundation.css" />
+    <Content Include="Scripts\DataTables-1.10.12\css\dataTables.foundation.min.css" />
+    <Content Include="Scripts\DataTables-1.10.12\css\dataTables.jqueryui.css" />
+    <Content Include="Scripts\DataTables-1.10.12\css\dataTables.jqueryui.min.css" />
+    <Content Include="Scripts\DataTables-1.10.12\css\dataTables.material.css" />
+    <Content Include="Scripts\DataTables-1.10.12\css\dataTables.material.min.css" />
+    <Content Include="Scripts\DataTables-1.10.12\css\dataTables.semanticui.css" />
+    <Content Include="Scripts\DataTables-1.10.12\css\dataTables.semanticui.min.css" />
+    <Content Include="Scripts\DataTables-1.10.12\css\dataTables.uikit.css" />
+    <Content Include="Scripts\DataTables-1.10.12\css\dataTables.uikit.min.css" />
+    <Content Include="Scripts\DataTables-1.10.12\css\jquery.dataTables.css" />
+    <Content Include="Scripts\DataTables-1.10.12\css\jquery.dataTables.min.css" />
+    <Content Include="Scripts\DataTables-1.10.12\css\jquery.dataTables_themeroller.css" />
+    <Content Include="Scripts\DataTables-1.10.12\images\favicon.ico" />
+    <Content Include="Scripts\DataTables-1.10.12\images\sort_asc.png" />
+    <Content Include="Scripts\DataTables-1.10.12\images\sort_asc_disabled.png" />
+    <Content Include="Scripts\DataTables-1.10.12\images\sort_both.png" />
+    <Content Include="Scripts\DataTables-1.10.12\images\sort_desc.png" />
+    <Content Include="Scripts\DataTables-1.10.12\images\sort_desc_disabled.png" />
+    <Content Include="Scripts\DataTables-1.10.12\js\dataTables.bootstrap.js" />
+    <Content Include="Scripts\DataTables-1.10.12\js\dataTables.bootstrap.min.js" />
+    <Content Include="Scripts\DataTables-1.10.12\js\dataTables.bootstrap4.js" />
+    <Content Include="Scripts\DataTables-1.10.12\js\dataTables.bootstrap4.min.js" />
+    <Content Include="Scripts\DataTables-1.10.12\js\dataTables.foundation.js" />
+    <Content Include="Scripts\DataTables-1.10.12\js\dataTables.foundation.min.js" />
+    <Content Include="Scripts\DataTables-1.10.12\js\dataTables.jqueryui.js" />
+    <Content Include="Scripts\DataTables-1.10.12\js\dataTables.jqueryui.min.js" />
+    <Content Include="Scripts\DataTables-1.10.12\js\dataTables.material.js" />
+    <Content Include="Scripts\DataTables-1.10.12\js\dataTables.material.min.js" />
+    <Content Include="Scripts\DataTables-1.10.12\js\dataTables.semanticui.js" />
+    <Content Include="Scripts\DataTables-1.10.12\js\dataTables.semanticui.min.js" />
+    <Content Include="Scripts\DataTables-1.10.12\js\dataTables.uikit.js" />
+    <Content Include="Scripts\DataTables-1.10.12\js\dataTables.uikit.min.js" />
+    <Content Include="Scripts\DataTables-1.10.12\js\jquery.dataTables.js" />
+    <Content Include="Scripts\DataTables-1.10.12\js\jquery.dataTables.min.js" />
+    <Content Include="Scripts\DataTables-1.10.12\js\jquery.js" />
+    <Content Include="Scripts\DataTables.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
     <Content Include="Scripts\jquery-ui-1.8.2.custom.min.js" />
@@ -256,6 +321,10 @@
     <ProjectReference Include="..\SimpleCrawler.Data.Entity\SimpleCrawler.Data.csproj">
       <Project>{3f3701cd-6fb8-4ac2-99b1-a8e9b641749d}</Project>
       <Name>SimpleCrawler.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimpleCrawler.SearchEngine\SimpleCrawler.SearchEngine.csproj">
+      <Project>{7F026161-6CEB-47F8-8D31-71B86E203F9A}</Project>
+      <Name>SimpleCrawler.SearchEngine</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

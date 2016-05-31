@@ -14,7 +14,8 @@ namespace SimpleCrawler.Data.Entity
         /// <summary>
         /// 主键ID
         /// </summary>
-        public Guid Id { get; set; }
+        public long Id { get; set; }
+
         /// <summary>
         /// 关键词
         /// </summary>

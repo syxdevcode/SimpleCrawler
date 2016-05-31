@@ -5,6 +5,9 @@ using SimpleCrawler.Data.Entity;
 
 namespace SimpleCrawler.Data.DAL
 {
+    /// <summary>
+    /// 文章操作Dal
+    /// </summary>
     public class ArticleDal : Singleton<ArticleDal>
     {
 
@@ -88,7 +91,7 @@ namespace SimpleCrawler.Data.DAL
         /// 分页方法
         /// </summary>
         /// <returns></returns>
-        public List<ArticleEntity> GegEntitiesPageList(string titleName, int pageSize, int pageIndex, out int totalCount)
+        public List<ArticleEntity> GegEntitiesPageList(string titleName, out int totalCount)
         {
             using (BlogContext context = new BlogContext())
             {

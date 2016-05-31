@@ -41,6 +41,8 @@
   <ItemGroup>
     <Compile Include="BlogContext.cs" />
     <Compile Include="DAL\ArticleDal.cs" />
+    <Compile Include="DAL\SearchLogDal.cs" />
+    <Compile Include="DAL\SearchStasticsDal.cs" />
     <Compile Include="Entity\ArticleEntity.cs" />
     <Compile Include="DatabaseInitializer.cs" />
     <Compile Include="Entity\SearchLog.cs" />

@@ -16,7 +16,7 @@ namespace SimpleCrawler.ArticlesWeb.Controllers
         {
             int totalCount = 0;
             int pageIndex = id ?? 1;
-            List<ArticleEntity> list = dal.GegEntitiesPageList("", 20, (pageIndex - 1) * 20, out totalCount);
+            List<ArticleEntity> list = dal.GegEntitiesPageList("", out totalCount);
             PagedList<ArticleEntity> mPage = list.AsQueryable().ToPagedList(pageIndex, 20);
             mPage.TotalItemCount = totalCount;
             mPage.CurrentPageIndex = (int)(id ?? 1);
