@@ -1,27 +1,32 @@
-﻿using System;
-using System.Data.Entity;
-using System.Data.Entity.Migrations;
-using SimpleCrawler.Data;
-
-namespace SimpleCrawler.Data.Migrations
+﻿namespace SimpleCrawler.Data.Migrations
 {
-    public class Configuration : CreateDatabaseIfNotExists<BlogContext>
+    using System;
+    using System.Data.Entity;
+    using System.Data.Entity.Migrations;
+    using System.Linq;
+
+    internal sealed class Configuration : DbMigrationsConfiguration<SimpleCrawler.Data.BlogContext>
     {
         public Configuration()
         {
-            //AutomaticMigrationsEnabled = true;
-            //AutomaticMigrationDataLossAllowed = true;
+            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationDataLossAllowed = true;
         }
 
-        protected override void Seed(BlogContext context)
+        protected override void Seed(SimpleCrawler.Data.BlogContext context)
         {
-            //var blogs = new[]
-            //{
-            //    new ArticleEntity  {BlogTitle = "My First Blog",AddDateTime = DateTime.Now}
-            //};
-            //context.ArticleEntity.AddOrUpdate(blogs);
+            //  This method will be called after migrating to the latest version.
 
-            //context.SaveChanges();
+            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
+            //  to avoid creating duplicate seed data. E.g.
+            //
+            //    context.People.AddOrUpdate(
+            //      p => p.FullName,
+            //      new Person { FullName = "Andrew Peters" },
+            //      new Person { FullName = "Brice Lambson" },
+            //      new Person { FullName = "Rowan Miller" }
+            //    );
+            //
         }
     }
 }

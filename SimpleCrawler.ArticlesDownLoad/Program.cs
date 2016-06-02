@@ -388,7 +388,7 @@ namespace SimpleCrawler.ArticlesDownLoad
                 dicPath = s.Replace(imgDomain, localPath).Replace("/", @"\");
             }
 
-            if (File.Exists(dicPath + fileName))
+            if (File.Exists(dicPath + "/"+ fileName))
             {
                 //File.Delete(dicPath + fileName);
                 return;
