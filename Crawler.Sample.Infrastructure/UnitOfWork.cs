@@ -39,7 +39,7 @@ namespace Crawler.Sample.Infrastructure
 
         public async Task<bool> CommitAsync()
         {
-            return await _dbContext.SaveChangesAsync() > 0;
+            return await _dbContext.SaveChangesAsync().ConfigureAwait(false) > 0;
         }
 
         public void RollBack()

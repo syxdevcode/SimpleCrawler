@@ -30,14 +30,17 @@ namespace Crawler.Sample.Application
 
         public async Task<bool> GetByUrl(string url)
         {
-            return await _articlesRepository.GetAll().AnyAsync(xx=>xx.Url==url);
+            var result= await _articlesRepository.GetAll().AnyAsync(xx => xx.Url == url);
+
+            return result;
         }
 
         public async Task<bool> Add(Articles articles)
         {
             _unitOfWork.RegisterNew<Articles>(articles);
 
-            return await _unitOfWork.CommitAsync();
+            var result=await _unitOfWork.CommitAsync();
+            return result;
         }
 
         public async Task<bool> BatchAdd(List<Articles> list)

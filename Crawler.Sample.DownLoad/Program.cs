@@ -8,9 +8,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Web.Configuration;
+using log4net;
 
 namespace Crawler.Sample.DownLoad
 {
@@ -18,11 +20,11 @@ namespace Crawler.Sample.DownLoad
     {
         #region Static Fields
 
+        private static readonly ILog log = log4net.LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+
         private static readonly string ImgUrl = WebConfigurationManager.AppSettings["FileUrl"].ToString();
 
         private static readonly string sourceFile = WebConfigurationManager.AppSettings["sourceFile"].ToString();
-
-        private static string DomainName = String.Empty;
 
         /// <summary>
         /// The settings.
@@ -36,7 +38,6 @@ namespace Crawler.Sample.DownLoad
         private static BloomFilter<string> filter;
 
         private static IArticlesService _IArticlesService;
-        private static IUnitOfWork _IunitofWork;
 
         #endregion Static Fields
 
@@ -45,7 +46,6 @@ namespace Crawler.Sample.DownLoad
             Crawler.Sample.BootStrapper.Startup.Configure();
 
             _IArticlesService = IocContainer.Default.Resolve<IArticlesService>();
-            _IunitofWork = IocContainer.Default.Resolve<IUnitOfWork>();
 
             // 启动日志组件
             log4net.Config.XmlConfigurator.Configure();
@@ -59,14 +59,20 @@ namespace Crawler.Sample.DownLoad
             List<string> urlList = browserCollection.GetBrowserCollectionsUrl();
             */
 
-            List<string> urlList = GetHtmlUrlLink(ReadFile(sourceFile));
+            List<string> urlList = new List<string>(); //GetHtmlUrlLink(ReadFile(sourceFile));
+            urlList.Add("http://www.brnshop.com/");
+            urlList.Add("http://www.cnblogs.com/");
+            //urlList.Add("http://www.cnblogs.com/jesse2013/p/Asynchronous-Programming-In-DotNet.html");
+
             filter = new BloomFilter<string>(200000);
 
             // 设置种子地址
             //Settings.SeedsAddress.Add(string.Format("http://www.cnblogs.com/fenglingyi/p/4708006.html"));
+
             foreach (var url in urlList)
             {
-                if (url.Length > 0 && !_IArticlesService.GetByUrl(url).Result)
+                var result = Task.Run(() => _IArticlesService.GetByUrl(url));
+                if (url.Length > 0 && !result.Result)
                 {
                     Settings.SeedsAddress.Add(string.Format(url));
                 }
@@ -136,14 +142,16 @@ namespace Crawler.Sample.DownLoad
         /// </param>
         private static void MasterDataReceivedEvent(DataReceivedEventArgs args)
         {
+            Console.WriteLine(args.Url);
             Uri domain = new Uri(args.Url);
 
             string domainUrl = domain.Scheme + "://" + domain.Host;
-            DomainName = domain.Port == 80 ? domainUrl : domainUrl + ":" + domain.Port;
+            string domainName = domain.Port == 80 ? domainUrl : domainUrl + ":" + domain.Port;
 
-            Task task1 = DownloadAll(args.Html);
-            Task task2 = SaveHtmlEvent(args);
-
+            SaveHtmlEvent(args);
+            DownloadAll(args.Html, domainName);
+            var task1 = Task.Run(() => DownloadAll(args.Html, domainName));
+            var task2 = Task.Run(() => SaveHtmlEvent(args));
             Task.WaitAll(task1, task2);
         }
 
@@ -151,7 +159,7 @@ namespace Crawler.Sample.DownLoad
         /// 保存HTML
         /// </summary>
         /// <param name="args"></param>
-        private static async Task SaveHtmlEvent(DataReceivedEventArgs args)
+        private static void SaveHtmlEvent(DataReceivedEventArgs args)
         {
             Regex reg = new Regex(@"(?m)<title[^>]*>(?<title>(?:\w|\W)*?)</title[^>]*>", RegexOptions.Multiline | RegexOptions.IgnoreCase);
             Match mc = reg.Match(args.Html);
@@ -165,37 +173,43 @@ namespace Crawler.Sample.DownLoad
 
             //去除域名后
             var shtml = urlRegex.Replace(args.Html, "/File");
-
-            var s = await _IArticlesService.GetByUrl(args.Url);
-            if (!s)
+            try
             {
-                //更新数据库
-                Articles article = new Articles();
-                article.IsDelete = false;
-                article.Url = args.Url;
-                article.Title = m_title;
-                article.Content = shtml;
-                article.AddTime = DateTime.Now.ToShortTimeString();
-                _IunitofWork.RegisterNew<Articles>(article);
-
-                var saveresult = await _IunitofWork.CommitAsync();
-                if (saveresult)
+                var taskResult = Task.Run(async () => await _IArticlesService.GetByUrl(args.Url)).Result;
+                if (!taskResult)
                 {
-                    // 更新索引库
-                    IndexTask task = new IndexTask();
-                    task.TaskId = article.Id;
-                    IndexManager.Instance.AddArticle(task);
+                    //更新数据库
+                    Articles article = new Articles();
+                    article.IsDelete = false;
+                    article.Url = args.Url;
+                    article.Title = m_title;
+                    article.Content = shtml;
+                    article.AddTime = DateTime.Now.ToShortTimeString();
+                    var saveResult = Task.Run(async () => await _IArticlesService.Add(article));
+
+                    if (saveResult.Result)
+                    {
+                        // 更新索引库
+                        IndexTask task = new IndexTask();
+                        task.TaskId = article.Id;
+                        IndexManager.Instance.AddArticle(task);
+                    }
                 }
             }
+            catch (Exception ex)
+            {
+                log.ErrorFormat("Url:{0};\r\n错误信息{1}", args.Url, ex.InnerException.Message);
+            }
+
         }
 
         /// <summary>
         /// 下载
         /// </summary>
         /// <param name="html"></param>
-        private static async Task DownloadAll(string html)
+        private static void DownloadAll(string html, string domainName)
         {
-            List<string> fileList = GetHtmlFileList(html);
+            List<string> fileList = GetHtmlFileList(html, domainName);
 
             if (null != fileList)
             {
@@ -209,7 +223,7 @@ namespace Crawler.Sample.DownLoad
                         if (fileName.Contains("?"))
                             fileName = fileName.Substring(0, fileName.IndexOf("?"));
 
-                        DownloadFile(fileName, s, ImgUrl);
+                        DownloadFile(fileName, s, ImgUrl, domainName);
                     }
                     catch { continue; }
                 }
@@ -221,7 +235,7 @@ namespace Crawler.Sample.DownLoad
         /// </summary>
         /// <param name="htmlText">html代码</param>
         /// <returns>图片的URL列表</returns>
-        private static List<string> GetHtmlFileList(string htmlText)
+        private static List<string> GetHtmlFileList(string htmlText, string domainName)
         {
             List<string> sUrlList = new List<string>();
 
@@ -238,11 +252,12 @@ namespace Crawler.Sample.DownLoad
             foreach (Match match in matches)
             {
                 string url = match.Groups["imgUrl"].Value;
+                if (url.IndexOf("/") > 0) url = "/" + url;
                 if (url.Contains("http"))
                     sUrlList.Add(url);
                 else
                 {
-                    url = DomainName + url;
+                    url = domainName + url;
                     sUrlList.Add(url);
                 }
             }
@@ -259,11 +274,12 @@ namespace Crawler.Sample.DownLoad
             foreach (Match match in jsMatches)
             {
                 string url = match.Groups["imgUrl"].Value;
+                if (url.IndexOf("/") > 0) url = "/" + url;
                 if (url.Contains("http"))
                     sUrlList.Add(url);
                 else
                 {
-                    url = DomainName + url;
+                    url = domainName + url;
                     sUrlList.Add(url);
                 }
             }
@@ -278,11 +294,12 @@ namespace Crawler.Sample.DownLoad
             foreach (Match match in cssMatches)
             {
                 string url = match.Groups["imgUrl"].Value;
+                if (url.IndexOf("/") > 0) url = "/" + url;
                 if (url.Contains("http"))
                     sUrlList.Add(url);
                 else
                 {
-                    url = DomainName + url;
+                    url = domainName + url;
                     sUrlList.Add(url);
                 }
             }
@@ -295,15 +312,15 @@ namespace Crawler.Sample.DownLoad
         /// <param name="fileName"></param>
         /// <param name="url"></param>
         /// <param name="localPath"></param>
-        private static void DownloadFile(string fileName, string url, string localPath)
+        private static void DownloadFile(string fileName, string url, string localPath, string domainName)
         {
-            System.Net.WebClient wc = new System.Net.WebClient();
+            System.Net.WebClient wClient = new System.Net.WebClient();
             string s = url.Substring(0, url.LastIndexOf("/"));
             string dicPath = String.Empty;
             Uri imgUri = new Uri(url);
-            if (url.Contains(DomainName))
+            if (url.Contains(domainName))
             {
-                dicPath = s.Replace(DomainName, localPath).Replace("/", @"\");
+                dicPath = s.Replace(domainName, localPath).Replace("/", @"\");
             }
             else
             {
@@ -317,8 +334,9 @@ namespace Crawler.Sample.DownLoad
                 //File.Delete(dicPath + fileName);
                 return;
             }
+            log.InfoFormat("Url:{0};本地目录地址：{1}" ,url, dicPath);
             if (Directory.Exists(dicPath) == false) { Directory.CreateDirectory(dicPath); }
-            wc.DownloadFileAsync(imgUri, dicPath + "/" + fileName);
+            wClient.DownloadFileAsync(imgUri, dicPath + "/" + fileName);
         }
 
         /// <summary>
