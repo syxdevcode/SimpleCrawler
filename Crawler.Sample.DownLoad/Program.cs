@@ -59,9 +59,9 @@ namespace Crawler.Sample.DownLoad
             List<string> urlList = browserCollection.GetBrowserCollectionsUrl();
             */
 
-            List<string> urlList = new List<string>(); //GetHtmlUrlLink(ReadFile(sourceFile));
-            urlList.Add("http://www.brnshop.com/");
-            urlList.Add("http://www.cnblogs.com/");
+            List<string> urlList = GetHtmlUrlLink(ReadFile(sourceFile));
+            //urlList.Add("http://www.brnshop.com/");
+            //urlList.Add("http://www.cnblogs.com/");
             //urlList.Add("http://www.cnblogs.com/jesse2013/p/Asynchronous-Programming-In-DotNet.html");
 
             filter = new BloomFilter<string>(200000);
@@ -334,7 +334,7 @@ namespace Crawler.Sample.DownLoad
                 //File.Delete(dicPath + fileName);
                 return;
             }
-            log.InfoFormat("Url:{0};本地目录地址：{1}" ,url, dicPath);
+            log.InfoFormat("Url:{0};本地目录地址：{1}", url, dicPath);
             if (Directory.Exists(dicPath) == false) { Directory.CreateDirectory(dicPath); }
             wClient.DownloadFileAsync(imgUri, dicPath + "/" + fileName);
         }
