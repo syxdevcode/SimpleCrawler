@@ -9,10 +9,13 @@ namespace Crawler.Sample.Application.Interfaces
 {
     public interface IArticlesService
     {
-        Task<Articles> Get(int Id);
-        Task<bool> GetByUrl(string url);
+        Task<Articles> Get(long Id);
 
-        Task<bool> Add(Articles article);
+        IEnumerable<Articles> GetPage(int pageIndex, int pageSize, out int totalPage);
+
+        bool GetByUrl(string url);
+
+        bool Add(Articles article);
 
         Task<bool> BatchAdd(List<Articles> list);
 

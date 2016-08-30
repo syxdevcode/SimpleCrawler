@@ -23,23 +23,31 @@ namespace Crawler.Sample.Application
             _articlesRepository = articlerepository;
         }
 
-        public async Task<Articles> Get(int Id)
+        public async Task<Articles> Get(long Id)
         {
             return await _articlesRepository.Get(Id).FirstOrDefaultAsync();
         }
 
-        public async Task<bool> GetByUrl(string url)
+        public bool GetByUrl(string url)
         {
-            var result= await _articlesRepository.GetAll().AnyAsync(xx => xx.Url == url);
+            var result = _articlesRepository.GetAll().Any(xx => xx.Url == url);
 
             return result;
         }
 
-        public async Task<bool> Add(Articles articles)
+        public IEnumerable<Articles> GetPage(int pageIndex, int pageSize, out int totalPage)
+        {
+            pageIndex = pageIndex == 0 ? 1 : pageIndex;
+            totalPage = _articlesRepository.GetAll().Count();
+            var result = _articlesRepository.GetAll().Skip((pageIndex - 1) * pageSize).Take(pageSize).ToList();
+            return result;
+        }
+
+        public bool Add(Articles articles)
         {
             _unitOfWork.RegisterNew<Articles>(articles);
 
-            var result=await _unitOfWork.CommitAsync();
+            var result = _unitOfWork.Commit();
             return result;
         }
 

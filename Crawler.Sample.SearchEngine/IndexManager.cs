@@ -68,7 +68,7 @@ namespace Crawler.Sample.SearchEngine
                     {
                         IndexTask task;
                         IndexQueue.TryDequeue(out task);
-                        int id = task.TaskId;
+                        long id = task.TaskId;
                         Articles article = IocContainer.Default.Resolve<IArticlesService>().Get(id).Result;
 
                         if (article == null)
@@ -122,7 +122,7 @@ namespace Crawler.Sample.SearchEngine
 
     public class IndexTask
     {
-        public int TaskId { get; set; }
+        public long TaskId { get; set; }
 
         public TaskTypeEnum TaskType { get; set; }
     }

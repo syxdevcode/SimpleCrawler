@@ -18,7 +18,7 @@ namespace Crawler.Sample.Repository
             _entities = dbContext.Set<TAggregateRoot>();
         }
 
-        public IQueryable<TAggregateRoot> Get(int Id)
+        public IQueryable<TAggregateRoot> Get(long Id)
         {
             return _entities.Where(t => t.Id == Id);
         }

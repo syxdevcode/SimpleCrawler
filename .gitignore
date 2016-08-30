@@ -243,3 +243,5 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/Crawler.Sample.Web/Dic
+/Crawler.Sample.Web/File

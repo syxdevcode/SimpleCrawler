@@ -8,6 +8,6 @@ namespace Crawler.Sample.Domain
 {
     public interface IEntity
     {
-        int Id { get; }
+        long Id { get; }
     }
 }

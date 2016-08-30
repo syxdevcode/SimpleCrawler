@@ -16,6 +16,11 @@ namespace Crawler.Sample.Web
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            Crawler.Sample.BootStrapper.Startup.Configure();
+
+            // 启动日志组件
+            log4net.Config.XmlConfigurator.Configure();
         }
     }
 }

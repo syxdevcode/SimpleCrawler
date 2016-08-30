@@ -17,6 +17,7 @@ namespace Crawler.Sample.Infrastructure.Interfaces
         void RegisterDeleted<TEntity>(TEntity entity) where TEntity : class;
 
         Task<bool> CommitAsync();
+        bool Commit();
 
         void RollBack();
     }

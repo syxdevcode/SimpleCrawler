@@ -12,7 +12,7 @@ namespace Crawler.Sample.Domain.Entity
         /// <summary>
         /// 主键ID
         /// </summary>
-        public int Id { get; set; }
+        public long Id { get; set; }
 
         /// <summary>
         /// 搜索内容

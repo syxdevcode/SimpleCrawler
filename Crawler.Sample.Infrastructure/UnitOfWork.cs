@@ -8,7 +8,7 @@ using Crawler.Sample.Infrastructure.Interfaces;
 
 namespace Crawler.Sample.Infrastructure
 {
-    public class UnitOfWork:IUnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
         private IDbContext _dbContext;
 
@@ -40,6 +40,11 @@ namespace Crawler.Sample.Infrastructure
         public async Task<bool> CommitAsync()
         {
             return await _dbContext.SaveChangesAsync().ConfigureAwait(false) > 0;
+        }
+
+        public bool Commit()
+        {
+            return _dbContext.SaveChanges() > 0;
         }
 
         public void RollBack()

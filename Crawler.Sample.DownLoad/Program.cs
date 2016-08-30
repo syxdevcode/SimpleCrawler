@@ -10,8 +10,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using System.Text.RegularExpressions;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Configuration;
+using Crawlwer.Sample.Common;
 using log4net;
 
 namespace Crawler.Sample.DownLoad
@@ -39,6 +41,9 @@ namespace Crawler.Sample.DownLoad
 
         private static IArticlesService _IArticlesService;
 
+        // Lock对象，线程安全所用
+        private static object syncRoot = new Object();
+
         #endregion Static Fields
 
         private static void Main(string[] args)
@@ -60,19 +65,24 @@ namespace Crawler.Sample.DownLoad
             */
 
             List<string> urlList = GetHtmlUrlLink(ReadFile(sourceFile));
-            //urlList.Add("http://www.brnshop.com/");
-            //urlList.Add("http://www.cnblogs.com/");
             //urlList.Add("http://www.cnblogs.com/jesse2013/p/Asynchronous-Programming-In-DotNet.html");
+            //urlList.Add("http://www.cnblogs.com/yangecnu/p/Introduce-RabbitMQ.html");
+            //urlList.Add("http://www.cnblogs.com/Andon_liu/p/5401961.html");
+            //urlList.Add("http://www.cnblogs.com/lsjwq/p/5509096.html");
+            //urlList.Add("http://www.cnblogs.com/kid-blog/p/4796355.html");
+            //urlList.Add("http://www.cnblogs.com/ants/p/5122068.html");
+            //urlList.Add("http://www.cnblogs.com/zery/p/5215572.html");
+            //urlList.Add("http://www.cnblogs.com/JamesLi2015/p/4744008.html");
+            //urlList.Add("http://www.cnblogs.com/kklldog/p/helios_chat_room.html");
+
+
 
             filter = new BloomFilter<string>(200000);
 
-            // 设置种子地址
-            //Settings.SeedsAddress.Add(string.Format("http://www.cnblogs.com/fenglingyi/p/4708006.html"));
-
             foreach (var url in urlList)
             {
-                var result = Task.Run(() => _IArticlesService.GetByUrl(url));
-                if (url.Length > 0 && !result.Result)
+                var result = _IArticlesService.GetByUrl(url);
+                if (url.Length > 0 && !result)
                 {
                     Settings.SeedsAddress.Add(string.Format(url));
                 }
@@ -128,7 +138,6 @@ namespace Crawler.Sample.DownLoad
             if (!filter.Contains(args.Url))
             {
                 filter.Add(args.Url);
-                Console.WriteLine(args.Url);
                 return true;
             }
             return false; // 返回 false 代表：不添加到队列中
@@ -150,9 +159,9 @@ namespace Crawler.Sample.DownLoad
 
             SaveHtmlEvent(args);
             DownloadAll(args.Html, domainName);
-            var task1 = Task.Run(() => DownloadAll(args.Html, domainName));
-            var task2 = Task.Run(() => SaveHtmlEvent(args));
-            Task.WaitAll(task1, task2);
+            //var task1 = Task.Run(() => DownloadAll(args.Html, domainName));
+            //var task2 = Task.Run(() => SaveHtmlEvent(args));
+            //Task.WaitAll(task1, task2);
         }
 
         /// <summary>
@@ -175,19 +184,20 @@ namespace Crawler.Sample.DownLoad
             var shtml = urlRegex.Replace(args.Html, "/File");
             try
             {
-                var taskResult = Task.Run(async () => await _IArticlesService.GetByUrl(args.Url)).Result;
-                if (!taskResult)
+                lock (syncRoot)
                 {
                     //更新数据库
                     Articles article = new Articles();
+                    article.Id = PrimaryKeyGen.GuidToLongId();
                     article.IsDelete = false;
                     article.Url = args.Url;
                     article.Title = m_title;
+                    article.Summary = m_title;
                     article.Content = shtml;
-                    article.AddTime = DateTime.Now.ToShortTimeString();
-                    var saveResult = Task.Run(async () => await _IArticlesService.Add(article));
+                    article.AddTime = DateTime.Now.ToString("yyyyMMddhhmmss");
+                    var saveResult = _IArticlesService.Add(article);
 
-                    if (saveResult.Result)
+                    if (saveResult)
                     {
                         // 更新索引库
                         IndexTask task = new IndexTask();

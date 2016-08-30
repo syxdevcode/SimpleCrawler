@@ -9,7 +9,7 @@ namespace Crawler.Sample.Repository.Interfaces
 {
     public interface IRepository<TAggregateRoot> where TAggregateRoot : class, IAggregateRoot
     {
-        IQueryable<TAggregateRoot> Get(int id);
+        IQueryable<TAggregateRoot> Get(long id);
 
         IQueryable<TAggregateRoot> GetAll();
     }

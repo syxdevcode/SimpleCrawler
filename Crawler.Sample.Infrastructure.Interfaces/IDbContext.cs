@@ -16,5 +16,8 @@ namespace Crawler.Sample.Infrastructure.Interfaces
             where TEntity : class;
 
         Task<int> SaveChangesAsync();
+
+
+        int SaveChanges();
     }
 }

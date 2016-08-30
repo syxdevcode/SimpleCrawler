@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Crawler.Sample.Domain.Entity
 {
@@ -12,18 +13,20 @@ namespace Crawler.Sample.Domain.Entity
         /// <summary>
         /// 主键ID
         /// </summary>
-        public int Id { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [Key]
+        public long Id { get; set; }
 
         /// <summary>
         /// 标题
         /// </summary>
-       [StringLength(128)]
+       [StringLength(1024)]
        public string Title { get; set; }
 
         /// <summary>
         /// 公网链接地址
         /// </summary>
-        [StringLength(512)]
+        [StringLength(1023)]
         public string Url { get; set; }
 
         /// <summary>

@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="BrowserCollection.cs" />
     <Compile Include="DirFile.cs" />
+    <Compile Include="PrimaryKeyGen.cs" />
     <Compile Include="Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
