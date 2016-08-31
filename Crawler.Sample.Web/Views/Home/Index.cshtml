@@ -1,31 +1,33 @@
-﻿@{
+﻿@using System.Web.Optimization;
+@using PagedList
+@using PagedList.Mvc
+@model  StaticPagedList<Crawler.Sample.Domain.Entity.Articles>
+@{
     ViewBag.Title = "Home Page";
 }
-
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
-
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12">
+            <div id="ajaxData" style="width:80%">
+                @{
+                    if (Model != null)
+                    {
+                        <div style="margin-top:20px;"><p>获得约 @ViewBag.Count 条结果，用时 @ViewBag.Time 秒</p></div>
+                        foreach (var item in Model)
+                        {
+                            <div style="margin-top:20px;">
+                                <a href="/Home/Detail/@item.Id" target="_blank"><h4>@Html.Raw(item.Title)</h4></a>
+                                <span>原始地址：<a href="@item.Url" target="_blank">@item.Url</a></span>
+                            </div>
+                        }
+                       @Html.PagedListPager((IPagedList)Model, page => Url.Action("Index", new { page = page }))
+                    }
+                    else
+                    {
+                        <div style="margin-top:20px;"><h4>没有数据</h4></div>
+                    }
+                }
+            </div>
+        </div>
     </div>
 </div>

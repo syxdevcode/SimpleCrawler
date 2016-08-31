@@ -11,7 +11,7 @@ namespace Crawler.Sample.Application.Interfaces
     {
         Task<Articles> Get(long Id);
 
-        IEnumerable<Articles> GetPage(int pageIndex, int pageSize, out int totalPage);
+        Task<Tuple<int, IEnumerable<Articles>>> GetPage(int pageIndex, int pageSize);
 
         bool GetByUrl(string url);
 

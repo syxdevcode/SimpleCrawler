@@ -35,12 +35,13 @@ namespace Crawler.Sample.Application
             return result;
         }
 
-        public IEnumerable<Articles> GetPage(int pageIndex, int pageSize, out int totalPage)
+        public async Task<Tuple<int, IEnumerable<Articles>>> GetPage(int pageIndex, int pageSize)
         {
             pageIndex = pageIndex == 0 ? 1 : pageIndex;
-            totalPage = _articlesRepository.GetAll().Count();
-            var result = _articlesRepository.GetAll().Skip((pageIndex - 1) * pageSize).Take(pageSize).ToList();
-            return result;
+            int totalPage = await _articlesRepository.GetAll().CountAsync();
+            var result =await _articlesRepository.GetAll().OrderBy(o=>o.AddTime).Skip((pageIndex - 1) * pageSize).Take(pageSize).ToListAsync();
+            Tuple<int, IEnumerable<Articles>> tuple = new Tuple<int, IEnumerable<Articles>>(totalPage,result);
+            return tuple;
         }
 
         public bool Add(Articles articles)
