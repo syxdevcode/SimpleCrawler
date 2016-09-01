@@ -13,6 +13,8 @@ namespace Crawler.Sample.Application.Interfaces
 
         Task<Tuple<int, IEnumerable<Articles>>> GetPage(int pageIndex, int pageSize);
 
+        IEnumerable<SearchResult> GetPager(string kw,int pageIndex,int pageSize,string isLike,out int totalCount);
+
         bool GetByUrl(string url);
 
         bool Add(Articles article);

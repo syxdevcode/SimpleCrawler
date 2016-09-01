@@ -1,8 +1,8 @@
 ﻿
 @{
-    ViewBag.Title = "Detail";
+    ViewBag.Title = Model.Title;
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Detail</h2>
+@Html.Raw(Model.Content);
 

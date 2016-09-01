@@ -18,11 +18,11 @@ namespace Crawler.Sample.Web.Controllers
     {
         private IArticlesService _IArticlesService = IocContainer.Default.Resolve<IArticlesService>();
 
-        public async  Task<ActionResult> Index(int? page)
+        public async Task<ActionResult> Index(int? page)
         {
             int pageIndex = page ?? 1;
             int pageSize = 20;
-            
+
             Stopwatch watch = new Stopwatch();
             watch.Start();//调用方法开始计时
             var memberViews = await _IArticlesService.GetPage(pageIndex, pageSize);
@@ -40,9 +40,14 @@ namespace Crawler.Sample.Web.Controllers
             return View(memberViews);
         }
 
-        public ActionResult Search(string id = "", string kw = "", string isLike = "0", int pageIndex = 1)
+        public ActionResult Search(string kw = "", string isLike = "0", int pageIndex = 1)
         {
-            return View();
+            int pageSize = 20;
+            int totalCount;
+            var searchResult = _IArticlesService.GetPager(kw, pageIndex, pageSize, isLike, out totalCount);
+            var personsAsIPagedList = new StaticPagedList<SearchResult>(searchResult, pageIndex, pageSize, totalCount);
+
+            return View(personsAsIPagedList);
         }
 
         public ActionResult Contact()

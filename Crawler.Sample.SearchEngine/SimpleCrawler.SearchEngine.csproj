@@ -94,14 +94,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Crawler.Sample.Application.Interfaces\Crawler.Sample.Application.Interfaces.csproj">
-      <Project>{4a77405a-d318-4fc8-8ad1-6601b212c117}</Project>
-      <Name>Crawler.Sample.Application.Interfaces</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Crawler.Sample.Application\Crawler.Sample.Application.csproj">
-      <Project>{cbf78c48-469f-44db-a89d-d2a59c7754dd}</Project>
-      <Name>Crawler.Sample.Application</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Crawler.Sample.Domain\Crawler.Sample.Domain.csproj">
       <Project>{df81e437-9690-44d2-a117-cd438606b282}</Project>
       <Name>Crawler.Sample.Domain</Name>

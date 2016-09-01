@@ -35,7 +35,7 @@ namespace Crawler.Sample.SearchEngine
         /// <param name="totalCount"></param>  
         /// <param name="isLike"></param> 
         /// <returns></returns>  
-        public List<SearchResult> Search(string flag, string keyWord, int pageIndex, int pageSize, out int totalCount, bool isLike = false)
+        public  List<SearchResult> Search(string flag, string keyWord, int pageIndex, int pageSize, out int totalCount, bool isLike = false)
         {
             if (pageIndex < 1) pageIndex = 1;
             BooleanQuery bq = new BooleanQuery();
