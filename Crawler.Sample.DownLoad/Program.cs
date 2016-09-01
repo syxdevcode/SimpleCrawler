@@ -194,7 +194,7 @@ namespace Crawler.Sample.DownLoad
                     article.Title = m_title;
                     article.Summary = m_title;
                     article.Content = shtml;
-                    article.AddTime = DateTime.Now.ToString("yyyyMMddhhmmss");
+                    article.AddTime = DateTime.Now.ToString("yyyyMMdd hh:mm:ss");
                     var saveResult = _IArticlesService.Add(article);
 
                     if (saveResult)
@@ -202,6 +202,10 @@ namespace Crawler.Sample.DownLoad
                         // 更新索引库
                         IndexTask task = new IndexTask();
                         task.TaskId = article.Id;
+                        task.Title = m_title;
+                        //去除回车，空格，换行
+                        task.Content = HtmlConverts.ConvertHtml(shtml).Replace("\n", "").Replace(" ", "").Replace("\t", "").Replace("\r", ""); ;
+                        task.Summary = m_title;
                         IndexManager.Instance.AddArticle(task);
                     }
                 }

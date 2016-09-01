@@ -7,12 +7,9 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Configuration;
-using System.Web.Hosting;
-using Crawler.Sample.Application.Interfaces;
 using Crawler.Sample.Domain.Entity;
 using Crawler.Sample.Infrastructure.IoC.Contracts;
 using Crawlwer.Sample.Common;
-using log4net;
 using Lucene.Net.Analysis.PanGu;
 using Lucene.Net.Documents;
 using Lucene.Net.Index;
@@ -69,13 +66,7 @@ namespace Crawler.Sample.SearchEngine
                         IndexTask task;
                         IndexQueue.TryDequeue(out task);
                         long id = task.TaskId;
-                        Articles article = IocContainer.Default.Resolve<IArticlesService>().Get(id).Result;
-
-                        if (article == null)
-                        {
-                            continue;
-                        }
-
+                        
                         //  一条Document相当于一条记录
                         Document document = new Document();
                         //  每个Document可以有自己的属性（字段），所有字段名都是自定义的，值都是string类型
@@ -84,9 +75,9 @@ namespace Crawler.Sample.SearchEngine
                         //  需要进行全文检索的字段加 Field.Index. ANALYZED
                         //  Field.Index.ANALYZED:指定文章内容按照分词后结果保存，否则无法实现后续的模糊查询 
                         //  WITH_POSITIONS_OFFSETS:指示不仅保存分割后的词，还保存词之间的距离
-                        document.Add(new Field("title", article.Title, Field.Store.YES, Field.Index.ANALYZED,
+                        document.Add(new Field("title", task.Title, Field.Store.YES, Field.Index.ANALYZED,
                             Field.TermVector.WITH_POSITIONS_OFFSETS));
-                        document.Add(new Field("content", article.Content, Field.Store.YES, Field.Index.ANALYZED,
+                        document.Add(new Field("content", task.Content, Field.Store.YES, Field.Index.ANALYZED,
                             Field.TermVector.WITH_POSITIONS_OFFSETS));
                         if (task.TaskType != TaskTypeEnum.Add)
                         {
@@ -124,7 +115,14 @@ namespace Crawler.Sample.SearchEngine
     {
         public long TaskId { get; set; }
 
-        public TaskTypeEnum TaskType { get; set; }
+        public string Title { get; set; }
+
+        public string Content { get; set; }
+
+        public string Summary { get; set; }
+
+
+    public TaskTypeEnum TaskType { get; set; }
     }
 
     public enum TaskTypeEnum

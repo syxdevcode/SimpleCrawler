@@ -58,9 +58,8 @@ namespace Crawler.Sample.Application
         /// <param name="pageSize"></param>
         /// <param name="isLike"></param>
         /// <returns></returns>
-        public IEnumerable<SearchResult> GetPager(string kw, int pageIndex, int pageSize, string isLike)
+        public IEnumerable<SearchResult> GetPager(string kw, int pageIndex, int pageSize, string isLike,out int totalCount)
         {
-            int totalCount;
             var list = SearchManager.Instance.Search("", kw, pageIndex, pageSize, out totalCount, isLike != "0");
             return list;
         }

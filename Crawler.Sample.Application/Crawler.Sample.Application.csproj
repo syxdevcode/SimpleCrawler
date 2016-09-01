@@ -81,6 +81,14 @@
       <Project>{30066b07-f504-4f90-9d71-05188f697113}</Project>
       <Name>Crawler.Sample.Repository</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Crawler.Sample.SearchEngine\SimpleCrawler.SearchEngine.csproj">
+      <Project>{7f026161-6ceb-47f8-8d31-71b86e203f9a}</Project>
+      <Name>SimpleCrawler.SearchEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Crawlwer.Sample.Common\Crawlwer.Sample.Common.csproj">
+      <Project>{b95c2c83-89ef-4fe8-a445-786189d5a464}</Project>
+      <Name>Crawlwer.Sample.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
