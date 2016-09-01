@@ -8,6 +8,7 @@ using Crawler.Sample.Application.Interfaces;
 using Crawler.Sample.Domain.Entity;
 using Crawler.Sample.Infrastructure.Interfaces;
 using Crawler.Sample.Repository.Interfaces;
+using Crawler.Sample.SearchEngine;
 
 namespace Crawler.Sample.Application
 {
@@ -35,13 +36,33 @@ namespace Crawler.Sample.Application
             return result;
         }
 
+        /// <summary>
+        /// 首页分页方法
+        /// </summary>
+        /// <param name="pageIndex"></param>
+        /// <param name="pageSize"></param>
+        /// <returns></returns>
         public async Task<Tuple<int, IEnumerable<Articles>>> GetPage(int pageIndex, int pageSize)
         {
             pageIndex = pageIndex == 0 ? 1 : pageIndex;
             int totalPage = await _articlesRepository.GetAll().CountAsync();
-            var result =await _articlesRepository.GetAll().OrderBy(o=>o.AddTime).Skip((pageIndex - 1) * pageSize).Take(pageSize).ToListAsync();
-            Tuple<int, IEnumerable<Articles>> tuple = new Tuple<int, IEnumerable<Articles>>(totalPage,result);
+            var result = await _articlesRepository.GetAll().OrderBy(o => o.AddTime).Skip((pageIndex - 1) * pageSize).Take(pageSize).ToListAsync();
+            Tuple<int, IEnumerable<Articles>> tuple = new Tuple<int, IEnumerable<Articles>>(totalPage, result);
             return tuple;
+        }
+
+        /// <summary>
+        /// 搜索分页方法
+        /// </summary>
+        /// <param name="pageIndex"></param>
+        /// <param name="pageSize"></param>
+        /// <param name="isLike"></param>
+        /// <returns></returns>
+        public IEnumerable<SearchResult> GetPager(string kw, int pageIndex, int pageSize, string isLike)
+        {
+            int totalCount;
+            var list = SearchManager.Instance.Search("", kw, pageIndex, pageSize, out totalCount, isLike != "0");
+            return list;
         }
 
         public bool Add(Articles articles)
