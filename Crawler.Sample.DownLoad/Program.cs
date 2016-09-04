@@ -65,7 +65,7 @@ namespace Crawler.Sample.DownLoad
             */
 
             List<string> urlList = GetHtmlUrlLink(ReadFile(sourceFile));
-            //urlList.Add("http://www.cnblogs.com/jesse2013/p/Asynchronous-Programming-In-DotNet.html");
+            //urlList.Add("http://www.cnblogs.com/ee900222/p/docker_2.html");
             //urlList.Add("http://www.cnblogs.com/yangecnu/p/Introduce-RabbitMQ.html");
             //urlList.Add("http://www.cnblogs.com/Andon_liu/p/5401961.html");
             //urlList.Add("http://www.cnblogs.com/lsjwq/p/5509096.html");
@@ -266,17 +266,19 @@ namespace Crawler.Sample.DownLoad
             foreach (Match match in matches)
             {
                 string url = match.Groups["imgUrl"].Value;
-                if (url.IndexOf("/") > 0) url = "/" + url;
                 if (url.Contains("http"))
                     sUrlList.Add(url);
                 else
                 {
+                    if (url.IndexOf("/") > 0) url = "/" + url;
                     url = domainName + url;
                     sUrlList.Add(url);
                 }
             }
 
             #endregion 匹配html图片
+
+            #region 取得匹配js列表
 
             reg =
                 new Regex(
@@ -288,15 +290,21 @@ namespace Crawler.Sample.DownLoad
             foreach (Match match in jsMatches)
             {
                 string url = match.Groups["imgUrl"].Value;
-                if (url.IndexOf("/") > 0) url = "/" + url;
+
                 if (url.Contains("http"))
                     sUrlList.Add(url);
                 else
                 {
+                    if (url.IndexOf("/") > 0) url = "/" + url;
                     url = domainName + url;
                     sUrlList.Add(url);
                 }
             }
+
+            #endregion
+
+
+            #region 取得匹配css列表
 
             reg =
                 new Regex(
@@ -317,6 +325,9 @@ namespace Crawler.Sample.DownLoad
                     sUrlList.Add(url);
                 }
             }
+
+            #endregion
+
             return sUrlList;
         }
 

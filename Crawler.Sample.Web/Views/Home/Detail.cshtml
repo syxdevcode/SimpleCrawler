@@ -3,6 +3,6 @@
     ViewBag.Title = Model.Title;
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
+<h3 style="color: red;">原文地址:<a href="@Model.Url" target="_blank">@Model.Url</a></h3>
 @Html.Raw(Model.Content);
 
