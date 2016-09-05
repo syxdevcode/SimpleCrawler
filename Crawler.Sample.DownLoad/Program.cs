@@ -64,8 +64,8 @@ namespace Crawler.Sample.DownLoad
             List<string> urlList = browserCollection.GetBrowserCollectionsUrl();
             */
 
-            List<string> urlList = GetHtmlUrlLink(ReadFile(sourceFile));
-            //urlList.Add("http://www.cnblogs.com/ee900222/p/docker_2.html");
+            List<string> urlList = new List<string>();//GetHtmlUrlLink(ReadFile(sourceFile));
+            urlList.Add("http://www.ithao123.cn/content-4285584.html");
             //urlList.Add("http://www.cnblogs.com/yangecnu/p/Introduce-RabbitMQ.html");
             //urlList.Add("http://www.cnblogs.com/Andon_liu/p/5401961.html");
             //urlList.Add("http://www.cnblogs.com/lsjwq/p/5509096.html");
