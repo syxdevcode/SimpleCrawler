@@ -26,7 +26,7 @@ namespace Crawler.Sample.Domain.Entity
         /// <summary>
         /// 公网链接地址
         /// </summary>
-        [StringLength(1023)]
+        [StringLength(1024)]
         public string Url { get; set; }
 
         /// <summary>

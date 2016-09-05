@@ -1,7 +1,50 @@
-﻿@{
-    ViewBag.Title = "About";
+﻿@using PagedList
+@using PagedList.Mvc
+@model  StaticPagedList<Crawler.Sample.Domain.Entity.SearchResult>
+@{
+    ViewBag.Title = "搜索页面";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
-
-<p>Use this area to provide additional information.</p>
+<script type="text/javascript">
+    function checkInput() {
+        if (!$("#inputKw").val().length) {
+            return false;
+        }
+    }
+</script>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12">
+            <div id="ajaxData" style="width: 80%">
+                <form class="form-search" action="/Home/Search" onsubmit="return checkInput();" style="margin-top: 20px;">
+                    <input class="input-medium search-query" id="inputKw" name="kw" value="@ViewBag.kw" type="text" />
+                    <button id="btn_search" type="submit" class="btn">查找</button>&nbsp;
+                    <input type="checkbox" @(ViewBag.isLike ? "checked=checked" : "") name="isLike" id="isLike" value="1" /><label for="isLike">是否开启模糊查询</label>
+                </form>
+                @{
+                    if (Model != null)
+                    {
+                        <div style="margin-top: 20px;">
+                            <p>获得约 @ViewBag.Count 条结果，用时 @ViewBag.Time 秒</p>
+                        </div>
+                        foreach (var item in Model)
+                        {
+                            <div style="margin-top: 20px;">
+                                <a href="/Home/Detail/@item.Id" target="_blank"><h4>@Html.Raw(item.Title)</h4></a>
+                                <div>@Html.Raw(@item.Content)</div>
+                            </div>
+                        }
+                        string kw = ViewBag.kw;
+                        string isLike = ViewBag.isLike ? "1" : "0";
+                        @Html.PagedListPager((IPagedList)Model, page => Url.Action("Search", new { kw = kw, isLike = isLike, page = page }))
+                    }
+                    else
+                    {
+                        <div style="margin-top: 20px;">
+                            <h4>没有数据</h4>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>

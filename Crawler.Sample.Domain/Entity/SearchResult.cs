@@ -13,19 +13,7 @@ namespace Crawler.Sample.Domain.Entity
         /// 主键ID
         /// </summary>
         public long Id { get; set; }
-
-        /// <summary>
-        /// 内网搜索链接
-        /// </summary>
-        [StringLength(1024)]
-        public string IntraNetUrl { get; set; }
-
-        /// <summary>
-        /// 外网搜索链接
-        /// </summary>
-        [StringLength(1024)]
-        public string ExtraNetUrl { get; set; }
-
+        
         /// <summary>
         /// 标题
         /// </summary>

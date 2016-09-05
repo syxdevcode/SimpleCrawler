@@ -63,13 +63,13 @@ namespace Crawler.Sample.SearchEngine
                     Query wildcardQuery_body = null;
                     //以什么开头，输入“ja”就可以搜到包含java和javascript两项结果了
                     prefixQuery_title = new PrefixQuery(new Term("title", keyWord));
-                    prefixQuery_body = new PrefixQuery(new Term("body", keyWord));
+                    prefixQuery_body = new PrefixQuery(new Term("content", keyWord));
                     //直接模糊匹配,假设你想搜索跟‘wuzza’相似的词语,你可能得到‘fuzzy’和‘wuzzy’。
                     fuzzyQuery_Title = new FuzzyQuery(new Term("title", keyWord));
-                    fuzzyQuery_body = new FuzzyQuery(new Term("body", keyWord));
+                    fuzzyQuery_body = new FuzzyQuery(new Term("content", keyWord));
                     //通配符搜索
                     wildcardQuery_title = new WildcardQuery(new Term("title", keyWord));
-                    wildcardQuery_body = new WildcardQuery(new Term("body", keyWord));
+                    wildcardQuery_body = new WildcardQuery(new Term("content", keyWord));
 
                     bq.Add(prefixQuery_title, Occur.SHOULD);
                     bq.Add(prefixQuery_body, Occur.SHOULD);
@@ -102,7 +102,7 @@ namespace Crawler.Sample.SearchEngine
                     {
                         Document doc = searcher.Doc(sd.Doc);
                         SearchResult searchResult = new SearchResult();
-                        searchResult.Id = Convert.ToInt32(doc.Get("id"));
+                        searchResult.Id = Convert.ToInt64(doc.Get("id"));
                         string title = doc.Get("title");
                         string content = doc.Get("content");
 

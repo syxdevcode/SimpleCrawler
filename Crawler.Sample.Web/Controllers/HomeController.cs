@@ -40,12 +40,25 @@ namespace Crawler.Sample.Web.Controllers
             return View(memberViews);
         }
 
-        public ActionResult Search(string kw = "", string isLike = "0", int pageIndex = 1)
+        public ActionResult Search(string kw = "", string isLike = "0", int page = 1)
         {
             int pageSize = 20;
             int totalCount;
-            var searchResult = _IArticlesService.GetPager(kw, pageIndex, pageSize, isLike, out totalCount);
-            var personsAsIPagedList = new StaticPagedList<SearchResult>(searchResult, pageIndex, pageSize, totalCount);
+            bool _boolisLike = isLike == "1" ? true : false;
+            Stopwatch watch = new Stopwatch();
+            watch.Start();//调用方法开始计时
+            var searchResult = _IArticlesService.GetPager(kw, page, pageSize, isLike, out totalCount);
+            if (searchResult==null)
+            {
+                searchResult=new List<SearchResult>();
+            }
+            var personsAsIPagedList = new StaticPagedList<SearchResult>(searchResult, page, pageSize, totalCount);
+            watch.Stop();//调用方法计时结束
+            double time = watch.Elapsed.TotalSeconds;//总共花费的时间
+            ViewBag.Time = time;
+            ViewBag.Count = totalCount;
+            ViewBag.kw = kw;
+            ViewBag.isLike = _boolisLike;
 
             return View(personsAsIPagedList);
         }
