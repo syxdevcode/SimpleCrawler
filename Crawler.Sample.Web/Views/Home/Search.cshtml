@@ -21,7 +21,7 @@
                     <input type="checkbox" @(ViewBag.isLike ? "checked=checked" : "") name="isLike" id="isLike" value="1" /><label for="isLike">是否开启模糊查询</label>
                 </form>
                 @{
-                    if (Model != null)
+                    if (Model != null&& Model.Any())
                     {
                         <div style="margin-top: 20px;">
                             <p>获得约 @ViewBag.Count 条结果，用时 @ViewBag.Time 秒</p>
