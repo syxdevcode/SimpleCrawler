@@ -64,8 +64,8 @@ namespace Crawler.Sample.DownLoad
             List<string> urlList = browserCollection.GetBrowserCollectionsUrl();
             */
 
-            List<string> urlList = new List<string>();//GetHtmlUrlLink(ReadFile(sourceFile));
-            urlList.Add("http://www.ithao123.cn/content-4285584.html");
+            List<string> urlList = GetHtmlUrlLink(ReadFile(sourceFile));
+            //urlList.Add("http://www.ithao123.cn/content-4285584.html");
             //urlList.Add("http://www.cnblogs.com/yangecnu/p/Introduce-RabbitMQ.html");
             //urlList.Add("http://www.cnblogs.com/Andon_liu/p/5401961.html");
             //urlList.Add("http://www.cnblogs.com/lsjwq/p/5509096.html");
@@ -251,15 +251,17 @@ namespace Crawler.Sample.DownLoad
         /// <returns>图片的URL列表</returns>
         private static List<string> GetHtmlFileList(string htmlText, string domainName)
         {
+            //htmlText = @"<img onload='if (this.width > 650) this.width = 650; ' title='7.png' alt='wKioL1Re6FvyXY59AAEB5AV5vKQ372.jpg'  style='float:none;' src='http://doc.ithao123.cn/uploads02/u02/ae/21/ae214b06abab26c0d9e264b453a08886.jpg' />";
+
+            //htmlText = @"<img width='320' height='240' src = '/ images / pic.jpg' />";
             List<string> sUrlList = new List<string>();
 
             #region 匹配html图片
 
             //定义正则表达式用来匹配 img 标签
-            Regex reg =
-                new Regex(
-                    @"<img\b[^<>]*?\bsrc[\s\t\r\n]*=[\s\t\r\n]*[""']?[\s\t\r\n]*(?<imgUrl>[^\s\t\r\n""'<>]*)[^<>]*?/?[\s\t\r\n]*>",
-                    RegexOptions.IgnoreCase);
+            Regex reg = new Regex(@"<img\b[^,]*?\bsrc[\s\t\r\n]*=[\s\t\r\n]*[""']?[\s\t\r\n]*(?<imgUrl>[^\s\t\r\n""'<>]*)[^<>]*?/?[\s\t\r\n]*>", RegexOptions.IgnoreCase);
+            // 定义正则表达式用来匹配 img 标签
+            //Regex re1 = new Regex(@"<img\b[^<>]*?\bsrc[\s\t\r\n]*=[\s\t\r\n]*[""']?[\s\t\r\n]*(?<imgUrl>[^\s\t\r\n""'<>]*)[^<>]*?/?[\s\t\r\n]*>", RegexOptions.IgnoreCase);
             //搜索匹配的字符串
             MatchCollection matches = reg.Matches(htmlText);
             //取得匹配图片列表
