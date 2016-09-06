@@ -1,8 +1,9 @@
 ﻿using Crawler.Sample.Application.Interfaces;
 using Crawler.Sample.Domain.Entity;
-using Crawler.Sample.Infrastructure.Interfaces;
 using Crawler.Sample.Infrastructure.IoC.Contracts;
 using Crawler.Sample.SearchEngine;
+using Crawlwer.Sample.Common;
+using log4net;
 using Microsoft.Practices.Unity;
 using System;
 using System.Collections;
@@ -10,11 +11,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using System.Text.RegularExpressions;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Web.Configuration;
-using Crawlwer.Sample.Common;
-using log4net;
 
 namespace Crawler.Sample.DownLoad
 {
@@ -74,8 +71,6 @@ namespace Crawler.Sample.DownLoad
             //urlList.Add("http://www.cnblogs.com/zery/p/5215572.html");
             //urlList.Add("http://www.cnblogs.com/JamesLi2015/p/4744008.html");
             //urlList.Add("http://www.cnblogs.com/kklldog/p/helios_chat_room.html");
-
-
 
             filter = new BloomFilter<string>(200000);
 
@@ -214,7 +209,6 @@ namespace Crawler.Sample.DownLoad
             {
                 log.ErrorFormat("Url:{0};\r\n错误信息{1}", args.Url, ex.InnerException.Message);
             }
-
         }
 
         /// <summary>
@@ -303,8 +297,7 @@ namespace Crawler.Sample.DownLoad
                 }
             }
 
-            #endregion
-
+            #endregion 取得匹配js列表
 
             #region 取得匹配css列表
 
@@ -328,7 +321,7 @@ namespace Crawler.Sample.DownLoad
                 }
             }
 
-            #endregion
+            #endregion 取得匹配css列表
 
             return sUrlList;
         }
